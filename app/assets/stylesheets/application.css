@@ -12,7 +12,22 @@
  *= require bootstrap.min
  *= require css/font-awesome
  *= require _fonts
+ *= require _header
+ *= require _intro.scss
  *= require magnific-popup
  *= require_tree .
  *= require_self
  */
+
+ body {
+   background-image: url("intro_bg.png");
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: top;
+ }
+
+ section {
+   padding-top:0;
+   padding-bottom:0;
+
+ }
