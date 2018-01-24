@@ -15,7 +15,7 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require popper
-//= require bootstrap
+//= require bootstrap.min
 //= require jquery.easing
 //= require scrollreveal
 //= require jquery.magnific-popup
