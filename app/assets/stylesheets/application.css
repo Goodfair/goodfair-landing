@@ -13,7 +13,14 @@
  *= require css/font-awesome
  *= require _fonts
  *= require _header
- *= require _intro.scss
+ *= require _intro
+ *= require _ourvision
+ *= require _whoissimba
+ *= require _statusquo
+ *= require _solution
+ *= require _token
+ *= require _roadmap
+ *= require _footer
  *= require magnific-popup
  *= require_tree .
  *= require_self
