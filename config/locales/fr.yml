@@ -29,6 +29,6 @@
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
 
-en:
+fr:
   intro:
-    title: "Your Bridge to The Future of Ecommerce"
+    title: "Le future est la !!"
