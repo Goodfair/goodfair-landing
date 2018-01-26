@@ -1,0 +1,28 @@
+@import 'bootstrap.min';
+@import 'css/font-awesome';
+@import '_fonts';
+@import 'variables';
+@import '_header';
+@import '_footer';
+@import 'homepage/_intro';
+@import 'homepage/_ourvision';
+@import 'homepage/_whoissimba';
+@import 'homepage/_statusquo';
+@import 'homepage/_solution';
+@import 'homepage/_token';
+@import 'homepage/_roadmap';
+@import 'homepage/components/_emailsignup';
+@import 'magnific-popup';
+
+ body {
+   background-image: url("intro_bg.png");
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: top;
+ }
+
+ section {
+   padding-top:0;
+   padding-bottom:0;
+
+ }
