@@ -3,5 +3,50 @@
 
   h2, h3 {
     color: $primary-color;
+    font-weight: 600;
+    font-family: $font-family;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0px;
+  }
+
+  h2 {
+    font-size: $subheading-size;
+  }
+
+  h3 {
+    font-size: 21px;
+  }
+
+  &:before {
+    content: '';
+    background-image: url('pattern_hex@2x.png');
+    height:100%;
+    width:100%;
+    position:absolute;
+    background-size:50%;
+  }
+
+  .roadmap-copy {
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    li {
+      font-family: $font-family;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.63;
+      color: rgba(255, 255, 255, 0.76);
+    }
+  }
+
+  .oval-1 {
+    width: 14px;
+    height: 14px;
+    background-color: #32aff1;
+    border-radius: 7px;
   }
 }
