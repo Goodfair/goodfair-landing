@@ -1,3 +1,21 @@
 .our-vision {
   margin-top: 51px;
+
+  p {
+    font-family: Avenir Next;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: -0.1px;
+    text-align: left;
+    color: #4c5b73;
+  }
+
+  .video-player {
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+    img {
+      width: 100%;
+    }
+  }
 }

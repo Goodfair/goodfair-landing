@@ -14,7 +14,7 @@
 @import 'homepage/components/_emailsignup';
 @import 'magnific-popup';
 
- body {
+body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: top;
@@ -28,4 +28,21 @@ section {
 .container {
   padding-left: 20px;
   padding-right: 20px;
+}
+
+
+h2 {
+  font-family: Medium;
+  font-size: 30px;
+  line-height: 2.03;
+  letter-spacing: 0;
+  color: #4c6a7f;
+}
+
+h3 {
+  font-family: Semibold;
+  font-size: 14px;
+  letter-spacing: 0.6px;
+  color: #58a7e3;
+  text-transform: uppercase;
 }
