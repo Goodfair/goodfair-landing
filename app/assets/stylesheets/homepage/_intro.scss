@@ -5,7 +5,8 @@ section.intro {
   color: $primary-color;
   font-family: "Avenir Next";
   background-image: radial-gradient(circle at 50% 21%, rgba(91, 159, 255, 0.26), rgba(83, 136, 248, 0.2) 26%, rgba(0, 0, 0, 0.0)), radial-gradient(circle at 47% 25%, #1f5395, #12558c 98%);
-  overflow: hidden;
+  border-bottom-left-radius: 100%30px;
+  border-bottom-right-radius: 100%30px;
 
   &:before {
     content: '';
@@ -14,17 +15,6 @@ section.intro {
     width: 100%;
     position: absolute;
     background-size: 100%;
-  }
-
-  &:after {
-    content: "";
-    position: absolute;
-    height: 80px;
-    left: 10%;
-    right: 10%;
-    border-radius: 50%;
-    bottom: -25px;
-    background: #fff;
   }
 
   h1 {
@@ -127,4 +117,9 @@ section.intro {
     }
   }
 
+
+  .intro-poc {
+    margin-top: 24px;
+    z-index: 1;
+  }
 }
