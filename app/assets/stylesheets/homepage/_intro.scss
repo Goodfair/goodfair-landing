@@ -36,13 +36,23 @@ section.intro {
 
   .intro-copy {
     margin-top: 49px;
-    font-family: AvenirNext;
+    font-family: 'Avenir Next';
     font-size: 32px;
     font-weight: 500;
     line-height: 1.16;
     letter-spacing: 0;
     text-align: left;
     color: #ffffff;
+
+    p {
+      margin-top: 13px;
+      font-family: 'Avenir Next';
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.19;
+      text-align: left;
+      color: #dde9f3;
+    }
   }
 
 }
