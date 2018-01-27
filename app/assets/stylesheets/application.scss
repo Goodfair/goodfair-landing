@@ -1,4 +1,5 @@
 @import 'bootstrap.min';
+@import 'css/font-awesome';
 @import '_fonts';
 @import '_variables';
 @import '_header';
@@ -13,7 +14,7 @@
 @import 'homepage/components/_emailsignup';
 @import 'magnific-popup';
 
-body {
+ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: top;
