@@ -1,42 +1,50 @@
-<div class="container">
-  <nav class="navbar">
-    <a href="#" class="navbar-brand ">
-      <img class="logo" src="assets/logo@2x.png">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarHeader">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Our Vision</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About Us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Status Quo</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  <div class="intro-copy">
-    <h1><%=t 'intro.title' %></h1>
-    <p><%=t 'intro.subtitle' %></p>
-  </div>
-
-  <div class="email-signup">
-    <div class='input-div'>
-      <input type="text" placeholder="EMAIL ADDRESS">
-      <i class="fa fa-envelope-o" aria-hidden="true"></i>
+<div class='intro-background'>
+  <div class="container">
+    <nav class="navbar">
+      <a href="#" class="navbar-brand ">
+        <img class="logo" src="assets/logo@2x.png">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarHeader">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Our Vision</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Status Quo</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="intro-copy">
+      <h1><%=t 'intro.title' %></h1>
+      <p><%=t 'intro.subtitle' %></p>
     </div>
 
-    <button type="button">Stay Updated</button>
+    <div class="email-signup">
+      <div class='input-div'>
+        <input type="text" placeholder="EMAIL ADDRESS">
+        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+      </div>
+
+      <button type="button">Stay Updated</button>
+    </div>
+    <div class="intro-poc">
+      <image src='assets/poc_screenshot@2x.png' alt='POC' />
+    </div>
   </div>
-  <div class="intro-poc">
-    <image src='assets/intro_screenshot.png' alt='POC' />
+</div>
+
+<div class='container'>
+  <div class='intro-try-poc-btn'>
+    <button type='button'>Try the proof of Concept</button>
   </div>
 </div>
