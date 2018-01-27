@@ -15,7 +15,6 @@
 @import 'magnific-popup';
 
  body {
-   background-image: url("intro_bg.png");
    background-size: contain;
    background-repeat: no-repeat;
    background-position: top;
@@ -24,5 +23,9 @@
  section {
    padding-top:0;
    padding-bottom:0;
+ }
 
+ .container {
+  padding-left: 20px;
+  padding-right: 20px;
  }
