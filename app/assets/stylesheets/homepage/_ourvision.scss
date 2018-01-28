@@ -3,6 +3,14 @@
   position: relative;
   padding-bottom: 20px;
 
+  h2 {
+    color: #4c6a7f;
+  }
+
+  h3 {
+    color: #58a7e3;
+  }
+
   &:after {
     content: '';
   	background-image: linear-gradient(to bottom, #ffffff, #2755a7);    height: 100%;
@@ -16,9 +24,7 @@
   }
 
   p {
-    -webkit-font-smoothing: antialiased;
-    font-family: Avenir Next;
-    font-size: 16px;
+    font-weight: 500;
     line-height: 1.5;
     letter-spacing: -0.1px;
     text-align: left;

@@ -35,7 +35,6 @@ h2 {
   font-size: 30px;
   line-height: 2.03;
   letter-spacing: 0;
-  color: #4c6a7f;
 }
 
 h3 {
@@ -43,8 +42,12 @@ h3 {
   font-weight: 600;
   font-size: 14px;
   letter-spacing: 0.6px;
-  color: #58a7e3;
   text-transform: uppercase;
+}
+
+p {
+  font-family: Avenir Next;
+  font-size: 16px;
 }
 
 button {
