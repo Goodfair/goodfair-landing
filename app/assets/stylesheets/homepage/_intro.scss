@@ -13,14 +13,15 @@ section.intro {
     background-image: radial-gradient(circle at 50% 21%, rgba(91, 159, 255, 0.26), rgba(83, 136, 248, 0.2) 26%, rgba(0, 0, 0, 0.0)), radial-gradient(circle at 47% 25%, #1f5395, #12558c 98%);
     border-bottom-left-radius: 100%30px;
     border-bottom-right-radius: 100%30px;
+    position: relative;
 
     &:before {
       content: '';
       background-image: url('pattern_hex@2x.png');
       width: 100%;
+      height: 100%;
       position: absolute;
       background-size: 100%;
-      height: 450px;
 
     }
   }
