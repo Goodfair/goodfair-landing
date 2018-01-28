@@ -17,10 +17,11 @@ section.intro {
     &:before {
       content: '';
       background-image: url('pattern_hex@2x.png');
-      height: 100%;
       width: 100%;
       position: absolute;
       background-size: 100%;
+      height: 450px;
+
     }
   }
 

@@ -1,7 +1,22 @@
 .our-vision {
   margin-top: 51px;
+  position: relative;
+  padding-bottom: 20px;
+
+  &:after {
+    content: '';
+  	background-image: linear-gradient(to bottom, #ffffff, #2755a7);    height: 100%;
+    width: 100%;
+    background-size: 100%;
+    height: 331px;
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0.18;
+  }
 
   p {
+    -webkit-font-smoothing: antialiased;
     font-family: Avenir Next;
     font-size: 16px;
     line-height: 1.5;
@@ -12,7 +27,6 @@
 
   .video-player {
     margin-top: 20px;
-    margin-bottom: 40px;
 
     img {
       width: 100%;
