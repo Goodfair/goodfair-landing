@@ -20,3 +20,10 @@
 //= require scrollreveal
 //= require jquery.magnific-popup
 //= require_tree .
+
+$(document).ready(function(){
+  $('#toggle').click(function() {
+     $(this).toggleClass('active');
+     $('#overlay').toggleClass('open');
+    });
+});

@@ -4,6 +4,8 @@
 @import '_variables';
 @import '_header';
 @import '_footer';
+@import '_footer';
+
 @import 'homepage/_intro';
 @import 'homepage/_ourvision';
 @import 'homepage/_whoissimba';
@@ -14,11 +16,17 @@
 @import 'homepage/components/_emailsignup';
 @import 'magnific-popup';
 
-body {
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: top;
-}
+
+
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+    }
 
 section {
   padding-top:0;
