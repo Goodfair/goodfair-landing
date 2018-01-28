@@ -16,8 +16,6 @@
 @import 'homepage/components/_emailsignup';
 @import 'magnific-popup';
 
-
-
 section {
   padding-top:0;
   padding-bottom:0;
@@ -26,6 +24,11 @@ section {
 .container {
   padding-left: 20px;
   padding-right: 20px;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 500;
 }
 
 
