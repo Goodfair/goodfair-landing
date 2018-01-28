@@ -4,6 +4,10 @@ section.intro {
   color: $primary-color;
   font-family: "Avenir Next";
 
+  h1, p, section.intro .intro-try-poc-btn button {
+    -webkit-font-smoothing: antialiased;
+  }
+
   .intro-background {
     height: 450px;
     background-image: radial-gradient(circle at 50% 21%, rgba(91, 159, 255, 0.26), rgba(83, 136, 248, 0.2) 26%, rgba(0, 0, 0, 0.0)), radial-gradient(circle at 47% 25%, #1f5395, #12558c 98%);
@@ -36,7 +40,7 @@ section.intro {
   }
 
   .intro-copy {
-    padding-top: 70px;
+    padding-top: 90px;
     font-family: 'Avenir Next';
     font-size: 32px;
     font-weight: 500;
@@ -94,13 +98,13 @@ section.intro {
       width: 120px;
       height: 44px;
       border-radius: 3px;
-      background-image: linear-gradient(to right, #646acf, #28d4e6);
+      background-image: linear-gradient(to right, #509af7, #28d4e6);
       text-transform: uppercase;
 
       font-family: Avenir Next;
       font-size: 11px;
       font-weight: bold;
-      letter-spacing: 0.5px;
+      letter-spacing: 0.7px;
       text-align: center;
       color: #ffffff;
     }
@@ -125,7 +129,7 @@ section.intro {
       text-transform: uppercase;
       font-size: 12px;
       font-weight: 600;
-      letter-spacing: 0.6px;
+      letter-spacing: 0.8px;
       text-align: center;
       color: #ffffff;
     }
