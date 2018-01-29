@@ -41,5 +41,19 @@ fr:
     title: "Who is Simba?"
     subtitle: "Awesome team members"
     paragraph: "Commerce is evolving. A few years from now, digital currencies will play a central role in our lives, replacing coins, cash, cards and cheques. They will enable us to transact more easily, more cost-effectively and with greater security than ever before."
-
-
+  status_quo:
+    title: "Ecommerce is broken?"
+    subtitle: "The Status Quo"
+    paragraph: "Commerce is evolving. A few years from now, digital currencies will play a central role in our lives, replacing coins, cash, cards and cheques. They will enable us to transact more easily, more cost-effectively and with greater security than ever before."
+    block_1:
+      title: "Industry Monopoly"
+      content: "Amazon, eBay, and a few others have a 90% share of the ecommerce market"
+    block_2:
+      title: "High Fees"
+      content: "Payment is safeguarded in super awesome virtual escrow until item is received"
+    block_3:
+      title: "Mediation Bias"
+      content: "Payment is safeguarded in super awesome virtual escrow until item is received"
+    block_4:
+      title: Fraudulant Items"
+      content: "Payment is safeguarded in super awesome virtual escrow until item is received"
