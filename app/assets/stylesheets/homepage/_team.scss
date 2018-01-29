@@ -1,0 +1,47 @@
+.team {
+  padding-top: 53px;
+  padding-bottom: 49px;
+  h3 {
+    color: $subheading-color;
+    text-align: center;
+  }
+
+  h2 {
+    color: #4c6a7f;
+    text-align: center;
+    line-height: normal;
+    margin-bottom: 40px;
+  }
+
+  .employee-grid-row {
+    display: flex;
+    justify-content: space-around;
+
+    .employee {
+      figure {
+        width: 125px;
+        img {
+          width: 100%;
+          border-radius: 100%;
+        }
+      }
+
+      figcaption {
+        font-family: $global-font;
+        font-weight: 600;
+        color: #666666;
+        text-align: center;
+      }
+
+      p {
+        font-family: $global-font;
+        font-weight: 500;
+        font-size: 13px;
+        color: rgba(106, 106, 126, 0.76);
+        text-align: center;
+      }
+    }
+  }
+
+
+}
