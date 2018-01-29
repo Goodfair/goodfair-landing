@@ -1,6 +1,5 @@
 .team {
   padding-top: 53px;
-  padding-bottom: 49px;
   h3 {
     color: $subheading-color;
     text-align: center;
@@ -16,7 +15,7 @@
   .employee-grid-row {
     display: flex;
     justify-content: space-around;
-
+    margin-bottom: 20px;
     .employee {
       figure {
         margin: auto;
