@@ -33,6 +33,9 @@ en:
   intro:
     title: "Your Bridge to The Future of Ecommerce."
     subtitle: "Self-governed commerce with efficient transactions, smart escrow, verified products"
+    stay_updated_btn: "Stay Updated"
+    email_address: "Email Address"
+    try_poc_btn: "Try the proof of Concept"
   our_vision:
     title: "Our Vision"
     subtitle: "The Future of Ecommerce"
@@ -57,5 +60,8 @@ en:
     block_4:
       title: Fraudulant Items"
       content: "Payment is safeguarded in super awesome virtual escrow until item is received"
+  footer:
+    title: 'Simba Proof of Concept is now Live!'
+    try_it_btn: 'Try it Now'
 
 
