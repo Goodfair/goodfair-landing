@@ -1,34 +1,38 @@
 .our-vision {
-  margin-top: 51px;
+  margin-top: 20px;
   position: relative;
+  padding-top: calc(100% - 120px);
   padding-bottom: 20px;
+  background-image: url('planet2.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
 
   h2 {
-    color: #4c6a7f;
+    color: #fff;
   }
 
   h3 {
     color: #58a7e3;
   }
 
-  &:after {
-    content: '';
-  	background-image: linear-gradient(to bottom, #ffffff, #2755a7);    height: 100%;
-    width: 100%;
-    background-size: 100%;
-    height: 331px;
-    position: absolute;
-    bottom: 0;
-    z-index: -1;
-    opacity: 0.23;
-  }
+    // &:after {
+    //   content: '';
+    // 	background-image: linear-gradient(to bottom, #ffffff, #2755a7);    height: 100%;
+    //   width: 100%;
+    //   background-size: 100%;
+    //   height: 331px;
+    //   position: absolute;
+    //   bottom: 0;
+    //   z-index: -1;
+    //   opacity: 0.23;
+    // }
 
   p {
-    font-weight: 500;
+    font-weight: 400;
     line-height: 1.5;
     letter-spacing: -0.1px;
     text-align: left;
-    color: #4c5b73;
+    color: #fff;
   }
 
   .video-player {
@@ -37,5 +41,9 @@
     img {
       width: 100%;
     }
+  }
+
+  img.benefits {
+    margin-top: 20px;
   }
 }

@@ -3,32 +3,49 @@
 section.intro {
   color: $primary-color;
   font-family: "Avenir Next";
-
-  h1, p, section.intro .intro-try-poc-btn button {
+  position: relative;
+  &:before {
+    content: '';
+    background-image: url('intro_bg.jpg');
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-size: cover;
+    z-index: -2;
+    top:0;
+  }
+  &:after {
+    // content: '';
+    // background-image: url('patternbg.svg');
+    // background-blend-mode: lighten;
+    // width: 100%;
+    // height: 100%;
+    // position: absolute;
+    // background-size: 200%;
+    // opacity: 0.3;
+    // z-index: -1;
+    // top:0;
+  }
+  h1, p, button, h2 {
     -webkit-font-smoothing: antialiased;
   }
 
   .intro-background {
-    height: 450px;
-    background-image: radial-gradient(circle at 50% 21%, rgba(91, 159, 255, 0.26), rgba(83, 136, 248, 0.2) 26%, rgba(0, 0, 0, 0.0)), radial-gradient(circle at 47% 25%, #1f5395, #12558c 98%);
     border-bottom-left-radius: 100%30px;
     border-bottom-right-radius: 100%30px;
     position: relative;
 
+
     &:before {
       content: '';
-      background-image: url('pattern_hex@2x.png');
       width: 100%;
       height: 100%;
       position: absolute;
-      background-size: 100%;
-      top: 0;
+      top:0;
+      background-size: 200%;
+      z-index: -2;
     }
-  }
 
-  img {
-    width: 100%;
-    box-shadow: 1px 3px 18px 0 rgba(0, 41, 92, 0.14);
   }
 
   .intro-copy {
@@ -45,12 +62,63 @@ section.intro {
       margin-top: 13px;
       font-family: 'Avenir Next';
       font-size: 16px;
-      font-weight: 400;
+      font-weight: 500;
       line-height: 1.19;
       text-align: left;
       color: #dde9f3;
     }
   }
+
+  // .email-signup {
+  //   margin-top: 27px;
+  //   display: flex;
+  //   justify-content: space-between;
+  //   flex-direction: column;
+  //
+  //   .input-div {
+  //     position: relative;
+  //
+  //     input {
+  //       height: 44px;
+  //       border-radius: 3px;
+  //       border: solid 1px rgba(255, 255, 255, 0.61);
+  //       background-color: transparent;
+  //       padding-left: 49px;
+  //
+  //       &::placeholder {
+  //         font-family: Avenir Next;
+  //         font-size: 12px;
+  //         font-weight: 600;
+  //         letter-spacing: 0.6px;
+  //         text-align: left;
+  //         color: #ffffff;
+  //       }
+  //     }
+  //
+  //     i {
+  //       position: absolute;
+  //       left: 0;
+  //       top: 0;
+  //       padding: 14px 14px;
+  //     }
+  //   }
+  //
+  //   button {
+  //     width: 120px;
+  //     height: 44px;
+  //     border-radius: 3px;
+  //     background-image: linear-gradient(to right, #509af7, #28d4e6);
+  //     text-transform: uppercase;
+  //
+  //     font-family: Avenir Next;
+  //     font-size: 11px;
+  //     font-weight: bold;
+  //     letter-spacing: 0.7px;
+  //     text-align: center;
+  //     color: #ffffff;
+  //   }
+  // }
+
 
   .intro-poc {
     margin-top: 24px;
