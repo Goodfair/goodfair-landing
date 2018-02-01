@@ -4,16 +4,18 @@ section.intro {
   color: $primary-color;
   font-family: "Avenir Next";
   position: relative;
+
   &:before {
     content: '';
-    background-image: url('intro_bg.jpg');
+    background-image: url("intro_bg.jpg");
     width: 100%;
     height: 100%;
     position: absolute;
     background-size: cover;
     z-index: -2;
-    top:0;
+    top: 0;
   }
+
   &:after {
     // content: '';
     // background-image: url('patternbg.svg');
@@ -26,7 +28,11 @@ section.intro {
     // z-index: -1;
     // top:0;
   }
-  h1, p, button, h2 {
+
+  button,
+  h1,
+  h2,
+  p {
     -webkit-font-smoothing: antialiased;
   }
 
@@ -35,17 +41,15 @@ section.intro {
     border-bottom-right-radius: 100%30px;
     position: relative;
 
-
     &:before {
       content: '';
       width: 100%;
       height: 100%;
       position: absolute;
-      top:0;
+      top: 0;
       background-size: 200%;
       z-index: -2;
     }
-
   }
 
   .intro-copy {
@@ -68,7 +72,6 @@ section.intro {
       color: #dde9f3;
     }
   }
-
   // .email-signup {
   //   margin-top: 27px;
   //   display: flex;
@@ -118,8 +121,6 @@ section.intro {
   //     color: #ffffff;
   //   }
   // }
-
-
   .intro-poc {
     margin-top: 24px;
     z-index: 1;
