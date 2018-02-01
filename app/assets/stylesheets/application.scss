@@ -16,6 +16,8 @@
 @import 'homepage/_roadmap';
 @import 'homepage/components/_emailsignup';
 @import 'magnific-popup';
+@import 'slick.css';
+@import 'slick-theme.css';
 
 section {
   padding-top:0;
@@ -148,3 +150,38 @@ transition: all .2s ease-in;
     transform: translateY(-5px);
   }
 }
+.slider {
+      width: 100%;
+      margin: 100px auto;
+  }
+
+  .slick-slide {
+    margin: 0px 0px;
+  }
+
+  .slick-slide img {
+    width: 100%;
+  }
+
+  .slick-prev:before,
+  .slick-next:before {
+    color: black;
+  }
+
+
+  .slick-slide {
+    transition: all ease-in-out .3s;
+    opacity: 1;
+    transform: scale(.95);
+
+  }
+
+  .slick-active {
+    opacity: .5;
+    transform: scale(1);
+
+  }
+
+  .slick-current {
+    opacity: 1;
+  }

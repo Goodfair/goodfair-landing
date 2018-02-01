@@ -15,6 +15,7 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require popper
+//= require slick
 //= require bootstrap.min
 //= require jquery.easing
 //= require scrollreveal
@@ -26,6 +27,31 @@ $(document).ready(function() {
     $('.toggle').toggleClass('active');
     $('#overlay').toggleClass('open');
   });
+  $('.center').slick({
+centerMode: true,
+centerPadding: '60px',
+slidesToShow: 1,
+responsive: [
+{
+  breakpoint: 768,
+  settings: {
+    arrows: false,
+    centerMode: true,
+    centerPadding: '40px',
+    slidesToShow: 1
+  }
+},
+{
+  breakpoint: 480,
+  settings: {
+    arrows: false,
+    centerMode: true,
+    centerPadding: '40px',
+    slidesToShow: 1
+  }
+}
+]
+});
 });
 
 $(window).scroll(function() {
