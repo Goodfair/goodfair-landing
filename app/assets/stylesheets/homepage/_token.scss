@@ -1,0 +1,46 @@
+.token {
+  background: url('group-32@2x') no-repeat;
+  background-position: top center;
+  background-size: 280px auto;
+  padding-bottom: 60px;
+
+  h2 {
+    line-height: normal;
+    font-weight: 500;
+    font-size: 30px;
+    color: #4c6a7f;
+    letter-spacing: 0px;
+  }
+
+  h3 {
+    padding-top: 245px;
+    margin-bottom: 16px;
+    color: $subheading-color;
+  }
+
+  h4 {
+    font-size: 19px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: 0px;
+    color: #4c6a7f;
+  }
+
+  p {
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: -0.1px;
+    color: #4c5b73;
+    margin-bottom: 0;
+  }
+
+  .token-icon {
+    width: 61px;
+    height: 59px;
+    margin-top: 35px;
+    margin-bottom: 10px;
+  }
+}
