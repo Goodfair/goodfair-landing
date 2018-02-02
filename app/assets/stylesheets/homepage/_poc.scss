@@ -1,0 +1,37 @@
+section.poc {
+
+  button,
+  h1,
+  h2,
+  h4,
+  p {
+    -webkit-font-smoothing: antialiased;
+  }
+
+  padding: 50px 0;
+  background-image: url("roadmap_bg.png");
+  background-size: cover;
+
+  h2 {
+    color: #fff;
+    line-height: 1.2em;
+    margin-top: 26px;
+  }
+
+  h3 {
+    color: #58a7e3;
+  }
+
+  p {
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: -0.1px;
+    text-align: left;
+    color: #fff;
+  }
+
+  img {
+    width: 100%;
+    margin-left: -8px;
+  }
+}
