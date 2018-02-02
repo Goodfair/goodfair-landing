@@ -115,6 +115,10 @@
     .input-div {
       input {
         width: 210px;
+        height: 44px;
+      }
+      i {
+        padding: 14px 19px;
       }
     }
 
@@ -122,6 +126,8 @@
       width: 120px;
       margin-top:0;
       font-size: 11px;
+      height: 44px;
+
     }
   }
 }
