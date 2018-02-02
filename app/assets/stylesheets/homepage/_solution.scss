@@ -6,7 +6,8 @@ section.solution {
   button,
   h1,
   h2,
-  p, h4 {
+  h4,
+  p {
     -webkit-font-smoothing: antialiased;
   }
 
@@ -17,6 +18,7 @@ section.solution {
   h3 {
     color: #58a7e3;
   }
+
   p {
     font-weight: 400;
     line-height: 1.5;
@@ -25,18 +27,28 @@ section.solution {
     color: #fff;
   }
 
-  .benefit {
-    text-align: center;
-    h4 {
-      font-family: Regular;
-      color: #fff;
-      font-size: 21px;
-      font-weight: 600;
-    }
-    p {
+  .benefits {
+    h2 {
       text-align: center;
-      color: #c2d0e4;
-      line-height: 1.19;
+      margin-bottom: 20px;
+    }
+    .benefit {
+      margin-bottom:26px;
+      text-align: center;
+
+      h4 {
+        font-family: Regular;
+        color: #fff;
+        font-size: 21px;
+        font-weight: 600;
+        margin-top:10px;
+      }
+
+      p {
+        text-align: center;
+        color: #c2d0e4;
+        line-height: 1.19;
+      }
     }
   }
 }
