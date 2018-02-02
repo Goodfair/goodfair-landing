@@ -1,5 +1,8 @@
 .status-quo {
   padding-bottom: 59px;
+  background-color: #F6FBFF;
+  background-image: url("status_quo_bg.png");
+  background-size: cover;
 
   h2 {
     color: #4c6a7f;
@@ -19,17 +22,10 @@
 
   .block {
     display: flex;
+    align-items: flex-start;
     width: 100%;
     min-height: 87px;
     padding-right: 20px;
-
-    .blue-rectangle {
-      border-radius: 2px;
-      background-image: -webkit-linear-gradient(bottom, #1357a4, #0d2b6f), -webkit-linear-gradient(#248cc1, #248cc1);
-      background-image: -o-linear-gradient(bottom, #1357a4, #0d2b6f), -o-linear-gradient(#248cc1, #248cc1);
-      background-image: linear-gradient(to top, #1357a4, #0d2b6f), linear-gradient(#248cc1, #248cc1);
-      border: solid 1px #145eb2;
-    }
 
     .title {
       font-family: Regular;
@@ -39,7 +35,6 @@
       letter-spacing: 0;
       text-align: left;
       color: #3585bf;
-      padding-top: 10px;
     }
 
     .content {
