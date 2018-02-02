@@ -1,5 +1,27 @@
 section.solution {
+  button,
+  h1,
+  h2,
+  p {
+    -webkit-font-smoothing: antialiased;
+  }
+  
   padding: 50px 0;
   background-image: url("solution_bg.png");
   background-size: cover;
+
+  h2 {
+    color: #fff;
+  }
+
+  h3 {
+    color: #58a7e3;
+  }
+  p {
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: -0.1px;
+    text-align: left;
+    color: #fff;
+  }
 }
