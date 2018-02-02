@@ -30,15 +30,21 @@ section.poc {
     margin-left: -8px;
   }
   .poc-benefits {
-    margin-top: 25px;
+    margin-top: 15px;
+    flex-direction: column;
     div {
-      margin-bottom: 20px;
+      margin-bottom: 10px;
+      font-size: 18px;
     }
     img {
       margin-right:12px;
+      height: 16px;
     }
   }
   .email-signup {
     margin-top: 0;
+    button {
+      font-size: 13px;
+    }
   }
 }
