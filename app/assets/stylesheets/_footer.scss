@@ -109,4 +109,19 @@
     text-transform: uppercase;
     margin-bottom: 0;
   }
+
+  .email-signup {
+    flex-direction: row;
+    .input-div {
+      input {
+        width: 210px;
+      }
+    }
+
+    button {
+      width: 120px;
+      margin-top:0;
+      font-size: 11px;
+    }
+  }
 }

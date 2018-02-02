@@ -1,13 +1,7 @@
 section.poc {
 
-  button,
-  h1,
-  h2,
-  h4,
-  p {
-    -webkit-font-smoothing: antialiased;
-  }
-
+  color: #fff;
+  font-family: "Avenir Next";
   padding: 50px 0;
   background-image: url("roadmap_bg.png");
   background-size: cover;
@@ -31,8 +25,20 @@ section.poc {
     color: #fff;
   }
 
-  img {
+  img.screenshot {
     width: 100%;
     margin-left: -8px;
+  }
+  .poc-benefits {
+    margin-top: 25px;
+    div {
+      margin-bottom: 20px;
+    }
+    img {
+      margin-right:12px;
+    }
+  }
+  .email-signup {
+    margin-top: 0;
   }
 }
