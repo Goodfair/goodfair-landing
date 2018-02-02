@@ -60,11 +60,58 @@ en:
     block_4:
       title: "Fraudulant Items"
       content: "Payment is safeguarded in super awesome virtual escrow until item is received"
+  vision:
+  token:
+    title: "SIMTOKEN (SIM)"
+    subtitle: "Powering Self-governed Commerce via SimToken"
+    paragraph: "Commerce is evolving. A few years from now, digital currencies
+    will play a central role in our lives, replacing coins, cash, cards and cheques.
+    They will enable us to transact more easily, more cost-effectively."
+    block_1:
+      title: "Platform Services"
+      content: "Commerce is evolving. A few years from now, digital currencies will play a
+      central role in our lives, replacing coins, cash, cards and cheques.
+      They will enable us to transact more easily, more cost-effectively."
+    block_2:
+      title: "Conflict Mediation"
+      content: "Amazon, eBay, and a few others have a 90% share of the ecommerce market.
+      Payment is safeguarded in super awesome virtual escrow until item is
+      received"
+    block_3:
+      title: "Item Screening"
+      content: "Commerce is evolving. A few years from now, digital currencies will play a
+      central role in our lives, replacing coins, cash, cards and cheques.
+      They will enable us to transact more easily, more cost-effectively."
+    block_4:
+      title: "Platform Services"
+      content: "Amazon, eBay, and a few others have a 90% share of the ecommerce market.
+      Payment is safeguarded in super awesome virtual escrow until item is
+      received"
+  roadmap:
+    title: "Roadmap"
+    quarter_1:
+      title: "2017"
+      content_1: "Roadmap Item"
+      content_2: "Roadmap Item"
+      content_3: "Roadmap Item"
+    quarter_2:
+      title: "2018 Q1"
+      content_1: "Roadmap Item"
+      content_2: "Roadmap Item"
+      content_3: "Roadmap Item"
+    quarter_3:
+      title: "2018 Q2"
+      content_1: "Roadmap Item"
+      content_2: "Roadmap Item"
+      content_3: "Roadmap Item"
+    quarter_4:
+      title: "2018 Q3"
+      content_1: "Roadmap Item"
+      content_2: "Roadmap Item"
+      content_3: "Roadmap Item"
   footer:
     title: 'Simba Proof of Concept is now Live!'
     try_it_btn: 'Try it Now'
     join_next_stage: "Join the next stage in ecommerce"
     connect_with_us: "Connect with us"
     copyright: "2018 Simba Marketplace"
-
-
