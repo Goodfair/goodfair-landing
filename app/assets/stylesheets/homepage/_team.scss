@@ -25,6 +25,10 @@
     &:nth-child(4) {
       margin-top: 200px;
     }
+
+    &:nth-child(6) {
+      margin-bottom: 0;
+    }
     display: flex;
     justify-content: space-around;
     margin-bottom: 20px;

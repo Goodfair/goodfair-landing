@@ -27,13 +27,38 @@ section.solution {
     color: #fff;
   }
 
+  .hex {
+    margin: 20px;
+    position: relative;
+    .hex-title {
+      font-family: OpenSans;
+      font-size: 20px;
+      font-weight: bold;
+      line-height: 0.95;
+      letter-spacing: 0;
+      text-align: center;
+      color: #ffffff;
+      &:nth-child(2) {
+        position: absolute;
+        right:0;
+        bottom: 0;
+      }
+      &:nth-child(3) {
+        position: absolute;
+        left:0;
+        bottom: 0;
+      }
+    }
+  }
+
   .benefits {
     h2 {
       text-align: center;
       margin-bottom: 20px;
     }
+
     .benefit {
-      margin-bottom:26px;
+      margin-bottom: 26px;
       text-align: center;
 
       h4 {
@@ -41,7 +66,7 @@ section.solution {
         color: #fff;
         font-size: 21px;
         font-weight: 600;
-        margin-top:10px;
+        margin-top: 10px;
       }
 
       p {
