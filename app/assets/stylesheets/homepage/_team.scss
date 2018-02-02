@@ -1,5 +1,11 @@
 .team {
   padding-top: 53px;
+  background-color: #F6FBFF;
+  background-image: url("map.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center 150px;
+
   h3 {
     color: $subheading-color;
   }
@@ -7,17 +13,27 @@
   h2 {
     color: #4c6a7f;
     line-height: normal;
-    margin-bottom: 40px;
+    margin-top: 26px;
+    margin-bottom: 15px;
+  }
+
+  p {
+    color: #4c5b73;
   }
 
   .employee-grid-row {
+    &:nth-child(4) {
+      margin-top: 200px;
+    }
     display: flex;
     justify-content: space-around;
     margin-bottom: 20px;
+
     .employee {
       figure {
         margin: auto;
         width: 125px;
+
         img {
           width: 100%;
           border-radius: 100%;
@@ -40,6 +56,4 @@
       }
     }
   }
-
-
 }
