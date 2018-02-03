@@ -1,3 +1,8 @@
+.background {
+  background-image: radial-gradient(circle at 53% 29%, rgba(255, 255, 255, 0.9), rgba(0, 0, 0, 0.69)), linear-gradient(179deg, #2755a7, #0379b6), linear-gradient(#00a7b7, #00a7b7);
+  background-blend-mode: soft-light, normal, normal;
+}
+
 .our-vision {
   margin-top: 20px;
   position: relative;
