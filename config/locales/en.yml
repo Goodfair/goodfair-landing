@@ -44,6 +44,14 @@ en:
     vision_benefit_2: "Low Cost"
     vision_benefit_3: "Data Security"
     vision_benefit_4: "Efficient"
+  poc:
+    title: "Project Update"
+    subtitle: "Announcing the Simba Proof of Concept"
+    feature_1: "Feature 1"
+    feature_2: "Feature 2"
+    feature_3: "Feature 3"
+    feature_4: "Feature 4"
+    explore: "Explore it Now"
   who_is_simba:
     title: "Who is Simba?"
     subtitle: "Awesome team members"
@@ -113,14 +121,6 @@ en:
       content_1: "Roadmap Item"
       content_2: "Roadmap Item"
       content_3: "Roadmap Item"
-  project_update:
-    title: 'Project Update'
-    simba_announcement: 'Announcing the Simba Proof of Concept!'
-    feature_1: "Feature 1"
-    feature_2: "Feature 2"
-    feature_3: "Feature 3"
-    feature_4: "Feature 4"
-    explore: "Explore it Now"
   footer:
     title: 'Simba Proof of Concept is now Live!'
     try_it_btn: 'Try it Now'
