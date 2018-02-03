@@ -1,9 +1,21 @@
-<div class="container">
-  <h3><%=t 'our_vision.subtitle' %></h3>
-  <h2><%=t 'our_vision.title' %></h2>
-  <p><%=t 'our_vision.paragraph' %></p>
+<div class="our-vision">
+  <div class='social-bar'>
+    <div class='container'>
+      <p><%=t 'intro.stay_connected' %></p>
+      <div class='social-icons'><%= render 'social_medias' %></div>
+    </div>
+  </div>
+  <div class="container">
+    <h3><%=t 'our_vision.subtitle' %></h3>
+    <h2><%=t 'our_vision.title' %></h2>
+    <p><%=t 'our_vision.paragraph' %></p>
 
-  <div class='video-player'>
-    <image src='assets/video-player@2x.png' alt='Video' />
+    <!-- <div class='video-player'> <image src='assets/video-player@2x.png' alt='Video' /> </div> -->
+    <div class="row vision-benefits">
+      <div class="col-6"><img src="assets/vision_benefit_1.svg"><%=t 'our_vision.vision_benefit_1' %></div>
+      <div class="col-6"><img src="assets/vision_benefit_2.svg"><%=t 'our_vision.vision_benefit_2' %></div>
+      <div class="col-6"><img src="assets/vision_benefit_3.svg"><%=t 'our_vision.vision_benefit_3' %></div>
+      <div class="col-6"><img src="assets/vision_benefit_4.svg"><%=t 'our_vision.vision_benefit_4' %></div>
+    </div>
   </div>
 </div>

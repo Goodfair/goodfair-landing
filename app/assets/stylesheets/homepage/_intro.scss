@@ -16,19 +16,6 @@ section.intro {
     top: 0;
   }
 
-  &:after {
-    // content: '';
-    // background-image: url('patternbg.svg');
-    // background-blend-mode: lighten;
-    // width: 100%;
-    // height: 100%;
-    // position: absolute;
-    // background-size: 200%;
-    // opacity: 0.3;
-    // z-index: -1;
-    // top:0;
-  }
-
   button,
   h1,
   h2,
@@ -72,58 +59,24 @@ section.intro {
       color: #dde9f3;
     }
   }
-  // .email-signup {
-  //   margin-top: 27px;
-  //   display: flex;
-  //   justify-content: space-between;
-  //   flex-direction: column;
-  //
-  //   .input-div {
-  //     position: relative;
-  //
-  //     input {
-  //       height: 44px;
-  //       border-radius: 3px;
-  //       border: solid 1px rgba(255, 255, 255, 0.61);
-  //       background-color: transparent;
-  //       padding-left: 49px;
-  //
-  //       &::placeholder {
-  //         font-family: Avenir Next;
-  //         font-size: 12px;
-  //         font-weight: 600;
-  //         letter-spacing: 0.6px;
-  //         text-align: left;
-  //         color: #ffffff;
-  //       }
-  //     }
-  //
-  //     i {
-  //       position: absolute;
-  //       left: 0;
-  //       top: 0;
-  //       padding: 14px 14px;
-  //     }
-  //   }
-  //
-  //   button {
-  //     width: 120px;
-  //     height: 44px;
-  //     border-radius: 3px;
-  //     background-image: linear-gradient(to right, #509af7, #28d4e6);
-  //     text-transform: uppercase;
-  //
-  //     font-family: Avenir Next;
-  //     font-size: 11px;
-  //     font-weight: bold;
-  //     letter-spacing: 0.7px;
-  //     text-align: center;
-  //     color: #ffffff;
-  //   }
-  // }
+
   .intro-poc {
     margin-top: 24px;
     z-index: 1;
+  }
+
+  .email-signup {
+    input {
+      &::placeholder {
+        opacity: 0.8;
+        font-family: Avenir Next;
+        font-size: 13px;
+        font-weight: 600;
+        letter-spacing: 0.6px;
+        color: #ffffff;
+        text-transform: uppercase;
+      }
+    }
   }
 
   .intro-try-poc-btn {
