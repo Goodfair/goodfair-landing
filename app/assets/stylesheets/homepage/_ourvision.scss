@@ -36,6 +36,10 @@
       align-items: center;
       vertical-align: middle;
 
+      @media(min-width: $medium) {
+        justify-content: center;
+      }
+
       p {
         font-family: Regular;
         font-size: 14px;
@@ -45,6 +49,11 @@
         color: #ffffff;
         text-transform: uppercase;
         margin: 0;
+        letter-spacing: 1px;
+
+        @media(min-width: $medium) {
+          font-size: 15px;
+        }
       }
 
       .social-icons {
@@ -54,9 +63,19 @@
         height: 25px;
         letter-spacing: -0.1px;
         color: #ffffff;
+        margin-left: 37px;
+
+        @media(min-width: $medium) {
+          width: 213px;
+
+        }
 
         i {
           font-size: 25px;
+
+          @media(min-width: $medium) {
+            font-size: 28px;
+          }
         }
 
         a,

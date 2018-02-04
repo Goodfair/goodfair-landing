@@ -9,7 +9,6 @@
 
 @import 'homepage/_intro';
 @import 'homepage/_ourvision';
-@import 'homepage/_whoissimba';
 @import 'homepage/_team';
 @import 'homepage/_statusquo';
 @import 'homepage/_solution';
@@ -23,6 +22,7 @@
 
 body, html {
   height: 100%;
+  width: 100%;
 }
 section {
   padding-top:0;
@@ -57,6 +57,7 @@ h1 {
     line-height: 1.59;
     letter-spacing: 0.1px;
     text-align: center;
+    margin-top: 106px;
   }
 }
 
