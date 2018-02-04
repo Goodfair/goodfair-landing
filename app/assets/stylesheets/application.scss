@@ -21,6 +21,9 @@
 @import 'slick.css';
 @import 'slick-theme.css';
 
+body, html {
+  height: 100%;
+}
 section {
   padding-top:0;
   padding-bottom:0;

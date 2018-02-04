@@ -4,16 +4,36 @@ section.intro {
   color: $primary-color;
   font-family: "Avenir Next";
   position: relative;
+  height: 100%;
 
+  &:after {
+    content: '';
+    background-image: url("planet2.png");
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: -1;
+
+    @media(min-width: $medium) {
+      background-image: url("planet_tablet@2x.png");
+      top:17%;
+    }
+  }
   &:before {
     content: '';
     background-image: url("intro_bg.jpg");
     width: 100%;
     height: 100%;
     position: absolute;
-    background-size: contain;
+    background-size: cover;
     z-index: -2;
     top: 0;
+
+    @media(min-width: $medium) {
+      background-image: url("intro_bg_tablet@2x.png");
+    }
   }
 
   button,
