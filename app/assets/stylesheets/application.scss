@@ -2,6 +2,7 @@
 @import 'font-awesome.min';
 @import '_fonts';
 @import '_variables';
+@import '_breakpoints';
 @import '_header';
 @import '_footer';
 @import '_footer';
@@ -43,6 +44,17 @@ section {
 h1 {
   font-size: 32px;
   font-weight: 500;
+  font-family: Regular;
+  line-height: 1.16;
+  letter-spacing: -0.1px;
+  color: #ffffff;
+
+  @media(min-width: $medium) {
+    font-size: 41px;
+    line-height: 1.59;
+    letter-spacing: 0.1px;
+    text-align: center;
+  }
 }
 
 
@@ -77,6 +89,13 @@ button {
   justify-content: space-between;
   flex-direction: column;
 
+  @media(min-width: $medium) {
+    margin-top: 38px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
   .input-div {
     position: relative;
 
@@ -89,12 +108,18 @@ button {
       padding-left: 49px;
       color: #ffffff;
 
+      @media(min-width: $medium) {
+        width: 237px;
+        height: 44px;
+        padding-left: 49px;
+      }
+
       &::placeholder {
+        opacity: 0.8;
         font-family: Avenir Next;
-        font-size: 12px;
+        font-size: 13px;
         font-weight: 600;
         letter-spacing: 0.6px;
-        text-align: left;
         color: #ffffff;
         text-transform: uppercase;
       }
@@ -117,11 +142,19 @@ button {
     text-transform: uppercase;
     margin-top: 15px;
     font-family: Avenir Next;
-    font-size: 13 px;
+    font-size: 13px;
     font-weight: bold;
     letter-spacing: 0.7px;
     text-align: center;
     color: #ffffff;
+
+    @media(min-width: $medium) {
+      width: 178px;
+      height: 44px;
+      background-image: linear-gradient(to right, #646acf, #28d4e6);
+      margin-top: 0px;
+      margin-left: 9px;
+    }
   }
 }
 
