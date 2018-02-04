@@ -18,14 +18,14 @@ section.intro {
     background-size: contain;
     background-repeat: no-repeat;
     z-index: -1;
-
     @media(min-width: $medium) {
       background-image: url("planet_tablet@2x.png");
-      top:0;
+      top: 0;
       background-size: 90%;
       background-position: center 100px;
     }
   }
+
   &:before {
     content: '';
     background-image: url("intro_bg.jpg");
@@ -35,7 +35,6 @@ section.intro {
     background-size: cover;
     z-index: -2;
     top: 0;
-
     @media(min-width: $medium) {
       background-image: url("intro_bg_tablet@2x.png");
     }
@@ -66,7 +65,6 @@ section.intro {
       line-height: 1.19;
       text-align: left;
       color: #dde9f3;
-
       @media(min-width: $medium) {
         font-size: 18px;
         line-height: 1.5;
@@ -77,20 +75,20 @@ section.intro {
   }
 
   .scroll-down {
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  margin-left: -60px;
-  display: block;
-  width: 120px;
-  height: 49px;
-   opacity:0.85;
-  background-size: 14px auto;
-  z-index: 2;
-  animation: bounce 2s infinite 2s;
-  transition: all .2s ease-in;
-  @media(min-width: $medium) {
-    bottom:50px;
-  }
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -60px;
+    display: block;
+    width: 120px;
+    height: 49px;
+    opacity: 0.85;
+    background-size: 14px auto;
+    z-index: 2;
+    animation: bounce 2s infinite 2s;
+    transition: all 0.2s ease-in;
+    @media(min-width: $medium) {
+      bottom: 50px;
+    }
   }
 }

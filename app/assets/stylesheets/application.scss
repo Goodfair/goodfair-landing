@@ -6,7 +6,6 @@
 @import '_header';
 @import '_footer';
 @import '_footer';
-
 @import 'homepage/_intro';
 @import 'homepage/_ourvision';
 @import 'homepage/_team';
@@ -20,20 +19,26 @@
 @import 'slick.css';
 @import 'slick-theme.css';
 
-body, html {
+body,
+html {
   height: 100%;
   width: 100%;
 }
-section {
-  padding-top:0;
-  padding-bottom:0;
 
-  .footer, .solution, .our-vision, .poc {
+section {
+  padding-top: 0;
+  padding-bottom: 0;
+
+  .footer,
+  .our-vision,
+  .poc,
+  .solution {
+    .vision-benefits div,
     button,
     h1,
     h2,
     h4,
-    p, .vision-benefits div {
+    p {
       -webkit-font-smoothing: antialiased;
     }
   }
@@ -51,7 +56,6 @@ h1 {
   line-height: 1.16;
   letter-spacing: -0.1px;
   color: #ffffff;
-
   @media(min-width: $medium) {
     font-size: 39px;
     line-height: 1.59;
@@ -60,7 +64,6 @@ h1 {
     margin-top: 106px;
   }
 }
-
 
 h2 {
   font-family: Regular;
@@ -92,7 +95,6 @@ button {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-
   @media(min-width: $medium) {
     margin-top: 38px;
     display: flex;
@@ -111,7 +113,6 @@ button {
       background-color: transparent;
       padding-left: 49px;
       color: #ffffff;
-
       @media(min-width: $medium) {
         width: 237px;
         height: 44px;
@@ -151,32 +152,30 @@ button {
     letter-spacing: 0.7px;
     text-align: center;
     color: #ffffff;
-
     @media(min-width: $medium) {
       width: 178px;
       height: 44px;
       background-image: linear-gradient(to right, #646acf, #28d4e6);
-      margin-top: 0px;
+      margin-top: 0;
       margin-left: 9px;
     }
   }
 }
 
 .scroll-down {
-position: absolute;
-bottom: 20px;
-left: 50%;
-margin-left: -60px;
-display: block;
-width: 120px;
-height: 49px;
- opacity:0.85;
-background-size: 14px auto;
-z-index: 2;
-animation: bounce 2s infinite 2s;
-transition: all .2s ease-in;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -60px;
+  display: block;
+  width: 120px;
+  height: 49px;
+  opacity: 0.85;
+  background-size: 14px auto;
+  z-index: 2;
+  animation: bounce 2s infinite 2s;
+  transition: all 0.2s ease-in;
 }
-
 @keyframes bounce {
   0%,
   100%,
@@ -187,55 +186,66 @@ transition: all .2s ease-in;
     -ms-transform: translateY(0);
     transform: translateY(0);
   }
+
   40% {
     -webkit-transform: translateY(-10px);
     -ms-transform: translateY(-10px);
     transform: translateY(-10px);
   }
+
   60% {
     -webkit-transform: translateY(-5px);
     -ms-transform: translateY(-5px);
     transform: translateY(-5px);
   }
 }
+
 .slider {
-      width: 100%;
-      margin: 20px auto;
-  }
+  width: 100%;
+  margin: 20px auto;
+}
 
-  .slick-slide {
-    margin: 10px 0px;
-  }
+.slick-slide {
+  margin: 10px 5px;
+}
 
-  .slick-slide img {
-    width: 156px;
-    margin: 0 auto;
-  }
+.slick-slide img {
+  width: 156px;
+  margin: 0 auto;
+}
 
-  .slick-prev:before,
-  .slick-next:before {
-    color: black;
-  }
+.slick-next:before,
+.slick-prev:before {
+  color: black;
+}
 
+.slick-slide {
+  transition: all ease-in-out 0.3s;
+  opacity: 1;
+  transform: scale(.95);
+  background-image: url("slider_bg@2x.jpg");
+  background-size: cover;
+  border-radius: 16px;
+  box-shadow: 0 7px 15px 0 rgba(0, 41, 92, 0.37);
+  border: solid 1px rgba(133, 167, 255, 0.1);
+}
 
-  .slick-slide {
-    transition: all ease-in-out .3s;
-    opacity: 1;
-    transform: scale(.95);
-    background-image: url("slider_bg@2x.jpg");
-    background-size: cover;
-    border-radius: 16px;
-    box-shadow: 0 7px 15px 0 rgba(0, 41, 92, 0.37);
-  	border: solid 1px rgba(133, 167, 255, 0.1);
+.slick-active {
+  opacity: 0.5;
+  transform: scale(1);
+}
 
-  }
+.slick-current {
+  opacity: 1;
+}
 
-  .slick-active {
-    opacity: .5;
-    transform: scale(1);
-
-  }
-
-  .slick-current {
-    opacity: 1;
-  }
+.slick-prev {
+  left: 40%;
+  top: 304px;
+  z-index: 100;
+}
+.slick-next {
+  right: 40%;
+  top: 304px;
+  z-index: 100;
+}
