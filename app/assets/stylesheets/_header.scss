@@ -1,3 +1,10 @@
+$color-background: #F5F5F5;
+$color-main: #fff;
+$color-active: #FFF;
+$color-link: #fff;
+$button-height: 27px;
+$button-width: 35px;
+
 .navbar {
   padding: 15px 0;
   position: fixed;
@@ -10,12 +17,18 @@
     height: 21px;
     background-size: 100%;
     background-repeat: no-repeat;
+
+    @media(min-width: $medium) {
+      width: 139px;
+      height: 42px;
+      margin-top: 10px;
+    }
   }
 
   &.show {
     background: #fff;
     border-bottom: 1px solid rgba(12, 35, 70, 0.1);
-        box-shadow: 0px 1px 4px 0 rgba(6, 36, 72, 0.13);
+    box-shadow: 0px 1px 4px 0 rgba(6, 36, 72, 0.13);
 
     .logo {
       background-image: url("logo_scroll@2x.png");
@@ -30,29 +43,25 @@
 
   .navbar-brand {
     margin-left: 0;
-    height: 29px;
-  }
-
-  .logo {
-    width: 97px;
   }
 }
-$color-background: #F5F5F5;
-$color-main: #fff;
-$color-active: #FFF;
-$color-link: #fff;
-$button-height: 27px;
-$button-width: 35px;
+
 
 .button_container {
   position: fixed;
-  top: 3.6%;
-  right: 5%;
-  height: 27px;
+  top: 27px;
+  right: 20px;
   width: 23px;
+  height: 27px;
   cursor: pointer;
   z-index: 100;
   transition: opacity 0.25s ease;
+
+  @media(min-width: $medium) {
+    top: 43px;
+    right: 44px;
+    width: 28px;
+  }
 
   &.active {
     .top {
