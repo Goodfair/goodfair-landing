@@ -36,6 +36,9 @@
       button {
         width: 260px;
         height: 53px;
+        border-radius: 4px;
+        background-image: linear-gradient(to right, #646acf, #28c0e6);
+        box-shadow: 0 2px 8px 0 rgba(35, 78, 162, 0.25);
       }
     }
   }
@@ -49,18 +52,8 @@
 
   h3 {
     color: #93d4ff;
-    font-size: 15px;
     letter-spacing: 0.7px;
     text-align: left;
-    color: #93d4ff;
-  }
-
-  p {
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: -0.1px;
-    text-align: left;
-    color: #fff;
   }
 
   img.screenshot {
@@ -71,6 +64,13 @@
   .poc-benefits {
     margin-top: 15px;
     flex-direction: column;
+    font-family: Regular;
+    font-weight: 400;
+
+    @media(min-width: $medium) {
+      font-size: 21px;
+      letter-spacing: 0;
+    }
 
     div {
       margin-bottom: 10px;
