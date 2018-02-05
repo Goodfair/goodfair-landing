@@ -4,6 +4,12 @@
   .background {
     background-image: url("blue-rectangle@2x.jpg");
     padding-bottom: 20px;
+
+    @media(min-width: $medium) {
+      background-image: url("ourvision_bg_tablet@2x.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
   }
 
   h2 {
