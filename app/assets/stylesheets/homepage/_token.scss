@@ -5,6 +5,7 @@
   padding-bottom: 43px;
   padding-top: 40px;
   position: relative;
+
   @media(min-width: $medium) {
     background-position-y: top;
     background-position-x: 441px;
@@ -45,8 +46,7 @@
     padding-top: 245px;
     margin-bottom: 16px;
     color: $subheading-color;
-    font-size: 14px;
-    letter-spacing: 0.6px;
+
     @media(min-width: $medium) {
       padding-top: 0;
     }
@@ -61,6 +61,12 @@
     text-align: left;
     color: #4c6a7f;
     margin-top: 10px;
+
+    @media(min-width: $medium) {
+      font-size: 21px;
+      line-height: 1.1;
+      margin-top: 22.5px;
+    }
   }
 
   p {
@@ -69,6 +75,12 @@
     line-height: 1.5;
     letter-spacing: -0.1px;
     color: #4c5b73;
+
+    @media(min-width: $medium) {
+      color: #7d8ba2;
+      font-size: 17px;
+      line-height: 1.41;
+    }
   }
 
   .token-row {
@@ -78,17 +90,9 @@
       line-height: 1.38;
       color: #7d8ba2;
     }
-  }
 
-  .token-icon-1 {
-    width: 61px;
-  }
-
-  .token-icon-2 {
-    width: 64px;
-  }
-
-  .token-icon-3 {
-    width: 46.5px;
+    img {
+      height: 40px;
+    }
   }
 }

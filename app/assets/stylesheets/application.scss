@@ -71,6 +71,12 @@ h2 {
   font-size: 30px;
   line-height: 2.03;
   letter-spacing: 0;
+
+  @media(min-width: $medium) {
+    font-size: 34px;
+    line-height: 1.21;
+    letter-spacing: 0.1px;
+  }
 }
 
 h3 {
@@ -79,6 +85,11 @@ h3 {
   font-size: 14px;
   letter-spacing: 0.6px;
   text-transform: uppercase;
+
+  @media(min-width: $medium) {
+    font-size: 17px;
+    letter-spacing: 0.8px;
+  }
 }
 
 p {
