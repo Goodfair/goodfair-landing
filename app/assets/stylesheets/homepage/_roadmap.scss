@@ -4,7 +4,6 @@ $timeline-line-width: 1px;
 $timeline-size: 14px;
 
 section.roadmap {
-
   button,
   h1,
   h2,
@@ -12,25 +11,25 @@ section.roadmap {
   p {
     -webkit-font-smoothing: antialiased;
   }
-
   // background-image: linear-gradient(179deg, #2755a7, #0379b6), linear-gradient(#00a7b7, #00a7b7);
   background-image: url("roadmap_bg.png");
   background-size: cover;
   background-repeat: no-repeat;
+  padding:40px 0;
 
-  h2, h3 {
+  h2,
+  h3 {
     color: $primary-color;
     font-weight: 600;
     font-family: $font-family;
     font-style: normal;
     font-stretch: normal;
     line-height: normal;
-    letter-spacing: 0px;
+    letter-spacing: 0;
   }
 
   h2 {
     font-size: $subheading-size;
-    padding-top: 49px;
   }
 
   h3 {
@@ -46,29 +45,35 @@ section.roadmap {
     // background-size: 100%;
   }
 
-  .roadmap-container {
+  .roadmap-container-mobile {
+    @media(min-width: $medium) {
+      display: none;
+    }
 
     .timeline {
       list-style: none;
-      margin: 25px 3px 0px;
+      margin: 25px 3px 0;
       padding: 0;
       position: relative;
     }
 
     .timeline-milestone {
-      -webkit-border-image:
-     -webkit-linear-gradient(#2ebfff, #708dd5) 1 100%;
+      -webkit-border-image: -webkit-linear-gradient(#2ebfff, #708dd5) 1 100%;
       border-left: $timeline-line-width solid $timeline-color;
-      margin: 0 0 0 20px; padding: 0 0 5px 25px;
+      margin: 0 0 0 20px;
+      padding: 0 0 5px 25px;
       position: relative;
       box-sizing: border-box;
 
       &:before {
-        border: ($timeline-line-width * 3.5) solid $timeline-color; border-radius: 50%;
+        border: ($timeline-line-width * 3.5) solid $timeline-color;
+        border-radius: 50%;
         content: "";
         display: block;
-        position: absolute; left: -(($timeline-line-width / 2) + ($timeline-size / 2));
-        width: $timeline-size; height: $timeline-size;
+        position: absolute;
+        left: -(($timeline-line-width / 2) + ($timeline-size / 2));
+        width: $timeline-size;
+        height: $timeline-size;
         box-sizing: border-box;
       }
 
@@ -83,10 +88,13 @@ section.roadmap {
           display: block;
           font-family: "FontAwesome";
           line-height: $timeline-size;
-          position: absolute; top: 0; left: -(($timeline-line-width / 2) + ($timeline-size / 2));
+          position: absolute;
+          top: 0;
+          left: -(($timeline-line-width / 2) + ($timeline-size / 2));
           text-align: center;
-          width: $timeline-size; height: $timeline-size;
-          box-sizing:border-box;
+          width: $timeline-size;
+          height: $timeline-size;
+          box-sizing: border-box;
         }
       }
 
@@ -119,6 +127,77 @@ section.roadmap {
         line-height: 1.63;
         color: rgba(255, 255, 255, 0.76);
       }
+    }
+  }
+
+  .roadmap-container-desktop {
+    ul {
+      list-style-type: disc;
+      padding-left: 18px;
+      color: #fff;
+      margin-top:20px;
+    }
+
+    .slider {
+      width: 100%;
+      margin: 20px auto;
+    }
+
+    .slick-slide {
+      margin: 10px 10px;
+      padding: 30px;
+    }
+
+    .slick-slide img {
+      width: 156px;
+      margin: 0 auto;
+    }
+
+    .slick-next:before,
+    .slick-prev:before {
+      color: black;
+    }
+
+    .slick-slide img {
+      width: 156px;
+      margin: 0 auto;
+    }
+
+    .slick-next:before,
+    .slick-prev:before {
+      color: black;
+    }
+
+    .slick-slide {
+      transition: all ease-in-out 0.3s;
+      opacity: 1;
+      transform: scale(.95);
+      background-size: cover;
+      border-radius: 16px;
+      border-style: solid;
+      border-width:1px;
+      border-image-source: linear-gradient(to right, #646acf, #28d4e6);
+border-image-slice: 1;
+    }
+
+    .slick-active {
+      transform: scale(1);
+    }
+
+    .slick-current {
+      opacity: 1;
+    }
+
+    .slick-prev {
+      left: 40%;
+      top: 304px;
+      z-index: 100;
+    }
+
+    .slick-next {
+      right: 40%;
+      top: 304px;
+      z-index: 100;
     }
   }
 }

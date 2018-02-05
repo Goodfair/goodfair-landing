@@ -51,6 +51,31 @@ $(document).ready(function() {
       }
     ]
   });
+  $('.token-slider').slick({
+    centerMode: false,
+    centerPadding: '60px',
+    slidesToShow: 3,
+    infinite: false,
+    responsive: [{
+        breakpoint: 768,
+        settings: {
+          arrows: false,
+          centerMode: false,
+          centerPadding: '40px',
+          slidesToShow: 2,
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          arrows: true,
+          centerMode: true,
+          centerPadding: '40px',
+          slidesToShow: 1
+        }
+      }
+    ]
+  });
 });
 
 $(window).scroll(function() {
