@@ -32,7 +32,7 @@
 en:
   intro:
     title: "Your bridge to the future of e-commerce."
-    subtitle: "Simba is a self-governed marketplace that will revolutionize the world of B2C commerce. Low fees, secure transactions and smart escrow."
+    subtitle: "Simba is a self-governed marketplace that will revolutionize the world of B2C commerce. Self-governed, low fees, secure transactions and smart escrow"
     stay_updated_btn: "Stay Updated"
     email_address: "Email Address"
     try_poc_btn: "Try the proof of Concept"
@@ -40,7 +40,7 @@ en:
   our_vision:
     title: "Our Vision"
     subtitle: "The Future of B2C E-commerce"
-    paragraph: "Simba is the first DApp built on Ethereum that aims to be the most convenient, easy-to-use and secure decentralized marketplace for B2C e-commerce."
+    paragraph: "Simba is the first DApp built on Ethereum that aims to be the most convenient, transparent and secure decentralized marketplace for B2C e-commerce. Our goal is to give power back to the buyer and seller, creating a self-governed marketplace that treats its community as first-class citizens."
     vision_benefit_1: "Self-Governed"
     vision_benefit_2: "Low Fees"
     vision_benefit_3: "Secure Escrow"
@@ -53,33 +53,46 @@ en:
     feature_3: "Purchase items using SimEscrow"
     feature_4: "Test out our conflict resolution system!"
     explore: "Explore it Now"
-  who_is_simba:
-    title: "Who is Simba?"
-    subtitle: "Awesome team members"
-    paragraph: "Commerce is evolving. A few years from now, digital currencies will play a central role in our lives, replacing coins, cash, cards and cheques. They will enable us to transact more easily, more cost-effectively and with greater security than ever before."
   status_quo:
     title: "Traditional E-commerce is broken"
     subtitle: "The Status Quo"
-    paragraph: "Traditional Marketplaces have been ruling the e-commerce space for too long without any checks or balances. They will enable us to transact more easily, more cost-effectively and with greater security than ever before."
+    paragraph: "Traditional Marketplaces have been ruling the e-commerce space for too long without putting its users' interests first. Common complaints include high fees, strict rules, unfair mediation, and fraudulant reviews."
     block_1:
       title: "Industry Monopoly"
-      content: "Amazon, eBay, and a few others have a 90% share of the ecommerce market"
+      content: "Amazon, eBay, and a few others have a 90% share of the e-commerce market. As dominant players, they have significant leverage over buyers and sellers."
     block_2:
       title: "High Fees"
-      content: "Payment is safeguarded in super awesome virtual escrow until item is received"
+      content: "Marketplaces often charge an upfront premium for transactions and other centralized services."
     block_3:
-      title: "Mediation Bias"
-      content: "Payment is safeguarded in super awesome virtual escrow until item is received"
+      title: "Unfair Mediation"
+      content: "Conflict resolution is usually handled by a centralized, single party and suffers from personal bias effects. Decisions are often inequitable and treat the user unfairly."
     block_4:
-      title: "Fraudulant Items"
-      content: "Payment is safeguarded in super awesome virtual escrow until item is received"
-  vision:
+      title: "Fraudulant Reviews and Ratings"
+      content: "Existing e-commerce platforms are riddled with incentivized and fake reviews. These reviews are extremely biased or misrepresentative and hurt sellers inordinately."
+  solution:
+    title: "Simba's Core Features"
+    subtitle: "Solution"
+    paragraph: "Simba utilizes the Ethereum blockchain network to support the needs and challenges of a B2C marketplace with three core concepts: SIMTrust, SIMResolve, and SIMEscrow"
+    tech_1: "Trust"
+    tech_2: "Escrow"
+    tech_3: "Resolve"
+    block_header: "Platform Benefits"
+    block_1:
+      title: "Stable Currency with DAI"
+      paragraph: "To combat cryptocurrency volatility, SIMBA utlizes DAI to ensure item price stability."
+    block_2:
+      title: "Earn Tokens"
+      paragraph: "Gain SimToken for participating in SimResolve conflict resolution cases"
+    block_3:
+      title: "Efficient Transactions"
+      paragraph: "Ethereum Network is fast"
+    block_4:
+      title: "Rewards Program"
+      paragraph: "Other thing."
   token:
-    title: "SIMTOKEN (SIM)"
-    subtitle: "Powering Self-governed Commerce via SimToken"
-    paragraph: "Commerce is evolving. A few years from now, digital currencies
-    will play a central role in our lives, replacing coins, cash, cards and cheques.
-    They will enable us to transact more easily, more cost-effectively."
+    title: "SIMToken (SIM)"
+    subtitle: "Powering Self-governed E-Commerce via SimToken"
+    paragraph: "SIMToken is Simba's currency for incentivizing community participation."
     block_1:
       title: "Platform Services"
       content: "Commerce is evolving. A few years from now, digital currencies will play a
@@ -122,9 +135,28 @@ en:
       content_1: "Roadmap Item"
       content_2: "Roadmap Item"
       content_3: "Roadmap Item"
+  who_is_simba:
+    title: "Who is Simba?"
+    subtitle: "Team Members"
+    paragraph: "Meet the team behind Simba."
+    block_1:
+      title: "Fabrice Cheng"
+      subtitle: "Founder, Lead Engineer"
+    block_2:
+      title: "Jeremy Hoffing"
+      subtitle: "Founder, Lead Engineer"
+    block_3:
+      title: "Kyle Foley"
+      subtitle: "Founder, Lead UI/UX"
+    block_4:
+      title: "Adrian Sun"
+      subtitle: "Founder, Marketing, Strategy"
+    block_5:
+      title: "Pierre Laurent"
+      subtitle: "Founder, Marketing, Strategy"
   footer:
     title: 'SIMBA Proof of Concept is now Live!'
     try_it_btn: 'Try it Now'
-    join_next_stage: "Join the next stage in ecommerce"
+    join_next_stage: "Join the next stage in e-commerce"
     connect_with_us: "Connect with us"
     copyright: "2018 SIMBA Marketplace"
