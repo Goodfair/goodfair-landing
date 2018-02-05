@@ -92,27 +92,19 @@ en:
   token:
     title: "SIMToken (SIM)"
     subtitle: "Powering Self-governed E-Commerce via SimToken"
-    paragraph: "SIMToken is Simba's currency for incentivizing community participation."
+    paragraph: "Introducing SIMToken, the currency that puts power into the hands of Simba's community."
     block_1:
       title: "Platform Services"
-      content: "Commerce is evolving. A few years from now, digital currencies will play a
-      central role in our lives, replacing coins, cash, cards and cheques.
-      They will enable us to transact more easily, more cost-effectively."
+      content: "SIMToken can be used to list or promote items on the marketplace. Tokens can be used towards listing individual items, or for signing up for a monthly multiple item listing subscription."
     block_2:
-      title: "Conflict Mediation"
-      content: "Amazon, eBay, and a few others have a 90% share of the ecommerce market.
-      Payment is safeguarded in super awesome virtual escrow until item is
-      received"
+      title: "SimResolve Participation"
+      content: "SimToken is used as a reward to those who participate in conflict resolution cases via SimResolve. Incentivizing participants will help promote a fair and just community."
     block_3:
       title: "Item Screening"
-      content: "Commerce is evolving. A few years from now, digital currencies will play a
-      central role in our lives, replacing coins, cash, cards and cheques.
-      They will enable us to transact more easily, more cost-effectively."
+      content: "Users can be rewarded with SimToken for flagging illegal or illicit items."
     block_4:
-      title: "Platform Services"
-      content: "Amazon, eBay, and a few others have a 90% share of the ecommerce market.
-      Payment is safeguarded in super awesome virtual escrow until item is
-      received"
+      title: "Another feature"
+      content: "another thing"
   roadmap:
     title: "Roadmap"
     quarter_1:
