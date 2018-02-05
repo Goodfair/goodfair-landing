@@ -1,6 +1,7 @@
 .footer {
   width: 100%;
   padding-top: 40px;
+  padding-bottom: 20px;
   background-image: url("footer_bg.jpg");
   background-size: cover;
   position: relative;
@@ -27,6 +28,7 @@
     .second-row {
       display: flex;
       justify-content: center;
+      margin-top: 15px;
     }
   }
 
@@ -47,7 +49,6 @@
       margin-top:0;
       font-size: 11px;
       height: 44px;
-
     }
   }
 
@@ -124,6 +125,8 @@
     @media(min-width: $medium) {
       font-size: 17px;
       text-transform: none;
+      margin-top: 41px;
+      margin-bottom: 0px;
     }
   }
 }
