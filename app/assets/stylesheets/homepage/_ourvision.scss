@@ -1,21 +1,19 @@
 .our-vision {
   position: relative;
+  background-image: url("blue-rectangle@2x.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  @media(min-width: $medium) {
+    background-image: url("ourvision_bg_tablet@2x.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 80px;
 
-  .background {
-    background-image: url("blue-rectangle@2x.jpg");
-    padding-bottom: 20px;
-
-    @media(min-width: $medium) {
-      background-image: url("ourvision_bg_tablet@2x.jpg");
-      background-size: cover;
-      background-repeat: no-repeat;
-    }
   }
 
   h2 {
     color: #fff;
     font-size: 32px;
-
     @media(min-width: $medium) {
       font-size: 42px;
       line-height: 1.14;
@@ -29,7 +27,6 @@
     color: #93d4ff;
     font-size: 15px;
     color: #93d4ff;
-
     @media(min-width: $medium) {
       font-size: 17px;
       letter-spacing: 0.8px;
@@ -44,7 +41,6 @@
     letter-spacing: -0.4px;
     text-align: left;
     color: rgba(255, 255, 255, 0.86);
-
     @media(min-width: $medium) {
       line-height: 1.39;
       letter-spacing: -0.1px;
@@ -63,7 +59,6 @@
       justify-content: space-between;
       align-items: center;
       vertical-align: middle;
-
       @media(min-width: $medium) {
         justify-content: center;
       }
@@ -78,7 +73,6 @@
         text-transform: uppercase;
         margin: 0;
         letter-spacing: 1px;
-
         @media(min-width: $medium) {
           font-size: 15px;
           height: 28px;
@@ -94,15 +88,12 @@
         letter-spacing: -0.1px;
         color: #ffffff;
         margin-left: 37px;
-
         @media(min-width: $medium) {
           width: 213px;
-
         }
 
         i {
           font-size: 25px;
-
           @media(min-width: $medium) {
             font-size: 28px;
           }
@@ -130,6 +121,7 @@
   img.benefits {
     margin-top: 20px;
   }
+
   .vision-benefits {
     margin-top: 35px;
     font-family: Avenir Next;
@@ -137,20 +129,19 @@
     letter-spacing: 0;
     text-align: left;
     color: #ffffff;
-
     @media(min-width: $medium) {
       img {
         padding-right: 24.6px;
       }
-
       font-size: 19px;
     }
 
     div {
       margin-bottom: 20px;
     }
+
     img {
-      margin-right:12px;
+      margin-right: 12px;
     }
   }
 }
