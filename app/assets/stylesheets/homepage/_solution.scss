@@ -3,8 +3,19 @@ section.solution {
   background-image: url("solution_bg.png");
   background-size: contain;
 
+  @media(min-width: $medium) {
+    padding: 120px 0;
+  }
+
   h2 {
     color: #fff;
+    @media(min-width: $medium) {
+      line-height: 1;
+      font-size: 33px;
+      margin-top: 20px;
+      margin-bottom: 30px;
+    }
+
   }
 
   h3 {
@@ -17,6 +28,7 @@ section.solution {
     letter-spacing: -0.1px;
     text-align: left;
     color: #fff;
+
   }
 
   .hex {
@@ -164,6 +176,18 @@ section.solution {
 
     100% {
       box-shadow: 0 0 0 0.5em rgba($ripple-color, 0.3), 0 0 0 1em rgba($ripple-color, 0.3), 0 0 0 1.5em rgba($ripple-color, 0);
+    }
+  }
+
+  .desktop {
+    .hex-full {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      img {
+        max-width: 207px;
+      }
     }
   }
 }

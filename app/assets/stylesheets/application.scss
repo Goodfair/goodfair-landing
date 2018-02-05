@@ -90,6 +90,18 @@ button {
   border: 0;
 }
 
+.mobile {
+  @media(min-width: $medium) {
+    display: none;
+  }
+}
+
+.desktop {
+  @media(max-width: 767px) {
+    display: none;
+  }
+}
+
 .email-signup {
   margin-top: 27px;
   display: flex;
@@ -136,7 +148,6 @@ button {
       top: 0;
       padding: 18px;
       color: #FFFFFF;
-
       @media(min-width: $medium) {
         padding: 13.5px 18px;
       }
