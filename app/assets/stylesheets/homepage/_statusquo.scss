@@ -3,9 +3,18 @@
   background-color: #F6FBFF;
   background-image: url("status_quo_bg.png");
   background-size: cover;
+  padding-top: 37px;
+
+  @media(min-width: $medium) {
+    background: none;
+    padding-top:60px;
+  }
 
   h2 {
     color: #4c6a7f;
+    @media(min-width: $medium) {
+      font-size: 39px;
+    }
   }
 
   h3 {
@@ -13,7 +22,9 @@
     letter-spacing: 0.6px;
     text-align: left;
     color: #58a7e3;
-    padding-top: 37px;
+    @media(min-width: $medium) {
+      font-size: 17px;
+    }
   }
 
   p {
@@ -65,6 +76,10 @@
 
   .block-2 {
     margin-top: 14px;
+
+    @media(min-width: $medium) {
+      margin-top: 29px;
+    }
 
     .blue-rectangle {
       width: 35px;
