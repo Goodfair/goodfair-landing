@@ -136,6 +136,10 @@ button {
       top: 0;
       padding: 18px;
       color: #FFFFFF;
+
+      @media(min-width: $medium) {
+        padding: 13.5px 18px;
+      }
     }
   }
 
@@ -199,14 +203,23 @@ button {
     transform: translateY(-5px);
   }
 }
-
 .slider {
   width: 100%;
   margin: 20px auto;
 }
 
 .slick-slide {
-  margin: 10px 5px;
+  margin: 10px 0px;
+}
+
+.slick-slide img {
+  width: 156px;
+  margin: 0 auto;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
 }
 
 .slick-slide img {
