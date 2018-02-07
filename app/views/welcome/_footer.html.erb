@@ -1,19 +1,23 @@
 <div class='container'>
-  <p class='next-stage'><%=t 'footer.join_next_stage' %></p>
+  <div class='first-row'>
+    <p class='next-stage'><%=t 'footer.join_next_stage' %></p>
 
-  <div class="email-signup">
-    <div class='input-div'>
-      <input type="text" placeholder="<%=t 'intro.email_address' %>">
-      <i class="fa fa-envelope-o" aria-hidden="true"></i>
+    <div class="email-signup">
+      <div class='input-div'>
+        <input type="text" placeholder="<%=t 'intro.email_address' %>">
+        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+      </div>
+
+      <button type="button"><%=t 'intro.stay_updated_btn' %></button>
     </div>
-
-    <button type="button"><%=t 'intro.stay_updated_btn' %></button>
   </div>
 
-  <p class='connect-with-us'><%=t 'intro.connect_with_us' %></p>
+  <div class='second-row'>
+    <p class='connect-with-us'><%=t 'intro.connect_with_us' %></p>
 
-  <div class='social-media'>
-    <%= render 'social_medias' %>
+    <div class='social-media'>
+      <%= render 'social_medias' %>
+    </div>
   </div>
 
   <p class='copyright'>&copy; <%=t 'footer.copyright' %></p>

@@ -31,36 +31,36 @@
 
 fr:
   intro:
-    title: "Your Bridge to The Future of Ecommerce."
-    subtitle: "Self-governed commerce with efficient transactions, smart escrow, verified products"
+    title: "Your bridge to the future of e-commerce."
+    subtitle: "Simba is a self-governed marketplace that will revolutionize the world of B2C commerce. Low fees, secure transactions and smart escrow."
     stay_updated_btn: "Stay Updated"
     email_address: "Email Address"
     try_poc_btn: "Try the proof of Concept"
     stay_connected: "Stay Connected With Us"
   our_vision:
     title: "Our Vision"
-    subtitle: "The Future of Ecommerce"
-    paragraph: "Commerce is evolving. A few years from now, digital currencies will play a central role in our lives, replacing coins, cash, cards and cheques. They will enable us to transact more easily, more cost-effectively and with greater security than ever before."
+    subtitle: "The Future of B2C E-commerce"
+    paragraph: "Simba is the first DApp built on Ethereum that aims to be the most convenient, easy-to-use and secure decentralized marketplace for B2C e-commerce."
     vision_benefit_1: "Self-Governed"
-    vision_benefit_2: "Low Cost"
-    vision_benefit_3: "Data Security"
-    vision_benefit_4: "Efficient"
+    vision_benefit_2: "Low Fees"
+    vision_benefit_3: "Secure Escrow"
+    vision_benefit_4: "Ratings & Reviews"
   poc:
     title: "Project Update"
     subtitle: "Announcing the Simba Proof of Concept"
-    feature_1: "Feature 1"
-    feature_2: "Feature 2"
-    feature_3: "Feature 3"
-    feature_4: "Feature 4"
+    feature_1: "Available via Chrome Browser with MetaMask"
+    feature_2: "List your items as a Simba Seller"
+    feature_3: "Purchase items using SimEscrow"
+    feature_4: "Test out our conflict resolution system!"
     explore: "Explore it Now"
   who_is_simba:
     title: "Who is Simba?"
     subtitle: "Awesome team members"
     paragraph: "Commerce is evolving. A few years from now, digital currencies will play a central role in our lives, replacing coins, cash, cards and cheques. They will enable us to transact more easily, more cost-effectively and with greater security than ever before."
   status_quo:
-    title: "Ecommerce is broken?"
+    title: "Traditional E-commerce is broken"
     subtitle: "The Status Quo"
-    paragraph: "Commerce is evolving. A few years from now, digital currencies will play a central role in our lives, replacing coins, cash, cards and cheques. They will enable us to transact more easily, more cost-effectively and with greater security than ever before."
+    paragraph: "Traditional Marketplaces have been ruling the e-commerce space for too long without any checks or balances. They will enable us to transact more easily, more cost-effectively and with greater security than ever before."
     block_1:
       title: "Industry Monopoly"
       content: "Amazon, eBay, and a few others have a 90% share of the ecommerce market"
@@ -123,8 +123,8 @@ fr:
       content_2: "Roadmap Item"
       content_3: "Roadmap Item"
   footer:
-    title: 'Simba Proof of Concept is now Live!'
+    title: 'SIMBA Proof of Concept is now Live!'
     try_it_btn: 'Try it Now'
     join_next_stage: "Join the next stage in ecommerce"
     connect_with_us: "Connect with us"
-    copyright: "2018 Simba Marketplace"
+    copyright: "2018 SIMBA Marketplace"
