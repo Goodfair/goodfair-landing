@@ -146,6 +146,7 @@ section.solution {
   .benefits {
     h2 {
       text-align: center;
+      margin-top: 69px;
       margin-bottom: 20px;
     }
 
@@ -157,14 +158,20 @@ section.solution {
         font-family: Regular;
         color: #fff;
         font-size: 21px;
-        font-weight: 600;
+        font-weight: 500;
         margin-top: 10px;
+        line-height: 0.9;
+        letter-spacing: 0;
+        text-align: center;
+        color: #ffffff;
+        margin-bottom: 14px;
       }
 
       p {
         text-align: center;
         color: #c2d0e4;
         line-height: 1.19;
+        letter-spacing: 0;
       }
     }
   }
