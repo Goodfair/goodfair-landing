@@ -76,9 +76,21 @@ en:
     tech_1: "Trust"
     tech_2: "Escrow"
     tech_3: "Resolve"
-    simtrust_description: "SimTrust is the succulents vegan intelligents twee seitan vexillologist next level irony forage vice hashtag. Enamel pin blog brunch selvage salvia photo booth man braid 90's."
-    simescrow_description: "SimTrust is the succulents vegan intelligents twee seitan vexillologist next level irony forage vice hashtag. Enamel pin blog brunch selvage salvia photo booth man braid 90's."
-    simresolve_description: "SimTrust is the succulents vegan intelligents twee seitan vexillologist next level irony forage vice hashtag. Enamel pin blog brunch selvage salvia photo booth man braid 90's."
+    simtrust:
+      description: "SIMTrust is the succulents vegan intelligents twee seitan vexillologist next level irony forage vice hashtag. Enamel pin blog brunch selvage salvia photo booth man braid 90's."
+      feature_1: "Browser Access"
+      feature_2: "Metamask Integration"
+      feature_3: "Admin Dashboard"
+    simresolve:
+      description: "SIMResolve is the succulents vegan intelligents twee seitan vexillologist next level irony forage vice hashtag. Enamel pin blog brunch selvage salvia photo booth man braid 90's."
+      feature_1: "Browser Access"
+      feature_2: "Metamask Integration"
+      feature_3: "Admin Dashboard"
+    simescrow:
+      description: "SIMEscrow is the succulents vegan intelligents twee seitan vexillologist next level irony forage vice hashtag. Enamel pin blog brunch selvage salvia photo booth man braid 90's."
+      feature_1: "Browser Access"
+      feature_2: "Metamask Integration"
+      feature_3: "Admin Dashboard"
     block_header: "Platform Benefits"
     block_1:
       title: "Stable Currency with DAI"

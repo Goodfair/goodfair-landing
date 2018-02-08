@@ -1,11 +1,10 @@
 section.solution {
   padding-top: 50px;
-  margin-bottom: 50px;
   background-image: url("solution_bg.png");
   background-size: contain;
 
   @media(min-width: $medium) {
-    padding: 120px 0;
+    padding-top: 120px;
   }
 
   h2 {
@@ -37,7 +36,16 @@ section.solution {
     position: relative;
     padding-top: 50px;
 
+    @media(min-width: $medium) {
+      padding-top: 0px;
+    }
+
     .hex-title {
+
+      @media(min-width: $medium) {
+        display: none;
+      }
+
       -webkit-font-smoothing: antialiased;
       font-family: Regular;
       font-size: 20px;
@@ -79,6 +87,52 @@ section.solution {
     margin-bottom: 65px;
     margin-left: 20px;
     margin-right: 20px;
+
+    h2, .feature {
+      display: none;
+    }
+
+    @media(min-width: $medium) {
+      opacity: 1;
+      font-size: 18px;
+      line-height: 1.56;
+      letter-spacing: -0.1px;
+      text-align: left;
+      color: #ffffff;
+
+      h2 {
+        display: block;
+        font-size: 27px;
+        font-weight: 400;
+        line-height: 0.7;
+        letter-spacing: 0;
+        text-align: left;
+        color: #ffffff;
+
+        span {
+          font-weight: 700;
+        }
+      }
+
+      .feature {
+        height: 20px;
+        line-height: 20px;
+        display: flex;
+        font-family: Avenir Next;
+        font-size: 17px;
+        letter-spacing: 0;
+        text-align: left;
+        color: #ffffff;
+        margin-bottom: 14px;
+
+        img {
+          margin: 0;
+          height: 16px;
+          width: 18px;
+          margin-right: 10px;
+        }
+      }
+    }
   }
 
 
@@ -91,10 +145,6 @@ section.solution {
     margin: 10px 0px;
   }
 
-  .slick-slide img {
-    width: 156px;
-    margin: 0 auto;
-  }
 
   .slick-prev:before,
   .slick-next:before {
@@ -104,6 +154,10 @@ section.solution {
   .slick-slide img {
     width: 156px;
     margin: 0 auto;
+
+    @media(min-width: $medium) {
+      width: 207px
+    }
   }
 
   .slick-next:before,
@@ -120,6 +174,13 @@ section.solution {
     border-radius: 16px;
     box-shadow: 0 7px 15px 0 rgba(0, 41, 92, 0.37);
     border: solid 1px rgba(133, 167, 255, 0.1);
+
+    @media(min-width: $medium) {
+      border: none;
+      box-shadow: none;
+      background-image: none;
+      width: 100%;
+    }
   }
 
   .slick-active {
@@ -145,6 +206,8 @@ section.solution {
 
 
   .benefits {
+    padding-bottom: 50px;
+
     h2 {
       text-align: center;
       margin-top: 69px;
@@ -183,6 +246,11 @@ section.solution {
     width: 156px;
     margin: auto;
 
+    @media(min-width: $medium) {
+      width: 207px;
+      height: 324px;
+    }
+
     .circle-ripple {
       position: absolute;
       background-color: #fff;
@@ -204,28 +272,88 @@ section.solution {
     .circle-ripple-top {
       top: -2px;
       left: 74px;
+
+      @media(min-width: $medium) {
+        left: 98px;
+      }
     }
 
     .circle-ripple-left {
       left: 0px;
       bottom: 85px;
+
+      @media(min-width: $medium) {
+        bottom: 143px;
+      }
     }
 
     .circle-ripple-right {
       right: 0px;
       bottom: 85px;
+
+      @media(min-width: $medium) {
+        bottom: 143px;
+      }
     }
   }
 
-  .desktop {
-    .hex-full {
+  .row {
+    @media(min-width: $medium) {
       display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+
+  .hex-full {
+    display: none;
+    width: 207px;
+    margin-right: 60px;
+
+    @media(min-width: $medium) {
+      display: block;
+      position: relative;
+
       img {
         max-width: 207px;
       }
+
+      .hex-title {
+        -webkit-font-smoothing: antialiased;
+        font-family: Regular;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 0.95;
+        letter-spacing: 0;
+        text-align: center;
+        color: #ffffff;
+        position: absolute;
+
+        span {
+          font-weight: 700;
+        }
+
+        &:nth-child(2) {
+          right: 0;
+          top: -50px;
+          left: 0;
+        }
+
+        &:nth-child(3) {
+          left: -60px;
+          bottom: 80px;
+        }
+
+        &:nth-child(4) {
+          right: -60px;
+          bottom: 80px;
+        }
+      }
+    }
+  }
+
+  .one-slider {
+    @media(min-width: $medium) {
+      display: flex;
     }
   }
 }
