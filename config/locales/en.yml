@@ -36,7 +36,7 @@ en:
     stay_updated_btn: "Stay Updated"
     email_address: "Email Address"
     try_poc_btn: "Try the proof of Concept"
-    stay_connected: "Stay Connected With Us"
+    stay_connected: "Stay Connected"
   our_vision:
     title: "Our Vision"
     subtitle: "The Future of B2C E-commerce"
@@ -76,6 +76,9 @@ en:
     tech_1: "Trust"
     tech_2: "Escrow"
     tech_3: "Resolve"
+    simtrust_description: "SimTrust is the succulents vegan intelligents twee seitan vexillologist next level irony forage vice hashtag. Enamel pin blog brunch selvage salvia photo booth man braid 90's."
+    simescrow_description: "SimTrust is the succulents vegan intelligents twee seitan vexillologist next level irony forage vice hashtag. Enamel pin blog brunch selvage salvia photo booth man braid 90's."
+    simresolve_description: "SimTrust is the succulents vegan intelligents twee seitan vexillologist next level irony forage vice hashtag. Enamel pin blog brunch selvage salvia photo booth man braid 90's."
     block_header: "Platform Benefits"
     block_1:
       title: "Stable Currency with DAI"

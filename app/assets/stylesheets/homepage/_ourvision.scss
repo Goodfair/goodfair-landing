@@ -87,9 +87,10 @@
         height: 28px;
         letter-spacing: -0.1px;
         color: #ffffff;
-        margin-left: 37px;
+
         @media(min-width: $medium) {
           width: 213px;
+          margin-left: 37px;
         }
 
         i {
