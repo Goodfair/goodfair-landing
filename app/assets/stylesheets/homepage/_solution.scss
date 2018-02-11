@@ -36,6 +36,10 @@ section.solution {
 
     .hex-title {
 
+      &.inactive {
+        color: #5fa3cc;
+      }
+
       @media(min-width: $medium) {
         display: none;
       }

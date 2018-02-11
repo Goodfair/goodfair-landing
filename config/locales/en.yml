@@ -55,7 +55,7 @@ en:
     explore: "Explore it Now"
   status_quo:
     title: "E-commerce is broken"
-    subtitle: "The Status Quo"
+    subtitle: "THE PROBLEM"
     paragraph: "Traditional Marketplaces have been ruling the e-commerce space for too long without putting its users' interests first. Common complaints include high fees, strict rules, unfair mediation, and fraudulant reviews."
     block_1:
       title: "Industry Monopoly"
@@ -71,7 +71,7 @@ en:
       content: "Existing e-commerce platforms are riddled with incentivized and fake reviews. These reviews are extremely biased or misrepresentative and hurt sellers inordinately."
   solution:
     title: "Simba's Core Features"
-    subtitle: "Solution"
+    subtitle: "THE SOLUTION"
     paragraph: "Simba utilizes the Ethereum blockchain network to support the needs and challenges of a B2C marketplace with three core concepts: SIMTrust, SIMResolve, and SIMEscrow"
     tech_1: "Trust"
     tech_2: "Escrow"
