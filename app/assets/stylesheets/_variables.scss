@@ -20,14 +20,9 @@
 
 @media(min-width: $medium) {
   :root {
-    --title-font: 'Regular';
-    --title-color: red;
-    --title-secondary-color: #58a7e3;
-    --title-size: 45px;
-
-    --subtitle-font: 'Regular';
-    --subtitle-color: green;
-    --subtitle-secondary-color: #4c6a7f;
-    --subtitle-size: 100px;
+    --title-size: 17px;
+    --subtitle-size: 39px;
+    --paragraph-secondary-size: 17px;
+    --paragraph-secondary-color: #7d8ba2;
   }
 }

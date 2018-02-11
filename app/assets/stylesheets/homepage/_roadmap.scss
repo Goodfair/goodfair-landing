@@ -18,6 +18,7 @@ section.roadmap {
   padding: 40px 0;
 
   .roadmap-container-mobile {
+    display: block;
     @media(min-width: $medium) {
       display: none;
     }
@@ -103,8 +104,10 @@ section.roadmap {
   }
 
   .roadmap-container-desktop {
-    @media(max-width: $medium) {
-      display: none;
+    display: none;
+
+    @media(min-width: $medium) {
+      display: block;
     }
 
     ul {

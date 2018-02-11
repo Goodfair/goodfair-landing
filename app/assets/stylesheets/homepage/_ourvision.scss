@@ -13,8 +13,6 @@
 
   h2 {
     @media(min-width: $medium) {
-      line-height: 1.14;
-      letter-spacing: 0.1px;
       text-align: center;
       margin-top: 19px;
     }
@@ -22,20 +20,14 @@
 
   h3 {
     @media(min-width: $medium) {
-
-      letter-spacing: 0.8px;
       text-align: center;
-
     }
   }
 
   p {
-
     @media(min-width: $medium) {
-      line-height: 1.39;
-      letter-spacing: -0.1px;
-      text-align: center;
       margin-top: 32px;
+      text-align: center;
     }
   }
 

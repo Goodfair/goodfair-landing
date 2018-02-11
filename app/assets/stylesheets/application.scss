@@ -5,12 +5,12 @@
 @import '_breakpoints';
 @import '_header';
 @import '_footer';
-@import '_footer';
 @import 'homepage/_intro';
 @import 'homepage/_ourvision';
 @import 'homepage/_team';
 @import 'homepage/_statusquo';
 @import 'homepage/_solution';
+@import 'homepage/_benefits';
 @import 'homepage/_token';
 @import 'homepage/_roadmap';
 @import 'homepage/components/_emailsignup';
@@ -74,6 +74,10 @@ h2 {
   letter-spacing: 0;
   color: var(--subtitle-color);
   margin-bottom: 20px;
+
+  @media(min-width: $medium) {
+    letter-spacing: 0.1px;
+  }
 }
 
 h3 {
@@ -85,6 +89,10 @@ h3 {
   color: var(--title-color);
   line-height: normal;
   margin-bottom: 15px;
+
+  @media(min-width: $medium) {
+    letter-spacing: 0.8px;
+  }
 }
 
 p {
@@ -94,6 +102,11 @@ p {
   font-weight: 400;
   line-height: 1.44;
   letter-spacing: -0.2px;
+
+  @media(min-width: $medium) {
+    line-height: 1.39;
+    letter-spacing: -0.1px;
+  }
 }
 
 button {

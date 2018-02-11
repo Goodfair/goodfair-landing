@@ -36,19 +36,12 @@
 
     h3 {
       color: var(--title-secondary-color);
-      @media(min-width: $medium) {
-        font-size: 17px;
-      }
     }
 
     h2 {
       color: var(--subtitle-secondary-color);
       margin-top: 26px;
       margin-bottom: 15px;
-
-      @media(min-width: $medium) {
-        font-size: 36px;
-      }
     }
 
     p {

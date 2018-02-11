@@ -21,6 +21,7 @@
     background-repeat: no-repeat;
     z-index: -1;
     top: 0;
+
     @media(min-width: $medium) {
       background-image: url("token_bg_tablet@2x.jpg");
       background-size: cover;
@@ -67,12 +68,6 @@
 
   p {
     color: var(--paragraph-secondary-color);
-
-    @media(min-width: $medium) {
-      color: #7d8ba2;
-      font-size: 17px;
-      line-height: 1.41;
-    }
   }
 
   .token-row {

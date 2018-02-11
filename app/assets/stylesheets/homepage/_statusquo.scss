@@ -6,27 +6,31 @@
   padding-top: 37px;
 
   @media(min-width: $medium) {
-    background:#F6FBFF;
-    padding-top:60px;
+    background: #F6FBFF;
+    padding-top: 60px;
   }
 
   h2 {
     color: var(--subtitle-secondary-color);
     @media(min-width: $medium) {
-      font-size: 39px;
+      text-align: center;
     }
   }
 
   h3 {
     color: var(--title-secondary-color);
     @media(min-width: $medium) {
-      font-size: 17px;
+      text-align: center;
     }
   }
 
   p {
     color: var(--paragraph-secondary-color);
     font-size: var(--paragraph-secondary-size);
+
+    @media(min-width: $medium) {
+      text-align: center;
+    }
   }
 
   .block {
@@ -36,6 +40,10 @@
     min-height: 87px;
     padding-right: 20px;
 
+    @media(min-width: $medium) {
+      display: block;
+    }
+
     .title {
       font-family: Regular;
       font-weight: 600;
@@ -44,6 +52,13 @@
       letter-spacing: 0;
       text-align: left;
       color: #24698e;
+
+      @media(min-width: $medium) {
+        font-size: 22px;
+        line-height: 1.05;
+        color: #4c6a7f;
+        font-weight: 500;
+      }
     }
 
     .content {
@@ -55,6 +70,11 @@
 
     .description {
       margin-left: 12px;
+
+      @media(min-width: $medium) {
+        margin-left: 0px;
+        margin-top: 14px;
+      }
     }
   }
 
