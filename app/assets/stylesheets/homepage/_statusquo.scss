@@ -11,22 +11,22 @@
   }
 
   h2 {
-    color: $subtitle-secondary-color;
+    color: var(--subtitle-secondary-color);
     @media(min-width: $medium) {
       font-size: 39px;
     }
   }
 
   h3 {
-    color: $title-secondary-color;
+    color: var(--title-secondary-color);
     @media(min-width: $medium) {
       font-size: 17px;
     }
   }
 
   p {
-    color: $paragraph-secondary-color;
-    font-size: $paragraph-secondary-size;
+    color: var(--paragraph-secondary-color);
+    font-size: var(--paragraph-secondary-size);
   }
 
   .block {

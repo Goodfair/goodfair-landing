@@ -35,13 +35,13 @@
 
   h2 {
     line-height: normal;
-    color: $subtitle-secondary-color;
+    color: var(--subtitle-secondary-color);
   }
 
   h3 {
     padding-top: 245px;
     margin-bottom: 16px;
-    color: $title-secondary-color;
+    color: var(--title-secondary-color);
 
     @media(min-width: $medium) {
       padding-top: 0;
@@ -66,7 +66,7 @@
   }
 
   p {
-    color: $paragraph-secondary-color;
+    color: var(--paragraph-secondary-color);
 
     @media(min-width: $medium) {
       color: #7d8ba2;
@@ -82,7 +82,7 @@
       line-height: 1.38;
       letter-spacing: -0.1px;
       color: #7d8ba2;
-      font-size: $paragraph-secondary-size;
+      font-size: var(--paragraph-secondary-size);
     }
 
     img {

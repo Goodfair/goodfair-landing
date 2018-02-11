@@ -1,4 +1,4 @@
-$timeline-color: $primary-color;
+$timeline-color: #FFF;
 $timeline-future-color: #32aff1;
 $timeline-line-width: 1px;
 $timeline-size: 14px;
@@ -93,7 +93,7 @@ section.roadmap {
       }
 
       li {
-        font-family: $font-family;
+        font-family: Regular;
         font-size: 16px;
         font-weight: 500;
         line-height: 1.63;
