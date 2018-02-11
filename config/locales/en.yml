@@ -54,7 +54,7 @@ en:
     feature_4: "Test out our conflict resolution system!"
     explore: "Explore it Now"
   status_quo:
-    title: "Traditional E-commerce is broken"
+    title: "E-commerce is broken"
     subtitle: "The Status Quo"
     paragraph: "Traditional Marketplaces have been ruling the e-commerce space for too long without putting its users' interests first. Common complaints include high fees, strict rules, unfair mediation, and fraudulant reviews."
     block_1:
@@ -145,7 +145,7 @@ en:
   who_is_simba:
     title: "Who is Simba?"
     subtitle: "Team Members"
-    paragraph: "Meet the team behind Simba."
+    paragraph: "Commerce is evolving. A few years from now, digital currencies will play a central role in our lives, replacing coins, cash, cards and cheques. "
     block_1:
       title: "Fabrice Cheng"
       subtitle: "Founder, Lead Engineer"

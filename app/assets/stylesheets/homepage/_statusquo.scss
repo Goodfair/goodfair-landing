@@ -11,27 +11,22 @@
   }
 
   h2 {
-    color: #4c6a7f;
+    color: $subtitle-secondary-color;
     @media(min-width: $medium) {
       font-size: 39px;
     }
   }
 
   h3 {
-    font-size: 14px;
-    letter-spacing: 0.6px;
-    text-align: left;
-    color: #58a7e3;
+    color: $title-secondary-color;
     @media(min-width: $medium) {
       font-size: 17px;
     }
   }
 
   p {
-    line-height: 1.5;
-    letter-spacing: -0.1px;
-    text-align: left;
-    color: #4c5b73;
+    color: $paragraph-secondary-color;
+    font-size: $paragraph-secondary-size;
   }
 
   .block {
@@ -44,21 +39,18 @@
     .title {
       font-family: Regular;
       font-weight: 600;
-      font-size: 18px;
-      line-height: 1.28;
+      font-size: 20px;
+      line-height: 1.15;
       letter-spacing: 0;
       text-align: left;
-      color: #4c6a7f;
+      color: #24698e;
     }
 
     .content {
-      font-family: Regular;
-      font-weight: 500;
-      font-size: 16px;
-      line-height: 1.19;
-      letter-spacing: 0;
+      line-height: 1.38;
+      letter-spacing: -0.1px;
       text-align: left;
-      color: rgba(106, 106, 126, 0.76);
+      color: #7d8ba2;
     }
 
     .description {

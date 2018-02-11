@@ -66,11 +66,13 @@ h1 {
 }
 
 h2 {
-  font-family: Regular;
-  font-weight: 500;
-  font-size: 30px;
-  line-height: 2.03;
+  font-family: $subtitle-font;
+  font-weight: 400;
+  font-size: $subtitle-size;
+  line-height: normal;
   letter-spacing: 0;
+  color: $subtitle-color;
+  margin-bottom: 20px;
 
   @media(min-width: $medium) {
     font-size: 34px;
@@ -80,11 +82,14 @@ h2 {
 }
 
 h3 {
-  font-family: Regular;
-  font-weight: 600;
-  font-size: 15px;
+  font-family: $title-font;
+  font-weight: 500;
+  font-size: $title-size;
   letter-spacing: 0.6px;
   text-transform: uppercase;
+  color: $title-color;
+  line-height: normal;
+  margin-bottom: 15px;
 
   @media(min-width: $medium) {
     font-size: 17px;
@@ -93,8 +98,12 @@ h3 {
 }
 
 p {
-  font-family: Avenir Next;
-  font-size: 16px;
+  font-family: $global-font;
+  font-size: $paragraph-size;
+  color: $paragraph-color;
+  font-weight: 400;
+  line-height: 1.44;
+  letter-spacing: -0.2px;
 }
 
 button {

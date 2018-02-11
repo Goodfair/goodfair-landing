@@ -1,5 +1,29 @@
+@import '_breakpoints';
+
 $primary-color: #fff;
 $subheading-size: 30px;
-$font-family: Regular;
+$font-family: 'Regular';
 $subheading-color: #58a7e3;
 $global-font: 'Avenir Next';
+$title-font: 'Regular';
+$title-color: #93d4ff;
+$title-secondary-color: #58a7e3;
+$title-size: 15px;
+
+$subtitle-font: 'Regular';
+$subtitle-color: #fff;
+$subtitle-secondary-color: #4c6a7f;
+$subtitle-size: 30px;
+
+$paragraph-color: rgba(255, 255, 255, 0.86);
+$paragraph-secondary-color: #4c5b73;
+$paragraph-size: 18px;
+$paragraph-secondary-size: 16px;
+
+@media(max-width: $medium) {
+
+}
+
+@media(min-width: $medium) {
+
+}
