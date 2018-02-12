@@ -140,8 +140,14 @@ en:
       title: "Item Screening"
       content: "Users can be rewarded with SimToken for flagging illegal or illicit items."
     block_4:
-      title: "Another feature"
-      content: "another thing"
+      title: "SimResolve Participation"
+      content: "SimToken is used as a reward to those who participate in conflict resolution cases via SimResolve. Incentivizing participants will help promote a fair and just community."
+    block_5:
+      title: "SimResolve Participation"
+      content: "SimToken is used as a reward to those who participate in conflict resolution cases via SimResolve. Incentivizing participants will help promote a fair and just community."
+    block_6:
+      title: "SimResolve Participation"
+      content: "SimToken is used as a reward to those who participate in conflict resolution cases via SimResolve. Incentivizing participants will help promote a fair and just community."
   roadmap:
     title: "Roadmap"
     quarter_1:
