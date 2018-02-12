@@ -93,7 +93,6 @@ en:
       feature_1: "Browser Access"
       feature_2: "Metamask Integration"
       feature_3: "Admin Dashboard"
-    block_header: "Platform Benefits"
     block_1:
       title: "Stable Currency with DAI"
       paragraph: "To combat cryptocurrency volatility, SIMBA utlizes DAI to ensure item price stability."
@@ -106,6 +105,27 @@ en:
     block_4:
       title: "Rewards Program"
       paragraph: "Other thing."
+  benefits:
+    title: 'ECOMMERCE EVOLVED'
+    subtitle: 'Marketplace Benefits'
+    block_1:
+      title: 'Stable Currency with DAI'
+      paragraph: 'Payment is safeguarded in virtual escrow until item is received'
+    block_2:
+      title: 'Benefits 2'
+      paragraph: 'Payment is safeguarded in virtual escrow until item is received'
+    block_3:
+      title: 'Benefits 3'
+      paragraph: 'Payment is safeguarded in virtual escrow until item is received'
+    block_4:
+      title: 'Benefits 4'
+      paragraph: 'Payment is safeguarded in virtual escrow until item is received'
+    block_5:
+      title: 'Benefits 5'
+      paragraph: 'Payment is safeguarded in virtual escrow until item is received'
+    block_6:
+      title: 'Benefits 6'
+      paragraph: 'Payment is safeguarded in virtual escrow until item is received'
   token:
     title: "SIMToken (SIM)"
     subtitle: "Self Governed Ecommerce via SIMToken"

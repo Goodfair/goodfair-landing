@@ -4,8 +4,17 @@ section.solution {
 
     h2 {
       text-align: center;
+      margin-bottom: 30px;
+    }
+
+    h3 {
+      text-align: center;
       margin-top: 69px;
-      margin-bottom: 20px;
+
+      @media(min-width: $medium) {
+        margin-top: 90px;
+      }
+
     }
 
     .benefit {
@@ -30,6 +39,7 @@ section.solution {
         color: #c2d0e4;
         line-height: 1.19;
         letter-spacing: 0;
+        font-size: 16px;
       }
     }
   }
