@@ -3,18 +3,37 @@
   background-image: url("blue-rectangle@2x.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+
   @media(min-width: $medium) {
     background-image: url("ourvision_bg_tablet@2x.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 80px;
+  }
 
+  @media(min-width: $large) {
+    background-image: url("intro_bg_tablet@2x.png");
   }
 
   h2 {
+    img {
+      display: none;
+    }
+
     @media(min-width: $medium) {
       text-align: center;
       margin-top: 19px;
+    }
+
+    @media(min-width: $large) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        display: block;
+        margin-right: 19px;
+      }
     }
   }
 
@@ -22,12 +41,23 @@
     @media(min-width: $medium) {
       text-align: center;
     }
+
+    @media(min-width: $large) {
+      display: none;
+    }
   }
 
   p {
     @media(min-width: $medium) {
       margin-top: 32px;
       text-align: center;
+    }
+
+    @media(min-width: $large) {
+      width: 741px;
+      margin: auto;
+      margin-top: 48px;
+      font-size: var(--paragraph-secondary-size);
     }
   }
 
@@ -108,24 +138,38 @@
   .vision-benefits {
     margin-top: 35px;
     font-family: Avenir Next;
-    font-size: 16px;
+    font-size: 14px;
     letter-spacing: 0;
     text-align: left;
     color: #ffffff;
+
+    img {
+      width: 26px;
+      height: 26px;
+      margin-right: 12px;
+    }
+
     @media(min-width: $medium) {
-      margin-top:60px;
+      font-size: 16px;
+      margin-top: 60px;
       img {
-        padding-right: 24.6px;
+        width: 36px;
+        height: 36px;
+        margin-right: 21px;
       }
       font-size: 19px;
     }
 
-    div {
-      margin-bottom: 20px;
+    @media(min-width: $large) {
+      margin: auto;
+      margin-top:60px;
+      width: 90%;
+      font-size: 16px;
+      text-transform: uppercase;
     }
 
-    img {
-      margin-right: 12px;
+    div {
+      margin-bottom: 20px;
     }
   }
 }
