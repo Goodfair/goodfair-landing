@@ -64,15 +64,20 @@ h1 {
     text-align: center;
     margin-top: 106px;
   }
+
+  @media(min-width: $large) {
+    font-size: 46px;
+    text-transform: uppercase;
+  }
 }
 
 h2 {
-  font-family: var(--subtitle-font);
+  font-family: var(--h2-font);
   font-weight: 400;
-  font-size: var(--subtitle-size);
+  font-size: var(--h2-size);
   line-height: normal;
   letter-spacing: 0;
-  color: var(--subtitle-color);
+  color: var(--h2-color);
   margin-bottom: 20px;
 
   @media(min-width: $medium) {
@@ -81,17 +86,21 @@ h2 {
 }
 
 h3 {
-  font-family: var(--title-font);
+  font-family: var(--h3-font);
   font-weight: 500;
-  font-size: var(--title-size);
+  font-size: var(--h3-size);
   letter-spacing: 0.6px;
   text-transform: uppercase;
-  color: var(--title-color);
+  color: var(--h3-color);
   line-height: normal;
   margin-bottom: 15px;
 
   @media(min-width: $medium) {
     letter-spacing: 0.8px;
+  }
+
+  @media(min-width: $large) {
+    letter-spacing: 1px;
   }
 }
 
@@ -106,6 +115,11 @@ p {
   @media(min-width: $medium) {
     line-height: 1.39;
     letter-spacing: -0.1px;
+  }
+
+  @media(min-width: $large) {
+    line-height: 1.35;
+    letter-spacing: 0;
   }
 }
 

@@ -10,6 +10,10 @@ section.intro {
     height: 70%;
   }
 
+  @media(min-width: $large) {
+    height: 100%;
+  }
+
   &:after {
     content: '';
     background-image: url("planet2.png");

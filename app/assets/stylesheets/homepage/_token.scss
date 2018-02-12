@@ -36,13 +36,13 @@
 
   h2 {
     line-height: normal;
-    color: var(--subtitle-secondary-color);
+    color: var(--h2-secondary-color);
   }
 
   h3 {
     padding-top: 245px;
     margin-bottom: 16px;
-    color: var(--title-secondary-color);
+    color: var(--h3-secondary-color);
 
     @media(min-width: $medium) {
       padding-top: 0;

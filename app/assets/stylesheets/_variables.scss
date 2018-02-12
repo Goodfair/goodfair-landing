@@ -2,15 +2,15 @@
 :root {
   --global-font: 'Avenir Next';
 
-  --title-font: 'Regular';
-  --title-color: #93d4ff;
-  --title-secondary-color: #58a7e3;
-  --title-size: 15px;
+  --h3-font: 'Regular';
+  --h3-color: #93d4ff;
+  --h3-secondary-color: #58a7e3;
+  --h3-size: 15px;
 
-  --subtitle-font: 'Regular';
-  --subtitle-color: #fff;
-  --subtitle-secondary-color: #4c6a7f;
-  --subtitle-size: 30px;
+  --h2-font: 'Regular';
+  --h2-color: #fff;
+  --h2-secondary-color: #4c6a7f;
+  --h2-size: 30px;
 
   --paragraph-color: rgba(255, 255, 255, 0.86);
   --paragraph-secondary-color: #4c5b73;
@@ -20,9 +20,18 @@
 
 @media(min-width: $medium) {
   :root {
-    --title-size: 17px;
-    --subtitle-size: 39px;
+    --h3-size: 17px;
+    --h2-size: 39px;
     --paragraph-secondary-size: 17px;
     --paragraph-secondary-color: #7d8ba2;
+  }
+}
+
+@media(min-width: $large) {
+  :root {
+    --h3-size: 22px;
+    --h2-size: 37px;
+    --paragraph-size: 20px;
+    --paragraph-secondary-size: 18px;
   }
 }

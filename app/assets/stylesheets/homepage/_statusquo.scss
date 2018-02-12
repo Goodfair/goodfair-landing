@@ -11,14 +11,14 @@
   }
 
   h2 {
-    color: var(--subtitle-secondary-color);
+    color: var(--h2-secondary-color);
     @media(min-width: $medium) {
       text-align: center;
     }
   }
 
   h3 {
-    color: var(--title-secondary-color);
+    color: var(--h3-secondary-color);
     @media(min-width: $medium) {
       text-align: center;
     }
