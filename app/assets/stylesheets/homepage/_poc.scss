@@ -10,38 +10,6 @@
     }
   }
 
-  &.desktop {
-    background-image: url("poc_screenshot_tablet@2x.jpg");
-    background-size: 85%;
-    background-repeat: no-repeat;
-    background-position: center right;
-    margin-top:40px;
-
-    @media(max-width: 767px) {
-      display: none;
-    }
-
-    h2 {
-      text-align: left;
-      font-size: 500;
-      width: 70%;
-      margin-bottom: 25px;
-    }
-
-    .email-signup {
-      justify-content: flex-start;
-      margin-top: 35px;
-
-      button {
-        width: 260px;
-        height: 53px;
-        border-radius: 4px;
-        background-image: linear-gradient(to right, #646acf, #28c0e6);
-        box-shadow: 0 2px 8px 0 rgba(35, 78, 162, 0.25);
-      }
-    }
-  }
-
   h2 {
     line-height: 1.2em;
     margin-top: 26px;
@@ -71,6 +39,10 @@
 
     div {
       margin-bottom: 10px;
+
+      @media(min-width: $medium) {
+        margin-bottom: 3px;
+      }
       font-size: 18px;
     }
 
@@ -85,6 +57,67 @@
 
     button {
       font-size: 13px;
+    }
+  }
+
+  &.tablet {
+    background-image: url("poc_screenshot_tablet@2x.jpg");
+    background-size: 85%;
+    background-repeat: no-repeat;
+    background-position: center right;
+    margin-top:40px;
+
+    @media(max-width: 767px) {
+      display: none;
+    }
+
+    @media(min-width: $large) {
+      display: none;
+    }
+
+    h2 {
+      text-align: left;
+      font-size: 500;
+      width: 70%;
+      margin-bottom: 25px;
+    }
+
+    .email-signup {
+      justify-content: flex-start;
+      margin-top: 35px;
+
+      button {
+        width: 260px;
+        height: 53px;
+        border-radius: 4px;
+        background-image: linear-gradient(to right, #646acf, #28c0e6);
+        box-shadow: 0 2px 8px 0 rgba(35, 78, 162, 0.25);
+      }
+    }
+  }
+
+  &.desktop {
+    margin-top: 90px;
+    @media(max-width: 1023px) {
+      display: none;
+    }
+
+    h2 {
+      justify-content: flex-start;
+    }
+
+    .email-signup {
+      justify-content: flex-start;
+      margin-top: 41px;
+
+      button {
+        margin-left: 0px;
+        width: 259px;
+        height: 53px;
+        border-radius: 4px;
+        background-image: linear-gradient(to right, #646acf, #28c0e6);
+        box-shadow: 0 2px 8px 0 rgba(35, 78, 162, 0.25);
+      }
     }
   }
 }

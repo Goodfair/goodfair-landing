@@ -47,11 +47,13 @@ en:
     vision_benefit_4: "Ratings & Reviews"
   poc:
     title: "Project Update"
-    subtitle: "Announcing the Simba Proof of Concept"
-    feature_1: "Available via Chrome Browser with MetaMask"
-    feature_2: "List your items as a Simba Seller"
-    feature_3: "Purchase items using SimEscrow"
-    feature_4: "Test out our conflict resolution system!"
+    subtitle: "Proof of Concept"
+    feature_1: "MetaMask Access"
+    feature_2: "Seller Dashboard"
+    feature_3: "Safe Transaction"
+    feature_4: "Authentic Review"
+    feature_5: "Feature 5"
+    feature_6: "Feature 6"
     explore: "Explore it Now"
   status_quo:
     title: "E-commerce is broken"
