@@ -149,9 +149,10 @@ en:
       title: "SimResolve Participation"
       content: "SimToken is used as a reward to those who participate in conflict resolution cases via SimResolve. Incentivizing participants will help promote a fair and just community."
   roadmap:
-    title: "Roadmap"
+    title: "Next Step"
+    subtitle: "Roadmap"
     quarter_1:
-      title: "2017"
+      title: "2017 Q1"
       content_1: "Roadmap Item"
       content_2: "Roadmap Item"
       content_3: "Roadmap Item"

@@ -12,10 +12,28 @@ section.roadmap {
     -webkit-font-smoothing: antialiased;
   }
 
+  h2, h3 {
+    @media(min-width: $medium) {
+      text-align: center;
+    }
+  }
+
+  h4 {
+    font-size: 21px;
+    font-weight: 600;
+    letter-spacing: 0;
+    color: #ffffff;
+    font-family: 'DIN';
+  }
+
   background-image: url("roadmap_bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 40px 0;
+
+  @media(min-width: $medium) {
+    padding: 70px 0;
+  }
 
   .roadmap-container-mobile {
     display: block;
@@ -108,6 +126,7 @@ section.roadmap {
 
     @media(min-width: $medium) {
       display: block;
+      padding-bottom: 50px;
     }
 
     ul {
@@ -169,13 +188,13 @@ section.roadmap {
 
     .slick-prev {
       left: 40%;
-      top: 304px;
+      bottom: -80px;
       z-index: 100;
     }
 
     .slick-next {
       right: 40%;
-      top: 304px;
+      bottom: -80px;
       z-index: 100;
     }
   }
