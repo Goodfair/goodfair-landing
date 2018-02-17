@@ -16,13 +16,10 @@
   }
 
   h2 {
-    img {
-      display: none;
-    }
+    margin-top: 19px;
 
     @media(min-width: $medium) {
       text-align: center;
-      margin-top: 19px;
     }
 
     @media(min-width: $large) {
@@ -31,7 +28,6 @@
       align-items: center;
 
       img {
-        display: block;
         margin-right: 19px;
       }
     }
@@ -48,8 +44,9 @@
   }
 
   p {
+    margin-top: 32px;
+
     @media(min-width: $medium) {
-      margin-top: 32px;
       text-align: center;
     }
 
