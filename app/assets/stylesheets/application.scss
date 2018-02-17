@@ -81,6 +81,10 @@ h2 {
   color: var(--h2-color);
   margin-bottom: 20px;
 
+  img {
+    margin-right: 10px;
+  }
+
   @media(min-width: $medium) {
     letter-spacing: 0.1px;
   }

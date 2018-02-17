@@ -39,15 +39,13 @@ en:
     stay_connected: "Stay Connected"
   our_vision:
     title: "Our Vision"
-    subtitle: "The Future of B2C E-commerce"
     paragraph: "Simba is the first DApp built on Ethereum that aims to be the most convenient, transparent and secure decentralized marketplace for B2C e-commerce. Our goal is to create a marketplace where the fundamental components reflect the culture and values of its community"
     vision_benefit_1: "Self-Governed"
     vision_benefit_2: "Low Fees"
     vision_benefit_3: "Secure Escrow"
     vision_benefit_4: "Ratings & Reviews"
   poc:
-    title: "Project Update"
-    subtitle: "Proof of Concept"
+    title: "Proof of Concept"
     feature_1: "MetaMask Access"
     feature_2: "Seller Dashboard"
     feature_3: "Safe Transaction"
