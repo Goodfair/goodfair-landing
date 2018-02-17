@@ -80,6 +80,7 @@ h2 {
   letter-spacing: 0;
   color: var(--h2-color);
   margin-bottom: 20px;
+  display: flex;
 
   img {
     margin-right: 10px;
@@ -94,10 +95,11 @@ h3 {
   font-family: var(--h3-font);
   font-weight: 500;
   font-size: var(--h3-size);
-  letter-spacing: 0.6px;
+  line-height: 1.39;
+  letter-spacing: 2.2px;
   text-transform: uppercase;
   color: var(--h3-color);
-  line-height: normal;
+
   margin-bottom: 15px;
 
   @media(min-width: $medium) {
@@ -112,6 +114,7 @@ h3 {
 p {
   font-family: var(--paragraph-font);
   font-size: var(--paragraph-size);
+  opacity: var(--paragraph-opacity);
   color: var(--paragraph-color);
   font-weight: 400;
   line-height: 1.44;

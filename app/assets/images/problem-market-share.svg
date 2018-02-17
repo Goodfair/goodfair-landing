@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="322" height="227" viewBox="0 0 322 227">
+    <defs>
+        <path id="a" d="M105 209C47.01 209 0 162.214 0 104.5S47.01 0 105 0s105 46.786 105 104.5S162.99 209 105 209zm.288-44.09c33.364 0 60.41-26.919 60.41-60.124s-27.046-60.123-60.41-60.123-60.411 26.918-60.411 60.123 27.047 60.124 60.41 60.124z"/>
+        <linearGradient id="c" x1="-38.213%" x2="82.257%" y1="45.511%" y2="74.485%">
+            <stop offset="0%" stop-color="#00ACF0"/>
+            <stop offset="100%" stop-color="#2CB6F7"/>
+        </linearGradient>
+        <linearGradient id="d" x1="35.661%" x2="113.409%" y1="55.58%" y2="55.58%">
+            <stop offset="0%" stop-color="#1490E0"/>
+            <stop offset="100%" stop-color="#20F0FF"/>
+        </linearGradient>
+        <linearGradient id="e" x1="74.535%" x2="74.535%" y1="16.706%" y2="94.454%">
+            <stop offset="0%" stop-color="#1490E0"/>
+            <stop offset="100%" stop-color="#20F0FF"/>
+        </linearGradient>
+        <linearGradient id="f" x1="0%" x2="138.508%" y1="50%" y2="50%">
+            <stop offset="0%" stop-color="#17EAD9"/>
+            <stop offset="100%" stop-color="#6078EA"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(54 -6)">
+            <mask id="b" fill="#fff">
+                <use xlink:href="#a"/>
+            </mask>
+            <g mask="url(#b)">
+                <g transform="translate(30 6)">
+                    <ellipse cx="75.147" cy="97.441" fill="url(#c)" opacity=".441" rx="75.085" ry="74.511"/>
+                    <path fill="#1E5F6F" d="M74.573 184.053V79.776h86.04a86.35 86.35 0 0 1 1.816 17.665c0 47.836-39.077 86.614-87.282 86.614-.191 0-.383 0-.574-.002z"/>
+                    <path fill="url(#d)" d="M48.229 70.737h.094c53.912 0 97.617 43.37 97.617 96.871 0 .228 0 .456-.002.684l-39.054-.316s-2.007 1.09-2.973 1.693c-41.5 25.923-55.588 50.093-55.588 50.093l-.094-149.025z" transform="rotate(90 97.084 145.25)"/>
+                    <path fill="url(#e)" d="M77.928.056c52.36 1.755 94.263 44.429 94.263 96.815 0 31.997-15.633 60.371-39.733 78.01l-9.68-8.558-44.281-36.259L77.927.056z"/>
+                </g>
+            </g>
+        </g>
+        <path stroke="url(#f)" stroke-linecap="square" d="M.322 107h93.212" opacity=".667" transform="translate(1 -6)"/>
+        <text fill="#3F6884" font-family="DIN2014-Light, DIN 2014" font-size="17" font-weight="300" letter-spacing=".236" opacity=".818" transform="translate(1 -6)">
+            <tspan x="2" y="133">Other </tspan> <tspan x="2" y="151">Merchants</tspan>
+        </text>
+        <path stroke="url(#f)" d="M243.299 93.333h77.231" opacity=".667" transform="translate(1 -6)"/>
+        <text fill="#4A6C84" font-family="DIN2014-Light, DIN 2014" font-size="17" font-weight="300" letter-spacing=".236" opacity=".769" transform="translate(1 -6)">
+            <tspan x="263" y="115">Amazon</tspan>
+        </text>
+        <text fill="#02AAE6" font-family="DIN2014-Light, DIN 2014" font-size="21" font-weight="300" letter-spacing=".26" transform="translate(1 -6)">
+            <tspan x="284" y="81">50%</tspan>
+        </text>
+        <text fill="#02AAE6" font-family="DIN2014-Light, DIN 2014" font-size="21" font-weight="300" letter-spacing="-.746" transform="translate(1 -6)">
+            <tspan x="3" y="94">47%</tspan>
+        </text>
+        <text fill="#02AAE6" font-family="DIN2014-Light, DIN 2014" font-size="21" font-weight="300" letter-spacing=".26" transform="translate(1 -6)">
+            <tspan x="295" y="200">3%</tspan>
+        </text>
+        <path stroke="url(#f)" d="M196 207l25.265-25H315" opacity=".667" transform="matrix(1 0 0 -1 1 383)"/>
+        <text fill="#4A6C84" font-family="DIN2014-Light, DIN 2014" font-size="17" font-weight="300" letter-spacing=".236" opacity=".769" transform="translate(1 -6)">
+            <tspan x="285" y="229">eBay</tspan>
+        </text>
+        <text fill="#02AAE6" font-family="DIN2014-Regular, DIN 2014" font-size="18" letter-spacing=".223" transform="translate(1 -6)">
+            <tspan x="117" y="107">2016 Sales </tspan> <tspan x="130.847" y="126">Growth</tspan>
+        </text>
+    </g>
+</svg>

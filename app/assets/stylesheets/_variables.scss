@@ -1,9 +1,9 @@
 @import '_breakpoints';
 :root {
-  --h3-font: 'DIN';
-  --h3-color: #93d4ff;
-  --h3-secondary-color: #58a7e3;
-  --h3-size: 15px;
+  --h3-font: 'din-2014';
+  --h3-color: #4bc7ff;
+  --h3-secondary-color: #20a8e5;
+  --h3-size: 18px;
 
   --h2-font: 'din-2014';
   --h2-color: #fff;
@@ -13,8 +13,10 @@
   --paragraph-color: rgba(255, 255, 255, 0.84);
   --paragraph-font: 'DIN';
   --paragraph-size: 18px;
+  --paragraph-opacity: 1;
 
-  --paragraph-secondary-color: #4c5b73;
+  --paragraph-secondary-color: #49667b;
+  --paragraph-secondary-opacity: 0.77;
   --paragraph-secondary-font: 'din-2014';
   --paragraph-secondary-size: 16px;
 }
