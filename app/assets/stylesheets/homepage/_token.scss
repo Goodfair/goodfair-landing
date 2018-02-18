@@ -1,8 +1,9 @@
 .token {
-  background-image: url("solution_bg.jpg");
+  background-image: url("token_bg@2x.jpg");
   background-size: cover;
   padding-top: 320px;
   position: relative;
+  padding-bottom: 60px;
 
   .token-icon {
     position: absolute;
@@ -43,14 +44,16 @@
 
 
   h4 {
-    font-family: DIN;
+    font-family: var(--h2-font);
+    -webkit-font-smoothing: antialiased;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 1.28;
     letter-spacing: 0;
     text-align: left;
     color: #ffffff;
     margin-top: 10px;
+    margin-bottom:10px;
 
     @media(min-width: $medium) {
       font-size: 21px;
@@ -67,16 +70,18 @@
     padding-top: 21px;
 
     p {
-      font-family: DIN;
+      font-family: var(--paragraph-font);
+      -webkit-font-smoothing: antialiased;
       font-size: 16px;
       line-height: 1.25;
       letter-spacing: -0.1px;
       text-align: left;
       color: #ffffff;
+      margin-bottom: 0;
     }
 
     img {
-      height: 40px;
+      height: 45px;
     }
   }
 }
