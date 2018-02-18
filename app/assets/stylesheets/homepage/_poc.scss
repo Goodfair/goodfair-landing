@@ -11,6 +11,7 @@
   }
 
   h2 {
+    font-size: 27px;
     line-height: 1.2em;
     margin-top: 26px;
     margin-bottom: 20px;
@@ -27,11 +28,15 @@
   }
 
   .poc-screenshot {
-    background-image: url("poc_screenshot_tablet@2x.jpg");
+    background-image: url("poc_screenshot_mobile@2x.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-
     padding: 30px 0px;
+    border-radius: 5px;
+    @media(min-width: $medium) {
+      background-image: url("poc_screenshot_tablet@2x.jpg");
+
+    }
   }
 
   .poc-benefits {
