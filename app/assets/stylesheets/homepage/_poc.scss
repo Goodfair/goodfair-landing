@@ -37,7 +37,7 @@
   .poc-benefits {
     margin-top: 15px;
     flex-direction: column;
-    font-family: Regular;
+    font-family: var(--h2-font);
     font-weight: 400;
 
     @media(min-width: $medium) {

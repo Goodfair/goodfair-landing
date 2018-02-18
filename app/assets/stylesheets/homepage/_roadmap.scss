@@ -4,13 +4,6 @@ $timeline-line-width: 1px;
 $timeline-size: 14px;
 
 section.roadmap {
-  button,
-  h1,
-  h2,
-  h4,
-  p {
-    -webkit-font-smoothing: antialiased;
-  }
 
   h2, h3 {
     @media(min-width: $medium) {
@@ -23,7 +16,7 @@ section.roadmap {
     font-weight: 600;
     letter-spacing: 0;
     color: #ffffff;
-    font-family: 'DIN';
+    font-family: var(--h2-font);
   }
 
   background-image: url("roadmap_bg.png");

@@ -28,21 +28,14 @@ html {
 section {
   padding-top: 0;
   padding-bottom: 0;
+}
 
-  .footer,
-  .our-vision,
-  .poc,
-  .solution {
-    .vision-benefits div,
-    button,
-    h1,
-    h2,
-    h4,
-    p {
+
+  .intro, .our-vision, .solution, .token, .team {
+    * {
       -webkit-font-smoothing: antialiased;
     }
   }
-}
 
 .container {
   padding-left: 20px;

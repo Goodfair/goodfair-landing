@@ -9,11 +9,10 @@
     position: absolute;
     top: 50px;
     margin: auto;
-    left: 0px;
-    right: 0px;
+    left: 0;
+    right: 0;
     width: 302px;
   }
-
   @media(min-width: $medium) {
     background-position-y: top;
     background-position-x: 441px;
@@ -29,7 +28,6 @@
     background-repeat: no-repeat;
     z-index: -1;
     top: 0;
-
     @media(min-width: $medium) {
       background-image: url("token_bg_tablet@2x.jpg");
       background-size: cover;
@@ -42,10 +40,8 @@
     }
   }
 
-
   h4 {
     font-family: var(--h2-font);
-    -webkit-font-smoothing: antialiased;
     font-size: 18px;
     font-weight: 600;
     line-height: 1.28;
@@ -53,8 +49,7 @@
     text-align: left;
     color: #ffffff;
     margin-top: 10px;
-    margin-bottom:10px;
-
+    margin-bottom: 10px;
     @media(min-width: $medium) {
       font-size: 21px;
       line-height: 1.1;
@@ -71,7 +66,6 @@
 
     p {
       font-family: var(--paragraph-font);
-      -webkit-font-smoothing: antialiased;
       font-size: 16px;
       line-height: 1.25;
       letter-spacing: -0.1px;

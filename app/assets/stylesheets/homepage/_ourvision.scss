@@ -130,15 +130,14 @@
 
   .vision-benefits {
     margin-top: 35px;
-    font-family: Avenir Next;
+    font-family: var(--h3-font);
     font-size: 14px;
     letter-spacing: 0;
     text-align: left;
     color: #ffffff;
 
     img {
-      width: 26px;
-      height: 26px;
+      height: 52px;
       margin-right: 12px;
     }
 
