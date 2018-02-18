@@ -14,7 +14,7 @@ section.solution {
   }
 
   .hex {
-    margin: 20px 20px 0;
+    margin: 30px 30px 0;
     position: relative;
     padding-top: 50px;
     @media(min-width: $medium) {
@@ -24,7 +24,7 @@ section.solution {
 
     .hex-title {
       &.inactive {
-        color: #5fa3cc;
+        font-size: 22px;
       }
       @media(min-width: $medium) {
         display: none;
@@ -45,28 +45,29 @@ section.solution {
 
       &:nth-child(1) {
         right: 0;
-        top: 0;
+        top: -6px;
         left: 0;
       }
 
       &:nth-child(2) {
         left: 0;
-        bottom: 35px;
+        bottom: 13px;
       }
 
       &:nth-child(3) {
         right: 0;
-        bottom: 35px;
+        bottom: 13px;
       }
     }
   }
 
   .description {
-    text-align: center;
+    text-align: left;
     color: #ffffff;
     // margin-bottom: 65px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top:20px;
 
     p {
       font-family: var(--paragraph-secondary-font);
@@ -84,11 +85,19 @@ section.solution {
     ul.features {
       list-style-type: none;
       padding-left: 0;
+      -webkit-font-smoothing: antialiased;
+      font-family: var(--h2-font);
+      display: flex;
+      flex-wrap: wrap;
+      margin-top:25px;
 
       li {
         display: flex;
+        flex: 1 0 50%;
+        align-items: center;
+        margin-bottom:10px;
         img {
-          margin-right: 12px;
+          margin-right: 6px;
           height: 16px;
         }
       }
@@ -184,7 +193,7 @@ section.solution {
 
   .slick-prev {
     left: 30px;
-    bottom: 50%;
+    top: 170px;
     z-index: 100;
     width: 37.47px;
     height: 36.47px;
@@ -201,7 +210,7 @@ section.solution {
 
   .slick-next {
     right: 30px;
-    bottom: 50%;
+    top: 170px;
     z-index: 100;
     width: 37.47px;
     height: 36.47px;
