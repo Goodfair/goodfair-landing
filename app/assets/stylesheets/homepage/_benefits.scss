@@ -1,46 +1,42 @@
-section.solution {
-  .benefits {
-    padding-bottom: 50px;
+section.benefits {
+  padding: 50px 0px;
+  background-color: #F6FBFF;
+  background-image: url("status_quo_bg.png");
+  background-size: cover;
 
-    h2 {
+  h2 {
+    color: var(--h2-secondary-color);
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  p {
+    color: var(--paragraph-secondary-color);
+    opacity: var(--paragraph-secondary-opacity);
+  }
+
+  .benefit {
+    margin-bottom: 26px;
+    text-align: center;
+
+    h4 {
+      font-family: 'din-2014';
+      font-size: 21px;
+      line-height: 0.9;
+      letter-spacing: 0;
       text-align: center;
-      margin-bottom: 30px;
+      color: #4a677c;
+      margin-top: 10px;
+      margin-bottom: 14px;
     }
 
-    h3 {
+    p {
+      font-family: DIN2014;
+      font-size: 17px;
+      line-height: 1.35;
+      letter-spacing: 0;
       text-align: center;
-      margin-top: 69px;
-
-      @media(min-width: $medium) {
-        margin-top: 90px;
-      }
-
-    }
-
-    .benefit {
-      margin-bottom: 26px;
-      text-align: center;
-
-      h4 {
-        font-family: Regular;
-        color: #fff;
-        font-size: 21px;
-        font-weight: 500;
-        margin-top: 10px;
-        line-height: 0.9;
-        letter-spacing: 0;
-        text-align: center;
-        color: #ffffff;
-        margin-bottom: 14px;
-      }
-
-      p {
-        text-align: center;
-        color: #c2d0e4;
-        line-height: 1.19;
-        letter-spacing: 0;
-        font-size: 16px;
-      }
+      color: #658093;
     }
   }
 }
