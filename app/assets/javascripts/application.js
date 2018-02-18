@@ -30,7 +30,7 @@ $(document).ready(function() {
 
   $('.center').slick({
     centerMode: true,
-    centerPadding: '60px',
+    centerPadding: '0px',
     slidesToShow: 1,
     dots: true,
     responsive: [{
