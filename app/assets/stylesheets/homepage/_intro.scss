@@ -4,36 +4,40 @@ section.intro {
   color: #FFF;
   font-family: "Avenir Next";
   position: relative;
-  height: 100%;
+  padding-bottom: 60px;
 
   @media(min-width: $medium) {
     height: 70%;
   }
-
   @media(min-width: $large) {
     height: 100%;
   }
 
-  &:after {
-    content: '';
-    background-image: url("planet2.png");
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background-size: contain;
-    background-repeat: no-repeat;
-    z-index: -1;
-    @media(min-width: $medium) {
-      background-image: url("planet_tablet@2x.png");
-      top: 0;
-      background-size: 90%;
-      background-position: center 100px;
-    }
+  .intro-splash {
+    height: 100vh;
+    position: relative;
   }
+
+  // &:after {
+  //   content: '';
+  //   background-image: url("planet2.png");
+  //   width: 100%;
+  //   height: 100%;
+  //   position: absolute;
+  //   background-size: contain;
+  //   background-repeat: no-repeat;
+  //   z-index: -1;
+  //   @media(min-width: $medium) {
+  //     background-image: url("planet_tablet@2x.png");
+  //     top: 0;
+  //     background-size: 90%;
+  //     background-position: center 100px;
+  //   }
+  // }
 
   &:before {
     content: '';
-    background-image: url("intro_bg.jpg");
+    background-image: url("intro_bg@2x.jpg");
     width: 100%;
     height: 100%;
     position: absolute;
@@ -45,16 +49,9 @@ section.intro {
     }
   }
 
-  button,
-  h1,
-  h2,
-  p {
-    -webkit-font-smoothing: antialiased;
-  }
-
   .intro-copy {
     padding-top: 90px;
-    font-family: 'Avenir Next';
+    font-family: var(--paragraph-font);
     font-size: 32px;
     font-weight: 500;
     line-height: 1.16;
@@ -63,11 +60,12 @@ section.intro {
     color: #ffffff;
 
     p {
-      margin-top: 20px;
+      margin-top: 10px;
       font-size: 19px;
       line-height: 1.19;
       text-align: left;
-      color: #ffffff;
+      color: #DFEEFF;
+      font-weight: 300;
       @media(min-width: $medium) {
         font-size: 18px;
         line-height: 1.5;
@@ -85,14 +83,13 @@ section.intro {
     display: block;
     width: 120px;
     height: 49px;
-     opacity:0.85;
+    opacity: 0.85;
     background-size: 14px auto;
     z-index: 2;
     animation: bounce 2s infinite 2s;
-    transition: all .2s ease-in;
-
+    transition: all 0.2s ease-in;
     @media(min-width: $medium) {
-      bottom:50px;
-      }
+      bottom: 50px;
     }
+  }
 }
