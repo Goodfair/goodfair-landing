@@ -24,14 +24,17 @@ section.solution {
 
     .hex-title {
       &.inactive {
-        font-size: 22px;
+        opacity: 0.3;
+        &:nth-child(1) {
+          top:5px;
+        }
       }
       @media(min-width: $medium) {
         display: none;
       }
       -webkit-font-smoothing: antialiased;
       font-family: var(--h2-font);
-      font-size: 25px;
+      font-size: 22px;
       font-weight: 300;
       line-height: 0.95;
       letter-spacing: 0;
@@ -60,6 +63,7 @@ section.solution {
       }
     }
   }
+
 
   .description {
     text-align: left;
@@ -176,7 +180,7 @@ section.solution {
   .slick-slide {
     transition: all ease-in-out 0.3s;
     opacity: 1;
-    transform: scale(.95);
+    // transform: scale(.95);
     @media(min-width: $medium) {
       width: 100%;
     }
@@ -184,7 +188,7 @@ section.solution {
 
   .slick-active {
     opacity: 0.5;
-    transform: scale(1);
+    // transform: scale(1);
   }
 
   .slick-current {
@@ -262,16 +266,16 @@ section.solution {
     }
 
     .circle-ripple-left {
-      left: 0;
-      bottom: 85px;
+      left: -2px;
+      bottom: 79px;
       @media(min-width: $medium) {
         bottom: 143px;
       }
     }
 
     .circle-ripple-right {
-      right: 0;
-      bottom: 85px;
+      right: -2px;
+      bottom: 79px;
       @media(min-width: $medium) {
         bottom: 143px;
       }
