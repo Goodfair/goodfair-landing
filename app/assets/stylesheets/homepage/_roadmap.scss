@@ -12,7 +12,8 @@ section.roadmap {
     -webkit-font-smoothing: antialiased;
   }
 
-  h2, h3 {
+  h2 {
+    color: var(--h2-secondary-color);
     @media(min-width: $medium) {
       text-align: center;
     }
@@ -22,11 +23,11 @@ section.roadmap {
     font-size: 21px;
     font-weight: 600;
     letter-spacing: 0;
-    color: #ffffff;
     font-family: 'DIN';
+    color: #51a5e9;
   }
 
-  background-image: url("roadmap_bg.png");
+  background-image: url("status_quo_bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 40px 0;
@@ -116,7 +117,7 @@ section.roadmap {
         font-size: 16px;
         font-weight: 500;
         line-height: 1.63;
-        color: rgba(255, 255, 255, 0.76);
+        color: #266483;
       }
     }
   }
