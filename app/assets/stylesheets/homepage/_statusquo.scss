@@ -60,8 +60,8 @@
     width: 100%;
     min-height: 87px;
     padding-right: 20px;
-    margin-top: 23px;
-
+    margin-top: 8px;
+    
     @media(min-width: $medium) {
       display: block;
     }
@@ -76,7 +76,9 @@
       line-height: 1.15;
       letter-spacing: 0;
       text-align: left;
-      color: #194d72;
+      color: #194D72;
+      -webkit-font-smoothing: subpixel-antialiased;
+      margin-bottom: 11px;
 
       @media(min-width: $medium) {
         font-size: 22px;
@@ -90,6 +92,7 @@
       line-height: 1.38;
       letter-spacing: -0.1px;
       text-align: left;
+      font-weight: 300;
     }
 
     .description {

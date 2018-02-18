@@ -31,7 +31,7 @@ section {
 }
 
 
-  .intro, .our-vision, .solution, .token, .team, .footer {
+  .intro, .our-vision, .solution, .token, .team, .footer, .status-quo, .benefits {
     * {
       -webkit-font-smoothing: antialiased;
     }
@@ -112,7 +112,7 @@ p {
   color: var(--paragraph-color);
   font-weight: 400;
   line-height: 1.44;
-  letter-spacing: -0.2px;
+  letter-spacing: 0.33px;
 
   @media(min-width: $medium) {
     line-height: 1.39;
