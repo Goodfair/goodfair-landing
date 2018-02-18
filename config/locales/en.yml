@@ -125,8 +125,8 @@ en:
       title: 'Benefits 6'
       paragraph: 'Payment is safeguarded in virtual escrow until item is received'
   token:
-    title: "SIMToken (SIM)"
-    subtitle: "Self Governed Ecommerce via SIMToken"
+    title: "SIMToken"
+    subtitle: "Self-governed Commerce via SimToken"
     paragraph: "Introducing SIMToken, the currency that puts power into the hands of Simba's community."
     block_1:
       title: "Platform Services"
