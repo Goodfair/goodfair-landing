@@ -45,7 +45,7 @@ section.intro {
 
   .intro-copy {
     padding-top: 90px;
-    font-family: 'Avenir Next';
+    font-family: var(--paragraph-font);
     font-size: 32px;
     font-weight: 500;
     line-height: 1.16;
@@ -58,7 +58,8 @@ section.intro {
       font-size: 19px;
       line-height: 1.19;
       text-align: left;
-      color: #ffffff;
+      color: #DFEEFF;
+      font-weight: 300;
       @media(min-width: $medium) {
         font-size: 18px;
         line-height: 1.5;
