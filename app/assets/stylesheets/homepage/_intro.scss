@@ -7,15 +7,22 @@ section.intro {
   padding-bottom: 60px;
 
   @media(min-width: $medium) {
-    height: 70%;
   }
   @media(min-width: $large) {
-    height: 100%;
   }
 
   .intro-splash {
     height: 100vh;
     position: relative;
+    @media(min-width: $medium) {
+      max-height: 900px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    @media(min-width: $large) {
+      max-height: 900px;
+    }
   }
 
   // &:after {
@@ -46,6 +53,9 @@ section.intro {
     top: 0;
     @media(min-width: $medium) {
       background-image: url("intro_bg_tablet@2x.png");
+    }
+    @media(min-width: $large) {
+      background-image: url("intro_bg_desktop@2x.png");
     }
   }
 
