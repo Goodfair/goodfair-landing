@@ -1,5 +1,5 @@
 .team {
-  padding-top: 53px;
+  padding-top: 50px;
   background-image: url("solution_bg.jpg");
   background-size: cover;
   position: relative;
@@ -14,7 +14,7 @@
     width: 100%;
     height: 100%;
     background-image: url("map.png");
-    background-position: center 150px;
+    background-position: center 180px;
     position: absolute;
     background-size: contain;
     background-repeat: no-repeat;
@@ -42,11 +42,11 @@
     }
   }
 
-  .employee-grid-row {
+  .employee-grid {
     // display: flex;
     // justify-content: space-around;
     // margin-bottom: 20px;
-    // margin-top: 210px;
+    margin-top: 250px;
 
     // justify-content: center;
 
@@ -55,7 +55,7 @@
       margin-bottom: 0;
     }
 
-    .employee {
+
       figure {
         margin: auto;
         width: 125px;
@@ -81,6 +81,6 @@
         color: ffffff;
         text-align: center;
       }
-    }
+
   }
 }
