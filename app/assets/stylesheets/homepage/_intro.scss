@@ -2,7 +2,6 @@
 
 section.intro {
   color: #FFF;
-  font-family: "Avenir Next";
   position: relative;
   padding-bottom: 60px;
 
@@ -25,23 +24,6 @@ section.intro {
     }
   }
 
-  // &:after {
-  //   content: '';
-  //   background-image: url("planet2.png");
-  //   width: 100%;
-  //   height: 100%;
-  //   position: absolute;
-  //   background-size: contain;
-  //   background-repeat: no-repeat;
-  //   z-index: -1;
-  //   @media(min-width: $medium) {
-  //     background-image: url("planet_tablet@2x.png");
-  //     top: 0;
-  //     background-size: 90%;
-  //     background-position: center 100px;
-  //   }
-  // }
-
   &:before {
     content: '';
     background-image: url("intro_bg@2x.jpg");
@@ -52,7 +34,7 @@ section.intro {
     z-index: -2;
     top: 0;
     @media(min-width: $medium) {
-      background-image: url("intro_bg_tablet@2x.png");
+      background-image: url("intro_bg_desktop@2x.png");
     }
     @media(min-width: $large) {
       background-image: url("intro_bg_desktop@2x.png");
@@ -68,7 +50,8 @@ section.intro {
       line-height: 1.19;
       text-align: left;
       color: #DFEEFF;
-      font-weight: 300;
+      font-weight: 500;
+
       @media(min-width: $medium) {
         font-size: 18px;
         line-height: 1.5;

@@ -25,88 +25,26 @@
       }
     }
     @media(min-width: $medium) {
-      text-align: center;
-    }
-    @media(min-width: $large) {
       display: flex;
       justify-content: center;
       align-items: center;
     }
   }
-  // h3 {
-  //   @media(min-width: $medium) {
-  //     text-align: center;
-  //   }
-  //   @media(min-width: $large) {
-  //     display: none;
-  //   }
-  // }
+
   p {
     margin-top: 23px;
+
     @media(min-width: $medium) {
       text-align: center;
     }
+
     @media(min-width: $large) {
       width: 741px;
       margin: 48px auto auto;
       font-size: var(--paragraph-secondary-size);
     }
   }
-  // .social-bar {
-  //   background-color: #1b7bc5;
-  //   padding: 19px 0;
-  //   margin-bottom: 50px;
-  //   .container {
-  //     display: flex;
-  //     justify-content: space-between;
-  //     align-items: center;
-  //     vertical-align: middle;
-  //     @media(min-width: $medium) {
-  //       justify-content: center;
-  //     }
-  //     p {
-  //       font-family: Regular;
-  //       font-size: 14px;
-  //       font-weight: 600;
-  //       line-height: 14px;
-  //       text-align: left;
-  //       color: #ffffff;
-  //       text-transform: uppercase;
-  //       margin: 0;
-  //       letter-spacing: 1px;
-  //       @media(min-width: $medium) {
-  //         font-size: 15px;
-  //         height: 28px;
-  //         line-height: 32px;
-  //       }
-  //     }
-  //     .social-icons {
-  //       display: flex;
-  //       justify-content: space-between;
-  //       width: 166px;
-  //       height: 28px;
-  //       letter-spacing: -0.1px;
-  //       color: #ffffff;
-  //       @media(min-width: $medium) {
-  //         width: 213px;
-  //         margin-left: 37px;
-  //       }
-  //       i {
-  //         font-size: 25px;
-  //         @media(min-width: $medium) {
-  //           font-size: 28px;
-  //         }
-  //       }
-  //       a,
-  //       a:focus,
-  //       a:hover,
-  //       a:visited {
-  //         color: #ffffff;
-  //         text-decoration: none;
-  //       }
-  //     }
-  //   }
-  // }
+
   .video-player {
     margin-top: 20px;
 
@@ -121,11 +59,14 @@
 
   .vision-benefits {
     margin-top: 35px;
-    font-family: var(--h3-font);
     font-size: 14px;
     letter-spacing: 0;
     text-align: left;
     color: #ffffff;
+
+    @media(min-width: $medium) {
+      text-align: center;
+    }
 
     img {
       height: 52px;
@@ -135,10 +76,10 @@
     p {
       color: #ffffff;
       margin-top: 5px;
-      font-family: var(--paragraph-secondary-font);
+      font-family: var(--paragraph-font);
     }
+
     @media(min-width: $medium) {
-      font-size: 16px;
       margin-top: 60px;
 
       img {
@@ -146,7 +87,7 @@
         height: 36px;
         margin-right: 21px;
       }
-      font-size: 19px;
+
     }
     @media(min-width: $large) {
       margin: 60px auto auto;

@@ -51,9 +51,9 @@ h1 {
   color: #ffffff;
 
   @media(min-width: $medium) {
-    font-size: 41px;
-    line-height: 1.59;
-    letter-spacing: 0.1px;
+    font-size: 35px;
+    line-height: 1.11;
+    letter-spacing: 0.7px;
     text-align: center;
   }
 
@@ -145,6 +145,7 @@ button {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+
   @media(min-width: $medium) {
     margin-top: 38px;
     display: flex;
@@ -206,12 +207,12 @@ button {
     letter-spacing: 0.7px;
     text-align: center;
     color: #ffffff;
+
     @media(min-width: $medium) {
       width: 178px;
       height: 44px;
       background-image: linear-gradient(to right, #646acf, #28d4e6);
       margin-top: 0;
-      margin-left: 9px;
     }
   }
 }

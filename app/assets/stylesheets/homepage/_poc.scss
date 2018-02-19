@@ -4,22 +4,23 @@
   padding: 30px 0;
   position: relative;
 
-  &.mobile {
-    @media(min-width: $medium) {
+  &.mobile-tablet {
+    @media(min-width: $large) {
       display: none;
     }
   }
 
   h2 {
-    font-size: 27px;
     line-height: 1.2em;
     margin-top: 26px;
     margin-bottom: 20px;
-  }
 
-  h3 {
-    letter-spacing: 0.7px;
-    text-align: left;
+    @media(min-width: $medium) {
+      text-align: left;
+      display: flex;
+      justify-content: flex-start;
+      margin-bottom: 35px;
+    }
   }
 
   img.screenshot {
@@ -33,9 +34,40 @@
     background-repeat: no-repeat;
     padding: 30px 0px;
     border-radius: 5px;
-    @media(min-width: $medium) {
-      background-image: url("poc_screenshot_tablet@2x.jpg");
+    position: relative;
 
+    .email-signup {
+      margin-top: 0;
+      position: absolute;
+      bottom: -70px;
+      width: 100%;
+
+      button {
+        font-size: 13px;
+      }
+
+      @media(min-width: $medium) {
+        justify-content: flex-start;
+        position: relative;
+        bottom: -30px;
+
+        button {
+          width: 260px;
+          height: 53px;
+          border-radius: 4px;
+          background-image: linear-gradient(to right, #2b37ee, #00d7ed);
+          box-shadow: 0 2px 11px 0 rgba(0, 81, 133, 0.18);
+        }
+      }
+    }
+
+    @media(min-width: $medium) {
+      min-height: 400px;
+      background-image: url("poc_screenshot_tablet@2x.jpg");
+      background-size: 85%;
+      background-repeat: no-repeat;
+      background-position: center right;
+      margin-top:40px;
     }
   }
 
@@ -62,50 +94,6 @@
     img {
       margin-right: 12px;
       height: 16px;
-    }
-  }
-
-  .email-signup {
-    margin-top: 0;
-
-    button {
-      font-size: 13px;
-    }
-  }
-
-  &.tablet {
-    background-image: url("poc_screenshot_tablet@2x.jpg");
-    background-size: 85%;
-    background-repeat: no-repeat;
-    background-position: center right;
-    margin-top:40px;
-
-    @media(max-width: 767px) {
-      display: none;
-    }
-
-    @media(min-width: $large) {
-      display: none;
-    }
-
-    h2 {
-      text-align: left;
-      font-size: 500;
-      width: 70%;
-      margin-bottom: 25px;
-    }
-
-    .email-signup {
-      justify-content: flex-start;
-      margin-top: 35px;
-
-      button {
-        width: 260px;
-        height: 53px;
-        border-radius: 4px;
-        background-image: linear-gradient(to right, #646acf, #28c0e6);
-        box-shadow: 0 2px 8px 0 rgba(35, 78, 162, 0.25);
-      }
     }
   }
 
