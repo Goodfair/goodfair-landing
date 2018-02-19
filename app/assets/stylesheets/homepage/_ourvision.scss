@@ -22,6 +22,10 @@
     &.our-vision-title {
       img {
         height: 60px;
+        @media(min-width: $medium) {
+          height: 75px;
+          margin-right: 25px;
+        }
       }
     }
     @media(min-width: $medium) {
@@ -66,11 +70,17 @@
 
     @media(min-width: $medium) {
       text-align: center;
+      padding-right: 14%;
+      padding-left: 14%;
     }
 
     img {
       height: 52px;
       margin-right: 12px;
+
+      @media(min-width: $medium) {
+        height: 61px;
+      }
     }
 
     p {
@@ -83,9 +93,8 @@
       margin-top: 60px;
 
       img {
-        width: 36px;
-        height: 36px;
-        margin-right: 21px;
+        margin-right: 0;
+        margin-bottom: 5px;
       }
 
     }

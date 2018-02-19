@@ -2,10 +2,43 @@ section.solution {
   padding: 50px 0;
   background-image: url("solution_bg.jpg");
   background-size: cover;
+  position: relative;
   @media(min-width: $medium) {
     padding-top: 120px;
   }
 
+  &:before {
+    @media(min-width: $medium) {
+      background: #1d529c;
+      top: -42px;
+      content: '';
+      z-index: 2;
+      display: block;
+      height: 45px;
+      left: 0;
+      position: absolute;
+      right: 0;
+      transform: skewY(-2.5deg);
+      transform-origin: 100%;
+      z-index: 2;
+    }
+  }
+  &:after {
+    @media(min-width: $medium) {
+      background: #1b5aa2;
+      bottom: -3px;
+      content: '';
+      z-index: 2;
+      display: block;
+      height: 45px;
+      left: 0;
+      position: absolute;
+      right: 0;
+      transform: skewY(-2.5deg);
+      transform-origin: 100%;
+      z-index: 2;
+    }
+  }
   h2 {
     @media(min-width: $medium) {
       margin-top: 20px;
@@ -15,7 +48,6 @@ section.solution {
 
   h4 {
     display: none;
-
     @media(min-width: $medium) {
       display: inline-block;
     }
@@ -153,7 +185,6 @@ section.solution {
         }
       }
     }
-
     @media(min-width: $large) {
       min-width: 600px;
     }
@@ -346,12 +377,11 @@ section.solution {
 
   .one-slider {
     .container {
-      padding-left: 0px;
-      padding-right: 0px;
+      padding-left: 0;
+      padding-right: 0;
       @media(min-width: $medium) {
         display: flex;
       }
-
       @media(min-width: $large) {
         padding-left: 50px;
         padding-right: 50px;

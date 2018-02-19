@@ -4,11 +4,8 @@ section.intro {
   color: #FFF;
   position: relative;
   padding-bottom: 60px;
-
-  @media(min-width: $medium) {
-  }
-  @media(min-width: $large) {
-  }
+  @media(min-width: $medium) {}
+  @media(min-width: $large) {}
 
   .intro-splash {
     height: 100vh;
@@ -34,7 +31,7 @@ section.intro {
     z-index: -2;
     top: 0;
     @media(min-width: $medium) {
-      background-image: url("intro_bg_desktop@2x.png");
+      background-image: url("intro_bg_tablet@2x.png");
     }
     @media(min-width: $large) {
       background-image: url("intro_bg_desktop@2x.png");
@@ -43,6 +40,12 @@ section.intro {
 
   .intro-copy {
     padding-top: 90px;
+    @media(min-width: $medium) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 0;
+    }
 
     p {
       margin-top: 10px;
@@ -51,12 +54,12 @@ section.intro {
       text-align: left;
       color: #DFEEFF;
       font-weight: 500;
-
       @media(min-width: $medium) {
-        font-size: 18px;
+        font-size: 19px;
         line-height: 1.5;
         text-align: center;
         color: #ffffff;
+        width: 86%;
       }
     }
   }
