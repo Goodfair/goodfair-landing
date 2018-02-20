@@ -38,6 +38,23 @@ section.intro {
     }
   }
 
+  &:after {
+    @media(min-width: $medium) {
+      background: #0f79bc;
+      bottom: -3px;
+      content: '';
+      z-index: 2;
+      display: block;
+      height: 45px;
+      left: 0;
+      position: absolute;
+      right: 0;
+      transform: skewY(-2.5deg);
+      transform-origin: 100%;
+      z-index: 2;
+    }
+  }
+
   .intro-copy {
     padding-top: 90px;
     @media(min-width: $medium) {

@@ -8,7 +8,7 @@
     // background-size: cover;
     // background-repeat: no-repeat;
     // padding-bottom: 80px;
-    margin-top:40px;
+    margin-top: 40px;
   }
   @media(min-width: $large) {
     // background-image: url("intro_bg_tablet@2x.png");
@@ -18,10 +18,16 @@
     margin-top: 19px;
     display: flex;
     align-items: center;
+    font-size: 29px;
 
     &.our-vision-title {
+      flex-direction: column;
+      line-height: 1.22;
+
       img {
         height: 60px;
+        margin-bottom: 15px;
+        margin-right: 0;
         @media(min-width: $medium) {
           height: 75px;
           margin-right: 25px;
@@ -32,20 +38,6 @@
       display: flex;
       justify-content: center;
       align-items: center;
-    }
-  }
-
-  p {
-    margin-top: 23px;
-
-    @media(min-width: $medium) {
-      text-align: center;
-    }
-
-    @media(min-width: $large) {
-      width: 741px;
-      margin: 48px auto auto;
-      font-size: var(--paragraph-secondary-size);
     }
   }
 
@@ -61,52 +53,63 @@
     margin-top: 20px;
   }
 
-  .vision-benefits {
+  ul.vision-benefits {
     margin-top: 35px;
     font-size: 14px;
     letter-spacing: 0;
-    text-align: left;
+    text-align: center;
     color: #ffffff;
-
+    padding-left: 0;
+    list-style-type: none;
     @media(min-width: $medium) {
       text-align: center;
       padding-right: 14%;
       padding-left: 14%;
     }
 
-    img {
-      height: 52px;
-      margin-right: 12px;
+    li {
 
-      @media(min-width: $medium) {
-        height: 61px;
+      margin-bottom: 20px;
+
+      h3 {
+        font-family: var(--h2-font);
+        font-size: 20px;
+        letter-spacing: 0.26px;
+        font-weight: 400;
+        color: #fff;
+        text-transform: none;
+        margin-top: 12px;
+        margin-bottom: 9px;
       }
-    }
 
-    p {
-      color: #ffffff;
-      margin-top: 5px;
-      font-family: var(--paragraph-font);
-    }
-
-    @media(min-width: $medium) {
-      margin-top: 60px;
+      p {
+        line-height: 1.22;
+      }
 
       img {
-        margin-right: 0;
-        margin-bottom: 5px;
+        height: 52px;
+        @media(min-width: $medium) {
+          height: 61px;
+        }
+      }
+      @media(min-width: $medium) {
+        margin-top: 60px;
+
+        img {
+          margin-right: 0;
+          margin-bottom: 5px;
+        }
+      }
+      @media(min-width: $large) {
+        margin: 60px auto auto;
+        width: 90%;
+        font-size: 16px;
+        text-transform: uppercase;
       }
 
-    }
-    @media(min-width: $large) {
-      margin: 60px auto auto;
-      width: 90%;
-      font-size: 16px;
-      text-transform: uppercase;
-    }
-
-    div {
-      margin-bottom: 20px;
+      div {
+        margin-bottom: 20px;
+      }
     }
   }
 }
