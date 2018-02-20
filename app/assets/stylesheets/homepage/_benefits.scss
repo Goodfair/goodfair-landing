@@ -44,7 +44,9 @@ section.benefits {
       justify-content: center;
 
       @media(min-width: $medium) {
-        align-items: flex-start;
+        align-items: center;
+        flex: 1 0 80px;
+        height: 80px;
       }
     }
 

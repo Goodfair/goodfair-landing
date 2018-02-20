@@ -7,8 +7,10 @@ section.roadmap {
 
   h2 {
     color: var(--h2-secondary-color);
+
     @media(min-width: $medium) {
-      text-align: center;
+      display: flex;
+      justify-content: center;
     }
   }
 
@@ -126,7 +128,7 @@ section.roadmap {
     ul {
       list-style-type: disc;
       padding-left: 18px;
-      color: #fff;
+      color: var(--paragraph-secondary-color);
       margin-top:20px;
     }
 
