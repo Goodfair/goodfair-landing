@@ -3,8 +3,17 @@ section.solution {
   background-image: url("solution_bg.jpg");
   background-size: cover;
   position: relative;
+
   @media(min-width: $medium) {
-    padding-top: 120px;
+    padding-top: 100px;
+
+    .solution-intro {
+      top: -70px;
+
+      p {
+        font-size: 20px;
+      }
+    }
   }
 
   &:before {
@@ -39,6 +48,7 @@ section.solution {
       z-index: 2;
     }
   }
+
   h2 {
     @media(min-width: $medium) {
       margin-top: 20px;
@@ -70,9 +80,11 @@ section.solution {
           top: 5px;
         }
       }
+
       @media(min-width: $medium) {
         display: none;
       }
+
       font-family: var(--h2-font);
       font-size: 22px;
       font-weight: 300;
@@ -117,8 +129,9 @@ section.solution {
       font-weight: 400;
       font-size: 16px;
       line-height: 1.21;
+
       @media(min-width: $medium) {
-        font-size: 16px;
+        font-size: 18px;
         line-height: 1.56;
         letter-spacing: -0.1px;
       }
@@ -132,6 +145,10 @@ section.solution {
       flex-wrap: wrap;
       margin-top: 25px;
 
+      @media(min-width: $medium) {
+        font-size: 17px;
+      }
+
       li {
         display: flex;
         flex: 1 0 50%;
@@ -144,6 +161,7 @@ section.solution {
         }
       }
     }
+
     @media(min-width: $medium) {
       opacity: 1;
       font-size: 18px;
@@ -193,6 +211,10 @@ section.solution {
   .slider {
     width: 100%;
     margin: 20px auto;
+
+    @media(min-width: $medium) {
+      margin: 0 auto;
+    }
   }
 
   .slick-slide {
@@ -248,8 +270,13 @@ section.solution {
       content: '';
     }
     @media(min-width: $medium) {
+      left: 20px;
+      top: 45%;
+    }
+
+    @media(min-width: $large) {
       left: 80px;
-      top: 50%;
+      top: 45%;
     }
   }
 
@@ -264,9 +291,15 @@ section.solution {
     &:before {
       content: '';
     }
+
     @media(min-width: $medium) {
+      right: 20px;
+      top: 45%;
+    }
+
+    @media(min-width: $large) {
       right: 80px;
-      top: 50%;
+      top: 45%;
     }
   }
   $ripple-color: #2E87DE;
@@ -379,9 +412,13 @@ section.solution {
     .container {
       padding-left: 0;
       padding-right: 0;
+
       @media(min-width: $medium) {
         display: flex;
+        padding-left: 20px;
+        padding-right: 20px;
       }
+
       @media(min-width: $large) {
         padding-left: 50px;
         padding-right: 50px;

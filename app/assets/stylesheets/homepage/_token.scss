@@ -5,6 +5,10 @@
   position: relative;
   padding-bottom: 60px;
 
+  @media(min-width: $medium) {
+    padding-top: 60px;
+  }
+
   .token-icon {
     position: absolute;
     top: 50px;
@@ -12,6 +16,12 @@
     left: 0;
     right: 0;
     width: 302px;
+
+    @media(min-width: $medium) {
+      right: 0;
+      left: auto;
+
+    }
   }
   @media(min-width: $medium) {
     background-position-y: top;

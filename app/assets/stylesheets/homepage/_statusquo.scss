@@ -13,7 +13,8 @@
   h2 {
     color: var(--h2-secondary-color);
     @media(min-width: $medium) {
-      text-align: center;
+      display: flex;
+      justify-content: center;
     }
 
     @media(min-width: $large) {
@@ -81,10 +82,9 @@
       margin-bottom: 11px;
 
       @media(min-width: $medium) {
-        font-size: 22px;
-        line-height: 1.05;
-        color: #4c6a7f;
-        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.15;
+        color: #49667b;
       }
     }
 
@@ -101,7 +101,7 @@
 
       @media(min-width: $medium) {
         margin-left: 0px;
-        margin-top: 14px;
+        padding-top: 12px;
       }
     }
   }
