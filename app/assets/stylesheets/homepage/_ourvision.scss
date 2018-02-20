@@ -23,21 +23,32 @@
     &.our-vision-title {
       flex-direction: column;
       line-height: 1.22;
+      @media(min-width: $medium) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+        flex-direction: row;
+
+      }
+      @media(min-width: $large) {
+        margin-bottom: 0;
+      }
 
       img {
         height: 60px;
         margin-bottom: 15px;
         margin-right: 0;
         @media(min-width: $medium) {
-          height: 75px;
+          height: 70px;
           margin-right: 25px;
+          margin-bottom: 0;
+
+        }
+        @media(min-width: $large) {
+          height: 70px;
         }
       }
-    }
-    @media(min-width: $medium) {
-      display: flex;
-      justify-content: center;
-      align-items: center;
     }
   }
 
@@ -63,13 +74,20 @@
     list-style-type: none;
     @media(min-width: $medium) {
       text-align: center;
-      padding-right: 14%;
-      padding-left: 14%;
+      // padding-right: 14%;
+      // padding-left: 14%;
     }
 
     li {
-
       margin-bottom: 20px;
+      @media(min-width: $medium) {
+        margin-top: 0;
+      }
+      @media(min-width: $large) {
+        margin: 30px auto auto;
+        width: 90%;
+        font-size: 16px;
+      }
 
       h3 {
         font-family: var(--h2-font);
@@ -84,27 +102,18 @@
 
       p {
         line-height: 1.22;
+        @media(min-width: $medium) {
+          font-size: 16px;
+        }
       }
 
       img {
         height: 52px;
         @media(min-width: $medium) {
           height: 61px;
-        }
-      }
-      @media(min-width: $medium) {
-        margin-top: 60px;
-
-        img {
           margin-right: 0;
           margin-bottom: 5px;
         }
-      }
-      @media(min-width: $large) {
-        margin: 60px auto auto;
-        width: 90%;
-        font-size: 16px;
-        text-transform: uppercase;
       }
 
       div {
