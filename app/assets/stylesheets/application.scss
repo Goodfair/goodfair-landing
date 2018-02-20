@@ -155,6 +155,9 @@ button {
 
   .input-div {
     position: relative;
+    @media(min-width: $medium) {
+      margin-right: 9px;
+    }
 
     input {
       height: 54px;
