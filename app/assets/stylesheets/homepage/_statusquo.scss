@@ -1,10 +1,9 @@
 .status-quo {
+  padding-top: 60px;
   padding-bottom: 40px;
   background-color: #F6FBFF;
   background-image: url("status_quo_bg.png");
   background-size: cover;
-  padding-top: 37px;
-
   @media(min-width: $medium) {
     background: #F6FBFF;
     padding-top: 60px;
@@ -12,11 +11,11 @@
 
   h2 {
     color: var(--h2-secondary-color);
+    margin-bottom: 29px;
     @media(min-width: $medium) {
       display: flex;
       justify-content: center;
     }
-
     @media(min-width: $large) {
       margin-bottom: 22px;
       justify-content: flex-start;
@@ -25,10 +24,10 @@
 
   h3 {
     color: var(--h3-secondary-color);
+    letter-spacing: 2.2px;
     @media(min-width: $medium) {
       text-align: center;
     }
-
     @media(min-width: $large) {
       margin-bottom: 22px;
     }
@@ -38,11 +37,9 @@
     color: var(--paragraph-secondary-color);
     font-size: var(--paragraph-secondary-size);
     opacity: var(--paragraph-secondary-opacity);
-
     @media(min-width: $medium) {
       text-align: center;
     }
-
     @media(min-width: $large) {
       margin: auto;
       width: 748px;
@@ -63,7 +60,6 @@
     min-height: 87px;
     padding-right: 20px;
     margin-top: 8px;
-
     @media(min-width: $medium) {
       display: block;
     }
@@ -73,19 +69,25 @@
     }
 
     .title {
-      font-family: 'din-2014';
-      font-size: 19px;
-      line-height: 1.15;
-      letter-spacing: 0;
-      text-align: left;
-      color: #194D72;
-      -webkit-font-smoothing: subpixel-antialiased;
-      margin-bottom: 11px;
-
-      @media(min-width: $medium) {
-        font-size: 20px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-bottom: 10px;
+      h4 {
+        font-family: 'din-2014';
+        font-size: 19px;
         line-height: 1.15;
-        color: #49667b;
+        letter-spacing: 0;
+        margin-left: 8px;
+        text-align: left;
+        color: #194D72;
+        -webkit-font-smoothing: subpixel-antialiased;
+        margin-bottom: 0;
+        @media(min-width: $medium) {
+          font-size: 20px;
+          line-height: 1.15;
+          color: #49667b;
+        }
       }
     }
 
@@ -99,9 +101,8 @@
     .description {
       margin-left: 5px;
       padding-top: 10px;
-
       @media(min-width: $medium) {
-        margin-left: 0px;
+        margin-left: 0;
         padding-top: 12px;
       }
     }
