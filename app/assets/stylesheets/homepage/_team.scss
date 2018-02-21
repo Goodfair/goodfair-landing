@@ -33,6 +33,13 @@
       margin-left: 4%;
     }
 
+    @media(min-width: $large) {
+      width: 380px;
+      position: absolute;
+      right: 50px;;
+      top: 200px;
+    }
+
     h2 {
       margin-top: 26px;
       margin-bottom: 15px;
@@ -50,6 +57,12 @@
       margin-top: 180px;
     }
 
+    @media(min-width: $large) {
+      margin: auto;
+      margin-top: 500px;
+      width: 90%;
+    }
+
     &:nth-child(6) {
       margin-bottom: 0;
     }
@@ -61,6 +74,10 @@
 
         @media(min-width: $medium) {
           width: 149px;
+        }
+
+        @media(min-width: $large) {
+          width: 166px;
         }
 
         img {
