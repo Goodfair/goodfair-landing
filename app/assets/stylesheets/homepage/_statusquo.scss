@@ -30,6 +30,7 @@
     }
     @media(min-width: $large) {
       margin-bottom: 22px;
+      text-align: left;
     }
   }
 
@@ -41,15 +42,19 @@
       text-align: center;
     }
     @media(min-width: $large) {
+      text-align: left;
       margin: auto;
-      width: 748px;
-      block-sizing: none;
       margin-bottom: 25px;
     }
   }
 
   .market-share-img {
     margin-top: 10px;
+    @media(min-width: $medium) {
+      margin-top: auto;
+      width: 90%;
+      max-width: 466px;
+    }
   }
 
   .block {
@@ -60,9 +65,6 @@
     min-height: 87px;
     padding-right: 20px;
     margin-top: 8px;
-    @media(min-width: $medium) {
-      display: block;
-    }
 
     p {
       width: 100%;
@@ -73,6 +75,12 @@
       flex-direction: row;
       align-items: center;
       margin-bottom: 10px;
+
+      img {
+        @media(min-width: $medium) {
+          margin-bottom: 12px;
+        }
+      }
       h4 {
         font-family: 'din-2014';
         font-size: 19px;
@@ -84,6 +92,7 @@
         -webkit-font-smoothing: subpixel-antialiased;
         margin-bottom: 0;
         @media(min-width: $medium) {
+          margin-left: 0;
           font-size: 20px;
           line-height: 1.15;
           color: #49667b;
