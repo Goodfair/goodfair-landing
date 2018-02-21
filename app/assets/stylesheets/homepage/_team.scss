@@ -1,11 +1,11 @@
 .team {
-  padding-top: 50px;
+  padding: 50px 0px;;
   background-image: url("solution_bg.jpg");
   background-size: cover;
   position: relative;
 
   @media(min-width: $medium) {
-    background-image: url("team_bg_tablet@2x.jpg");
+    background-image: url("solution_bg.jpg");
     background-size: cover;
   }
 
@@ -20,8 +20,9 @@
     background-repeat: no-repeat;
     z-index: 0;
     top: 0;
+
     @media(min-width: $medium) {
-      background-image: url("map_tablet@2x.png");
+      background-image: url("map_desktop@2x.png");
       background-position: center 50px;
     }
   }
@@ -43,13 +44,11 @@
   }
 
   .employee-grid {
-    // display: flex;
-    // justify-content: space-around;
-    // margin-bottom: 20px;
     margin-top: 250px;
 
-    // justify-content: center;
-
+    @media(min-width: $medium) {
+      margin-top: 180px;
+    }
 
     &:nth-child(6) {
       margin-bottom: 0;
@@ -60,6 +59,10 @@
         margin: auto;
         width: 125px;
 
+        @media(min-width: $medium) {
+          width: 149px;
+        }
+
         img {
           width: 100%;
           border-radius: 100%;
@@ -68,18 +71,26 @@
 
       figcaption {
         font-size: 16px;
-        font-family: "Avenir Next";
+        font-family: var(--paragraph-font);
         font-weight: 600;
         color: #ffffff;
         text-align: center;
+
+        @media(min-width: $medium) {
+          font-size: 18px;
+        }
       }
 
       p {
-        font-family: "Avenir Next";
+        font-family: var(--paragraph-font);
         font-weight: 500;
         font-size: 13px;
         color: ffffff;
         text-align: center;
+
+        @media(min-width: $medium) {
+          font-size: 16px;
+        }
       }
 
   }
