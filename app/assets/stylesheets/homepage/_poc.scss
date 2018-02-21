@@ -101,12 +101,18 @@
 
   &.desktop {
     margin-top: 90px;
+
     @media(max-width: 1023px) {
       display: none;
     }
 
     h2 {
       justify-content: flex-start;
+    }
+
+    .poc-benefits {
+      width: 100%;
+      font-size: 20px;
     }
 
     .email-signup {
