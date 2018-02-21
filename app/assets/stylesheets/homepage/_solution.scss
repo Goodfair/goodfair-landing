@@ -95,7 +95,12 @@ section.solution {
       position: absolute;
 
       span {
-        font-weight: 600;
+        color: var(--h3-color);
+
+        &::first-letter {
+          text-decoration-style: wavy;
+          text-decoration: underline;
+        }
       }
 
       &:nth-child(1) {
@@ -188,7 +193,6 @@ section.solution {
         height: 20px;
         line-height: 20px;
         display: flex;
-        font-family: Avenir Next;
         font-size: 17px;
         letter-spacing: 0;
         text-align: left;
@@ -279,7 +283,7 @@ section.solution {
     }
 
     @media(min-width: $large) {
-      left: 80px;
+      left: 6%;
       top: 45%;
     }
   }
@@ -302,7 +306,7 @@ section.solution {
     }
 
     @media(min-width: $large) {
-      right: 80px;
+      right: 6%;
       top: 45%;
     }
   }
