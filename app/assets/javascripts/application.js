@@ -33,6 +33,8 @@ $(document).ready(function() {
     centerPadding: '0px',
     slidesToShow: 1,
     dots: true,
+    fade: true,
+
     responsive: [{
         breakpoint: 768,
         settings: {
