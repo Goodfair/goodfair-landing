@@ -9,6 +9,10 @@ section.benefits {
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
+
+    @media(min-width: $large) {
+      margin-bottom: 70px;
+    }
   }
 
   p {
@@ -68,6 +72,12 @@ section.benefits {
       @media(min-width: $medium) {
         text-align: left;
       }
+
+      @media(min-width: $medium) {
+        font-size: 24px;
+        letter-spacing: 0.1px;
+        color: #49667b;
+      }
     }
 
     p {
@@ -79,6 +89,14 @@ section.benefits {
 
       @media(min-width: $medium) {
         text-align: left;
+      }
+
+      @media(min-width: $large) {
+        font-size: 16px;
+        line-height: 1.44;
+        letter-spacing: -0.1px;
+        text-align: left;
+        color: #49667b;
       }
     }
   }

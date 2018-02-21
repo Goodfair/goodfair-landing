@@ -215,6 +215,10 @@ section.solution {
     @media(min-width: $medium) {
       margin: 0 auto;
     }
+
+    @media(min-width: $large) {
+      margin: 40px auto;
+    }
   }
 
   .slick-slide {
