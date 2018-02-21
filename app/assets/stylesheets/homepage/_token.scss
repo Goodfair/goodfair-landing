@@ -4,7 +4,6 @@
   padding-top: 320px;
   position: relative;
   padding-bottom: 60px;
-
   @media(min-width: $medium) {
     padding-top: 60px;
   }
@@ -16,11 +15,9 @@
     left: 0;
     right: 0;
     width: 302px;
-
     @media(min-width: $medium) {
       right: 0;
       left: auto;
-
     }
   }
   @media(min-width: $medium) {
@@ -54,7 +51,6 @@
     color: #ffffff;
     margin-top: 10px;
     margin-bottom: 10px;
-
     @media(min-width: $medium) {
       font-size: 21px;
       line-height: 1.1;
@@ -65,6 +61,13 @@
 
   .token-blocks {
     margin-top: 20px;
+
+    .token-copy {
+      @media(min-width: $large) {
+        order: 2;
+        margin-top:auto;
+      }
+    }
   }
 
   .token-row {
@@ -78,6 +81,9 @@
       text-align: left;
       color: #ffffff;
       margin-bottom: 0;
+      @media(min-width: $large) {
+        width: 90%;
+      }
     }
 
     img {
