@@ -49,13 +49,13 @@ section.benefits {
 
       @media(min-width: $medium) {
         align-items: center;
-        flex: 1 0 80px;
+        flex: 0 0 80px;
         height: 80px;
       }
 
       @media(min-width: $large) {
         align-items: center;
-        flex: 1 0 95px;
+        flex: 0 0 95px;
         height: 95px;
       }
     }

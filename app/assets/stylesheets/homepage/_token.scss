@@ -4,27 +4,35 @@
   padding-top: 320px;
   position: relative;
   padding-bottom: 60px;
+
   @media(min-width: $medium) {
     padding-top: 60px;
   }
 
-  .token-icon {
-    position: absolute;
-    top: 50px;
-    margin: auto;
-    left: 0;
-    right: 0;
-    width: 302px;
-    @media(min-width: $medium) {
-      right: 0;
-      left: auto;
-    }
+  .container {
+    position: relative;
 
-    @media(min-width: $large) {
-      right: 10%;
-      top: 140px;
+    .token-icon {
+      position: absolute;
+      top: 50px;
+      margin: auto;
+      left: 0;
+      right: 0;
+      width: 302px;
+
+      @media(min-width: $medium) {
+        right: 0;
+        left: auto;
+      }
+
+      @media(min-width: $large) {
+        right: 80px;
+        top: 80px;
+      }
     }
   }
+
+
   @media(min-width: $medium) {
     background-position-y: top;
     background-position-x: 441px;
