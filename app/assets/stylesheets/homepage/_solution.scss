@@ -94,15 +94,6 @@ section.solution {
       color: #ffffff;
       position: absolute;
 
-      span {
-        color: var(--h3-color);
-
-        &::first-letter {
-          text-decoration-style: wavy;
-          text-decoration: underline;
-        }
-      }
-
       &:nth-child(1) {
         right: 0;
         top: -6px;
@@ -186,6 +177,12 @@ section.solution {
 
         span {
           font-weight: 700;
+          color: var(--h3-color);
+
+          &::first-letter {
+            text-decoration-style: wavy;
+            text-decoration: underline;
+          }
         }
       }
 
@@ -371,6 +368,16 @@ section.solution {
     }
   }
 
+  span {
+    color: var(--h3-color);
+
+    &::first-letter {
+      text-decoration-style: wavy;
+      text-decoration: underline;
+    }
+  }
+
+
   .hex-full {
     display: none;
     width: 207px;
@@ -392,10 +399,6 @@ section.solution {
         text-align: center;
         color: #ffffff;
         position: absolute;
-
-        span {
-          font-weight: 700;
-        }
 
         &:nth-child(2) {
           right: 0;
