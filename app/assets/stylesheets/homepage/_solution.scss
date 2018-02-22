@@ -175,15 +175,6 @@ section.solution {
         text-align: left;
         color: #ffffff;
 
-        span {
-          font-weight: 700;
-          color: var(--h3-color);
-
-          &::first-letter {
-            text-decoration-style: wavy;
-            text-decoration: underline;
-          }
-        }
       }
 
       .feature {
