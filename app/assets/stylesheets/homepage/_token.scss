@@ -1,16 +1,17 @@
 .token {
   background-image: url("token_bg@2x.jpg");
   background-size: cover;
-  padding-top: 320px;
   position: relative;
-  padding-bottom: 60px;
-
-  @media(min-width: $medium) {
-    padding-top: 60px;
-  }
 
   .container {
     position: relative;
+    padding-top: 320px;
+    padding-bottom: 60px;
+
+
+    @media(min-width: $medium) {
+      padding-top: 60px;
+    }
 
     .token-icon {
       position: absolute;
