@@ -14,6 +14,9 @@
   }
   @media(min-width: $large) {
     // background-image: url("intro_bg_tablet@2x.png");
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-top: 40px;
   }
 
   h2 {
@@ -35,6 +38,7 @@
       }
       @media(min-width: $large) {
         margin-bottom: 0;
+        font-size: 34px;
       }
 
       img {

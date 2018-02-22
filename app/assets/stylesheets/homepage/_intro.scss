@@ -5,7 +5,14 @@ section.intro {
   position: relative;
   padding-bottom: 60px;
   @media(min-width: $medium) {}
-  @media(min-width: $large) {}
+  @media(min-width: $large) {
+    background-color: #0665B0;
+    background-image: url("intro_bg_gradient@2x.png");
+    background-repeat: repeat-x;
+    background-size: 101px;
+    padding-bottom: 0;
+
+  }
 
   .intro-splash {
     height: 100vh;
@@ -17,7 +24,7 @@ section.intro {
       justify-content: center;
     }
     @media(min-width: $large) {
-      max-height: 900px;
+      max-height: 820px;
     }
   }
 
@@ -28,30 +35,33 @@ section.intro {
     height: 100%;
     position: absolute;
     background-size: cover;
-    z-index: -2;
+    z-index: 0;
     top: 0;
     @media(min-width: $medium) {
       background-image: url("intro_bg_tablet@2x.png");
     }
     @media(min-width: $large) {
       background-image: url("intro_bg_desktop@2x.png");
+      background-size: 1243px;
+      background-position: center top;
+      background-repeat: no-repeat;
     }
   }
 
   &:after {
     @media(min-width: $medium) {
-      background: #0f79bc;
+      background: #0665B0;
       bottom: -3px;
       content: '';
       z-index: 2;
       display: block;
-      height: 45px;
+      height: 80px;
       left: 0;
       position: absolute;
       right: 0;
       transform: skewY(-2.5deg);
       transform-origin: 100%;
-      z-index: 2;
+      z-index: 0;
     }
   }
 

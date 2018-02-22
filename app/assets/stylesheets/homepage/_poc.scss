@@ -25,6 +25,10 @@
   img.screenshot {
     width: 100%;
     margin-left: -8px;
+    @media(min-width: $large) {
+      position: absolute;
+      z-index: 5;
+    }
   }
 
   .poc-screenshot {
@@ -43,6 +47,7 @@
 
       button {
         font-size: 13px;
+        z-index: 10;
       }
 
       @media(min-width: $medium) {
