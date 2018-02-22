@@ -53,7 +53,18 @@
   }
 
   .market-share-img {
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    @media(min-width: $medium) {
+      margin-top: auto;
+      width: 90%;
+      max-width: 466px;
+    }
+  }
+
+  .fees-img {
+    margin: 30px 0 40px 0;
     width: 100%;
     @media(min-width: $medium) {
       margin-top: auto;
@@ -72,7 +83,7 @@
     margin-top: 8px;
 
     &:nth-child(2) {
-      margin-top:10px;
+      margin-top: 10px;
     }
 
     p {
@@ -90,6 +101,7 @@
           margin-bottom: 12px;
         }
       }
+
       h4 {
         font-family: 'din-2014';
         font-size: 20px;
