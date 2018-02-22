@@ -21,6 +21,13 @@ section.solution {
         width: 90%
       }
     }
+    h2 {
+      display: flex;
+      align-items: center;
+      img {
+        height: 55px;
+      }
+    }
   }
   @media(min-width: $large) {
     padding-top: 150px;
