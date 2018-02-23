@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="39px" height="39px" viewBox="0 0 39 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Benefit Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="159.249906%" x2="0%" y2="-57.9124579%" id="linearGradient-1">
+            <stop stop-color="#1490E0" offset="0%"></stop>
+            <stop stop-color="#20F0FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-32.000000, -7111.000000)">
+        <g id="Token" transform="translate(29.000000, 5959.000000)">
+            <g id="Group-15" transform="translate(0.000000, 594.000000)">
+                <g id="Group-6" transform="translate(0.000000, 558.000000)">
+                    <g id="Group-14">
+                        <g id="Benefit-Icon" transform="translate(3.000000, 0.000000)">
+                            <circle id="Oval-6" fill="#FFFFFF" cx="19.5" cy="19.5" r="19.5"></circle>
+                            <path d="M27.5691964,16.3303571 C27.5691964,16.5982156 27.4754474,16.8258919 27.2879464,17.0133929 L18.6495536,25.6517857 C18.4620526,25.8392867 18.2343763,25.9330357 17.9665179,25.9330357 C17.6986594,25.9330357 17.4709831,25.8392867 17.2834821,25.6517857 L12.28125,20.6495536 C12.0937491,20.4620526 12,20.2343763 12,19.9665179 C12,19.6986594 12.0937491,19.4709831 12.28125,19.2834821 L13.6473214,17.9174107 C13.8348224,17.7299098 14.0624987,17.6361607 14.3303571,17.6361607 C14.5982156,17.6361607 14.8258919,17.7299098 15.0133929,17.9174107 L17.9665179,20.8805804 L24.5558036,14.28125 C24.7433045,14.0937491 24.9709808,14 25.2388393,14 C25.5066978,14 25.7343741,14.0937491 25.921875,14.28125 L27.2879464,15.6473214 C27.4754474,15.8348224 27.5691964,16.0624987 27.5691964,16.3303571 Z" id="" fill="url(#linearGradient-1)"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
