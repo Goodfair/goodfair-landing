@@ -7,9 +7,12 @@ section.benefits {
   h2 {
     color: var(--h2-secondary-color);
     display: flex;
+    align-items: center;
     justify-content: center;
     margin-bottom: 30px;
-
+    img {
+      height: 58px;
+    }
     @media(min-width: $large) {
       margin-bottom: 70px;
     }
@@ -18,7 +21,6 @@ section.benefits {
   p {
     color: var(--paragraph-secondary-color);
     opacity: var(--paragraph-secondary-opacity);
-
     @media(min-width: $medium) {
       text-align: center;
       margin-bottom: 60px;
@@ -31,28 +33,33 @@ section.benefits {
     display: flex;
     flex-direction: column;
     align-items: center;
-
     @media(min-width: $medium) {
       flex-direction: row;
       align-items: flex-start;
     }
 
+    &:nth-child(1) {
+      .circle-container {
+        img {
+          width: 54px;
+        }
+      }
+    }
+
     .circle-container {
       background: #fff;
       border-radius: 50%;
-      width: 109px;
-      height: 109px;
+      width: 97px;
+      height: 97px;
       box-shadow: 2px 3px 4px 0 rgba(151,168,211,0.08);
       display: flex;
       align-items: center;
       justify-content: center;
-
       @media(min-width: $medium) {
         align-items: center;
         flex: 0 0 80px;
         height: 80px;
       }
-
       @media(min-width: $large) {
         align-items: center;
         flex: 0 0 95px;
@@ -74,11 +81,9 @@ section.benefits {
       color: #4a677c;
       margin-top: 10px;
       margin-bottom: 14px;
-
       @media(min-width: $medium) {
         text-align: left;
       }
-
       @media(min-width: $large) {
         font-size: 24px;
         letter-spacing: 0.1px;
@@ -92,11 +97,9 @@ section.benefits {
       line-height: 1.35;
       letter-spacing: 0;
       color: #658093;
-
       @media(min-width: $medium) {
         text-align: left;
       }
-
       @media(min-width: $large) {
         font-size: 16px;
         line-height: 1.44;
