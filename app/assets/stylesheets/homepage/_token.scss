@@ -8,7 +8,15 @@
     padding-top: 320px;
     padding-bottom: 60px;
 
-
+    .token-intro {
+      h2 {
+        img {
+          width: 44px;
+          height: 41px;
+          margin-right: 11px;
+        }
+      }
+    }
     @media(min-width: $medium) {
       padding-top: 60px;
     }
@@ -20,20 +28,16 @@
       left: 0;
       right: 0;
       width: 302px;
-
       @media(min-width: $medium) {
         right: 0;
         left: auto;
       }
-
       @media(min-width: $large) {
         right: 80px;
         top: 80px;
       }
     }
   }
-
-
   @media(min-width: $medium) {
     background-position-y: top;
     background-position-x: 441px;
@@ -79,7 +83,7 @@
     .token-copy {
       @media(min-width: $large) {
         order: 2;
-        margin-top:auto;
+        margin-top: auto;
       }
     }
   }
