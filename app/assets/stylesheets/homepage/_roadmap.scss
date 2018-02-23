@@ -4,6 +4,11 @@ $timeline-line-width: 1px;
 $timeline-size: 14px;
 
 section.roadmap {
+  background-color: #F6FBFF;
+  background-image: url("roadmap_bg_mobile@2x.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 40px 0;
 
   h2 {
     color: var(--h2-secondary-color);
@@ -14,21 +19,17 @@ section.roadmap {
     }
   }
 
+  @media(min-width: $medium) {
+    padding: 70px 0;
+  }
+
+
   h4 {
     font-size: 21px;
     font-weight: 600;
     letter-spacing: 0;
     font-family: 'DIN';
     color: #51a5e9;
-  }
-
-  background-image: url("status_quo_bg.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding: 40px 0;
-
-  @media(min-width: $medium) {
-    padding: 70px 0;
   }
 
   .roadmap-container-mobile {

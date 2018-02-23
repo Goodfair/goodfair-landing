@@ -71,7 +71,7 @@ en:
       content: "Conflict resolution is usually handled by a centralized, single party and suffers from personal bias effects. Decisions are often inequitable and treat the user unfairly."
   solution:
     title: "The Solution"
-    subtitle: "Protocal for the Next Generation Ecommerce"
+    subtitle: "Building a Protocol for the Next Generation Ecommerce"
     paragraph: "Simba utilizes the Ethereum blockchain network to support the needs and challenges of a B2C marketplace with three core concepts: SIMTrust, SIMResolve, and SIMEscrow"
     tech_1: "Trust"
     tech_2: "Escrow"

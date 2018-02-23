@@ -30,11 +30,13 @@ section.intro {
 
   &:before {
     content: '';
-    background-image: url("intro_bg@2x.jpg");
+    background-color: #0A68A9;
+    background-image: url("intro_bg_mobile@2x.jpg");
     width: 100%;
     height: 100%;
     position: absolute;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     z-index: 0;
     top: 0;
     @media(min-width: $medium) {
