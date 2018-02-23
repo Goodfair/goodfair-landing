@@ -30,6 +30,16 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  navigation:
+    our_vision: 'Our Vision'
+    token: 'SIM token'
+    problem: 'The Problem'
+    solution: 'The Solution'
+    features: 'Features'
+    roadmap: 'Roadmap'
+    team: 'Our Team'
+    whitepaper: 'Whitepaper'
+    demo: 'Demo POC'
   intro:
     title: "Your Bridge to the Future of E-Commerce."
     subtitle: "Simba is a self-governed marketplace that aims to revolutionize the world of B2C commerce."
