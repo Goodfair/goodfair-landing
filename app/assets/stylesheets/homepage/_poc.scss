@@ -20,6 +20,15 @@
       justify-content: flex-start;
       margin-bottom: 35px;
     }
+    @media(min-width: $large) {
+      font-size: 34px;
+    }
+
+    img {
+      @media(min-width: $large) {
+        height: 48px;
+      }
+    }
   }
 
   img.screenshot {
@@ -95,6 +104,9 @@
         margin-bottom: 3px;
       }
       font-size: 18px;
+      @media(min-width: $large) {
+        font-size: 20px;
+      }
     }
 
     img {
@@ -112,6 +124,10 @@
 
     h2 {
       justify-content: flex-start;
+
+          @media(min-width: $large) {
+            margin-top: 135px;
+          }
     }
 
     .poc-benefits {
@@ -128,8 +144,10 @@
         width: 259px;
         height: 53px;
         border-radius: 4px;
-        background-image: linear-gradient(to right, #646acf, #28c0e6);
+        background-image: linear-gradient(to right, #1A77ED, #00D7ED);
+        /* Rectangle 9: */
         box-shadow: 0 2px 8px 0 rgba(35, 78, 162, 0.25);
+        letter-spacing: 0.8px;
       }
     }
   }

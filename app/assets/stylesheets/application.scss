@@ -203,7 +203,7 @@ button {
     width: 100%;
     height: 56px;
     border-radius: 3px;
-    background-image: linear-gradient(to right, #509af7, #28d4e6);
+    background-image: linear-gradient(to right, #1A77ED, #00D7ED);
     text-transform: uppercase;
     margin-top: 15px;
     font-family: var(--paragraph-font);
@@ -215,7 +215,7 @@ button {
     @media(min-width: $medium) {
       width: 178px;
       height: 44px;
-      background-image: linear-gradient(to right, #646acf, #28d4e6);
+      background-image: linear-gradient(to right, #1A77ED, #00D7ED);
       margin-top: 0;
     }
   }
