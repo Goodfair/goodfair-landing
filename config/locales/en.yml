@@ -50,10 +50,25 @@ en:
   our_vision:
     title: "Our Marketplace Vision"
     paragraph: "Simba is the first Ethereum-based B2C marketplace DApp built with a focus on equality, accessibility, and democratized governance. Our goal is to create a marketplace where the fundamental components reflect the culture and values of its community."
-    vision_benefit_1: "Self-Governed"
-    vision_benefit_2: "Low Fees"
-    vision_benefit_3: "Secure Escrow"
-    vision_benefit_4: "Ratings & Reviews"
+    vision_benefit_1:
+      title: "Industry Low Fees"
+      paragraph: Raise your bottom line by using our marketplace services at an unprecedented low cost.
+    vision_benefit_2:
+      title: "Self Governed"
+      paragraph: Avoid monopoly market share abuse by sharing your voice with policy determination.
+    vision_benefit_3:
+      title: "Community Based"
+      paragraph: Support like-minded people and communal services by engaging in a new class of marketplace.
+    vision_benefit_4:
+      title: "Accessibility"
+      paragraph:  Benefit from blockchain technology with the convenience of the world wide web on any device
+    vision_benefit_5:
+      title: "Security"
+      paragraph: Browse and shop worry free backed by immutable encrypted data structures.
+    vision_benefit_6:
+      title: "Legitimacy"
+      paragraph: Depend on reviews - data stored and verified with encryption algorithms.
+
   poc:
     title: "Proof of Concept"
     feature_1: "MetaMask Access"
