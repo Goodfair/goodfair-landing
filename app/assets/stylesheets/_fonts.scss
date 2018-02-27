@@ -2,9 +2,9 @@
 
 @font-face {
   font-family: 'Regular';
-  src:  url('fonts/Regular-Regular.eot'), /* IE9 Compat Modes */
-       url('fonts/Regular-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('fonts/Regular-Regular.woff') format('woff'); /* Modern Browsers */
+  src:  font-url('fonts/Regular-Regular.eot'), /* IE9 Compat Modes */
+       font-url('fonts/Regular-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       font-url('fonts/Regular-Regular.woff') format('woff'); /* Modern Browsers */
 
    font-style: normal;
    font-weight:  400;
@@ -12,9 +12,9 @@
 
 @font-face {
   font-family: 'Regular';
-  src: url('fonts/Regular-Medium.eot'), /* IE9 Compat Modes */
-       url('fonts/Regular-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('fonts/Regular-Medium.woff') format('woff'); /* Modern Browsers */
+  src: font-url('fonts/Regular-Medium.eot'), /* IE9 Compat Modes */
+       font-url('fonts/Regular-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       font-url('fonts/Regular-Medium.woff') format('woff'); /* Modern Browsers */
 
    font-style: normal;
    font-weight:  500;
@@ -22,19 +22,19 @@
 
 @font-face {
 	font-family: 'Regular';
-	src: url('fonts/Regular-Semibold.eot');
-	src: url('fonts/Regular-Semibold.eot?#iefix') format('embedded-opentype'),
-		url('fonts/Regular-Semibold.woff') format('woff'),
-		url('fonts/Regular-Semibold.ttf') format('truetype');
+	src: font-url('fonts/Regular-Semibold.eot');
+	src: font-url('fonts/Regular-Semibold.eot?#iefix') format('embedded-opentype'),
+		font-url('fonts/Regular-Semibold.woff') format('woff'),
+		font-url('fonts/Regular-Semibold.ttf') format('truetype');
 	font-weight: 600;
 	font-style: normal;
 }
 
 @font-face {
   font-family: 'Regular';
-  src: url('fonts/Regular-Bold.eot'), /* IE9 Compat Modes */
-       url('fonts/Regular-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('fonts/Regular-Bold.woff') format('woff'); /* Modern Browsers */
+  src: font-url('fonts/Regular-Bold.eot'), /* IE9 Compat Modes */
+       font-url('fonts/Regular-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       font-url('fonts/Regular-Bold.woff') format('woff'); /* Modern Browsers */
    font-style: normal;
    font-weight:  700;
 }
@@ -43,16 +43,16 @@
 
 @font-face {
     font-family: 'Avenir Next';
-    src: url('fonts/AvenirNext-Regular.woff2') format('woff2'),
-        url('fonts/AvenirNext-Regular.woff') format('woff');
+    src: font-url('fonts/AvenirNext-Regular.woff2') format('woff2'),
+        font-url('fonts/AvenirNext-Regular.woff') format('woff');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Avenir Next';
-    src: url('fonts/AvenirNext-Medium.woff2') format('woff2'),
-        url('fonts/AvenirNext-Medium.woff') format('woff');
+    src: font-url('fonts/AvenirNext-Medium.woff2') format('woff2'),
+        font-url('fonts/AvenirNext-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
 }
@@ -61,7 +61,7 @@
 // DIN
 @font-face {
   font-family: 'DIN';
-  src: url('fonts/DIN.ttf') format('truetype');
+  src: font-url('fonts/DIN.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
 }
