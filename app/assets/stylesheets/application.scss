@@ -36,22 +36,22 @@ section {
   padding-bottom: 0;
 }
 
-.benefits,
-.our-vision,
-.roadmap,
-.solution,
-.status-quo,
-.team,
-.token {
-  @media (min-width: $large) {
-    max-width: 1440px;
-    margin: 0 auto;
-  }
-}
+// .benefits,
+// .our-vision,
+// .roadmap,
+// .solution,
+// .status-quo,
+// .team,
+// .token {
+//   @media (min-width: $large) {
+//     max-width: 1440px;
+//     margin: 0 auto;
+//   }
+// }
 
-.benefits, .roadmap {
-      background: #F6FBFF;
-}
+// .benefits, .roadmap {
+//       background: #F6FBFF;
+// }
 
 .benefits,
 .footer,
