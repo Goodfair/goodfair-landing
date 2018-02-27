@@ -1,6 +1,7 @@
-<div class="container">
+<div class="solution-bg"></div>
+<div class="container" style="max-width:1100px;">
   <div class='row'>
-    <div class="solution-intro col-md-6 col-lg-5">
+    <div class="solution-intro col-md-6 col-lg-6">
       <h2>
         <%= image_tag 'solution-icon.svg', alt:'Solution' %>
         <%=t 'solution.title' %>
@@ -8,7 +9,7 @@
       <h3><%=t 'solution.subtitle' %></h3>
       <p><%=t 'solution.paragraph' %></p>
     </div>
-    <div class="hex-full col-md-6 col-lg-7">
+    <div class="hex-full col-md-6 col-lg-6">
       <div class='hex-full-container'>
         <div class="circle-ripple circle-ripple-top"></div>
         <div class="circle-ripple circle-ripple-left"></div>
@@ -21,97 +22,112 @@
     </div>
   </div>
 </div>
-<div class="center slider">
-  <div class='one-slider slide1'>
-    <div class='container'>
-      <div class="hex">
-        <div class="hex-title">SIM<span>Escrow</span></div>
-        <div class="hex-title inactive">SIM<span>Trust</span></div>
-        <div class="hex-title inactive">SIM<span>Resolve</span></div>
-        <div class='slider-image'>
-          <div class="circle-ripple circle-ripple-top"></div>
-          <%= image_tag "hex_color@2x.png" %>
+<div class='container'>
+
+  <div class="center slider">
+    <div class='one-slider slide1'>
+      <div class='container'>
+        <div class="row">
+          <div class="hex col-lg-5">
+            <div class="hex-title">SIM<span>Escrow</span></div>
+            <div class="hex-title inactive">SIM<span>Trust</span></div>
+            <div class="hex-title inactive">SIM<span>Resolve</span></div>
+            <div class='slider-image'>
+              <div class="circle-ripple circle-ripple-top"></div>
+              <%= image_tag "hex_single_1@2x.png" %>
+            </div>
+          </div>
+          <div class='description col-lg-7'>
+            <h4>SIM<span>Escrow</span></h4>
+            <p><%=t 'solution.simescrow.description' %></p>
+            <ul class="features">
+              <li>
+                <%= image_tag "poc_checkmark.svg" %>Cool Feature 1
+              </li>
+              <li>
+                <%= image_tag "poc_checkmark.svg" %>Cool Feature 2
+              </li>
+              <li>
+                <%= image_tag "poc_checkmark.svg" %>Cool Feature 3
+              </li>
+              <li>
+                <%= image_tag "poc_checkmark.svg" %>Cool Feature 4
+              </li>
+              <li>
+                <%= image_tag "poc_checkmark.svg" %>Cool Feature 5
+              </li>
+              <li>
+                <%= image_tag "poc_checkmark.svg" %>Cool Feature 6
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-      <div class='description'>
-        <h4>SIM<span>Escrow</span></h4>
-        <p><%=t 'solution.simescrow.description' %></p>
-        <ul class="features">
-          <li>
-            <%= image_tag "poc_checkmark.svg" %>Cool Feature 1
-          </li>
-          <li>
-            <%= image_tag "poc_checkmark.svg" %>Cool Feature 2
-          </li>
-          <li>
-            <%= image_tag "poc_checkmark.svg" %>Cool Feature 3
-          </li>
-          <li>
-            <%= image_tag "poc_checkmark.svg" %>Cool Feature 4
-          </li>
-        </ul>
       </div>
     </div>
-  </div>
-  <div class='one-slider slide2'>
-    <div class='container'>
-      <div class="hex">
-        <div class="hex-title inactive">SIM<span>Escrow</span></div>
-        <div class="hex-title inactive">SIM<span>Trust</span></div>
-        <div class="hex-title ">SIM<span>Resolve</span></div>
-        <div class='slider-image'>
-          <div class="circle-ripple circle-ripple-right"></div>
-          <%= image_tag "hex_color@2x.png" %>
+    <div class='one-slider slide2'>
+      <div class='container'>
+        <div class="row">
+          <div class="hex col-lg-5">
+            <div class="hex-title inactive">SIM<span>Escrow</span></div>
+            <div class="hex-title inactive">SIM<span>Trust</span></div>
+            <div class="hex-title ">SIM<span>Resolve</span></div>
+            <div class='slider-image'>
+              <div class="circle-ripple circle-ripple-right"></div>
+              <%= image_tag "hex_color@2x.png" %>
+            </div>
+          </div>
+          <div class='description col-lg-7'>
+            <h4>SIM<span>Resolve</span></h4>
+            <p><%=t 'solution.simresolve.description' %></p>
+            <ul class="features">
+              <li>
+                <%= image_tag "poc_checkmark.svg" %>Cool Feature 1
+              </li>
+              <li>
+                <%= image_tag "poc_checkmark.svg" %>Cool Feature 2
+              </li>
+              <li>
+                <%= image_tag "poc_checkmark.svg" %>Cool Feature 3
+              </li>
+              <li>
+                <%= image_tag "poc_checkmark.svg" %>Cool Feature 4
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-      <div class='description'>
-        <h4>SIM<span>Resolve</span></h4>
-        <p><%=t 'solution.simresolve.description' %></p>
-        <ul class="features">
-          <li>
-            <%= image_tag "poc_checkmark.svg" %>Cool Feature 1
-          </li>
-          <li>
-            <%= image_tag "poc_checkmark.svg" %>Cool Feature 2
-          </li>
-          <li>
-            <%= image_tag "poc_checkmark.svg" %>Cool Feature 3
-          </li>
-          <li>
-            <%= image_tag "poc_checkmark.svg" %>Cool Feature 4
-          </li>
-        </ul>
       </div>
     </div>
-  </div>
-  <div class='one-slider slide3'>
-    <div class='container'>
-      <div class="hex">
-        <div class="hex-title inactive">SIM<span>Escrow</span></div>
-        <div class="hex-title ">SIM<span>Trust</span></div>
-        <div class="hex-title inactive">SIM<span>Resolve</span></div>
-        <div class='slider-image'>
-          <div class="circle-ripple circle-ripple-left"></div>
-          <%= image_tag "hex_color@2x.png" %>
+    <div class='one-slider slide3'>
+      <div class='container'>
+        <div class="row">
+          <div class="hex col-lg-5">
+            <div class="hex-title inactive">SIM<span>Escrow</span></div>
+            <div class="hex-title ">SIM<span>Trust</span></div>
+            <div class="hex-title inactive">SIM<span>Resolve</span></div>
+            <div class='slider-image'>
+              <div class="circle-ripple circle-ripple-left"></div>
+              <%= image_tag "hex_color@2x.png" %>
+            </div>
+          </div>
+          <div class='description col-lg-7'>
+            <h4>SIM<span>Trust</span></h4>
+            <p><%=t 'solution.simtrust.description' %></p>
+            <ul class="features">
+              <li>
+                <%= image_tag "poc_checkmark.svg" %>Cool Feature 1
+              </li>
+              <li>
+                <%= image_tag "poc_checkmark.svg" %>Cool Feature 2
+              </li>
+              <li>
+                <%= image_tag "poc_checkmark.svg" %>Cool Feature 3
+              </li>
+              <li>
+                <%= image_tag "poc_checkmark.svg" %>Cool Feature 4
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-      <div class='description'>
-        <h4>SIM<span>Trust</span></h4>
-        <p><%=t 'solution.simtrust.description' %></p>
-        <ul class="features">
-          <li>
-            <%= image_tag "poc_checkmark.svg" %>Cool Feature 1
-          </li>
-          <li>
-            <%= image_tag "poc_checkmark.svg" %>Cool Feature 2
-          </li>
-          <li>
-            <%= image_tag "poc_checkmark.svg" %>Cool Feature 3
-          </li>
-          <li>
-            <%= image_tag "poc_checkmark.svg" %>Cool Feature 4
-          </li>
-        </ul>
       </div>
     </div>
   </div>

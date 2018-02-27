@@ -28,6 +28,7 @@ html {
   height: 100%;
   width: 100%;
   font-family: var(--paragraph-font);
+
 }
 
 section {
@@ -36,14 +37,31 @@ section {
 }
 
 .benefits,
-.footer,
-.intro,
 .our-vision,
+.roadmap,
 .solution,
 .status-quo,
 .team,
-.token,
-.roadmap {
+.token {
+  @media (min-width: $large) {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+}
+
+.benefits, .roadmap {
+      background: #F6FBFF;
+}
+
+.benefits,
+.footer,
+.intro,
+.our-vision,
+.roadmap,
+.solution,
+.status-quo,
+.team,
+.token {
   * {
     -webkit-font-smoothing: antialiased;
   }
