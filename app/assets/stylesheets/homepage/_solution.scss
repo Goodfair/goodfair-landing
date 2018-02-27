@@ -1,6 +1,6 @@
 section.solution {
   padding: 50px 0;
-  background-image: url("solution_bg_mobile@2x.jpg");
+  background: image-url("solution_bg_mobile@2x.jpg");
   background-size: cover;
   position: relative;
   @media(min-width: $medium) {
@@ -33,7 +33,7 @@ section.solution {
     padding-top: 150px;
     /* Path: */
     background-color: #165699;
-    background-image: url("solution_bg_desktop@2x.jpg");
+    background: image-url("solution_bg_desktop@2x.jpg");
     max-width: 1440px;
   }
 
@@ -269,7 +269,7 @@ section.solution {
     z-index: 100;
     width: 37px;
     height: 36.47px;
-    background-image: url("slider_arrow_left.svg");
+    background: image-url("slider_arrow_left.svg");
 
     &:before {
       content: '';
@@ -290,7 +290,7 @@ section.solution {
     z-index: 100;
     width: 37px;
     height: 36.47px;
-    background-image: url("slider_arrow_right.svg");
+    background: image-url("slider_arrow_right.svg");
 
     &:before {
       content: '';

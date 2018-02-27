@@ -1,5 +1,5 @@
 .token {
-  background-image: url("token_bg@2x.jpg");
+  background: image-url("token_bg@2x.jpg");
   background-size: cover;
   position: relative;
 
@@ -54,7 +54,7 @@
     z-index: -1;
     top: 0;
     @media(min-width: $medium) {
-      background-image: url("token_bg_tablet@2x.jpg");
+      background: image-url("token_bg_tablet@2x.jpg");
       background-size: cover;
     }
   }

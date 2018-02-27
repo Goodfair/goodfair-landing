@@ -5,7 +5,7 @@ $timeline-size: 14px;
 
 section.roadmap {
   background-color: #F6FBFF;
-  background-image: url("roadmap_bg_mobile@2x.png");
+  background: image-url("roadmap_bg_mobile@2x.png");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 40px 0;
@@ -184,7 +184,7 @@ section.roadmap {
       z-index: 100;
       width: 37px;
       height: 36.47px;
-      background-image: url("slider_arrow_left.svg");
+      background: image-url("slider_arrow_left.svg");
 
       &:before {
         content: '';
@@ -198,7 +198,7 @@ section.roadmap {
       z-index: 100;
       width: 37px;
       height: 36.47px;
-      background-image: url("slider_arrow_right.svg");
+      background: image-url("slider_arrow_right.svg");
 
       &:before {
         content: '';

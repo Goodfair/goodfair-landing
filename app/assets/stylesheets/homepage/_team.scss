@@ -1,11 +1,11 @@
 .team {
   padding: 50px 0px;;
-  background-image: url("team_bg_mobile@2x.png");
+  background: image-url("team_bg_mobile@2x.png");
   background-size: cover;
   position: relative;
 
   @media(min-width: $medium) {
-    background-image: url("solution_bg.jpg");
+    background: image-url("solution_bg.jpg");
     background-size: cover;
   }
 
@@ -13,7 +13,7 @@
     content: '';
     width: 100%;
     height: 100%;
-    background-image: url("map_mobile@2x.png");
+    background: image-url("map_mobile@2x.png");
     background-position: center 150px;
     position: absolute;
     background-size: contain;
@@ -22,7 +22,7 @@
     top: 0;
 
     @media(min-width: $medium) {
-      background-image: url("map_desktop@2x.png");
+      background: image-url("map_desktop@2x.png");
       background-position: center 50px;
     }
   }
