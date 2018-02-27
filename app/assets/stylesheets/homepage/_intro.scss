@@ -7,7 +7,7 @@ section.intro {
   @media(min-width: $medium) {}
   @media(min-width: $large) {
     background-color: #0665B0;
-    background-image: url("intro_bg_gradient@2x.png");
+    background-image: image-url("intro_bg_gradient@2x.png");
     background-repeat: repeat-x;
     background-size: 101px;
     padding-bottom: 0;
