@@ -102,17 +102,17 @@ en:
     tech_2: "Escrow"
     tech_3: "Resolve"
     simtrust:
-      description: "SIMTrust is the succulents vegan intelligents twee seitan vexillologist next level irony forage vice hashtag. Enamel pin blog brunch selvage salvia photo booth man braid 90's."
+      description: "SIMBA’s internal reputation algorithm quantifies the reputation of our users with an unalterable SIMTrust score. SIMTrust ratings system ensures everyone’s incentives are aligned and removes any stress related to transaction processes."
       feature_1: "Browser Access"
       feature_2: "Metamask Integration"
       feature_3: "Admin Dashboard"
     simresolve:
-      description: "SIMResolve Wes Anderson forage pickled hashtag raw denim flexitarian Pitchfork cardigan next level kitsch twee swag Kickstarter freegan artisan disrupt paleo sustainable"
+      description: "SIMBA designed an arbitration process selecting active members of the community as Mediators. Have your disputes resolved on a case - by - case basis without a centralized arbiter with decision guidelines."
       feature_1: "Browser Access"
       feature_2: "Metamask Integration"
       feature_3: "Admin Dashboard"
     simescrow:
-      description: "SIMEscrow is the succulents vegan intelligents twee seitan vexillologist next level irony forage vice hashtag. Enamel pin blog brunch selvage salvia photo booth man braid 90's."
+      description: "SIMBA’s escrow process enforced by smart-contract. The escrow provides security for the buyer and seller on key phases of the transaction; when locked in escrow, the funds are out of control from all parties."
       feature_1: "Browser Access"
       feature_2: "Metamask Integration"
       feature_3: "Admin Dashboard"
