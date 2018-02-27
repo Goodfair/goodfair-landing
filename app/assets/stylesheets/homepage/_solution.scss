@@ -27,42 +27,43 @@ section.solution {
       background: image-url("solution_bg_desktop.png");
       background-repeat: no-repeat;
       background-position: center;
+      background-size: contain;
     }
   }
 
-  // &:before {
-  //   @media(min-width: $medium) {
-  //     background: #11539B;
-  //     top: -5vw;
-  //     content: '';
-  //     z-index: 2;
-  //     display: block;
-  //     height: 5vw;
-  //     left: 0;
-  //     position: absolute;
-  //     right: 0;
-  //     transform: skewY(-2.5deg);
-  //     transform-origin: 100%;
-  //     z-index: 2;
-  //   }
-  // }
-  //
-  // &:after {
-  //   @media(min-width: $medium) {
-  //     background: #11539B;
-  //     bottom: 0vw;
-  //     content: '';
-  //     z-index: 2;
-  //     display: block;
-  //     height: 6vw;
-  //     left: 0;
-  //     position: absolute;
-  //     right: 0;
-  //     transform: skewY(-2.5deg);
-  //     transform-origin: 100%;
-  //     z-index: 2;
-  //   }
-  // }
+  &:before {
+    @media(min-width: $medium) {
+      background: #184793;
+      top: -5vw;
+      content: '';
+      z-index: 2;
+      display: block;
+      height: 5vw;
+      left: 0;
+      position: absolute;
+      right: 0;
+      transform: skewY(-2.5deg);
+      transform-origin: 100%;
+      z-index: 2;
+    }
+  }
+
+  &:after {
+    @media(min-width: $medium) {
+      background: #0A579B;
+      bottom: 0vw;
+      content: '';
+      z-index: 2;
+      display: block;
+      height: 6vw;
+      left: 0;
+      position: absolute;
+      right: 0;
+      transform: skewY(-2.5deg);
+      transform-origin: 100%;
+      z-index: 2;
+    }
+  }
 
   .solution-intro {
     @media(min-width: $medium) {
