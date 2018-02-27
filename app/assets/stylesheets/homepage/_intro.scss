@@ -4,6 +4,8 @@ section.intro {
   color: #FFF;
   position: relative;
   padding-bottom: 60px;
+  background-color: #0a68a8;
+
   @media(min-width: $medium) {}
   @media(min-width: $large) {
     background-color: #0665B0;
