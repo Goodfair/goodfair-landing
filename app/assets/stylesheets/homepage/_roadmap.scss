@@ -148,19 +148,14 @@ section.roadmap {
       margin: 0 auto;
     }
 
-    .slick-next:before,
-    .slick-prev:before {
+    .slick-next::before,
+    .slick-prev::before {
       color: black;
     }
 
     .slick-slide img {
       width: 156px;
       margin: 0 auto;
-    }
-
-    .slick-next:before,
-    .slick-prev:before {
-      color: black;
     }
 
     .slick-slide {
@@ -187,12 +182,28 @@ section.roadmap {
       left: 40%;
       bottom: -80px;
       z-index: 100;
+      width: 37px;
+      height: 36.47px;
+      background-image: url("slider_arrow_left.svg");
+
+      &:before {
+        content: '';
+        color: black;
+      }
     }
 
     .slick-next {
       right: 40%;
       bottom: -80px;
       z-index: 100;
+      width: 37px;
+      height: 36.47px;
+      background-image: url("slider_arrow_right.svg");
+
+      &:before {
+        content: '';
+        color: black;
+      }
     }
   }
 }

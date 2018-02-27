@@ -11,6 +11,10 @@
       display: flex;
       justify-content: space-between;
 
+      @media(min-width: $large) {
+        display: none;
+      }
+
       .email-signup {
         margin-top: 0px;
         margin-left: 20px;

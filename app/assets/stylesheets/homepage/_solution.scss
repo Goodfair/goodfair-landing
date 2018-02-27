@@ -245,11 +245,6 @@ section.solution {
     }
   }
 
-  .slick-next:before,
-  .slick-prev:before {
-    color: #FFFFFF;
-  }
-
   .slick-slide {
     transition: all ease-in-out 0.3s;
     opacity: 1;
@@ -272,7 +267,7 @@ section.solution {
     left: 30px;
     top: 170px;
     z-index: 100;
-    width: 37.47px;
+    width: 37px;
     height: 36.47px;
     background-image: url("slider_arrow_left.svg");
 
@@ -293,7 +288,7 @@ section.solution {
     right: 30px;
     top: 170px;
     z-index: 100;
-    width: 37.47px;
+    width: 37px;
     height: 36.47px;
     background-image: url("slider_arrow_right.svg");
 
