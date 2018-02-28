@@ -411,6 +411,9 @@ section.solution {
       @media(min-width: $medium) {
         left: 98px;
       }
+      @media(min-width: $large) {
+        left: 112px;
+      }
     }
 
     .circle-ripple-left {
@@ -426,6 +429,10 @@ section.solution {
       bottom: 79px;
       @media(min-width: $medium) {
         bottom: 143px;
+      }
+      @media(min-width: $large) {
+        bottom: 140px;
+        right: -31px;
       }
     }
   }
