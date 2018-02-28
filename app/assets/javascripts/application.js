@@ -71,7 +71,32 @@ $(document).ready(function() {
       }
     ]
   });
+  // Optimalisation: Store the references outside the event handler:
 });
+
+$(window).on('load', function() {
+  var $window = $(window);
+  var homepagevideo = $('#homepage-reel');
+  var contentvideo = $('#content-reel');
+
+
+  function checkWidth() {
+      var windowsize = $window.width();
+      if (windowsize < 768) {
+          //It is a small screen
+
+
+      } else {
+          //It is a big screen or desktop
+            $('.center').slick('slickRemove', $('.slick-slide').index('#slick-slide00'))
+
+      }
+  }
+  // Execute on load
+  checkWidth();
+  // Bind event listener
+  $(window).resize(checkWidth);
+ });
 
 $(window).scroll(function() {
   // 100 = The point you would like to fade the nav in.
@@ -79,10 +104,12 @@ $(window).scroll(function() {
   if ($(window).scrollTop() > 20) {
 
     $('.navbar').addClass('show');
+    $(".navbar").css("margin-top", "0px");
 
   } else {
 
     $('.navbar').removeClass('show');
+    $(".navbar").css("margin-top", "20px");
 
   };
 });
