@@ -103,19 +103,27 @@ en:
     tech_3: "Resolve"
     simtrust:
       description: "SIMBA’s internal reputation algorithm quantifies the reputation of our users with an unalterable SIMTrust score. SIMTrust ratings system ensures everyone’s incentives are aligned and removes any stress related to transaction processes."
-      feature_1: "Browser Access"
+      feature_1: "Trust you peers"
       feature_2: "Metamask Integration"
-      feature_3: "Admin Dashboard"
+      feature_3: "No fake profiles"
+      feature_4: "Fair ratings"
+      feature_5: "Avert scams"
+
     simresolve:
       description: "SIMBA designed an arbitration process selecting active members of the community as Mediators. Have your disputes resolved on a case - by - case basis without a centralized arbiter with decision guidelines."
-      feature_1: "Browser Access"
-      feature_2: "Metamask Integration"
-      feature_3: "Admin Dashboard"
+      feature_1: "Community based"
+      feature_2: "Voting mechanism"
+      feature_3: "Consensus decision making"
+      feature_4: "Fair incentive structure"
+      feature_5: "Unbiased, unalterable"
+
     simescrow:
       description: "SIMBA’s escrow process enforced by smart-contract. The escrow provides security for the buyer and seller on key phases of the transaction; when locked in escrow, the funds are out of control from all parties."
-      feature_1: "Browser Access"
-      feature_2: "Metamask Integration"
-      feature_3: "Admin Dashboard"
+      feature_1: "Security & Safety"
+      feature_2: "Low fee transaction"
+      feature_3: "No payment third party"
+      feature_4: "Decentralized transactions"
+      feature_5: "Post-delivery payment"
     block_1:
       title: "Stable Currency with DAI"
       paragraph: "To combat cryptocurrency volatility, SIMBA utlizes DAI to ensure item price stability."
@@ -129,26 +137,26 @@ en:
       title: "Rewards Program"
       paragraph: "Other thing."
   benefits:
-    title: 'Product Features'
+    title: 'Platform Features'
     paragraph: 'Commerce is evolving. A few years from now, digital currencies will play a central role in our lives, replacing coins, cash, cards and cheques. '
     block_1:
-      title: 'Stable Currency with DAI'
-      paragraph: 'Payment is safeguarded in virtual escrow until item is received'
+      title: 'Stable Currency'
+      paragraph: 'SIMBA Stablecoin protocol mitigates cryptocurrency volatility by ensuring the value of the transaction relative to USD remains the same. '
     block_2:
       title: 'Rewards Program'
-      paragraph: 'Payment is safeguarded in virtual escrow until item is received'
+      paragraph: 'Support a low cost balanced marketplace - SIMBA users are rewarded for reporting illicit items, providing quality reviews, and mediating dispute.'
     block_3:
-      title: 'Data Ownership'
-      paragraph: 'Simba will not sell customer behavior or preferences to third party for advertisement.'
-    block_4:
       title: 'Privacy & Data Encryption'
-      paragraph: 'Public display of user information on blockchain is prevented using encryption.'
+      paragraph: 'Utilize the full functionality of our platform without concerns for security and privacy. '
+    block_4:
+      title: 'Data Ownership'
+      paragraph: 'You own your data - never experience a stalking ad again.'
     block_5:
       title: 'Browser Based & Mobile Access'
-      paragraph: 'Browser-based dApp allows for maximum accessibility and search engine indexability.'
+      paragraph: 'SIMBA is optimized for convenience - access the SIMBA marketplace from your browser or mobile device.'
     block_6:
       title: 'Wallet Access with MetaMask'
-      paragraph: 'Transaction signing and wallet unlocking occur locally via MetaMask. Simba does not store any user’s private key.'
+      paragraph: 'Seamlessly process cryptocurrency transactions with the Metamask browser extension.'
   token:
     title: "SIMToken"
     subtitle: "E-Commerce Powered via SIMToken"
