@@ -6,6 +6,7 @@
   @media(min-width: $medium) {
     background: image-url("team_bg_desktop.png");
     background-size: cover;
+    padding-bottom: 120px;
   }
 
   // &:before {
@@ -46,6 +47,12 @@
       background-size: 1540px;
       background-repeat: no-repeat;
       background-position: center 60px;
+    }
+  }
+  .team-container {
+    @media(max-width: 767px) {
+      position: relative;
+      z-index: 2;
     }
   }
   //
