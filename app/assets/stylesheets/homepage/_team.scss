@@ -25,6 +25,15 @@
   //   }
   // }
   .team-bg {
+    background: image-url("map_mobile@2x.png");
+    height: 100%;
+    width: 100%;
+    top: 140px;
+    left: 0;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 0;
     @media(min-width: $large) {
       height: 100%;
       width: 100%;
