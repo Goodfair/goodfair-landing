@@ -1,7 +1,7 @@
 section.solution {
   padding: 50px 0;
   background: image-url("solution_bg_mobile@2x.jpg");
-  background-size: cover;
+  background-size: contain;
   position: relative;
   @media(min-width: $medium) {
     padding-top: 100px;
@@ -170,14 +170,14 @@ section.solution {
         opacity: 0.3;
 
         &:nth-child(1) {
-          top: -24px;
+          top: -30px;
         }
       }
       @media(min-width: $medium) {
         display: none;
       }
       font-family: var(--h2-font);
-      font-size: 22px;
+      font-size: 25px;
       font-weight: 300;
       line-height: 0.95;
       letter-spacing: 0;
@@ -208,7 +208,7 @@ section.solution {
     color: #ffffff;
     // margin-bottom: 65px;
 
-    margin-top: 20px;
+    margin-top: 25px;
     @media(min-width: $medium) {
       margin-left: 0;
       margin-right: 0;
@@ -304,7 +304,7 @@ section.solution {
 
   .slider {
     width: 100%;
-    margin: 20px auto;
+    margin: 14px auto;
     @media(min-width: $medium) {
       margin: 0 auto;
     }
@@ -350,7 +350,7 @@ section.solution {
   }
 
   .slick-prev {
-    left: 30px;
+    left: 20px;
     top: 170px;
     z-index: 100;
     width: 37px;
@@ -374,7 +374,7 @@ section.solution {
   }
 
   .slick-next {
-    right: 30px;
+    right: 20px;
     top: 170px;
     z-index: 100;
     width: 37px;
@@ -506,7 +506,7 @@ section.solution {
 
       .hex-title {
         font-family: var(--h2-font);
-        font-size: 25px;
+        font-size: 23px;
         font-weight: 300;
         line-height: 0.95;
         letter-spacing: 0;
