@@ -10,39 +10,39 @@ background-image: linear-gradient(-177deg, #1A5FB0 8%, #0E66AC 100%);
     background-position: center;
   }
 
-  &:before {
-    @media(min-width: $medium) {
-      background: #1B4E99;
-      top: -5vw;
-      content: '';
-      z-index: 2;
-      display: block;
-      height: 5vw;
-      left: 0;
-      position: absolute;
-      right: 0;
-      transform: skewY(-2.5deg);
-      transform-origin: 100%;
-      z-index: 2;
-    }
-  }
-
-  &:after {
-    @media(min-width: $medium) {
-      background: #0D5A9F;
-      bottom: 0;
-      content: '';
-      z-index: 2;
-      display: block;
-      height: 6vw;
-      left: 0;
-      position: absolute;
-      right: 0;
-      transform: skewY(-2.5deg);
-      transform-origin: 100%;
-      z-index: 2;
-    }
-  }
+  // &:before {
+  //   @media(min-width: $medium) {
+  //     background: #1B4E99;
+  //     top: -5vw;
+  //     content: '';
+  //     z-index: 2;
+  //     display: block;
+  //     height: 5vw;
+  //     left: 0;
+  //     position: absolute;
+  //     right: 0;
+  //     transform: skewY(-2.5deg);
+  //     transform-origin: 100%;
+  //     z-index: 2;
+  //   }
+  // }
+  //
+  // &:after {
+  //   @media(min-width: $medium) {
+  //     background: #0D5A9F;
+  //     bottom: 0;
+  //     content: '';
+  //     z-index: 2;
+  //     display: block;
+  //     height: 6vw;
+  //     left: 0;
+  //     position: absolute;
+  //     right: 0;
+  //     transform: skewY(-2.5deg);
+  //     transform-origin: 100%;
+  //     z-index: 2;
+  //   }
+  // }
 
   .token-bg {
     @media(min-width: $large) {
