@@ -28,14 +28,12 @@ html {
   height: 100%;
   width: 100%;
   font-family: var(--paragraph-font);
-
 }
 
 section {
   padding-top: 0;
   padding-bottom: 0;
 }
-
 // .benefits,
 // .our-vision,
 // .roadmap,
@@ -48,7 +46,6 @@ section {
 //     margin: 0 auto;
 //   }
 // }
-
 // .benefits, .roadmap {
 //       background: #F6FBFF;
 // }
@@ -187,6 +184,12 @@ button {
       background-color: transparent;
       padding-left: 49px;
       color: #ffffff;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      line-height: 54px;
+      display: flex;
+      align-items: center;
       @media(min-width: $medium) {
         width: 237px;
         height: 44px;
@@ -200,13 +203,14 @@ button {
         letter-spacing: 0.6px;
         color: #ffffff;
         text-transform: uppercase;
+        line-height: 54px;
       }
     }
 
     i {
       position: absolute;
       left: 0;
-      top: 0;
+      top: -1px;
       padding: 18px;
       font-size: 19px;
       color: #52A9FF;

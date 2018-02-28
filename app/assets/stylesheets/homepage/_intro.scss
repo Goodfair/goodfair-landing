@@ -40,7 +40,7 @@ section.intro {
     background-size: contain;
     background-repeat: no-repeat;
     z-index: 0;
-    top: 0;
+    top: -18px;
     @media(min-width: $medium) {
       background: image-url("intro_bg_tablet@2x.png");
     }
@@ -84,6 +84,12 @@ section.intro {
       padding-top: 0;
     }
 
+    h1 {
+      line-height: 39px;
+      margin-bottom: 15px;
+      font-size: 32px;
+    }
+
     p {
       margin-top: 10px;
       font-size: 19px;
@@ -103,7 +109,7 @@ section.intro {
 
   .scroll-down {
     position: absolute;
-    bottom: 20px;
+    bottom: 90px;
     left: 50%;
     margin-left: -60px;
     display: block;
