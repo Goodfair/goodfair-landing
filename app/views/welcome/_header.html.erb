@@ -3,26 +3,28 @@
     <a href="#" class="navbar-brand ">
       <div class="logo"></div>
     </a>
-    <div class="button_container toggle" id="toggle"><span class="top"></span><span class="middle"></span><span class="bottom"></span></div>
+    <div class="nav-mobile-tablet button_container toggle" id="toggle">
+      <span class="top"></span><span class="middle"></span><span class="bottom"></span>
+    </div>
+    <div class='nav-desktop'>
+      <ul>
+        <%= render 'menu' %>
+        <li class='whitepaper-btn btn'><%=t 'navigation.whitepaper '%></li>
+      </ul>
+    </div>
   </div>
 </nav>
+
 <div class="overlay" id="overlay">
   <div class="logo"></div>
   <div class="button_container toggle" id="toggle"><span class="top"></span><span class="middle"></span><span class="bottom"></span></div>
   <nav class="overlay-menu">
     <ul>
-      <li><a href="#vision"><%=t 'navigation.our_vision '%></a></li>
-      <li><a href="#problem"><%=t 'navigation.problem '%></a></li>
-      <li><a href="#soluton"><%=t 'navigation.solution '%></a></li>
-      <li><a href="#feaatures"><%=t 'navigation.features '%></a></li>
-      <li><a href="#token"><%=t 'navigation.token '%></a></li>
-      <li><a href="#roadmap"><%=t 'navigation.roadmap '%></a></li>
-      <li><a href="#team"><%=t 'navigation.team '%></a></li>
+      <%= render 'menu' %>
     </ul>
   </nav>
   <div class='nav-footer'>
     <button type='button' class='whitepaper-btn'><%=t 'navigation.whitepaper '%></button>
     <button type='button' class='demo-btn'><%=t 'navigation.demo '%></button>
   </div>
-
 </div>
