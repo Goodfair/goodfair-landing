@@ -48,7 +48,7 @@ $(document).ready(function() {
   $('.token-slider').slick({
     centerMode: false,
     centerPadding: '60px',
-    slidesToShow: 3,
+    slidesToShow: 5,
     infinite: false,
     responsive: [{
         breakpoint: 768,

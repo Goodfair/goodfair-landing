@@ -4,7 +4,11 @@ section.benefits {
   background: image-url("status_quo_bg.png");
   background-size: cover;
   @media(min-width: $large) {
-    padding: 100px 0 60px 0;
+    padding: 150px 0 120px 0;
+    background: #F6FBFF image-url("benefits_bg_desktop.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
   }
   h2 {
     color: var(--h2-secondary-color);

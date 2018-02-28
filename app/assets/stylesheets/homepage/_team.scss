@@ -1,43 +1,72 @@
 .team {
-  padding: 50px 0px;;
+  padding: 50px 0;
   background: image-url("team_bg_mobile@2x.png");
   background-size: cover;
   position: relative;
-
   @media(min-width: $medium) {
-    background: image-url("solution_bg.jpg");
+    background: image-url("team_bg_desktop.png");
     background-size: cover;
   }
 
-  &:before {
-    content: '';
-    width: 100%;
-    height: 100%;
-    background: image-url("map_mobile@2x.png");
-    background-position: center 150px;
-    position: absolute;
-    background-size: contain;
-    background-repeat: no-repeat;
-    z-index: 0;
-    top: 0;
-
-    @media(min-width: $medium) {
-      background: image-url("map_desktop@2x.png");
-      background-position: center 50px;
+  // &:before {
+  //   @media(min-width: $medium) {
+  //     background: #1B4E99;
+  //     top: -5vw;
+  //     content: '';
+  //     z-index: 2;
+  //     display: block;
+  //     height: 5vw;
+  //     left: 0;
+  //     position: absolute;
+  //     right: 0;
+  //     transform: skewY(-2.5deg);
+  //     transform-origin: 100%;
+  //     z-index: 2;
+  //   }
+  // }
+  .team-bg {
+    @media(min-width: $large) {
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      position: absolute;
+      padding-top: 150px;
+      /* Path: */
+      background: image-url("map_desktop.png");
+      background-size: 1540px;
+      background-repeat: no-repeat;
+      background-position: center 60px;
     }
   }
-
+  //
+  // &:before {
+  //   content: '';
+  //   width: 100%;
+  //   height: 100%;
+  //   background: image-url("map_mobile@2x.png");
+  //   background-position: center 150px;
+  //   position: absolute;
+  //   background-size: contain;
+  //   background-repeat: no-repeat;
+  //   z-index: 0;
+  //   top: 0;
+  //
+  //   @media(min-width: $medium) {
+  //     background: image-url("map_desktop@2x.png");
+  //     background-position: center 50px;
+  //   }
+  // }
   .team-intro {
     @media(min-width: $medium) {
       width: 80%;
       margin-left: 4%;
     }
-
     @media(min-width: $large) {
-      width: 380px;
-      position: absolute;
-      right: 10%;
-      top: 200px;
+      width: 330px;
+          position: absolute;
+          right: 15%;
+          top: 277px;
     }
 
     h2 {
@@ -52,14 +81,11 @@
 
   .employee-grid {
     margin-top: 225px;
-
     @media(min-width: $medium) {
       margin-top: 180px;
     }
-
     @media(min-width: $large) {
-      margin: auto;
-      margin-top: 500px;
+      margin: 500px auto auto;
       width: 90%;
     }
 
@@ -67,48 +93,42 @@
       margin-bottom: 0;
     }
 
-
-      figure {
-        margin: auto;
-        width: 125px;
-
-        @media(min-width: $medium) {
-          width: 149px;
-        }
-
-        @media(min-width: $large) {
-          width: 166px;
-        }
-
-        img {
-          width: 100%;
-          border-radius: 100%;
-        }
+    figure {
+      margin: auto;
+      width: 125px;
+      @media(min-width: $medium) {
+        width: 149px;
+      }
+      @media(min-width: $large) {
+        width: 166px;
       }
 
-      figcaption {
+      img {
+        width: 100%;
+        border-radius: 100%;
+      }
+    }
+
+    figcaption {
+      font-size: 16px;
+      font-family: var(--paragraph-font);
+      font-weight: 600;
+      color: #ffffff;
+      text-align: center;
+      @media(min-width: $medium) {
+        font-size: 18px;
+      }
+    }
+
+    p {
+      font-family: var(--paragraph-font);
+      font-weight: 500;
+      font-size: 13px;
+      color: ffffff;
+      text-align: center;
+      @media(min-width: $medium) {
         font-size: 16px;
-        font-family: var(--paragraph-font);
-        font-weight: 600;
-        color: #ffffff;
-        text-align: center;
-
-        @media(min-width: $medium) {
-          font-size: 18px;
-        }
       }
-
-      p {
-        font-family: var(--paragraph-font);
-        font-weight: 500;
-        font-size: 13px;
-        color: ffffff;
-        text-align: center;
-
-        @media(min-width: $medium) {
-          font-size: 16px;
-        }
-      }
-
+    }
   }
 }

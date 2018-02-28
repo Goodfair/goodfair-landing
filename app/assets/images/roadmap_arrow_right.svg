@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="41px" height="23px" viewBox="0 0 41 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Fill 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="alternate-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-732.000000, -6508.000000)">
+        <g id="Roadmap" transform="translate(-5.000000, 5960.000000)" fill="#0FAEE9">
+            <g id="Arrow" transform="translate(179.000000, 301.000000)">
+                <g id="Group-3" transform="translate(494.000000, 247.000000)">
+                    <path d="M104.26015,10.7427259 L95.0120301,0.316998469 C94.6421053,-0.105666156 94.087218,-0.105666156 93.7172932,0.316998469 C93.3473684,0.739663093 93.3473684,1.37366003 93.7172932,1.79632466 L101.362406,10.4609495 L64.924812,10.4609495 C64.4315789,10.4609495 64,10.9540582 64,11.517611 C64,12.0811639 64.4315789,12.5742726 64.924812,12.5742726 L101.362406,12.5742726 L93.7172932,21.2388974 C93.3473684,21.661562 93.3473684,22.295559 93.7172932,22.7182236 C93.9022556,22.9295559 94.1488722,23 94.3954887,23 C94.6421053,23 94.8887218,22.9295559 95.0736842,22.7182236 L104.321805,12.2924962 L105,11.517611 L104.26015,10.7427259 Z" id="Fill-1"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

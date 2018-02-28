@@ -1,6 +1,7 @@
 <div class="token-bg"></div>
 <div class="container">
-  <%= image_tag 'token-image@2x.png', class: 'token-icon' %>
+  <%= image_tag 'token-image@2x.png', class: 'token-icon d-md-none' %>
+  <%= image_tag 'token-image-desktop@2x.png', class: 'token-icon d-none d-md-block' %>
   <div class="row">
     <div class="token-intro col-md-7">
       <h2>
@@ -17,54 +18,67 @@
     </div>
     <div class='col-12 col-lg-8'>
       <div class="row">
-      <div class='col-md-6 col-lg-6'>
-        <div class='token-row'>
-          <%= image_tag 'token_benefit_icon.svg', class: 'token-icon-3' %>
-          <h4><%=t 'token.block_1.title' %></h4>
-          <p><%=t 'token.block_1.content' %></p>
+        <div class='col-md-6 col-lg-6 token-row-column'>
+          <div class='token-row'>
+            <%= image_tag 'token_benefit_icon.svg', class: 'token-icon-3' %>
+            <div class="token-row-text">
+              <h4><%=t 'token.block_1.title' %></h4>
+              <p><%=t 'token.block_1.content' %></p>
+            </div>
+          </div>
         </div>
-      </div>
 
-      <div class='col-md-6 col-lg-6'>
-        <div class='token-row'>
-          <%= image_tag 'token_benefit_icon.svg', class: 'token-icon-3' %>
-          <h4><%=t 'token.block_2.title' %></h4>
-          <p><%=t 'token.block_2.content' %></p>
+        <div class='col-md-6 col-lg-6 token-row-column'>
+          <div class='token-row'>
+            <%= image_tag 'token_benefit_icon.svg', class: 'token-icon-3' %>
+            <div class="token-row-text">
+              <h4><%=t 'token.block_2.title' %></h4>
+              <p><%=t 'token.block_2.content' %></p>
+            </div>
+          </div>
         </div>
-      </div>
 
-      <div class='col-md-6 col-lg-6'>
-        <div class='token-row'>
-          <%= image_tag 'token_benefit_icon.svg', class: 'token-icon-3' %>
-          <h4><%=t 'token.block_3.title' %></h4>
-          <p><%=t 'token.block_3.content' %></p>
+        <div class='col-md-6 col-lg-6 token-row-column'>
+          <div class='token-row'>
+            <%= image_tag 'token_benefit_icon.svg', class: 'token-icon-3' %>
+            <div class="token-row-text">
+              <h4><%=t 'token.block_3.title' %></h4>
+              <p><%=t 'token.block_3.content' %></p>
+            </div>
+          </div>
         </div>
-      </div>
 
-      <div class='col-md-6 col-lg-6'>
-        <div class='token-row'>
-          <%= image_tag 'token_benefit_icon.svg', class: 'token-icon-3' %>
-          <h4><%=t 'token.block_4.title' %></h4>
-          <p><%=t 'token.block_4.content' %></p>
+        <div class='col-md-6 col-lg-6 token-row-column'>
+          <div class='token-row'>
+            <%= image_tag 'token_benefit_icon.svg', class: 'token-icon-3' %>
+            <div class="token-row-text">
+              <h4><%=t 'token.block_4.title' %></h4>
+              <p><%=t 'token.block_4.content' %></p>
+            </div>
+          </div>
         </div>
-      </div>
 
-      <div class='col-md-6 col-lg-6'>
-        <div class='token-row'>
-          <%= image_tag 'token_benefit_icon.svg', class: 'token-icon-3' %>
-          <h4><%=t 'token.block_5.title' %></h4>
-          <p><%=t 'token.block_5.content' %></p>
+        <div class='col-md-6 col-lg-6 token-row-column'>
+          <div class='token-row'>
+            <%= image_tag 'token_benefit_icon.svg', class: 'token-icon-3' %>
+            <div class="token-row-text">
+              <h4><%=t 'token.block_5.title' %></h4>
+              <p><%=t 'token.block_5.content' %></p>
+            </div>
+          </div>
         </div>
-      </div>
 
-      <div class='col-md-6 col-lg-6'>
-        <div class='token-row'>
-          <%= image_tag 'token_benefit_icon.svg', class: 'token-icon-3' %>
-          <h4><%=t 'token.block_6.title' %></h4>
-          <p><%=t 'token.block_6.content' %></p>
+        <div class='col-md-6 col-lg-6 token-row-column'>
+          <div class='token-row'>
+            <%= image_tag 'token_benefit_icon.svg', class: 'token-icon-3' %>
+            <div class="token-row-text">
+              <h4><%=t 'token.block_6.title' %></h4>
+              <p><%=t 'token.block_6.content' %></p>
+            </div>
+          </div>
         </div>
+
       </div>
-    </div>
     </div>
   </div>
 </div>
