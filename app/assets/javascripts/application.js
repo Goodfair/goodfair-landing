@@ -104,12 +104,10 @@ $(window).scroll(function() {
   if ($(window).scrollTop() > 20) {
 
     $('.navbar').addClass('show');
-    $(".navbar").css("margin-top", "0px");
 
   } else {
 
     $('.navbar').removeClass('show');
-    $(".navbar").css("margin-top", "20px");
 
   };
 });
