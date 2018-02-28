@@ -32,6 +32,7 @@ $(document).ready(function() {
     centerMode: true,
     centerPadding: '0px',
     slidesToShow: 1,
+    adaptiveHeight: true,
     dots: true,
     fade: true,
 
