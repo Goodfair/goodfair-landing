@@ -151,26 +151,26 @@ en:
       paragraph: 'Transaction signing and wallet unlocking occur locally via MetaMask. Simba does not store any user’s private key.'
   token:
     title: "SIMToken"
-    subtitle: "Self-governed Commerce via SimToken"
-    paragraph: "Commerce is evolving. A few years from now, digital currencies will play a central role in our lives, replacing coins, cash, cards and cheques. They will enable us to transact more easily, more cost-effectively."
+    subtitle: "E-Commerce Powered via SIMToken"
+    paragraph: "SIMToken powers critical marketplace functionalities providing marketplace stability.  SIMTokens are used for item listing and promotion, compensation for mediators, writing highly rated authentic reviews, and identifying illicit and counterfeit listings."
     block_1:
-      title: "Platform Services"
-      content: "SIMToken can be used to list or promote items on the marketplace. Tokens can be used towards listing individual items, or for signing up for a monthly multiple item listing subscription."
+      title: "Pay for Item Listing/Subscription"
+      content: "SIM tokens are used to list items on the SIMBA marketplace - pay per listing, or per month for unlimited listings."
     block_2:
-      title: "SimResolve Participation"
-      content: "SimToken is used as a reward to those who participate in conflict resolution cases via SimResolve. Incentivizing participants will help promote a fair and just community."
+      title: "Pay for Promoted Listings"
+      content: "Item exposure can be increased by purchasing listing promotion with SIM tokens."
     block_3:
-      title: "Item Screening"
-      content: "Users can be rewarded with SimToken for flagging illegal or illicit items."
+      title: "SIMResolve Rewards"
+      content: "SIMResolve case mediators are compenesated with SIM tokens for participation. Mediatiors will only be compensated if they side with the majority."
     block_4:
-      title: "SimResolve Participation"
-      content: "SimToken is used as a reward to those who participate in conflict resolution cases via SimResolve. Incentivizing participants will help promote a fair and just community."
+      title: "Ecosystem Contribution"
+      content: "Community members are incentivized with SIM tokens to actively participate in SIMBA's ecosystem (reviews, item screening, etc). "
     block_5:
-      title: "SimResolve Participation"
-      content: "SimToken is used as a reward to those who participate in conflict resolution cases via SimResolve. Incentivizing participants will help promote a fair and just community."
+      title: "Voting Power"
+      content: "SIMBA community members can shape the platform's future by participating in community voting. Active users will retain more voting weight."
     block_6:
-      title: "SimResolve Participation"
-      content: "SimToken is used as a reward to those who participate in conflict resolution cases via SimResolve. Incentivizing participants will help promote a fair and just community."
+      title: "Sellers Collateral"
+      content: "Sellers are required to lock collateral for item listings in order to deter fraud and scams. Collateralized funds will be used to reimburse victims of scams by fraudulent sellers."
   roadmap:
     title: "Next Step"
     subtitle: "Roadmap"
