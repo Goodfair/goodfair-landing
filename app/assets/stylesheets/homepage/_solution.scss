@@ -3,6 +3,7 @@ section.solution {
   background: image-url("solution_bg_mobile@2x.jpg");
   background-size: contain;
   position: relative;
+  background-position: center;
   @media(min-width: $medium) {
     padding-top: 100px;
   }
@@ -340,10 +341,10 @@ section.solution {
     }
   }
 
-  .slick-active {
-    opacity: 0.5;
-    // transform: scale(1);
-  }
+  // .slick-active {
+  //   opacity: 0.5;
+  //   // transform: scale(1);
+  // }
 
   .slick-current {
     opacity: 1;
