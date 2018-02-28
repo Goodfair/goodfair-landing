@@ -112,6 +112,7 @@ section.solution {
 
   h4 {
     display: none;
+    font-weight: 300;
     @media(min-width: $medium) {
       display: inline-block;
     }
@@ -119,14 +120,17 @@ section.solution {
       margin-bottom: 24px;
       font-size: 27px;
     }
+    span {
+      font-weight: 600;
+    }
   }
   $ripple-color: #2E87DE;
 
   .circle-ripple {
     position: absolute;
     background-color: #fff;
-    width: 0.55em;
-    height: 0.55em;
+    width: 8px;
+    height: 8px;
     border-radius: 50%;
     animation: ripple 0.7s linear infinite;
   }
@@ -174,7 +178,7 @@ section.solution {
       }
       font-family: var(--h2-font);
       font-size: 22px;
-      font-weight: 600;
+      font-weight: 300;
       line-height: 0.95;
       letter-spacing: 0;
       text-align: center;
@@ -418,7 +422,7 @@ section.solution {
 
     .circle-ripple-left {
       left: -2px;
-      bottom: 79px;
+      bottom: 90px;
       @media(min-width: $medium) {
         bottom: 143px;
       }
@@ -426,7 +430,7 @@ section.solution {
 
     .circle-ripple-right {
       right: -2px;
-      bottom: 79px;
+      bottom: 90px;
       @media(min-width: $medium) {
         bottom: 143px;
       }
@@ -446,6 +450,7 @@ section.solution {
 
   span {
     color: var(--h3-color);
+    font-weight: 600;
 
     &::first-letter {
       text-decoration-style: wavy;
@@ -502,7 +507,7 @@ section.solution {
       .hex-title {
         font-family: var(--h2-font);
         font-size: 25px;
-        font-weight: 600;
+        font-weight: 300;
         line-height: 0.95;
         letter-spacing: 0;
         text-align: center;
