@@ -178,7 +178,7 @@ section.solution {
         display: none;
       }
       font-family: var(--h2-font);
-      font-size: 25px;
+      font-size: 23px;
       font-weight: 300;
       line-height: 0.95;
       letter-spacing: 0;
@@ -218,8 +218,9 @@ section.solution {
     p {
       font-family: var(--paragraph-secondary-font);
       font-weight: 400;
-      font-size: 16px;
+      font-size: 17px;
       line-height: 1.21;
+      color: #fff;
       @media(min-width: $medium) {
         font-size: 18px;
         line-height: 1.56;
@@ -238,7 +239,7 @@ section.solution {
       font-family: var(--h2-font);
       display: flex;
       flex-wrap: wrap;
-      margin-top: 25px;
+      margin-top: 30px;
       @media(min-width: $medium) {
         font-size: 17px;
       }
@@ -248,10 +249,11 @@ section.solution {
 
       li {
         display: flex;
-        flex: 1 0 50%;
+        flex: 0 0 50%;
         align-items: center;
-        line-height: 1;
+        line-height: 1.1;
         margin-bottom: 20px;
+        font-size: 17px;
 
         img {
           margin-right: 6px;
@@ -352,8 +354,8 @@ section.solution {
   }
 
   .slick-prev {
-    left: 20px;
-    top: 170px;
+    left: 5px;
+    top: 160px;
     z-index: 100;
     width: 37px;
     height: 36.47px;
@@ -376,8 +378,8 @@ section.solution {
   }
 
   .slick-next {
-    right: 20px;
-    top: 170px;
+    right: 5px;
+    top: 160px;
     z-index: 100;
     width: 37px;
     height: 36.47px;
