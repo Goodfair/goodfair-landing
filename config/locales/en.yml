@@ -195,7 +195,30 @@ en:
       title: "2018 Q1"
       content_1: "Whitepaper Development"
       content_2: "SIMBA Landing Website"
-      content_3: "SIM ERC20 token implementation"
+      content_3: "SIM ERC20 Token Implementation"
+    quarter_5:
+      title: "2018 Q2"
+      content_1: "Proof of Concept UI/UX Redesign"
+      content_2: "Implementation of SIMResolve Protocol"
+      content_3: "Implementation of SIMTrust Protocol"
+      content_4: "SIMBA Technical Whitepaper"
+    quarter_6:
+      title: "2018 Q3"
+      content_1: "Integration of Dai Stablecoin Protocol"
+      content_2: "SIMBA Mobile Versione"
+      content_3: "SIMBA Alpha Release"
+    quarter_7:
+      title: "2018 Q4"
+      content_1: "Community Voting System Goes Live"
+      content_2: "Implementation of Seller Collateral"
+      content_3: "Implementation of Item Screening"
+    quarter_8:
+      title: "2019 Q1"
+      content_1: "Private Beta Access Distribution to Business Sellers"
+      content_2: "Populate Inventory"
+    quarter_9:
+      title: "2019 Q2"
+      content_1: "SIMBA Mainnet Launch"
   who_is_simba:
     title: "Who is Simba?"
     subtitle: "Team Members"
