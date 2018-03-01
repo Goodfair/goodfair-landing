@@ -7,27 +7,33 @@
     background: image-url("team_bg_desktop.png");
     background-size: cover;
     padding-bottom: 120px;
+    padding-top: 80px;
   }
 
   .team-bg {
-    background: image-url("map_mobile@2x.png");
+    background: image-url("map_bg_mobile@2x.png");
     height: 100%;
     width: 100%;
     top: 140px;
     left: 0;
     position: absolute;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 634px;
     z-index: 0;
 
     @media(min-width: $medium) {
-      background: image-url('map_tablet@2x.png');
-      background-size: 900px;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      position: absolute;
+      padding-top: 150px;
+      /* Path: */
+      background: image-url("team_bg_tablet@2x.png");
+      background-size: 1214px;
       background-repeat: no-repeat;
-      background-position: center 10px;
-      top: 20px;
+      background-position: -100px 37px;
     }
-
     @media(min-width: $large) {
       top: 0;
       left: 0;
@@ -76,7 +82,8 @@
     margin-top: 225px;
 
     @media(min-width: $medium) {
-      margin-top: 255px;
+
+      margin-top: 260px;
     }
 
     @media(min-width: $large) {
