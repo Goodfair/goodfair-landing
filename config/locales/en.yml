@@ -156,22 +156,22 @@ en:
     subtitle: "E-Commerce Powered via SIMToken"
     paragraph: "SIMToken powers critical marketplace functionalities providing marketplace stability.  SIMTokens are used for item listing and promotion, compensation for mediators, writing highly rated authentic reviews, and identifying illicit and counterfeit listings."
     block_1:
-      title: "Pay for Item Listing/Subscription"
+      title: "Pay for Item Listings/Subscription"
       content: "SIM tokens are used to list items on the SIMBA marketplace - pay per listing, or per month for unlimited listings."
     block_2:
       title: "Pay for Promoted Listings"
       content: "Item exposure can be increased by purchasing listing promotion with SIM tokens."
     block_3:
       title: "SIMResolve Rewards"
-      content: "SIMResolve case mediators are compenesated with SIM tokens for participation. Mediatiors will only be compensated if they side with the majority."
+      content: "SIMResolve case mediators are compensated with SIM tokens for participation. Mediators will only be compensated if they side with the majority."
     block_4:
       title: "Ecosystem Contribution"
-      content: "Community members are incentivized with SIM tokens to actively participate in SIMBA's ecosystem (reviews, item screening, etc). "
+      content: "Community members are incentivized with SIM tokens to actively participate in SIMBA's ecosystem (reviews, item screening, mediation, etc). "
     block_5:
       title: "Voting Power"
       content: "SIMBA community members can shape the platform's future by participating in community voting. Active users will retain more voting weight."
     block_6:
-      title: "Sellers Collateral"
+      title: "Seller Collateral"
       content: "Sellers are required to lock collateral for item listings in order to deter fraud and scams. Collateralized funds will be used to reimburse victims of scams by fraudulent sellers."
   roadmap:
     title: "Next Step"
