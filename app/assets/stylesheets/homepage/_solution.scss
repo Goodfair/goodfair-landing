@@ -186,6 +186,10 @@ section.solution {
     }
 
     .hex-title {
+      @media(min-width: $medium) {
+        display: none;
+      }
+
       &.inactive {
         opacity: 0.3;
 
@@ -193,9 +197,7 @@ section.solution {
           top: -30px;
         }
       }
-      @media(min-width: $medium) {
-        display: none;
-      }
+
       font-family: var(--h2-font);
       font-size: 23px;
       font-weight: 300;
@@ -451,7 +453,7 @@ section.solution {
         left: 98px;
       }
       @media(min-width: $large) {
-        left: 112px;
+        left: 99px;
       }
     }
 
@@ -462,7 +464,7 @@ section.solution {
         bottom: 121px;
       }
       @media(min-width: $large) {
-        bottom: 143px;
+        bottom: 122px;
       }
     }
 
@@ -473,8 +475,8 @@ section.solution {
         bottom: 121px;
       }
       @media(min-width: $large) {
-        bottom: 143px;
-        right: -31px;
+        bottom: 122px;
+        right: 0px;
       }
     }
   }
@@ -524,7 +526,7 @@ section.solution {
         @media(min-width: $medium) {
           left: 50%;
           margin-left: -6px;
-          top: -10px;
+          top: 11px;
         }
         @media(min-width: $large) {
           top:-2;
