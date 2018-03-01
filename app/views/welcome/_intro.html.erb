@@ -4,17 +4,17 @@
     <p><%=t 'intro.subtitle' %></p>
   </div>
 
-  <div class="email-signup">
-    <!-- Begin MailChimp Signup Form -->
-    <form action="https://market.us17.list-manage.com/subscribe/post?u=1c0651c7d2fb9faefd3e51c27&amp;id=3566f0e453" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-
+  <!-- Begin MailChimp Signup Form -->
+  <form action="https://market.us17.list-manage.com/subscribe/post?u=1c0651c7d2fb9faefd3e51c27&amp;id=3566f0e453" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div class="email-signup">
       <div class='input-div'>
         <input type="text" placeholder="<%=t 'intro.email_address' %>">
         <i class="fa fa-envelope-o" aria-hidden="true"></i>
       </div>
 
       <button type="button"><%=t 'intro.stay_updated_btn' %></button>
-    </form>
-  </div>
+    </div>
+  </form>
+
   <%= image_tag "scrolldown.svg", class: "scroll-down" %>
 </div>
