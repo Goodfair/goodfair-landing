@@ -52,31 +52,30 @@ en:
     paragraph: "Simba is the first Ethereum-based B2C marketplace DApp built with a focus on equality, accessibility, and democratized governance. Our goal is to create a marketplace where the fundamental components reflect the culture and values of its community."
     vision_benefit_1:
       title: "Industry Low Fees"
-      paragraph: Raise your bottom line by using our marketplace services at an unprecedented low cost.
+      paragraph: "Our affordable marketplace services help you pay less in fees and keep more money in your pocket."
     vision_benefit_2:
       title: "Self Governed"
-      paragraph: Avoid monopoly market share abuse by sharing your voice with policy determination.
+      paragraph: "Simba functions without any centralized services. Smart Contracts control transactions while the community handles mediation and moderates listings."
     vision_benefit_3:
       title: "Community Based"
-      paragraph: Support like-minded people and communal services by engaging in a new class of marketplace.
+      paragraph: "Simba’s own members help power its core services. Join the community to help make important decisions that affect buyers and sellers."
     vision_benefit_4:
       title: "Accessibility"
-      paragraph:  Benefit from blockchain technology with the convenience of the world wide web on any device
+      paragraph: "Simba is easy-to-use with an intuitive interface, and can be used on most browsers and devices."
     vision_benefit_5:
       title: "Security"
-      paragraph: Browse and shop worry free backed by immutable encrypted data structures.
+      paragraph: "All transactions live securely on the blockchain. Simba never directly accesses a user's wallet, allowing you to browse and shop worry-free."
     vision_benefit_6:
       title: "Legitimacy"
-      paragraph: Depend on reviews - data stored and verified with encryption algorithms.
-
+      paragraph: "Only buyers of verified purchases can leave reviews."
   poc:
     title: "Proof of Concept"
-    feature_1: "MetaMask Access"
-    feature_2: "Seller Dashboard"
-    feature_3: "Safe Transaction"
-    feature_4: "Authentic Review"
-    feature_5: "Feature 5"
-    feature_6: "Feature 6"
+    feature_1: "Buy and Sell Items"
+    feature_2: "MetaMask Integration"
+    feature_3: "Seller Dashboard"
+    feature_4: "Smart Contract Escrow"
+    feature_5: "Safe Transactions"
+    feature_6: "Authentic Reviews"
     explore: "Explore it Now"
   status_quo:
     title: "The Problem"
@@ -102,28 +101,23 @@ en:
     tech_2: "Escrow"
     tech_3: "Resolve"
     simtrust:
-      description: "SIMBA’s internal reputation algorithm quantifies the reputation of our users with an unalterable SIMTrust score. SIMTrust ratings system ensures everyone’s incentives are aligned and removes any stress related to transaction processes."
-      feature_1: "Trust you peers"
-      feature_2: "Metamask Integration"
-      feature_3: "No fake profiles"
-      feature_4: "Fair ratings"
-      feature_5: "Avert scams"
-
+      description: "SIMBA’s internal reputation algorithm quantifies the reputation of our users with an unalterable SIMTrust score. The SIMTrust rating system gives our buyers confidence to make purchases from community-trusted sellers."
+      feature_1: "Real, Verified Profiles"
+      feature_2: "Reputation System"
+      feature_3: "Legitimate Ratings"
+      feature_4: "Encrypted Reviews"
     simresolve:
-      description: "SIMBA designed an arbitration process selecting active members of the community as Mediators. Have your disputes resolved on a case - by - case basis without a centralized arbiter with decision guidelines."
-      feature_1: "Community based"
-      feature_2: "Voting mechanism"
-      feature_3: "Consensus decision making"
-      feature_4: "Fair incentive structure"
-      feature_5: "Unbiased, unalterable"
-
+      description: "SIMBA's arbitration process selects active members of the community as Mediators. Have your disputes resolved on a case-by-case basis by a team of users instead of a single, centralized 3rd party."
+      feature_1: "Scam Prevention"
+      feature_2: "Incentives For Arbiters"
+      feature_3: "Impartial Mediation System For Both Parties"
+      feature_4: "Self-Governed By The Community"
     simescrow:
-      description: "SIMBA’s escrow process enforced by smart-contract. The escrow provides security for the buyer and seller on key phases of the transaction; when locked in escrow, the funds are out of control from all parties."
-      feature_1: "Security & Safety"
-      feature_2: "Low fee transaction"
-      feature_3: "No payment third party"
-      feature_4: "Decentralized transactions"
-      feature_5: "Post-delivery payment"
+      description: "SIMBA’s escrow process controlled by Smart Contracts. The escrow ensures funds are secure until a successful transaction is completed between the buyer and seller."
+      feature_1: "Secure Payment Transaction"
+      feature_2: "Post Delivery Payment"
+      feature_3: "No Third Parties Involved"
+      feature_4: "Low Fees"
     block_1:
       title: "Stable Currency with DAI"
       paragraph: "To combat cryptocurrency volatility, SIMBA utlizes DAI to ensure item price stability."
@@ -211,16 +205,21 @@ en:
       subtitle: "Founder, Lead Engineer"
     block_2:
       title: "Jeremy Hoffing"
-      subtitle: "Founder, Lead Engineer"
+      subtitle: "Co-Founder, Lead Engineer"
+      paragraph: "Jeremy is a software engineer, entrepreneur and manager based in Los Angeles, currently serving as the VP of Engineering at Collab, Inc.
+He has been developing web applications for over 8 years and is proficient in Ruby, Javascript and database architecture. As an avid supporter of blockchain technology, he is excited to see its various applications come to life and play an important role in the near future. Jeremy also speaks Japanese and Spanish, having lived in Japan as well as traveled all around South America."
     block_3:
       title: "Kyle Foley"
       subtitle: "Founder, Lead UI/UX"
+      paragraph:
     block_4:
       title: "Adrian Sun"
       subtitle: "Founder, Marketing, Strategy"
+      paragraph:
     block_5:
       title: "Pierre Laurent"
       subtitle: "Founder, Marketing, Strategy"
+      paragraph:
   footer:
     title: 'SIMBA Proof of Concept is now Live!'
     try_it_btn: 'Try it Now'
