@@ -51,22 +51,24 @@ $(document).ready(function() {
     centerPadding: '60px',
     slidesToShow: 5,
     infinite: false,
+    mobileFirst:true,
     responsive: [{
         breakpoint: 768,
         settings: {
-          arrows: false,
+          mobileFirst:true,
+          arrows: true,
           centerMode: false,
-          centerPadding: '40px',
-          slidesToShow: 2,
+          centerPadding: '60px',
+          slidesToShow: 3 ,
         }
       },
       {
-        breakpoint: 480,
+        breakpoint: 1024,
         settings: {
+          mobileFirst:true,
           arrows: true,
-          centerMode: true,
-          centerPadding: '40px',
-          slidesToShow: 1
+          centerPadding: '60px',
+          slidesToShow: 4,
         }
       }
     ]
