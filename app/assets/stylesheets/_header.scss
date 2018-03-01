@@ -284,8 +284,8 @@ $button-width: 35px;
     margin-left: 30px;
 
     @media(min-width: $medium) {
-      width: 225px;
-      height: 75px;
+      width: 180px;
+      height: 60px;
     }
   }
 
@@ -301,8 +301,8 @@ $button-width: 35px;
     color: #ffffff;
 
     @media(min-width: $medium) {
-      width: 40px;
-      height: 40px;
+      width: 30px;
+      height: 30px;
     }
   }
 
@@ -336,10 +336,10 @@ $button-width: 35px;
       letter-spacing: 0.9px;
 
       @media(min-width: $medium) {
-        width: 225px;
-        height: 70px;
+        width: 200px;
+        height: 55px;
         border-radius: 50px;
-        font-size: 20px;
+        font-size: 16px;
       }
     }
 
@@ -357,10 +357,10 @@ $button-width: 35px;
       letter-spacing: 0.9px;
 
       @media(min-width: $medium) {
-        width: 225px;
-        height: 70px;
+        width: 200px;
+        height: 55px;
         border-radius: 50px;
-        font-size: 20px;
+        font-size: 16px;
         margin-left: 50px;
       }
     }
@@ -405,7 +405,7 @@ $button-width: 35px;
       text-align: left;
 
       @media(min-width: $medium) {
-        font-size: 45px;
+        font-size: 35px;
         text-align: center;
       }
 
