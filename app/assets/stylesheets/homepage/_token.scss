@@ -65,6 +65,15 @@ background-image: linear-gradient(-177deg, #1A5FB0 8%, #0E66AC 100%);
     padding-top: 320px;
     padding-bottom: 60px;
 
+    @media(min-width: $medium) {
+      padding-top: 70px;
+      padding-bottom: 80px;
+    }
+    @media(min-width: $large) {
+      padding-top: 60px;
+      padding-bottom: 60px;
+
+    }
     .token-intro {
       h2 {
         img {
@@ -73,9 +82,6 @@ background-image: linear-gradient(-177deg, #1A5FB0 8%, #0E66AC 100%);
           margin-right: 11px;
         }
       }
-    }
-    @media(min-width: $medium) {
-      padding-top: 60px;
     }
 
     .token-icon {
@@ -139,7 +145,7 @@ background-image: linear-gradient(-177deg, #1A5FB0 8%, #0E66AC 100%);
       }
 
       h3 {
-        @media(min-width: $large) {
+        @media(min-width: $medium) {
           letter-spacing: 4.6px;
           line-height: 1.58;
           font-size: 19px;

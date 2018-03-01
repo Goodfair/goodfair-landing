@@ -157,6 +157,10 @@
         box-shadow: 0 2px 8px 0 rgba(35, 78, 162, 0.25);
         letter-spacing: 0.8px;
         z-index: 5;
+        cursor: pointer;
+        &:hover {
+          background-image: linear-gradient(to right, #136ee1, #00cce1);
+        }
       }
     }
   }

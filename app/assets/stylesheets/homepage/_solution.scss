@@ -6,6 +6,7 @@ section.solution {
   background-position: center;
   @media(min-width: $medium) {
     padding-top: 100px;
+    padding-bottom: 70px;
   }
   @media(min-width: $large) {
     padding-top: 150px;
@@ -17,21 +18,29 @@ section.solution {
   }
 
   .solution-bg {
-    @media(min-width: $large) {
+    @media(min-width: $medium) {
       height: 100%;
       width: 100%;
-      top:0;
-      left:0;
+      top: 0;
+      left: 0;
       position: absolute;
       padding-top: 150px;
       /* Path: */
       background: image-url("solution_bg_desktop.png");
       background-repeat: no-repeat;
       background-position: center;
+      background-size: cover;
+    }
+    @media(min-width: $large) {
       background-size: contain;
     }
   }
 
+  .hex-main-container {
+    @media(min-width: $large) {
+      max-width: 1100px;
+    }
+  }
   // &:before {
   //   @media(min-width: $medium) {
   //     background: #184793;
@@ -65,7 +74,6 @@ section.solution {
   //     z-index: 2;
   //   }
   // }
-
   .solution-intro {
     @media(min-width: $medium) {
       top: -70px;
@@ -76,6 +84,9 @@ section.solution {
 
     p {
       @media(min-width: $medium) {
+        font-size: 19px;
+      }
+      @media(min-width: $large) {
         font-size: 20px;
       }
     }
@@ -97,12 +108,15 @@ section.solution {
     }
 
     h3 {
+      @media(min-width: $medium) {
+        font-size: 19px;
+        margin-bottom: 25px;
+      }
       @media(min-width: $large) {
         margin-bottom: 27px;
       }
     }
   }
-
 
   h2 {
     @media(min-width: $medium) {
@@ -116,11 +130,13 @@ section.solution {
     font-weight: 300;
     @media(min-width: $medium) {
       display: inline-block;
+      margin-bottom: 18px;
     }
     @media(min-width: $large) {
       margin-bottom: 24px;
       font-size: 27px;
     }
+
     span {
       font-weight: 600;
     }
@@ -157,12 +173,15 @@ section.solution {
   }
 
   .hex {
-    margin: 30px 0 0 0;
+    margin: 30px 0 0;
     position: relative;
     padding-top: 30px;
     @media(min-width: $medium) {
       padding-top: 0;
       width: 100%;
+      margin: 15px 0 0;
+    }
+    @media(min-width: $large) {
       margin: 30px 0 0;
     }
 
@@ -208,13 +227,15 @@ section.solution {
     text-align: left;
     color: #ffffff;
     // margin-bottom: 65px;
-
     margin-top: 25px;
     @media(min-width: $medium) {
       margin-left: 0;
       margin-right: 0;
+      margin-top: 0;
     }
-
+    @media(min-width: $large) {
+      margin-top:25px;
+    }
     p {
       font-family: var(--paragraph-secondary-font);
       font-weight: 400;
@@ -332,6 +353,10 @@ section.solution {
     margin: 0 auto;
     @media(min-width: $medium) {
       width: 237px;
+      max-width: 100%;
+    }
+    @media(min-width: $large) {
+      width: 237px;
     }
   }
 
@@ -343,61 +368,66 @@ section.solution {
       width: 100%;
     }
   }
-
   // .slick-active {
   //   opacity: 0.5;
   //   // transform: scale(1);
   // }
-
   .slick-current {
     opacity: 1;
   }
 
+  .slick-next,
   .slick-prev {
-    left: 5px;
-    top: 160px;
-    z-index: 100;
+    opacity: 0.8;
+    transition: opacity 0.3s;
     width: 37px;
     height: 36.47px;
+    top: 160px;
+
+    &:hover {
+      opacity: 1;
+    }
+    @media(min-width: $medium) {
+      top: 23%;
+      width: 50px;
+      height: 50px;
+    }
+    @media(min-width: $large) {
+      top: 43%;
+    }
+  }
+
+  .slick-prev {
+    left: 5px;
+    z-index: 10;
     background: image-url("slider_arrow_left.svg");
 
     &:before {
       content: '';
     }
     @media(min-width: $medium) {
-      left: 20px;
-      top: 45%;
-      width: 50px;
-      height: 50px;
+      left: 10%;
       background-size: cover;
     }
     @media(min-width: $large) {
       left: 5%;
-      top: 29%;
     }
   }
 
   .slick-next {
     right: 5px;
-    top: 160px;
-    z-index: 100;
-    width: 37px;
-    height: 36.47px;
     background: image-url("slider_arrow_right.svg");
 
     &:before {
       content: '';
     }
     @media(min-width: $medium) {
-      right: 20px;
-      top: 45%;
-      width: 50px;
-      height: 50px;
+      right: 10%;
       background-size: cover;
+
     }
     @media(min-width: $large) {
       right: 2%;
-      top: 29%;
     }
   }
   $ripple-color: #2E87DE;
@@ -413,6 +443,7 @@ section.solution {
     @media(min-width: $medium) {
       height: auto;
     }
+
     .circle-ripple-top {
       top: -2px;
       left: 74px;
@@ -428,6 +459,9 @@ section.solution {
       left: -2px;
       bottom: 90px;
       @media(min-width: $medium) {
+        bottom: 121px;
+      }
+      @media(min-width: $large) {
         bottom: 143px;
       }
     }
@@ -436,10 +470,10 @@ section.solution {
       right: -2px;
       bottom: 90px;
       @media(min-width: $medium) {
-        bottom: 143px;
+        bottom: 121px;
       }
       @media(min-width: $large) {
-        bottom: 140px;
+        bottom: 143px;
         right: -31px;
       }
     }
@@ -490,12 +524,19 @@ section.solution {
         @media(min-width: $medium) {
           left: 50%;
           margin-left: -6px;
-          top: -2px;
+          top: -10px;
+        }
+        @media(min-width: $large) {
+          top:-2;
         }
       }
 
       .circle-ripple-left {
         @media(min-width: $medium) {
+          bottom: 134px;
+          left: 57px;
+        }
+        @media(min-width: $large) {
           bottom: 146px;
           left: 73px;
         }
@@ -503,8 +544,12 @@ section.solution {
 
       .circle-ripple-right {
         @media(min-width: $medium) {
+          bottom: 134px;
+          right: 57px;
+        }
+        @media(min-width: $large) {
           bottom: 146px;
-          right: 71px;
+          right: 73px;
         }
       }
 

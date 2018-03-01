@@ -49,7 +49,7 @@ $(document).ready(function() {
   $('.token-slider').slick({
     centerMode: false,
     centerPadding: '60px',
-    slidesToShow: 5,
+    slidesToShow: 3,
     infinite: false,
     mobileFirst:true,
     responsive: [{

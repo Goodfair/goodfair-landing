@@ -190,6 +190,8 @@ button {
       line-height: 54px;
       display: flex;
       align-items: center;
+      box-shadow: inset -2px 1px 11px 0 rgba(0, 81, 133, 0.18), -2px 1px 11px 0 rgba(0, 81, 133, 0.18);
+
       @media(min-width: $medium) {
         width: 237px;
         height: 44px;
@@ -197,13 +199,16 @@ button {
       }
 
       &::placeholder {
-        opacity: 0.8;
+        opacity: 1;
         font-size: 13px;
         font-weight: 600;
         letter-spacing: 0.6px;
         color: #ffffff;
         text-transform: uppercase;
         line-height: 54px;
+      }
+      &:active, &:focus {
+        background-color: #1c78c9;
       }
     }
 
@@ -213,7 +218,7 @@ button {
       top: -1px;
       padding: 18px;
       font-size: 19px;
-      color: #52A9FF;
+      color: #98ccff;
       @media(min-width: $medium) {
         padding: 13.5px 18px;
       }
@@ -233,11 +238,17 @@ button {
     letter-spacing: 0.7px;
     text-align: center;
     color: #ffffff;
+    box-shadow: 0px 2px 4px 0 rgba(0, 98, 161, 0.27);
+    cursor: pointer;
+
     @media(min-width: $medium) {
       width: 178px;
       height: 44px;
-      background-image: linear-gradient(to right, #1A77ED, #00D7ED);
       margin-top: 0;
+    }
+    &:hover {
+      background-image: linear-gradient(to right, #136ee1, #00cce1);
+
     }
   }
 }
