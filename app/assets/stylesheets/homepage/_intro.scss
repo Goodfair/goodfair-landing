@@ -6,7 +6,7 @@ section.intro {
   padding-bottom: 60px;
   background-color: #0a68a8;
   @media(min-width: $medium) {}
-  @media(min-width: $large) {
+  @media(min-width: $medium) {
     background-color: #0665B0;
     background-image: image-url("intro_bg_gradient@2x.png");
     background-repeat: repeat-x;
@@ -18,7 +18,7 @@ section.intro {
     height: 100vh;
     position: relative;
     @media(min-width: $medium) {
-      max-height: 900px;
+      max-height: 700px;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -40,7 +40,10 @@ section.intro {
     z-index: 0;
     top: -18px;
     @media(min-width: $medium) {
-      background: image-url("intro_bg_tablet@2x.png");
+      background: image-url("intro_bg_desktop.png");
+      background-repeat: no-repeat;
+      background-position: center top;
+      background-size: 110%;
     }
     @media(min-width: $large) {
       background: image-url("intro_bg_desktop.png");
@@ -81,6 +84,9 @@ section.intro {
       align-items: center;
       padding-top: 0;
     }
+    @media(min-width: $large) {
+      margin-top: 0;
+    }
 
     h1 {
       line-height: 39px;
@@ -88,9 +94,11 @@ section.intro {
       font-size: 32px;
       @media(min-width: $medium) {
         font-size: 35px;
+        margin-bottom: 3px;
       }
       @media(min-width: $large) {
         font-size: 48px;
+        margin-bottom: 15px;
       }
     }
 
