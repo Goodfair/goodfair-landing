@@ -10,7 +10,10 @@ $button-width: 35px;
   position: fixed;
   z-index: 100;
   width: 100%;
-  margin-top: 20px;
+
+  @media(min-width: $large) {
+    margin-top: 20px;
+  }
 
   @media(min-width: $large) {
     height: 70px;
@@ -153,9 +156,14 @@ $button-width: 35px;
     }
 
     .button_container {
-      top:24px;
+      top: 24px;
+
       span {
         background: #535353;
+      }
+
+      @media(min-width: $medium) {
+        top: 39px;
       }
     }
   }
@@ -175,7 +183,7 @@ $button-width: 35px;
   z-index: 100;
   transition: opacity 0.25s ease;
   @media(min-width: $medium) {
-    top: 43px;
+    top: 39px;
     right: 44px;
     width: 28px;
   }
