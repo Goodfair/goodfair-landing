@@ -41,8 +41,8 @@ en:
     whitepaper: 'Whitepaper'
     demo: 'Demo POC'
   intro:
-    title: "Your Bridge to the Future of E-Commerce."
-    subtitle: "Simba is a self-governed marketplace that aims to revolutionize the world of B2C commerce."
+    title: "Your Bridge to the Future of B2C E-Commerce."
+    subtitle: "Simba is a self-governed marketplace that aims to revolutionize e-commerce using blockchain technology."
     stay_updated_btn: "Stay Updated"
     email_address: "Email Address"
     try_poc_btn: "Try the proof of Concept"
@@ -52,51 +52,52 @@ en:
     paragraph: "Simba is the first Ethereum-based B2C marketplace DApp built with a focus on equality, accessibility, and democratized governance. Our goal is to create a marketplace where the fundamental components reflect the culture and values of its community."
     vision_benefit_1:
       title: "Industry Low Fees"
-      paragraph: "Our affordable marketplace services help you pay less in fees and keep more money in your pocket."
+      paragraph: "Peer-to-Peer transactions between buyers and sellers gurantee industry low fees."
     vision_benefit_2:
       title: "Self Governed"
-      paragraph: "Simba functions without any centralized services. Smart Contracts control transactions while the community handles mediation and moderates listings."
+      paragraph: "Free of centralized services. Smart Contracts control transactions while the community handles mediation and moderates listings."
     vision_benefit_3:
       title: "Community Based"
-      paragraph: "Simba’s own members help power its core services. Join the community to help make important decisions that affect buyers and sellers."
+      paragraph: "Community members are incentivized with SIM tokens to actively participate in Simba's ecosystem."
     vision_benefit_4:
-      title: "Accessibility"
-      paragraph: "Simba is easy-to-use with an intuitive interface, and can be used on most browsers and devices."
+      title: "Blockchain Accessibility"
+      paragraph: "Easy-to-use and intuitive, with support for most browsers and devices."
     vision_benefit_5:
       title: "Security"
-      paragraph: "All transactions live securely on the blockchain. Simba never directly accesses a user's wallet, allowing you to browse and shop worry-free."
+      paragraph: "Transactions are stored securely on the blockchain. Wallets are never directly accessed, ensuring a worry-free shopping experience."
     vision_benefit_6:
       title: "Legitimacy"
-      paragraph: "Only buyers of verified purchases can leave reviews."
+      paragraph: "Blockchain-powered reputation system guarantees authentic ratings and reviews."
   poc:
     title: "Proof of Concept"
     feature_1: "Buy and Sell Items"
-    feature_2: "MetaMask Integration"
-    feature_3: "Seller Dashboard"
-    feature_4: "Smart Contract Escrow"
-    feature_5: "Safe Transactions"
-    feature_6: "Authentic Reviews"
+    feature_2: "Virtual Escrow"
+    feature_3: "Fiat/ETH Conversion"
+    feature_4: "Admin Dashboard"
+    feature_5: "MetaMask Integration"
+    feature_6: "Ropsten Network"
     explore: "Explore it Now"
   status_quo:
     title: "The Problem"
     subtitle: "Centralized E-Commerce Platforms are Flawed"
-    paragraph: "Traditional Marketplaces have been ruling the e-commerce space for too long without putting its users' interests first. Common complaints include high fees, strict rules, unfair mediation, and fraudulant reviews."
+    paragraph: "Centralized marketplace objectives are misaligned with user interests. Common complaints include high fees, strict policies, unfair mediation, and fraudulant reviews."
     block_1:
       title: "High Listing & Transaction Fees"
+      content: "Marketplaces charge an upfront premium to cover internal and external platform costs, taking a large percentage of transaction "
       content: "Marketplaces often charge an upfront premium for transactions and other centralized services."
     block_2:
       title: "Fraudulant Reviews and Ratings"
-      content: "Existing e-commerce platforms are riddled with incentivized and fake reviews. These reviews are extremely biased or misrepresentative and hurt sellers inordinately."
+      content: "Existing e-commerce platforms are riddled with fake reviews and ratings, hurting seller legitimacy and buyer trust."
     block_3:
       title: "Industry Monopoly"
-      content: "Amazon, eBay, and a few others have a 90% share of the e-commerce market. As dominant players, they have significant leverage over buyers and sellers."
+      content: "Amazon and eBay have 55% share of the e-commerce market. As dominant players, they have significant leverage over buyers and sellers."
     block_4:
       title: "Unfair Mediation Practices"
-      content: "Conflict resolution is usually handled by a centralized, single party and suffers from personal bias effects. Decisions are often inequitable and treat the user unfairly."
+      content: "Conflict resolution is typically handled by a centralized, single party and suffers from personal bias effects. Decisions are often inequitable and treat the user unfairly."
   solution:
     title: "The Solution"
-    subtitle: "Building a Protocol for the Next Generation Ecommerce"
-    paragraph: "Simba utilizes the Ethereum blockchain network to support the needs and challenges of a B2C marketplace with three core concepts: SIMTrust, SIMResolve, and SIMEscrow"
+    subtitle: "Building Protocols for the Next Generation of B2C E-Commerce"
+    paragraph: "Simba developed three core protocols using the Ethereum blockchain to support the needs and challenges of a B2C marketplace."
     tech_1: "Trust"
     tech_2: "Escrow"
     tech_3: "Resolve"
@@ -135,7 +136,7 @@ en:
     paragraph: 'Commerce is evolving. A few years from now, digital currencies will play a central role in our lives, replacing coins, cash, cards and cheques. '
     block_1:
       title: 'Stable Currency'
-      paragraph: 'SIMBA Stablecoin protocol mitigates cryptocurrency volatility by ensuring the value of the transaction relative to USD remains the same. '
+      paragraph: 'SIMBA's Stablecoin feature mitigates cryptocurrency volatility by ensuring the value of the transaction relative to USD remains the same. '
     block_2:
       title: 'Rewards Program'
       paragraph: 'Support a low-cost and balanced marketplace - SIMBA users are rewarded for reporting illicit items, providing quality reviews, and mediating disputes.'
