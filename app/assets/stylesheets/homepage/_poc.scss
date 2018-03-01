@@ -4,7 +4,9 @@
   position: relative;
 
   &.mobile-tablet {
-    @media(min-width: $large) {
+    max-width: 862px;
+    margin: 0 auto;
+    @media(min-width: 1200px) {
       display: none;
     }
   }
@@ -34,6 +36,7 @@
   img.screenshot {
     width: 100%;
     margin-left: -8px;
+    max-width: 530px;
     @media(min-width: $large) {
       position: absolute;
       z-index: 5;
@@ -82,6 +85,9 @@
       background-position: center right;
       margin-top:40px;
     }
+    @media(min-width: $large) {
+      background-size: 579px;
+    }
   }
 
   .poc-benefits {
@@ -96,7 +102,9 @@
       letter-spacing: 0;
       width: 70%;
     }
-
+    @media(min-width: $large) {
+      width: 47%;
+    }
     div {
       margin-bottom: 10px;
 
@@ -118,7 +126,7 @@
   &.desktop {
     margin-top: 50px;
 
-    @media(max-width: 1023px) {
+    @media(max-width: 1199px) {
       display: none;
     }
 
@@ -126,7 +134,7 @@
       justify-content: flex-start;
 
           @media(min-width: $large) {
-            margin-top: 135px;
+            margin-top: 117px;
           }
     }
 
@@ -148,6 +156,7 @@
         /* Rectangle 9: */
         box-shadow: 0 2px 8px 0 rgba(35, 78, 162, 0.25);
         letter-spacing: 0.8px;
+        z-index: 5;
       }
     }
   }

@@ -57,7 +57,7 @@ section.intro {
   }
 
   &:after {
-    @media(min-width: $medium) {
+    @media(min-width: 1200px) {
       background: #0665B0;
       bottom: -3px;
       content: '';

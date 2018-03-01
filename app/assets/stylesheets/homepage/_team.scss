@@ -8,7 +8,6 @@
     background-size: cover;
     padding-bottom: 120px;
   }
-
   // &:before {
   //   @media(min-width: $medium) {
   //     background: #1B4E99;
@@ -46,13 +45,17 @@
       background: image-url("map_desktop.png");
       background-size: 1540px;
       background-repeat: no-repeat;
-      background-position: center 60px;
+      background-position: center 10px;
     }
   }
+
   .team-container {
     @media(max-width: 767px) {
       position: relative;
       z-index: 2;
+    }
+    @media(min-width: $large) {
+      max-width: 1000px;
     }
   }
   //
@@ -80,9 +83,9 @@
     }
     @media(min-width: $large) {
       width: 330px;
-          position: absolute;
-          right: 15%;
-          top: 277px;
+      position: absolute;
+      right: 15%;
+      top: 233px;
     }
 
     h2 {
@@ -101,8 +104,14 @@
       margin-top: 180px;
     }
     @media(min-width: $large) {
-      margin: 500px auto auto;
+      margin: 450px auto auto;
       width: 90%;
+    }
+
+    .col-lg-4 {
+      @media(min-width: $large) {
+        margin-bottom: 15px;
+      }
     }
 
     &:nth-child(6) {
@@ -126,7 +135,7 @@
     }
 
     figcaption {
-      margin-top:5px;
+      margin-top: 5px;
       font-size: 16px;
       font-family: var(--paragraph-font);
       font-weight: 600;

@@ -2,19 +2,27 @@ section.benefits {
   padding: 50px 0;
   background: #F6FBFF image-url("benefits_bg_mobile@2x.png");
   background-size: cover;
+  background-position: center;
   @media(min-width: $large) {
-    padding: 150px 0 120px 0;
+    padding: 120px 0 60px;
     background: #F6FBFF image-url("benefits_bg_desktop.png");
     background-size: cover;
     background-repeat: no-repeat;
-
   }
+
+  .container {
+    @media(min-width: $xlarge) {
+      max-width: 1000px;
+    }
+  }
+
   h2 {
     color: var(--h2-secondary-color);
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 30px;
+
     img {
       height: 58px;
     }
