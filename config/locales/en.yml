@@ -103,7 +103,7 @@ en:
     simtrust:
       description_html: "SIM<span>Trust</span> is a reputation algorithm that quantifies the reputation of users with an unalterable SIM<span>Trust</span> score. This protocol gives buyers confidence to make purchases from community-trusted sellers."
       feature_1: "Reputation System"
-      feature_2: ""
+      feature_2: "User transparency"
       feature_3: "Legitimate Ratings"
       feature_4: "Legitimate Reviews"
     simresolve:
