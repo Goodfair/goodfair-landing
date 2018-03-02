@@ -52,10 +52,10 @@ en:
     paragraph: "Simba is the first Ethereum-based B2C marketplace DApp built with a focus on equality, accessibility, and democratized governance. Our goal is to create a marketplace where the fundamental components reflect the culture and values of its community."
     vision_benefit_1:
       title: "Industry Low Fees"
-      paragraph: "Peer-to-Peer transactions between buyers and sellers gurantee industry low fees."
+      paragraph: "Intermediary-free transactions between buyers and sellers allow for industry low fees."
     vision_benefit_2:
       title: "Self Governed"
-      paragraph: "Free of centralized services. Smart Contracts control transactions while the community handles mediation and moderates listings."
+      paragraph: "Free of centralized services. Smart Contracts facilitate transactions while the Simba community oversees mediation and moderates listings."
     vision_benefit_3:
       title: "Community Based"
       paragraph: "Community members are incentivized with SIM tokens to actively participate in Simba's ecosystem."
