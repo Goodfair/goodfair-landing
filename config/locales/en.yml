@@ -154,10 +154,10 @@ en:
       content_html: "SIM<span>Resolve</span> case mediators are compensated with SIM tokens for participation. Mediators will only be compensated if they vote with the consensus."
     block_4:
       title: "Democratizing Governance"
-      content: "Community members are incentivized with SIM tokens to actively participate in SIMBA's ecosystem (reviews, item screening, mediation, etc). "
+      content: "Community members are incentivized with SIM tokens to actively participate in Simba's ecosystem (reviews, item screening, mediation, etc). "
     block_5:
       title: "Voting Power"
-      content: "SIMBA community members can shape the platform's future by participating in community voting."
+      content: "Simba community members can shape the platform's future by participating in community voting."
     block_6:
       title: "Seller Collateral"
       content: "SIM tokens are locked as a collateral when listing products in order to deter fraud and scams."
@@ -231,7 +231,7 @@ en:
       subtitle: "Community Management & Strategy"
       paragraph:
   footer:
-    title: 'SIMBA Proof of Concept is now Live!'
+    title: 'Simba Proof of Concept is now Live!'
     try_it_btn: 'Try it Now'
     join_next_stage: "Join the next stage in e-commerce"
     connect_with_us: "Connect with us"
