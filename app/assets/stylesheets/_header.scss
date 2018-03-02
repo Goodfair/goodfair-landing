@@ -433,24 +433,6 @@ $button-width: 35px;
         color: $color-link;
         text-decoration: none;
         overflow: hidden;
-
-        &:active:after,
-        &:focus:after,
-        &:hover:after {
-          width: 100%;
-        }
-
-        &:after {
-          content: '';
-          position: absolute;
-          bottom: 0;
-          left: 50%;
-          width: 0;
-          transform: translateX(-50%);
-          height: 3px;
-          background: $color-link;
-          transition: 0.35s;
-        }
       }
     }
   }
