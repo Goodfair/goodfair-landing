@@ -70,6 +70,12 @@
       margin-top: 0;
       font-size: 11px;
       height: 44px;
+
+      margin-left: 10px;
+
+      @media(min-width: $medium) {
+        margin-left: 0px;
+      }
     }
   }
 
