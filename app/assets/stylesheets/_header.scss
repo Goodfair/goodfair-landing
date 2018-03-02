@@ -97,9 +97,18 @@ $button-width: 35px;
         color: #ffffff;
         margin-left: 15px;
 
+        &:after {
+         content: 'WHITEPAPER';
+        }
+
+        &:hover:after {
+          content: 'COMING SOON';
+        }
+
         &:focus,
         &:hover {
           background-color: #ffffff;
+          transition: color 0.5s;
           border: solid 1px rgba(255, 255, 255, 0.61);
           color: #0b6dad;
         }
@@ -143,11 +152,20 @@ $button-width: 35px;
         border: solid 1px #0b6dad;
         color: #0b6dad;
 
+        &:after {
+         content: 'WHITEPAPER';
+        }
+
+        &:hover:after {
+          content: 'COMING SOON';
+        }
+
         &:focus,
         &:hover {
           border: solid 1px rgba(255, 255, 255, 0.61);
           background-color: #0b6dad;
           color: #fff;
+          transition: color 0.5s;
         }
       }
     }
@@ -329,6 +347,15 @@ $button-width: 35px;
       font-size: 14px;
       font-weight: 500;
       letter-spacing: 0.9px;
+
+      &:after {
+        content: 'WHITEPAPER';
+      }
+
+      &:hover:after {
+        content: 'COMING SOON';
+      }
+
       @media(min-width: $medium) {
         width: 200px;
         height: 55px;

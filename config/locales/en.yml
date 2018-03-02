@@ -83,166 +83,152 @@ en:
     paragraph: "Centralized marketplace objectives are misaligned with user interests. Common complaints include high fees, strict policies, unfair mediation, and fraudulant reviews."
     block_1:
       title: "High Listing & Transaction Fees"
-      content: "Marketplaces charge an upfront premium to cover internal and external platform costs, taking a large percentage of transaction "
-      content: "Marketplaces often charge an upfront premium for transactions and other centralized services."
+      content: "Marketplaces bundle their overhead costs into high transaction and service fees, cutting into seller profit margins."
     block_2:
       title: "Fraudulant Reviews and Ratings"
       content: "Existing e-commerce platforms are riddled with fake reviews and ratings, hurting seller legitimacy and buyer trust."
     block_3:
       title: "Industry Monopoly"
-      content: "Amazon and eBay have 55% share of the e-commerce market. As dominant players, they have significant leverage over buyers and sellers."
+      content: "Amazon and eBay have 50% share of the e-commerce market. As dominant players, they have significant leverage over buyers and sellers."
     block_4:
       title: "Unfair Mediation Practices"
       content: "Conflict resolution is typically handled by a centralized, single party and suffers from personal bias effects. Decisions are often inequitable and treat the user unfairly."
   solution:
     title: "The Solution"
     subtitle: "Building Protocols for the Next Generation of B2C E-Commerce"
-    paragraph: "Simba developed three core protocols using the Ethereum blockchain to support the needs and challenges of a B2C marketplace."
+    paragraph_html: "Simba developed three core protocols (SIM<span>Escrow</span>, SIM<span>Trust</span>, SIM<span>Resolve</span>) on top of the Ethereum blockchain in order to support the needs and challenges of a B2C marketplace."
     tech_1: "Trust"
     tech_2: "Escrow"
     tech_3: "Resolve"
     simtrust:
-      description: "SIMBA’s internal reputation algorithm quantifies the reputation of our users with an unalterable SIMTrust score. The SIMTrust rating system gives our buyers confidence to make purchases from community-trusted sellers."
-      feature_1: "Real, Verified Profiles"
-      feature_2: "Reputation System"
+      description_html: "SIM<span>Trust</span> is a reputation algorithm that quantifies the reputation of users with an unalterable SIM<span>Trust</span> score. This protocol gives buyers confidence to make purchases from community-trusted sellers."
+      feature_1: "Reputation System"
+      feature_2: ""
       feature_3: "Legitimate Ratings"
-      feature_4: "Encrypted Reviews"
+      feature_4: "Legitimate Reviews"
     simresolve:
-      description: "SIMBA's arbitration process selects active members of the community as Mediators. Have your disputes resolved on a case-by-case basis by a team of users instead of a single, centralized 3rd party."
+      description_html: "SIM<span>Resolve</span> is an arbitration process that resolves disputes on a case-by-case.  Active members of the community are selected as Mediators and rewarded for their participation with SIM tokens."
       feature_1: "Scam Prevention"
-      feature_2: "Incentives For Arbiters"
-      feature_3: "Impartial Mediation System For Both Parties"
-      feature_4: "Self-Governed By The Community"
+      feature_2: "Incentives For Mediators"
+      feature_3: "Impartial System"
+      feature_4: "Community Governance"
     simescrow:
-      description: "SIMBA’s escrow process controlled by Smart Contracts. The escrow ensures funds are secure until a successful transaction is completed between the buyer and seller."
+      description_html: "SIM<span>Escrow</span> is a virtual escrow process that provides security for buyers and sellers on key phases during a purchase transaction. When locked in the smart contract, funds are out of control from all parties."
       feature_1: "Secure Transactions"
       feature_2: "Post Delivery Payment"
-      feature_3: "No Third Parties Involved"
+      feature_3: "No Intermediaries"
       feature_4: "Low Fees"
-    block_1:
-      title: "Stable Currency with DAI"
-      paragraph: "To combat cryptocurrency volatility, SIMBA utlizes DAI to ensure item price stability."
-    block_2:
-      title: "Earn Tokens"
-      paragraph: "Gain SimToken for participating in SimResolve conflict resolution cases"
-    block_3:
-      title: "Efficient Transactions"
-      paragraph: "Ethereum Network is fast"
-    block_4:
-      title: "Rewards Program"
-      paragraph: "Other thing."
   benefits:
     title: 'Platform Features'
     paragraph: 'Commerce is evolving. A few years from now, digital currencies will play a central role in our lives, replacing coins, cash, cards and cheques. '
     block_1:
       title: 'Stable Currency'
-      paragraph: "SIMBA's Stablecoin feature mitigates cryptocurrency volatility by ensuring the value of the transaction relative to USD remains the same. "
+      paragraph: "Simba's Stablecoin feature mitigates cryptocurrency volatility by ensuring the value of the transaction relative to USD remains the same. "
     block_2:
       title: 'Rewards Program'
-      paragraph: 'Support a low-cost and balanced marketplace - SIMBA users are rewarded for reporting illicit items, providing quality reviews, and mediating disputes.'
+      paragraph: 'Support a low-cost marketplace - Community members are rewarded for reporting illicit items, providing quality reviews, and mediating disputes.'
     block_3:
       title: 'Privacy & Data Encryption'
-      paragraph: 'Utilize the full functionality of our platform without concerns for security and privacy.'
+      paragraph: "User data is encrypted using SHA-3 algorithm to ensure user's privacy on the blockchain."
     block_4:
       title: 'Data Ownership'
-      paragraph: 'You own your data - we will never sell user information to third-party services.'
+      paragraph: "Simba stands against data mining. Personal information will never be sold to a third party."
     block_5:
       title: 'Browser Based & Mobile Access'
-      paragraph: 'SIMBA is optimized for convenience - access the SIMBA marketplace from your browser or mobile device.'
+      paragraph: 'Simba is optimized for accessibility and exposure - Available on most devices and indexable by search engines.'
     block_6:
-      title: 'Wallet Access with MetaMask'
-      paragraph: 'Seamlessly process cryptocurrency transactions with the Metamask browser extension.'
+      title: 'MetaMask Integration'
+      paragraph: 'Seamlessly process cryptocurrency transactions without giving up private keys via the MetaMask browser plugin.'
   token:
     title: "SIMToken"
     subtitle: "E-Commerce Powered via SIMToken"
-    paragraph: "SIMToken powers critical marketplace functionalities providing marketplace stability.  SIMTokens are used for item listing and promotion, compensation for mediators, writing highly rated authentic reviews, and identifying illicit and counterfeit listings."
+    paragraph: "SIM tokens power critical marketplace functionality and provides platform stability. SIM exists on the Ethereum blockchain and respects the ERC20 token standard."
     block_1:
-      title: "Pay for Item Listings/Subscription"
-      content: "SIM tokens are used to list items on the SIMBA marketplace - pay per listing, or per month for unlimited listings."
+      title: "Pay for Item Listings"
+      content: "SIM tokens are used to list items on Simba Marketplace - pay per listing, or per month for unlimited listings."
     block_2:
       title: "Pay for Promoted Listings"
       content: "Item exposure can be increased by purchasing listing promotion with SIM tokens."
     block_3:
-      title: "SIMResolve Rewards"
-      content: "SIMResolve case mediators are compensated with SIM tokens for participation. Mediators will only be compensated if they side with the majority."
+      title_html: "SIM<span>Resolve</span> Rewards"
+      content_html: "SIM<span>Resolve</span> case mediators are compensated with SIM tokens for participation. Mediators will only be compensated if they vote with the consensus."
     block_4:
-      title: "Ecosystem Contribution"
+      title: "Democratizing Governance"
       content: "Community members are incentivized with SIM tokens to actively participate in SIMBA's ecosystem (reviews, item screening, mediation, etc). "
     block_5:
       title: "Voting Power"
-      content: "SIMBA community members can shape the platform's future by participating in community voting. Active users will retain more voting weight."
+      content: "SIMBA community members can shape the platform's future by participating in community voting."
     block_6:
       title: "Seller Collateral"
-      content: "Sellers are required to lock collateral for item listings in order to deter fraud and scams. Collateralized funds will be used to reimburse victims of scams by fraudulent sellers."
+      content: "SIM tokens are locked as a collateral when listing products in order to deter fraud and scams."
   roadmap:
     title: "Next Step"
     subtitle: "Roadmap"
     quarter_1:
       title: "2017 Q2"
-      content_1: "Simba Idea Conception and Marketing Research"
-      content_2: "Competitor Analysis"
+      content_1: "Product Ideation and Market Research"
+      content_2: "Competitive Analysis"
       content_3: "Proof of Concept Development"
     quarter_2:
       title: "2017 Q3"
-      content_1: "Registration & Authentication through Metamask"
+      content_1: "Blockchain access via MetaMask"
       content_2: "SIMEscrow Conception & Implementation"
-      content_3: "Design SIMResolve Protocol"
+      content_3: "Establish SIMResolve Protocol"
     quarter_3:
       title: "2017 Q4"
-      content_1: "Design SIMTrust protocol"
-      content_2: "Design SIMBA Community Reward Program"
-      content_3: "Proof of Concept UI/UX Design"
+      content_1: "Establish SIMTrust Protocol"
+      content_2: "Establish Community Reward Program"
+      content_3: "Proof of Concept UI"
     quarter_4:
       title: "2018 Q1"
       content_1: "Whitepaper Development"
-      content_2: "SIMBA Landing Website"
+      content_2: "Company Website"
       content_3: "SIM ERC20 Token Implementation"
     quarter_5:
       title: "2018 Q2"
-      content_1: "Proof of Concept UI/UX Redesign"
-      content_2: "Implementation of SIMResolve Protocol"
-      content_3: "Implementation of SIMTrust Protocol"
-      content_4: "SIMBA Technical Whitepaper"
+      content_1: "POC UI Redesign"
+      content_2: "SIMResolve Protocol Implementation"
+      content_3: "SIMTrust Protocol Implementation"
+      content_4: "Technical Whitepaper"
     quarter_6:
       title: "2018 Q3"
-      content_1: "Integration of Dai Stablecoin Protocol"
-      content_2: "SIMBA Mobile Versione"
-      content_3: "SIMBA Alpha Release"
+      content_1: "Integrate Dai Stablecoin Protocol"
+      content_2: "Mobile Version"
+      content_3: "Alpha Release"
     quarter_7:
       title: "2018 Q4"
-      content_1: "Community Voting System Goes Live"
-      content_2: "Implementation of Seller Collateral"
-      content_3: "Implementation of Item Screening"
+      content_1: "Community Voting System Launch"
+      content_2: "Seller Collateral Implementation"
+      content_3: "Item Screening Implementation"
     quarter_8:
       title: "2019 Q1"
-      content_1: "Private Beta Access Distribution to Business Sellers"
-      content_2: "Populate Inventory"
+      content_1: "Private Beta Access Invitation"
+      content_2: "Initial Seller Onboarding"
+      content_3: "Platform Testnet Launch"
     quarter_9:
       title: "2019 Q2"
-      content_1: "SIMBA Mainnet Launch"
+      content_1: "Platform Mainnet Launch"
   who_is_simba:
     title: "Who is Simba?"
     subtitle: "Team Members"
-    paragraph: "Commerce is evolving. A few years from now, digital currencies will play a central role in our lives, replacing coins, cash, cards and cheques. "
+    paragraph: "We are a team of individuals with a shared vision for revolutionizing the e-commerce landscape through community and technology."
     block_1:
       title: "Fabrice Cheng"
-      subtitle: "Founder, Lead Engineer"
+      subtitle: "Co-Founder, Blockchain Engineer"
     block_2:
       title: "Jeremy Hoffing"
       subtitle: "Co-Founder, Lead Engineer"
-      paragraph: "Jeremy is a software engineer, entrepreneur and manager based in Los Angeles, currently serving as the VP of Engineering at Collab, Inc.
-He has been developing web applications for over 8 years and is proficient in Ruby, Javascript and database architecture. As an avid supporter of blockchain technology, he is excited to see its various applications come to life and play an important role in the near future. Jeremy also speaks Japanese and Spanish, having lived in Japan as well as traveled all around South America."
     block_3:
       title: "Kyle Foley"
-      subtitle: "Founder, Lead UI/UX"
+      subtitle: "Co-Founder, Product Lead"
       paragraph:
     block_4:
       title: "Adrian Sun"
-      subtitle: "Founder, Marketing, Strategy"
+      subtitle: "Co-Founder, Biz Dev & Strategy"
       paragraph:
     block_5:
       title: "Pierre Laurent"
-      subtitle: "Founder, Marketing, Strategy"
+      subtitle: "Community Management & Strategy"
       paragraph:
   footer:
     title: 'SIMBA Proof of Concept is now Live!'
