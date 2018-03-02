@@ -107,13 +107,13 @@ en:
       feature_3: "Legitimate Ratings"
       feature_4: "Legitimate Reviews"
     simresolve:
-      description_html: "SIM<span>Resolve</span> is an arbitration process that resolves disputes on a case-by-case.  Active members of the community are selected as Mediators and rewarded for their participation with SIM tokens."
+      description_html: "SIM<span>Resolve</span> is an arbitration process that resolves disputes on a case-by-case basis.  Active members of the community are selected as Mediators and rewarded for their participation with SIM tokens."
       feature_1: "Scam Prevention"
       feature_2: "Incentives For Mediators"
       feature_3: "Impartial System"
       feature_4: "Community Governance"
     simescrow:
-      description_html: "SIM<span>Escrow</span> is a virtual escrow process that provides security for buyers and sellers on key phases during a purchase transaction. When locked in the smart contract, funds are out of control from all parties."
+      description_html: "SIM<span>Escrow</span> is a virtual escrow process that provides security for buyers and sellers during key phases of a purchase transaction. When locked in the smart contract, funds are out of control from all parties."
       feature_1: "Secure Transactions"
       feature_2: "Post Delivery Payment"
       feature_3: "No Intermediaries"
@@ -140,8 +140,8 @@ en:
       title: 'MetaMask Integration'
       paragraph: 'Seamlessly process cryptocurrency transactions without giving up private keys via the MetaMask browser plugin.'
   token:
-    title: "SIMToken"
-    subtitle: "E-Commerce Powered via SIMToken"
+    title: "SIM Token"
+    subtitle: "E-Commerce Powered via SIM Token"
     paragraph: "SIM tokens power critical marketplace functionality and provides platform stability. SIM exists on the Ethereum blockchain and respects the ERC20 token standard."
     block_1:
       title: "Pay for Item Listings"
@@ -154,10 +154,10 @@ en:
       content_html: "SIM<span>Resolve</span> case mediators are compensated with SIM tokens for participation. Mediators will only be compensated if they vote with the consensus."
     block_4:
       title: "Democratizing Governance"
-      content: "Community members are incentivized with SIM tokens to actively participate in SIMBA's ecosystem (reviews, item screening, mediation, etc). "
+      content: "Community members are incentivized with SIM tokens to actively participate in Simba's ecosystem (reviews, item screening, mediation, etc). "
     block_5:
       title: "Voting Power"
-      content: "SIMBA community members can shape the platform's future by participating in community voting."
+      content: "Simba community members can shape the platform's future by participating in community voting."
     block_6:
       title: "Seller Collateral"
       content: "SIM tokens are locked as a collateral when listing products in order to deter fraud and scams."
@@ -231,7 +231,7 @@ en:
       subtitle: "Community Management & Strategy"
       paragraph:
   footer:
-    title: 'SIMBA Proof of Concept is now Live!'
+    title: 'Simba Proof of Concept is now Live!'
     try_it_btn: 'Try it Now'
     join_next_stage: "Join the next stage in e-commerce"
     connect_with_us: "Connect with us"
