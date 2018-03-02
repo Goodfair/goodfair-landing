@@ -140,8 +140,8 @@ en:
       title: 'MetaMask Integration'
       paragraph: 'Seamlessly process cryptocurrency transactions without giving up private keys via the MetaMask browser plugin.'
   token:
-    title: "SIMToken"
-    subtitle: "E-Commerce Powered via SIMToken"
+    title: "SIM Token"
+    subtitle: "E-Commerce Powered via SIM Token"
     paragraph: "SIM tokens power critical marketplace functionality and provides platform stability. SIM exists on the Ethereum blockchain and respects the ERC20 token standard."
     block_1:
       title: "Pay for Item Listings"
