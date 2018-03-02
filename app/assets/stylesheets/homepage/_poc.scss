@@ -25,6 +25,7 @@
     }
     @media(min-width: $large) {
       font-size: 34px;
+      padding-left: 0;
     }
 
     img {
@@ -117,6 +118,8 @@
     }
     @media(min-width: $large) {
       width: 53%;
+      padding-left: 0;
+
     }
     div {
       margin-bottom: 10px;
