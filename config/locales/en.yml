@@ -76,7 +76,7 @@ en:
     feature_4: "Admin Dashboard"
     feature_5: "MetaMask Integration"
     feature_6: "Ropsten Network"
-    explore: "Explore it Now"
+    explore: "Coming Soon"
   status_quo:
     title: "The Problem"
     subtitle: "Centralized E-Commerce Platforms are Flawed"
@@ -115,7 +115,7 @@ en:
       feature_4: "Self-Governed By The Community"
     simescrow:
       description: "SIMBA’s escrow process controlled by Smart Contracts. The escrow ensures funds are secure until a successful transaction is completed between the buyer and seller."
-      feature_1: "Secure Payment Transaction"
+      feature_1: "Secure Transactions"
       feature_2: "Post Delivery Payment"
       feature_3: "No Third Parties Involved"
       feature_4: "Low Fees"

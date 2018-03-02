@@ -1,6 +1,7 @@
 @import 'bootstrap.min';
 @import '_fonts';
 @import '_variables';
+@import '_mixins';
 @import '_breakpoints';
 @import '_header';
 @import '_footer';
@@ -71,11 +72,12 @@ section {
 
 h1 {
   font-size: 32px;
-  font-weight: 500;
+  font-weight: 400;
   font-family: var(--h2-font);
   line-height: normal;
   letter-spacing: -0.1px;
   color: #ffffff;
+  text-transform: uppercase;
   @media(min-width: $medium) {
     font-size: 35px;
     line-height: 1.11;
@@ -83,7 +85,7 @@ h1 {
     text-align: center;
   }
   @media(min-width: $large) {
-    font-size: 48px;
+    font-size: 45px;
     // text-transform: uppercase;
   }
 }
@@ -92,6 +94,7 @@ h2 {
   font-family: var(--h2-font);
   font-weight: 400;
   font-size: var(--h2-size);
+  text-transform: uppercase;
   line-height: 40px;
   letter-spacing: 0;
   color: var(--h2-color);
@@ -103,7 +106,7 @@ h2 {
     height: 40px;
   }
   @media(min-width: $medium) {
-    letter-spacing: 0.1px;
+    letter-spacing: 1.8px;
   }
 }
 
@@ -180,7 +183,7 @@ button {
       height: 54px;
       width: 100%;
       border-radius: 3px;
-      border: 1px solid #69B3FF;
+      border: 1px solid rgba(105, 179, 255, 0.75);
       background-color: transparent;
       padding-left: 49px;
       color: #ffffff;
@@ -218,7 +221,7 @@ button {
       top: -1px;
       padding: 18px;
       font-size: 19px;
-      color: #98ccff;
+      color: rgba(105, 179, 255, 0.75);
       @media(min-width: $medium) {
         padding: 13.5px 18px;
       }
@@ -231,7 +234,7 @@ button {
     border-radius: 3px;
     background-image: linear-gradient(to right, #1A77ED, #00D7ED);
     text-transform: uppercase;
-    margin-top: 15px;
+    margin-top: 10px;
     font-family: var(--paragraph-font);
     font-size: 13px;
     font-weight: bold;
