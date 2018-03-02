@@ -247,7 +247,7 @@ $button-width: 35px;
 .overlay {
   position: fixed;
   background: image-url('navigation-background.svg');
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   top: 0;
   left: 0;
