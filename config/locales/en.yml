@@ -113,7 +113,7 @@ en:
       feature_3: "Impartial System"
       feature_4: "Community Governance"
     simescrow:
-      description_html: "SIM<span>Escrow</span> is a virtual escrow process that provides security for buyers and sellers on key phases during a purchase transaction. When locked in the smart contract, funds are out of control from all parties."
+      description_html: "SIM<span>Escrow</span> is a virtual escrow process that provides security for buyers and sellers during key phases of a purchase transaction. When locked in the smart contract, funds are out of control from all parties."
       feature_1: "Secure Transactions"
       feature_2: "Post Delivery Payment"
       feature_3: "No Intermediaries"
