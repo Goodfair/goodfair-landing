@@ -55,6 +55,7 @@ section {
 .footer,
 .intro,
 .our-vision,
+.overlay,
 .roadmap,
 .solution,
 .status-quo,
@@ -194,7 +195,6 @@ button {
       display: flex;
       align-items: center;
       box-shadow: inset -2px 1px 11px 0 rgba(0, 81, 133, 0.18), -2px 1px 11px 0 rgba(0, 81, 133, 0.18);
-
       @media(min-width: $medium) {
         width: 237px;
         height: 44px;
@@ -210,7 +210,9 @@ button {
         text-transform: uppercase;
         line-height: 54px;
       }
-      &:active, &:focus {
+
+      &:active,
+      &:focus {
         background-color: #1c78c9;
       }
     }
@@ -241,17 +243,16 @@ button {
     letter-spacing: 0.7px;
     text-align: center;
     color: #ffffff;
-    box-shadow: 0px 2px 4px 0 rgba(0, 98, 161, 0.27);
+    box-shadow: 0 2px 4px 0 rgba(0, 98, 161, 0.27);
     cursor: pointer;
-
     @media(min-width: $medium) {
       width: 178px;
       height: 44px;
       margin-top: 0;
     }
+
     &:hover {
       background-image: linear-gradient(to right, #136ee1, #00cce1);
-
     }
   }
 }
