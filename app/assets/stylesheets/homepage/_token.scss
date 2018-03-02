@@ -145,6 +145,9 @@ background-image: linear-gradient(-177deg, #1A5FB0 8%, #0E66AC 100%);
       }
 
       h3 {
+        @media(max-width: $iphone5) {
+          font-size: 16px;
+        }
         @media(min-width: $medium) {
           letter-spacing: 4.6px;
           line-height: 1.58;
@@ -153,6 +156,9 @@ background-image: linear-gradient(-177deg, #1A5FB0 8%, #0E66AC 100%);
       }
 
       p {
+        @media(max-width: $iphone5) {
+          font-size: 16px;
+        }
         @media(min-width: $large) {
           font-size: 19px;
         }
@@ -196,6 +202,9 @@ background-image: linear-gradient(-177deg, #1A5FB0 8%, #0E66AC 100%);
           text-align: left;
           color: #ffffff;
           margin-bottom: 0;
+          @media(max-width: $iphone5) {
+            font-size: 15px;
+          }
           @media(min-width: $large) {
             width: 87%;
             font-size: 17px;

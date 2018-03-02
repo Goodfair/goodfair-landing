@@ -3,6 +3,9 @@
   background: image-url("team_bg_mobile@2x.png");
   background-size: cover;
   position: relative;
+  @media(max-width: $iphone5) {
+    padding-top: 30px;
+  }
   @media(min-width: $medium) {
     background: image-url("team_bg_desktop.png");
     background-size: cover;
@@ -20,7 +23,9 @@
     background-repeat: no-repeat;
     background-size: 634px;
     z-index: 0;
-
+    @media(max-width: $iphone5) {
+      background-size: 550px;
+    }
     @media(min-width: $medium) {
       height: 100%;
       width: 100%;
@@ -80,12 +85,12 @@
 
   .employee-grid {
     margin-top: 225px;
-
+    @media(max-width: $iphone5) {
+      margin-top: 185px;
+    }
     @media(min-width: $medium) {
-
       margin-top: 260px;
     }
-
     @media(min-width: $large) {
       margin: 450px auto auto;
       width: 90%;

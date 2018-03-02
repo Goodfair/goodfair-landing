@@ -25,6 +25,10 @@
     align-items: center;
     font-size: 29px;
 
+    @media(max-width: $iphone5) {
+      font-size: 25px;
+    }
+
     &.our-vision-title {
       flex-direction: column;
       line-height: 1.22;
