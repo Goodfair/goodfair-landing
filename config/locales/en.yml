@@ -103,7 +103,7 @@ en:
     simtrust:
       description_html: "SIM<span>Trust</span> is a reputation algorithm that quantifies the reputation of users with an unalterable SIM<span>Trust</span> score. This protocol gives buyers confidence to make purchases from community-trusted sellers."
       feature_1: "Reputation System"
-      feature_2: "User transparency"
+      feature_2: "User Transparency"
       feature_3: "Legitimate Ratings"
       feature_4: "Legitimate Reviews"
     simresolve:
@@ -117,13 +117,13 @@ en:
       feature_1: "Secure Transactions"
       feature_2: "Post Delivery Payment"
       feature_3: "No Intermediaries"
-      feature_4: "Low Fees"
+      feature_4: "Pay with ETH or Dai"
   benefits:
     title: 'Platform Features'
     paragraph: 'Commerce is evolving. A few years from now, digital currencies will play a central role in our lives, replacing coins, cash, cards and cheques. '
     block_1:
-      title: 'Stable Currency'
-      paragraph: "Simba's Stablecoin feature mitigates cryptocurrency volatility by ensuring the value of the transaction relative to USD remains the same. "
+      title: 'Stable Currency with Dai'
+      paragraph: "Simba uses Dai Stablecoin to mitigate cryptocurrency volatility by ensuring the value of the transaction relative to USD remains the same. "
     block_2:
       title: 'Rewards Program'
       paragraph: 'Support a low-cost marketplace - Community members are rewarded for reporting illicit items, providing quality reviews, and mediating disputes.'
