@@ -96,9 +96,12 @@ background-image: linear-gradient(-177deg, #1A5FB0 8%, #0E66AC 100%);
         left: auto;
       }
       @media(min-width: $large) {
-        right: 38px;
+        right: -17px;
         top: 56px;
         width: 389px;
+      }
+      @media(min-width: 1200px) {
+        right: 38px;
       }
     }
   }

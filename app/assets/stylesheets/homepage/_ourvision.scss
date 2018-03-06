@@ -15,8 +15,11 @@
   @media(min-width: $large) {
     // background: image-url("intro_bg_tablet@2x.png");
     margin-top: 0;
-    padding-bottom: 0;
+    padding-bottom: 50px;
     padding-top: 40px;
+  }
+  @media(min-width: 1200px) {
+    padding-bottom: 0px;
   }
 
   h2 {
@@ -24,7 +27,6 @@
     display: flex;
     align-items: center;
     font-size: 29px;
-
     @media(max-width: $iphone5) {
       font-size: 25px;
     }
@@ -38,7 +40,6 @@
         justify-content: center;
         align-items: center;
         flex-direction: row;
-
       }
       @media(min-width: $large) {
         margin-bottom: 0;
@@ -53,7 +54,6 @@
           height: 70px;
           margin-right: 25px;
           margin-bottom: 0;
-
         }
         @media(min-width: $large) {
           height: 70px;
@@ -115,7 +115,6 @@
         @media(min-width: $medium) {
           font-size: 17px;
           line-height: 1.42;
-
         }
       }
 

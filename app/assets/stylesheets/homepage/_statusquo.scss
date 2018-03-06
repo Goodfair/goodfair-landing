@@ -8,10 +8,13 @@
     padding-top: 60px;
   }
   @media(min-width: $large) {
-    padding-top: 200px;
+    padding-top: 100px;
     padding-bottom: 80px;
     background: #F6FBFF image-url("status_quo_bg_desktop.png");
     background-size: cover;
+  }
+  @media(min-width: 1200px) {
+    padding-top: 200px;
   }
 
   h2 {
