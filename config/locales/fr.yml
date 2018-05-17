@@ -29,10 +29,10 @@
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
 
-fr:
+en:
   navigation:
     our_vision: 'Our Vision'
-    token: 'SIM token'
+    token: 'GOOD token'
     problem: 'The Problem'
     solution: 'The Solution'
     features: 'Features'
@@ -42,23 +42,23 @@ fr:
     demo: 'Demo POC'
   intro:
     title: "Your Bridge to the Future of B2C E-Commerce."
-    subtitle: "Simba is a self-governed marketplace that aims to revolutionize e-commerce using blockchain technology."
+    subtitle: "GoodFair is a self-governed marketplace that aims to revolutionize e-commerce using blockchain technology."
     stay_updated_btn: "Stay Updated"
     email_address: "Email Address"
     try_poc_btn: "Try the proof of Concept"
     stay_connected: "Stay Connected"
   our_vision:
     title: "Our Marketplace Vision"
-    paragraph: "Simba is the first Ethereum-based B2C marketplace DApp built with a focus on equality, accessibility, and democratized governance. Our goal is to create a marketplace where the fundamental components reflect the culture and values of its community."
+    paragraph: "GoodFair is the first Ethereum-based B2C marketplace DApp built with a focus on equality, accessibility, and democratized governance. Our goal is to create a marketplace where the fundamental components reflect the culture and values of its community."
     vision_benefit_1:
       title: "Industry Low Fees"
-      paragraph: "Peer-to-Peer transactions between buyers and sellers gurantee industry low fees."
+      paragraph: "Intermediary-free transactions between buyers and sellers allow for industry low fees."
     vision_benefit_2:
       title: "Self Governed"
-      paragraph: "Free of centralized services. Smart Contracts control transactions while the community handles mediation and moderates listings."
+      paragraph: "Free of centralized services. Smart Contracts facilitate transactions while the GoodFair community oversees mediation and moderates listings."
     vision_benefit_3:
       title: "Community Based"
-      paragraph: "Community members are incentivized with SIM tokens to actively participate in Simba's ecosystem."
+      paragraph: "Community members are incentivized with GOOD tokens to actively participate in GoodFair's ecosystem."
     vision_benefit_4:
       title: "Blockchain Accessibility"
       paragraph: "Easy-to-use and intuitive, with support for most browsers and devices."
@@ -96,34 +96,34 @@ fr:
   solution:
     title: "The Solution"
     subtitle: "Building Protocols for the Next Generation of B2C E-Commerce"
-    paragraph_html: "Simba developed three core protocols (SIM<span>Escrow</span>, SIM<span>Trust</span>, SIM<span>Resolve</span>) on top of the Ethereum blockchain in order to support the needs and challenges of a B2C marketplace."
+    paragraph_html: "GoodFair developed three core protocols (Smart<span>Escrow</span>, Smart<span>Trust</span>, Smart<span>Resolve</span>) on top of the Ethereum blockchain in order to support the needs and challenges of a B2C marketplace."
     tech_1: "Trust"
     tech_2: "Escrow"
     tech_3: "Resolve"
-    simtrust:
-      description_html: "SIM<span>Trust</span> is a reputation algorithm that quantifies the reputation of users with an unalterable SIM<span>Trust</span> score. This protocol gives buyers confidence to make purchases from community-trusted sellers."
+    smarttrust:
+      description_html: "Smart<span>Trust</span> is a reputation algorithm that quantifies the reputation of users with an unalterable Smart<span>Trust</span> score. This protocol gives buyers confidence to make purchases from community-trusted sellers."
       feature_1: "Reputation System"
-      feature_2: ""
+      feature_2: "User Transparency"
       feature_3: "Legitimate Ratings"
       feature_4: "Legitimate Reviews"
-    simresolve:
-      description_html: "SIM<span>Resolve</span> is an arbitration process that resolves disputes on a case-by-case.  Active members of the community are selected as Mediators and rewarded for their participation with SIM tokens."
+    smartresolve:
+      description_html: "Smart<span>Resolve</span> is an arbitration process that resolves disputes on a case-by-case basis.  Active members of the community are selected as Mediators and rewarded for their participation with GOOD tokens."
       feature_1: "Scam Prevention"
       feature_2: "Incentives For Mediators"
       feature_3: "Impartial System"
       feature_4: "Community Governance"
-    simescrow:
-      description_html: "SIM<span>Escrow</span> is a virtual escrow process that provides security for buyers and sellers on key phases during a purchase transaction. When locked in the smart contract, funds are out of control from all parties."
+    smartescrow:
+      description_html: "Smart<span>Escrow</span> is a virtual escrow process that provides security for buyers and sellers during key phases of a purchase transaction. When locked in the smart contract, funds are out of control from all parties."
       feature_1: "Secure Transactions"
       feature_2: "Post Delivery Payment"
       feature_3: "No Intermediaries"
-      feature_4: "Low Fees"
+      feature_4: "Pay with ETH or Dai"
   benefits:
     title: 'Platform Features'
     paragraph: 'Commerce is evolving. A few years from now, digital currencies will play a central role in our lives, replacing coins, cash, cards and cheques. '
     block_1:
-      title: 'Stable Currency'
-      paragraph: "Simba's Stablecoin feature mitigates cryptocurrency volatility by ensuring the value of the transaction relative to USD remains the same. "
+      title: 'Stable Currency with Dai'
+      paragraph: "GoodFair uses Dai Stablecoin to mitigate cryptocurrency volatility by ensuring the value of the transaction relative to USD remains the same. "
     block_2:
       title: 'Rewards Program'
       paragraph: 'Support a low-cost marketplace - Community members are rewarded for reporting illicit items, providing quality reviews, and mediating disputes.'
@@ -132,35 +132,35 @@ fr:
       paragraph: "User data is encrypted using SHA-3 algorithm to ensure user's privacy on the blockchain."
     block_4:
       title: 'Data Ownership'
-      paragraph: "Simba stands against data mining. Personal information will never be sold to a third party."
+      paragraph: "GoodFair stands against data mining. Personal information will never be sold to a third party."
     block_5:
       title: 'Browser Based & Mobile Access'
-      paragraph: 'Simba is optimized for accessibility and exposure - Available on most devices and indexable by search engines.'
+      paragraph: 'GoodFair is optimized for accessibility and exposure - Available on most devices and indexable by search engines.'
     block_6:
       title: 'MetaMask Integration'
       paragraph: 'Seamlessly process cryptocurrency transactions without giving up private keys via the MetaMask browser plugin.'
   token:
-    title: "SIMToken"
-    subtitle: "E-Commerce Powered via SIMToken"
-    paragraph: "SIM tokens power critical marketplace functionality and provides platform stability. SIM exists on the Ethereum blockchain and respects the ERC20 token standard."
+    title: "GOOD Token"
+    subtitle: "E-Commerce Powered via GOOD Token"
+    paragraph: "GOOD tokens power critical marketplace functionality and provides platform stability. GOOD exists on the Ethereum blockchain and respects the ERC20 token standard."
     block_1:
       title: "Pay for Item Listings"
-      content: "SIM tokens are used to list items on Simba Marketplace - pay per listing, or per month for unlimited listings."
+      content: "GOOD tokens are used to list items on GoodFair Marketplace - pay per listing, or per month for unlimited listings."
     block_2:
       title: "Pay for Promoted Listings"
-      content: "Item exposure can be increased by purchasing listing promotion with SIM tokens."
+      content: "Item exposure can be increased by purchasing listing promotion with GOOD tokens."
     block_3:
-      title_html: "SIM<span>Resolve</span> Rewards"
-      content_html: "SIM<span>Resolve</span> case mediators are compensated with SIM tokens for participation. Mediators will only be compensated if they vote with the consensus."
+      title_html: "Smart<span>Resolve</span> Rewards"
+      content_html: "SmartM<span>Resolve</span> case mediators are compensated with GOOD tokens for participation. Mediators will only be compensated if they vote with the consensus."
     block_4:
       title: "Democratizing Governance"
-      content: "Community members are incentivized with SIM tokens to actively participate in SIMBA's ecosystem (reviews, item screening, mediation, etc). "
+      content: "Community members are incentivized with GOOD tokens to actively participate in GoodFair's ecosystem (reviews, item screening, mediation, etc). "
     block_5:
       title: "Voting Power"
-      content: "SIMBA community members can shape the platform's future by participating in community voting."
+      content: "GoodFair community members can shape the platform's future by participating in community voting."
     block_6:
       title: "Seller Collateral"
-      content: "SIM tokens are locked as a collateral when listing products in order to deter fraud and scams."
+      content: "GOOD tokens are locked as a collateral when listing products in order to deter fraud and scams."
   roadmap:
     title: "Next Step"
     subtitle: "Roadmap"
@@ -172,23 +172,23 @@ fr:
     quarter_2:
       title: "2017 Q3"
       content_1: "Blockchain access via MetaMask"
-      content_2: "SIMEscrow Conception & Implementation"
-      content_3: "Establish SIMResolve Protocol"
+      content_2: "SmartEscrow Conception & Implementation"
+      content_3: "Establish SmartResolve Protocol"
     quarter_3:
       title: "2017 Q4"
-      content_1: "Establish SIMTrust Protocol"
+      content_1: "Establish SmartTrust Protocol"
       content_2: "Establish Community Reward Program"
       content_3: "Proof of Concept UI"
     quarter_4:
       title: "2018 Q1"
       content_1: "Whitepaper Development"
       content_2: "Company Website"
-      content_3: "SIM ERC20 Token Implementation"
+      content_3: "GOOD ERC20 Token Implementation"
     quarter_5:
       title: "2018 Q2"
       content_1: "POC UI Redesign"
-      content_2: "SIMResolve Protocol Implementation"
-      content_3: "SIMTrust Protocol Implementation"
+      content_2: "SmartResolve Protocol Implementation"
+      content_3: "SmartTrust Protocol Implementation"
       content_4: "Technical Whitepaper"
     quarter_6:
       title: "2018 Q3"
@@ -208,8 +208,8 @@ fr:
     quarter_9:
       title: "2019 Q2"
       content_1: "Platform Mainnet Launch"
-  who_is_simba:
-    title: "Who is Simba?"
+  who_is_goodfair:
+    title: "Who is GoodFair?"
     subtitle: "Team Members"
     paragraph: "We are a team of individuals with a shared vision for revolutionizing the e-commerce landscape through community and technology."
     block_1:
@@ -231,8 +231,8 @@ fr:
       subtitle: "Community Management & Strategy"
       paragraph:
   footer:
-    title: 'SIMBA Proof of Concept is now Live!'
+    title: 'GoodFair Proof of Concept is now Live!'
     try_it_btn: 'Try it Now'
     join_next_stage: "Join the next stage in e-commerce"
     connect_with_us: "Connect with us"
-    copyright: "2018 SIMBA Marketplace"
+    copyright: "2018 GoodFair Marketplace"

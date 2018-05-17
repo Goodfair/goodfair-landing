@@ -1,8 +1,8 @@
-# Simba Market
+# GoodFair
 
 - Mobile First only. This essentially means starting at mobile size and building up to desktop. You use min-width media queries to go up instead of max-width to go down. This works on the principles of progressive enhancement and graceful degredation. In short, it ends up being much easier to maintain and build. In very small number of cases, you might want to use max-width.
 
-- Please make proper use of SCSS when possible. 
+- Please make proper use of SCSS when possible.
 
 - You can grab a lot of CSS specs from Zeplin (drop shadow, gradients, etc), but make sure you don't copy *everything*. Sometimes it gives junk CSS.
 
@@ -12,7 +12,7 @@
 
 - PNGs are much larger than JPGs if the image isn't solid colors. Make sure you aren't exporting 2MB PNGs. PNG's should be like 200-400KB max.
 
-- Make proper use of h1, h2, h3, etc. "Our Vision, "Who is Simba?" etc would be h2s. There is only h1 on the page.
+- Make proper use of h1, h2, h3, etc. "Our Vision, "Who is GoodFair?" etc would be h2s. There is only h1 on the page.
 
 - Sometimes font weights might need to be adjusted to match design. E.g. Zeplin says font weight 500 but you have to do 400 because the browser makes it too thick.
 
