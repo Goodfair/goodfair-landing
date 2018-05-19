@@ -1,6 +1,6 @@
 .poc {
   color: #fff;
-  padding: 30px 0;
+  padding: 60px 0;
   position: relative;
 
   &.mobile-tablet {
@@ -19,10 +19,10 @@
 
   h2 {
     line-height: 1.2em;
-    margin-top: 26px;
     margin-bottom: 20px;
     // padding-left: 20px;
     font-size: 28px;
+    margin-bottom: 33px;
 
     @media(min-width: $medium) {
       text-align: left;
@@ -61,48 +61,12 @@
     // background: image-url("poc_laptop@2x.png");
     // background-size: cover;
     // background-repeat: no-repeat;
-    padding: 30px 0px;
+    // padding: 30px 0px;
     border-radius: 5px;
     position: relative;
 
     .laptop-screenshot {
       width: 100%;
-    }
-
-    .email-signup {
-      margin-top: 0;
-      position: absolute;
-      bottom: -70px;
-      width: 100%;
-
-      button {
-        font-size: 14px;
-        z-index: 10;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-
-        span {
-          font-family: "Avenir Next";
-          font-weight: 500;
-          font-size: 10px;
-          opacity: 0.8;
-        }
-      }
-
-      @media(min-width: $medium) {
-        justify-content: flex-start;
-        position: relative;
-        bottom: -30px;
-
-        button {
-          width: 260px;
-          height: 53px;
-          border-radius: 4px;
-          box-shadow: 0 2px 11px 0 rgba(0, 81, 133, 0.18);
-        }
-      }
     }
 
     @media(min-width: $medium) {
@@ -118,13 +82,16 @@
     }
   }
 
+  .email-signup {
+    margin-top: 0;
+  }
+
   .poc-benefits {
-    margin-top: 15px;
+    margin-top: -20px;
     flex-direction: column;
-    font-family: var(--h3-font);
+    font-family: var(--paragra-font);
     font-weight: 400;
     width: 100%;
-    padding-left: 20px;
 
     @media(min-width: $medium) {
       font-size: 21px;
