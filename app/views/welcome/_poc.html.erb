@@ -1,6 +1,10 @@
 <div class="poc mobile-tablet">
+  <div class="container">
   <div class='poc-screenshot'>
-    <h2><%= image_tag "icon_poc_title.svg" %><%=t 'poc.title' %></h2>
+    <h3><%=t 'poc.subitle' %></h3>
+    <h2><%=t 'poc.title' %></h2>
+
+    <%= image_tag "poc_laptop@2x.png", class: "laptop-screenshot" %>
     <div class="poc-benefits">
       <div class='row'>
         <div class='col-sm-12 col-md-6'><%= image_tag "icon_poc_checkmark.svg" %><%= t 'poc.feature_1' %></div>
@@ -11,10 +15,11 @@
         <div class='col-sm-12 col-md-6 d-none d-md-block'><%= image_tag "icon_poc_checkmark.svg" %><%= t 'poc.feature_6' %></div>
       </div>
     </div>
-    <div class="email-signup">
-      <button type="button"><%= t 'poc.explore' %></button>
-    </div>
   </div>
+  <div class="email-signup">
+    <button type="button"><%= t 'poc.explore' %></button>
+  </div>
+</div>
 </div>
 
 

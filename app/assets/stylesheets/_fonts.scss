@@ -57,6 +57,15 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Avenir Next';
+    src: url('AvenirNext-DemiBold.woff2') format('woff2'),
+        url('AvenirNext-DemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+
 
 // DIN
 @font-face {
@@ -64,4 +73,12 @@
   src: font-url('fonts/DIN.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: font-url('fonts/Poppins-Medium.woff2') format('woff2'),
+        font-url('fonts/Poppins-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
 }

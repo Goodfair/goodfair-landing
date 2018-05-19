@@ -1,7 +1,6 @@
 .our-vision {
   position: relative;
   padding-top: 40px;
-  padding-bottom: 50px;
   // // background: image-url("blue-rectangle@2x.jpg");
   // background-size: cover;
   // background-repeat: no-repeat;
@@ -26,7 +25,6 @@
     margin-top: 19px;
     display: flex;
     align-items: center;
-    font-size: 29px;
     @media(max-width: $iphone5) {
       font-size: 25px;
     }
@@ -34,7 +32,7 @@
     &.our-vision-title {
       flex-direction: column;
       line-height: 1.22;
-      margin-bottom: 50px;
+      margin-bottom: 15px;
       @media(min-width: $medium) {
         display: flex;
         justify-content: center;
@@ -62,85 +60,94 @@
     }
   }
 
-  .video-player {
-    margin-top: 20px;
-
-    img {
-      width: 100%;
-    }
-  }
-
-  img.benefits {
-    margin-top: 20px;
-  }
-
-  ul.vision-benefits {
-    margin-top: 35px;
-    font-size: 14px;
-    letter-spacing: 0;
+  h3 {
+    font-size: 17px;
     text-align: center;
-    color: #ffffff;
-    padding-left: 0;
-    list-style-type: none;
-    @media(min-width: $medium) {
-      text-align: center;
-      padding-right: 3%;
-      padding-left: 3%;
-    }
-
-    li {
-      margin-bottom: 20px;
-      @media(min-width: $medium) {
-        margin-top: 0;
-      }
-      @media(min-width: $large) {
-        margin: 30px auto auto;
-        width: 90%;
-        font-size: 16px;
-      }
-
-      h3 {
-        font-family: var(--h3-font);
-        font-size: 20px;
-        letter-spacing: 0.26px;
-        font-weight: 400;
-        color: #fff;
-        text-transform: none;
-        margin-top: 12px;
-        margin-bottom: 9px;
-      }
-
-      p {
-        line-height: 1.22;
-        @media(min-width: $medium) {
-          font-size: 17px;
-          line-height: 1.42;
-        }
-      }
-
-      img {
-        height: 63px;
-        @media(min-width: $medium) {
-          height: 61px;
-          margin-right: 0;
-          margin-bottom: 5px;
-        }
-      }
-
-      &:nth-child(4) {
-        img {
-          height: 57px;
-          @media(min-width: $medium) {
-            height: 61px;
-            margin-right: 0;
-            margin-bottom: 5px;
-          }
-        }
-      }
-
-      div {
-        margin-bottom: 20px;
-      }
-    }
   }
+  p{
+    text-align: center;
+    font-size: 17px;
+  }
+
+  // .video-player {
+  //   margin-top: 20px;
+  //
+  //   img {
+  //     width: 100%;
+  //   }
+  // }
+
+  // img.benefits {
+  //   margin-top: 20px;
+  // }
+  //
+  // ul.vision-benefits {
+  //   margin-top: 35px;
+  //   font-size: 14px;
+  //   letter-spacing: 0;
+  //   text-align: center;
+  //   color: #ffffff;
+  //   padding-left: 0;
+  //   list-style-type: none;
+  //   @media(min-width: $medium) {
+  //     text-align: center;
+  //     padding-right: 3%;
+  //     padding-left: 3%;
+  //   }
+  //
+  //   li {
+  //     margin-bottom: 20px;
+  //     @media(min-width: $medium) {
+  //       margin-top: 0;
+  //     }
+  //     @media(min-width: $large) {
+  //       margin: 30px auto auto;
+  //       width: 90%;
+  //       font-size: 16px;
+  //     }
+  //
+  //     h3 {
+  //       font-family: var(--h3-font);
+  //       font-size: 20px;
+  //       letter-spacing: 0.26px;
+  //       font-weight: 400;
+  //       color: #fff;
+  //       text-transform: none;
+  //       margin-top: 12px;
+  //       margin-bottom: 9px;
+  //     }
+  //
+  //     p {
+  //       line-height: 1.22;
+  //       @media(min-width: $medium) {
+  //         font-size: 17px;
+  //         line-height: 1.42;
+  //       }
+  //     }
+  //
+  //     img {
+  //       height: 63px;
+  //       @media(min-width: $medium) {
+  //         height: 61px;
+  //         margin-right: 0;
+  //         margin-bottom: 5px;
+  //       }
+  //     }
+  //
+  //     &:nth-child(4) {
+  //       img {
+  //         height: 57px;
+  //         @media(min-width: $medium) {
+  //           height: 61px;
+  //           margin-right: 0;
+  //           margin-bottom: 5px;
+  //         }
+  //       }
+  //     }
+  //
+  //     div {
+  //       margin-bottom: 20px;
+  //     }
+  //   }
+  // }
 }
