@@ -6,14 +6,11 @@
   --h2-size: 32px;
   --h3-font: 'Poppins';
   --h3-color: #30BDFD;
-  --h3-size: 18px;
+  --h3-size: 17px;
   --paragraph-color: #fff;
   --paragraph-font: 'Avenir Next';
-  --paragraph-size: 18px;
+  --paragraph-size: 16px;
   --paragraph-opacity: 1;
-  --paragraph-secondary-opacity: 0.77;
-  --paragraph-secondary-font: 'din-2014';
-  --paragraph-secondary-size: 17px;
 }
 @media(max-width: $iphone5) {
   :root {
@@ -24,7 +21,6 @@
   :root {
     --h3-size: 17px;
     --h2-size: 34px;
-    --paragraph-secondary-size: 17px;
   }
 }
 @media(min-width: $large) {
@@ -32,6 +28,5 @@
     --h2-size: 34px;
     --h3-size: 22px;
     --paragraph-size: 20px;
-    --paragraph-secondary-size: 18px;
   }
 }

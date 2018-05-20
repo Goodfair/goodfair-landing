@@ -1,0 +1,20 @@
+<div class="container">
+  <h2>
+    <%= image_tag 'benefits_icon.svg' %>
+    <%=t 'marketplace.title' %>
+  </h2>
+  <h3><%=t 'marketplace.subtitle' %></h3>
+  <p><%=t 'marketplace.paragraph' %></p>
+  <div class="row">
+    <% (1..4).each do |feature| %>
+      <div class="benefit col-md-6">
+        <div class="circle-container"><%= image_tag "icon_marketplace_#{feature}.png" %></div>
+        <div class='benefit-copy'>
+          <h4><%=t "marketplace.block_#{feature}.title" %></h4>
+          <p><%=t "marketplace.block_#{feature}.paragraph" %></p>
+        </div>
+      </div>
+    <% end %>
+
+  </div>
+</div>

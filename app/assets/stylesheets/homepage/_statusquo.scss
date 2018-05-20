@@ -52,8 +52,6 @@
   }
 
   p {
-    font-size: var(--paragraph-secondary-size);
-    opacity: var(--paragraph-secondary-opacity);
     @media(min-width: $medium) {
       text-align: center;
     }
