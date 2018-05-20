@@ -4,9 +4,7 @@ $timeline-line-width: 1px;
 $timeline-size: 14px;
 
 section.roadmap {
-  background: #F6FBFF image-url("roadmap_bg_mobile@2x.png");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: #0F3588;
   padding: 40px 0 0;
   @media(min-width: $medium) {
     padding: 70px 0;
@@ -18,7 +16,6 @@ section.roadmap {
   }
 
   h2 {
-    color: var(--h2-secondary-color);
     @media(min-width: $medium) {
       display: flex;
       justify-content: center;
