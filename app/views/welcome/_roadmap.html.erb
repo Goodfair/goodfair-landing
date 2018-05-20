@@ -5,207 +5,40 @@
   </h2>
   <div class='roadmap-container-mobile'>
     <ul class='timeline'>
-      <li class="timeline-milestone is-future timeline-start">
-        <div class="timeline-action">
-          <div class="content">
-            <h4><%=t 'roadmap.quarter_1.title' %></h4>
-            <ul>
-              <li><%=t 'roadmap.quarter_1.content_1' %></li>
-              <li><%=t 'roadmap.quarter_1.content_2' %></li>
-              <li><%=t 'roadmap.quarter_1.content_3' %></li>
-            </ul>
+      <% (1..12).each do |quarter| %>
+        <li class="timeline-milestone is-future timeline-start">
+          <div class="timeline-action">
+            <div class="content">
+              <h4><%=t "roadmap.quarter_#{quarter}.title" %></h4>
+              <ul>
+                <% (1..5).each do |item| %>
+                  <% if I18n.exists?("roadmap.quarter_#{quarter}.content_#{item}", :en) %>
+                    <li><%=t "roadmap.quarter_#{quarter}.content_#{item}" %></li>
+                  <% end %>
+                <% end %>
+              </ul>
+            </div>
           </div>
-        </div>
-      </li>
-      <li class="timeline-milestone is-future timeline-start">
-        <div class="timeline-action">
-          <div class="content">
-            <h4><%=t 'roadmap.quarter_2.title' %></h4>
-            <ul>
-              <li><%=t 'roadmap.quarter_2.content_1' %></li>
-              <li><%=t 'roadmap.quarter_2.content_2' %></li>
-              <li><%=t 'roadmap.quarter_2.content_3' %></li>
-            </ul>
-          </div>
-        </div>
-      </li>
-      <li class="timeline-milestone is-future timeline-start">
-        <div class="timeline-action">
-          <div class="content">
-            <h4><%=t 'roadmap.quarter_3.title' %></h4>
-            <ul>
-              <li><%=t 'roadmap.quarter_3.content_1' %></li>
-              <li><%=t 'roadmap.quarter_3.content_2' %></li>
-              <li><%=t 'roadmap.quarter_3.content_3' %></li>
-            </ul>
-          </div>
-        </div>
-      </li>
-      <li class="timeline-milestone is-future timeline-start">
-        <div class="timeline-action">
-          <div class="content">
-            <h4><%=t 'roadmap.quarter_4.title' %></h4>
-            <ul>
-              <li><%=t 'roadmap.quarter_4.content_1' %></li>
-              <li><%=t 'roadmap.quarter_4.content_2' %></li>
-              <li><%=t 'roadmap.quarter_4.content_3' %></li>
-            </ul>
-          </div>
-        </div>
-      </li>
-      <li class="timeline-milestone is-future timeline-start">
-        <div class="timeline-action">
-          <div class="content">
-            <h4><%=t 'roadmap.quarter_5.title' %></h4>
-            <ul>
-              <li><%=t 'roadmap.quarter_5.content_1' %></li>
-              <li><%=t 'roadmap.quarter_5.content_2' %></li>
-              <li><%=t 'roadmap.quarter_5.content_3' %></li>
-              <li><%=t 'roadmap.quarter_5.content_4' %></li>
-            </ul>
-          </div>
-        </div>
-      </li>
-      <li class="timeline-milestone is-future timeline-start">
-        <div class="timeline-action">
-          <div class="content">
-            <h4><%=t 'roadmap.quarter_6.title' %></h4>
-            <ul>
-              <li><%=t 'roadmap.quarter_6.content_1' %></li>
-              <li><%=t 'roadmap.quarter_6.content_2' %></li>
-              <li><%=t 'roadmap.quarter_6.content_3' %></li>
-            </ul>
-          </div>
-        </div>
-      </li>
-      <li class="timeline-milestone is-future timeline-start">
-        <div class="timeline-action">
-          <div class="content">
-            <h4><%=t 'roadmap.quarter_7.title' %></h4>
-            <ul>
-              <li><%=t 'roadmap.quarter_7.content_1' %></li>
-              <li><%=t 'roadmap.quarter_7.content_2' %></li>
-              <li><%=t 'roadmap.quarter_7.content_3' %></li>
-            </ul>
-          </div>
-        </div>
-      </li>
-      <li class="timeline-milestone is-future timeline-start">
-        <div class="timeline-action">
-          <div class="content">
-            <h4><%=t 'roadmap.quarter_8.title' %></h4>
-            <ul>
-              <li><%=t 'roadmap.quarter_8.content_1' %></li>
-              <li><%=t 'roadmap.quarter_8.content_2' %></li>
-              <li><%=t 'roadmap.quarter_8.content_3' %></li>
-            </ul>
-          </div>
-        </div>
-      </li>
-      <li class="timeline-milestone is-future timeline-start">
-        <div class="timeline-action">
-          <div class="content">
-            <h4><%=t 'roadmap.quarter_9.title' %></h4>
-            <ul>
-              <li><%=t 'roadmap.quarter_9.content_1' %></li>
-            </ul>
-          </div>
-        </div>
-      </li>
+        </li>
+      <% end %>
     </ul>
   </div>
 
   <div class='roadmap-container-desktop'>
     <div class="token-slider slider">
-      <div>
-        <div class="content">
-          <h4><%=t 'roadmap.quarter_1.title' %></h4>
-          <ul>
-            <li><%=t 'roadmap.quarter_1.content_1' %></li>
-            <li><%=t 'roadmap.quarter_1.content_2' %></li>
-            <li><%=t 'roadmap.quarter_1.content_3' %></li>
-          </ul>
+      <% (1..12).each do |quarter| %>
+        <div>
+          <div class="content">
+            <h4><%=t "roadmap.quarter_#{quarter}.title" %></h4>
+            <ul>
+              <% (1..5).each do |item| %>
+                <% if I18n.exists?("roadmap.quarter_#{quarter}.content_#{item}", :en) %>
+                  <li><%=t "roadmap.quarter_#{quarter}.content_#{item}" %></li>
+                <% end %>
+              <% end %>
+            </ul>
+          </div>
         </div>
-      </div>
-      <div>
-        <div class="content">
-          <h4><%=t 'roadmap.quarter_2.title' %></h4>
-          <ul>
-            <li><%=t 'roadmap.quarter_2.content_1' %></li>
-            <li><%=t 'roadmap.quarter_2.content_2' %></li>
-            <li><%=t 'roadmap.quarter_2.content_3' %></li>
-          </ul>
-        </div>
-      </div>
-      <div>
-        <div class="content">
-          <h4><%=t 'roadmap.quarter_3.title' %></h4>
-          <ul>
-            <li><%=t 'roadmap.quarter_3.content_1' %></li>
-            <li><%=t 'roadmap.quarter_3.content_2' %></li>
-            <li><%=t 'roadmap.quarter_3.content_3' %></li>
-          </ul>
-        </div>
-      </div>
-      <div>
-        <div class="content">
-          <h4><%=t 'roadmap.quarter_4.title' %></h4>
-          <ul>
-            <li><%=t 'roadmap.quarter_4.content_1' %></li>
-            <li><%=t 'roadmap.quarter_4.content_2' %></li>
-            <li><%=t 'roadmap.quarter_4.content_3' %></li>
-          </ul>
-        </div>
-      </div>
-      <div>
-        <div class="content">
-          <h4><%=t 'roadmap.quarter_5.title' %></h4>
-          <ul>
-            <li><%=t 'roadmap.quarter_5.content_1' %></li>
-            <li><%=t 'roadmap.quarter_5.content_2' %></li>
-            <li><%=t 'roadmap.quarter_5.content_3' %></li>
-            <li><%=t 'roadmap.quarter_5.content_4' %></li>
-          </ul>
-        </div>
-      </div>
-      <div>
-        <div class="content">
-          <h4><%=t 'roadmap.quarter_6.title' %></h4>
-          <ul>
-            <li><%=t 'roadmap.quarter_6.content_1' %></li>
-            <li><%=t 'roadmap.quarter_6.content_2' %></li>
-            <li><%=t 'roadmap.quarter_6.content_3' %></li>
-          </ul>
-        </div>
-      </div>
-      <div>
-        <div class="content">
-          <h4><%=t 'roadmap.quarter_7.title' %></h4>
-          <ul>
-            <li><%=t 'roadmap.quarter_7.content_1' %></li>
-            <li><%=t 'roadmap.quarter_7.content_2' %></li>
-            <li><%=t 'roadmap.quarter_7.content_3' %></li>
-          </ul>
-        </div>
-      </div>
-      <div>
-        <div class="content">
-          <h4><%=t 'roadmap.quarter_8.title' %></h4>
-          <ul>
-            <li><%=t 'roadmap.quarter_8.content_1' %></li>
-            <li><%=t 'roadmap.quarter_8.content_2' %></li>
-            <li><%=t 'roadmap.quarter_8.content_3' %></li>
-          </ul>
-        </div>
-      </div>
-      <div>
-        <div class="content">
-          <h4><%=t 'roadmap.quarter_9.title' %></h4>
-          <ul>
-            <li><%=t 'roadmap.quarter_9.content_1' %></li>
-          </ul>
-        </div>
-      </div>
-    </div>
+      <% end %>
   </div>
 </div>
