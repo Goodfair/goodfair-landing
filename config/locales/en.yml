@@ -93,26 +93,30 @@ en:
     block_4:
       title: "Unfair Mediation Practices"
       content: "Conflict resolution is typically handled by a centralized, single party and suffers from personal bias effects. Decisions are often inequitable and treat the user unfairly."
-  solution:
-    title: "The Solution"
+  protocols:
+    title: "Protocols"
+    minititle: "Goodfair"
     subtitle: "Building Protocols for the Next Generation of B2C E-Commerce"
     paragraph_html: "GoodFair developed three core protocols (Smart<span>Escrow</span>, Smart<span>Trust</span>, Smart<span>Resolve</span>) on top of the Ethereum blockchain in order to support the needs and challenges of a B2C marketplace."
     tech_1: "Trust"
     tech_2: "Escrow"
     tech_3: "Resolve"
     smarttrust:
+      ripple_position: "left"
       description_html: "Smart<span>Trust</span> is a reputation algorithm that quantifies the reputation of users with an unalterable Smart<span>Trust</span> score. This protocol gives buyers confidence to make purchases from community-trusted sellers."
       feature_1: "Reputation System"
       feature_2: "User Transparency"
       feature_3: "Legitimate Ratings"
       feature_4: "Legitimate Reviews"
     smartresolve:
+      ripple_position: "right"
       description_html: "Smart<span>Resolve</span> is an arbitration process that resolves disputes on a case-by-case basis.  Active members of the community are selected as Mediators and rewarded for their participation with GOOD tokens."
       feature_1: "Scam Prevention"
       feature_2: "Incentives For Mediators"
       feature_3: "Impartial System"
       feature_4: "Community Governance"
     smartescrow:
+      ripple_position: "top"
       description_html: "Smart<span>Escrow</span> is a virtual escrow process that provides security for buyers and sellers during key phases of a purchase transaction. When locked in the smart contract, funds are out of control from all parties."
       feature_1: "Secure Transactions"
       feature_2: "Post Delivery Payment"
@@ -141,6 +145,9 @@ en:
     block_6:
       title: 'MetaMask Integration'
       paragraph: 'Seamlessly process cryptocurrency transactions without giving up private keys via the MetaMask browser plugin.'
+  nexus:
+    title: "Nexus"
+    minititle: "Goodfair"
   token:
     title: "GOOD Token"
     subtitle: "E-Commerce Powered via GOOD Token"

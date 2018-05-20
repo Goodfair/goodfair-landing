@@ -1,4 +1,4 @@
-section.solution {
+section.protocols {
   padding: 50px 0;
   background: image-url("solution_bg_mobile@2x.jpg");
   background-size: contain;
@@ -73,6 +73,10 @@ section.solution {
 
       img {
         height: 55px;
+      }
+
+      span {
+        font-weight: 400;
       }
     }
 
@@ -471,11 +475,6 @@ section.solution {
   span {
     color: #fff;
     font-weight: 600;
-
-    &::first-letter {
-      text-decoration-style: wavy;
-      text-decoration: underline;
-    }
   }
 
   .hex-full {
