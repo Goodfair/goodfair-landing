@@ -93,6 +93,10 @@ en:
     block_4:
       title: "Unfair Mediation Practices"
       content: "Conflict resolution is typically handled by a centralized, single party and suffers from personal bias effects. Decisions are often inequitable and treat the user unfairly."
+  solution:
+    title: "Solution"
+    subtitle: "Ecosystem for next ecommerce"
+    paragraph: "Simba developed three core protocols (SIMEscrow, SIMTrust, SIMResolve) on top of the Ethereum blockchain in order to support the needs and challenges of a B2C marketplace."
   protocols:
     title: "Protocols"
     minititle: "Goodfair"
