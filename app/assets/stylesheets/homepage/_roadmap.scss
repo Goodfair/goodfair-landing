@@ -36,7 +36,7 @@ section.roadmap {
     font-weight: 600;
     letter-spacing: 0;
     font-family: 'DIN';
-    color: #51a5e9;
+    color: #fff;
     @media(min-width: $medium) {
       color: #b9e0ff;
     }
@@ -125,9 +125,9 @@ section.roadmap {
 
       li {
         font-size: 16px;
-        font-weight: 500;
+        font-weight: 400;
         line-height: 1.63;
-        color: #266483;
+        color: #ffffff;
       }
     }
   }
