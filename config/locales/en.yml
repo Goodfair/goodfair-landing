@@ -119,7 +119,8 @@ en:
       feature_3: "No Intermediaries"
       feature_4: "Pay with ETH or Dai"
   marketplace:
-    title: 'Platform Features'
+    title: 'Marketplace'
+    minititle: 'Goodfair'
     subtitle: 'BUILDING PROTOCOLS FOR NEXT GENERATION E-COMMERCE'
     paragraph: 'Commerce is evolving. A few years from now, digital currencies will play a central role in our lives, replacing coins, cash, cards and cheques. '
     block_1:

@@ -94,6 +94,13 @@ h2 {
   display: flex;
   -webkit-font-smoothing: antialiased;
 
+  span {
+    text-transform: uppercase;
+    display: block;
+    font-size: 18px;
+    line-height: 18px;
+  }
+
   img {
     margin-right: 20px;
     height: 40px;
