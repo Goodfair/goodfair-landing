@@ -2,25 +2,9 @@
   width: 100%;
   padding-top: 40px;
   padding-bottom: 15px;
-  background: image-url("team_bg_desktop.png");
-  background-position: bottom;
-  background-size: cover;
+  background-color: #0f3588;
   position: relative;
 
-  &:before {
-      background-image: linear-gradient(to right, #1A77ED, #00D7ED);
-      content: '';
-      z-index: 2;
-      display: block;
-      height: 4px;
-      width: 100%;
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      z-index: 2;
-
-  }
   @media(min-width: $medium) {
     .first-row {
       display: flex;
