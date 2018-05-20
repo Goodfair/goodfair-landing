@@ -42,7 +42,6 @@ section.benefits {
   }
 
   p {
-    color: var(--paragraph-secondary-color);
     opacity: var(--paragraph-secondary-opacity);
     @media(min-width: $medium) {
       text-align: center;

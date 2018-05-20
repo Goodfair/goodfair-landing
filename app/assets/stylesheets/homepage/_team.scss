@@ -2,9 +2,11 @@
   padding: 50px 0;
   background-color: #1d4398;
   position: relative;
+
   @media(max-width: $iphone5) {
     padding-top: 30px;
   }
+
   @media(min-width: $medium) {
     background: image-url("team_bg_desktop.png");
     background-size: cover;
@@ -79,6 +81,8 @@
 
     p {
       font-size: var(--paragraph-secondary-size);
+      font-family: var(--paragraph-secondary-font);
+      line-height: 24px;
     }
   }
 
