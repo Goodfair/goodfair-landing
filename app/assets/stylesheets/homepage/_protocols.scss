@@ -48,6 +48,7 @@ section.protocols {
     }
 
     p {
+      text-align: center;
       @media(min-width: $medium) {
         font-size: 19px;
       }
@@ -67,6 +68,7 @@ section.protocols {
     h2 {
       display: flex;
       align-items: center;
+      justify-content: center;
 
       img {
         height: 55px;
@@ -79,6 +81,7 @@ section.protocols {
 
     h3 {
       color: #4bc7ff;
+      text-align: center;
       @media(max-width: $iphone5) {
         font-size: 16px;
       }
