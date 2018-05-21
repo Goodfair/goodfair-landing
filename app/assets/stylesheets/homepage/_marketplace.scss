@@ -20,7 +20,7 @@ section.marketplace {
   h2 {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     margin-bottom: 30px;
     font-size: 40px;
     letter-spacing: 0.04px;
@@ -83,29 +83,33 @@ section.marketplace {
 
       &.bg-feature-1 {
         background-image: linear-gradient(-179deg, #FCDF8A 0%, #F38381 100%);
+
         img {
-            width: 58%;
+          width: 58%;
         }
       }
 
       &.bg-feature-2 {
         background-image: linear-gradient(-172deg, #B392FF 0%, #6B0FBE 100%);
+
         img {
-            width: 68%;
+          width: 70%;
         }
       }
 
       &.bg-feature-3 {
         background-image: linear-gradient(-180deg, #F5515F 0%, #C71A34 100%);
+
         img {
-            width: 68%;
+          width: 68%;
         }
       }
 
       &.bg-feature-4 {
         background-image: linear-gradient(-180deg, #B4EC51 0%, #429321 100%);
+
         img {
-            width: 58%;
+          width: 58%;
         }
       }
 
