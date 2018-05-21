@@ -37,7 +37,7 @@
   }
 
   h3 {
-    color: #20a8e5;
+    color: #FF5F5F;
     letter-spacing: 2.2px;
     @media(max-width: $iphone5) {
       font-size: 16px;
@@ -131,19 +131,19 @@
       }
 
       h4 {
-        font-family: 'din-2014';
+        font-family: var(--paragraph-font);
         font-size: 20px;
         line-height: 1.15;
         letter-spacing: 0;
         margin-left: 8px;
         text-align: left;
-        color: #194D72;
+        color: #fff;
         margin-bottom: 0;
         @media(min-width: $medium) {
           margin-left: 0;
           font-size: 20px;
           line-height: 1.15;
-          color: #49667b;
+          color: #fff;
         }
       }
     }

@@ -1,17 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="49" height="49" viewBox="0 0 49 49">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="61px" height="61px" viewBox="0 0 61 61" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1</title>
+    <desc>Created with Sketch.</desc>
     <defs>
-        <circle id="b" cx="20.5" cy="20.5" r="20.5"/>
-        <filter id="a" width="131.7%" height="131.7%" x="-15.9%" y="-13.4%" filterUnits="objectBoundingBox">
-            <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
-            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
-            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.625600305 0 0 0 0 0.717363782 0 0 0 0 0.943425808 0 0 0 0.11144135 0"/>
-        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FF8080" offset="0%"></stop>
+            <stop stop-color="#FF4949" offset="100%"></stop>
+        </linearGradient>
     </defs>
-    <g fill="none" fill-rule="evenodd">
-        <g transform="translate(4 3)">
-            <use fill="#000" filter="url(#a)" xlink:href="#b"/>
-            <use fill="#FFF" xlink:href="#b"/>
+    <g id="Mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPhone-for-DEv" transform="translate(-23.000000, -1899.000000)">
+            <g id="Group-46" transform="translate(-176.000000, 1695.000000)">
+                <g id="Group-19" transform="translate(199.000000, 59.000000)">
+                    <g id="Group-8" transform="translate(0.000000, 145.000000)">
+                        <g id="Page-1">
+                            <path d="M30.5,57.648742 L3.35125796,30.5 L30.5,3.35125796 L57.648742,30.5 L30.5,57.648742 Z M0,30.5 L30.5,61 L61,30.5 L30.5,0 L0,30.5 Z" id="Fill-1" fill="url(#linearGradient-1)"></path>
+                            <path d="M24.55536,23 L23,24.5553356 L28.44442,30.00011 L23,35.4444444 L24.55536,37 L29.99978,31.5556656 L35.44464,37 L37,35.4444444 L31.55514,30.00011 L37,24.5553356 L35.44464,23 L29.99978,28.4447744 C29.99978,28.4447744 24.55536,23 24.55536,23" id="Fill-1" fill="#FF4949"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
         </g>
-        <path fill="#FF7384" d="M17.889 15L16 16.889l6.611 6.611L16 30.111 17.889 32l6.61-6.611L31.112 32 33 30.111l-6.612-6.61L33 16.888 31.111 15 24.5 21.612 17.889 15"/>
     </g>
 </svg>
