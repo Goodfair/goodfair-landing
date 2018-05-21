@@ -82,3 +82,10 @@
     font-weight: 500;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Poppins';
+    src: font-url('fonts/Poppins-Light.woff2') format('woff2'),
+        font-url('fonts/Poppins-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
