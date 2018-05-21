@@ -149,6 +149,9 @@ en:
     block_6:
       title: 'MetaMask Integration'
       paragraph: 'Seamlessly process cryptocurrency transactions without giving up private keys via the MetaMask browser plugin.'
+  brands:
+    title: "Brands"
+    subtitle: "More than thousand brands will be available on GoodFair"
   nexus:
     title: "Nexus"
     minititle: "Goodfair"

@@ -1,0 +1,12 @@
+<div class="container">
+  <h2>
+    <%= image_tag 'benefits_icon.svg' %>
+    <%=t 'brands.title' %>
+  </h2>
+  <h3><%=t 'brands.subtitle' %></h3>
+  <div class="brands-logo">
+    <% (1..15).each do |brand| %>
+      <%= image_tag "icon_brands_#{brand}.png" %>
+    <% end %>
+  </div>
+</div>

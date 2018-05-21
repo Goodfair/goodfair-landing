@@ -1,0 +1,31 @@
+.brands {
+  padding: 50px 0;
+  background-color: #0F3588;
+
+  h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  .brands-logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    img {
+      width: 80px;
+      margin: 10px 15px;
+      align-self: center;
+
+      @media(max-width: $iphone5) {
+        width: 70px;
+        margin: 10px 10px;
+      }
+    }
+  }
+}
