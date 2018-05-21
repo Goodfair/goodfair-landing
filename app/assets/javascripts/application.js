@@ -30,11 +30,11 @@ $(document).ready(function() {
 
   $('.center').slick({
     centerMode: true,
-    centerPadding: '0px',
+    centerPadding: '30px',
     slidesToShow: 1,
     adaptiveHeight: true,
     dots: true,
-    fade: true,
+    fade: false,
 
     responsive: [{
         breakpoint: 768,

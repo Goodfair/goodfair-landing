@@ -1,9 +1,9 @@
-<div class="solution-bg"></div>
+<div class="protocols-bg"></div>
 <div class="container hex-main-container">
   <div class='row'>
     <div class="solution-intro col-md-6 col-lg-6">
       <h2>
-        <%= image_tag 'solution-icon.svg', alt:'Protocols' %>
+        <%= image_tag 'protocol_icon@2x.png', alt:'Protocols' %>
         <div>
           <span><%=t 'protocols.minititle' %></span>
           <%=t 'protocols.title' %>
@@ -19,22 +19,18 @@
         <div class="circle-ripple circle-ripple-right"></div>
         <%= image_tag "hex_color_desktop@2x.png" %>
         <div class="hex-title">Smart<span>Escrow</span></div>
-        <div class="hex-title">Smart<span>Trust</span></div>
-        <div class="hex-title">Smart<span>Resolve</span></div>
       </div>
     </div>
   </div>
 </div>
-<div class='container'>
+<div class=''>
   <div class="center slider">
     <% %w(smartescrow smarttrust smartresolve).each do |protocol| %>
       <div class='one-slider'>
-        <div class='container'>
+        <div class='slider-inner'>
           <div class="row">
             <div class="hex col-lg-5">
-              <div class="hex-title">Smart<span>Escrow</span></div>
               <div class="hex-title">Smart<span>Trust</span></div>
-              <div class="hex-title">Smart<span>Resolve</span></div>
               <div class='slider-image'>
                 <div class="circle-ripple circle-ripple-<%=t "protocols.#{protocol}.ripple_position" %>"></div>
                 <%= image_tag "hex_single_#{protocol}@2x.png" %>
@@ -43,13 +39,13 @@
             <div class='description col-lg-7'>
               <h4>Smart<span>Escrow</span></h4>
               <p><%=t "protocols.#{protocol}.description_html" %></p>
-              <ul class="features">
+              <!-- <ul class="features">
                 <% (1..4).each do |feature| %>
                   <li>
                     <%= image_tag "poc_checkmark.svg" %><%=t "protocols.#{protocol}.feature_#{feature}" %>
                   </li>
                 <% end %>
-              </ul>
+              </ul> -->
             </div>
           </div>
         </div>
