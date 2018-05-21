@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="74px" viewBox="0 0 42 74" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Asset 2patternxxx</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="50.0154655%" x2="-1.30417375e-12%" y2="50.0154655%" id="linearGradient-1">
+            <stop stop-color="#14A4DB" offset="0%"></stop>
+            <stop stop-color="#1AABDC" offset="20%"></stop>
+            <stop stop-color="#2BBEE0" offset="48%"></stop>
+            <stop stop-color="#46DDE5" offset="81%"></stop>
+            <stop stop-color="#58F2E9" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="1261591%" y1="5363%" x2="1267180%" y2="5363%" id="linearGradient-2">
+            <stop stop-color="#14A4DB" offset="0%"></stop>
+            <stop stop-color="#1AABDC" offset="20%"></stop>
+            <stop stop-color="#2BBEE0" offset="48%"></stop>
+            <stop stop-color="#46DDE5" offset="81%"></stop>
+            <stop stop-color="#58F2E9" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="113.833089%" y1="8097%" x2="3206.89384%" y2="6058%" id="linearGradient-3">
+            <stop stop-color="#14A4DB" offset="0%"></stop>
+            <stop stop-color="#1AABDC" offset="20%"></stop>
+            <stop stop-color="#2BBEE0" offset="48%"></stop>
+            <stop stop-color="#46DDE5" offset="81%"></stop>
+            <stop stop-color="#58F2E9" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="1264385%" y1="7578%" x2="1267180%" y2="7578%" id="linearGradient-4">
+            <stop stop-color="#14A4DB" offset="0%"></stop>
+            <stop stop-color="#1AABDC" offset="20%"></stop>
+            <stop stop-color="#2BBEE0" offset="48%"></stop>
+            <stop stop-color="#46DDE5" offset="81%"></stop>
+            <stop stop-color="#58F2E9" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="3619%" y1="6859.49423%" x2="2497%" y2="2409.37632%" id="linearGradient-5">
+            <stop stop-color="#14A4DB" offset="0%"></stop>
+            <stop stop-color="#1AABDC" offset="20%"></stop>
+            <stop stop-color="#2BBEE0" offset="48%"></stop>
+            <stop stop-color="#46DDE5" offset="81%"></stop>
+            <stop stop-color="#58F2E9" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="1264385%" y1="3287%" x2="1267175%" y2="3287%" id="linearGradient-6">
+            <stop stop-color="#14A4DB" offset="0%"></stop>
+            <stop stop-color="#1AABDC" offset="20%"></stop>
+            <stop stop-color="#2BBEE0" offset="48%"></stop>
+            <stop stop-color="#46DDE5" offset="81%"></stop>
+            <stop stop-color="#58F2E9" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="5585%" y1="4931%" x2="5%" y2="4931%" id="linearGradient-7">
+            <stop stop-color="#14A4DB" offset="0%"></stop>
+            <stop stop-color="#1AABDC" offset="20%"></stop>
+            <stop stop-color="#2BBEE0" offset="48%"></stop>
+            <stop stop-color="#46DDE5" offset="81%"></stop>
+            <stop stop-color="#58F2E9" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPhone-for-DEv" transform="translate(-23.000000, -4946.000000)" fill-rule="nonzero">
+            <g id="Group-35" transform="translate(-177.000000, 4876.000000)">
+                <g id="SECTION:-Marketplace" transform="translate(69.000000, 61.000000)">
+                    <g id="Group-53" transform="translate(130.000000, 0.000000)">
+                        <g id="Group-48">
+                            <g id="Group-32" transform="translate(1.000000, 0.000000)">
+                                <g id="Asset-2patternxxx" transform="translate(0.000000, 9.000000)">
+                                    <polygon id="Shape" fill="url(#linearGradient-1)" points="42 37.040829 21.1016311 25 0 37.040829 21.0037641 49"></polygon>
+                                    <polygon id="Shape" fill="url(#linearGradient-2)" opacity="0.25" points="42 40.9888372 21.0375671 29 0 40.944186 21 53"></polygon>
+                                    <polygon id="Shape" fill="url(#linearGradient-3)" opacity="0.65" points="42 41.0445545 21 53.029703 0 41 21 74"></polygon>
+                                    <polygon id="Shape" fill="url(#linearGradient-4)" opacity="0.5" points="0 41 22 53.029703 22 74"></polygon>
+                                    <polygon id="Shape" fill="url(#linearGradient-5)" points="21.0037641 50 42 37.7471859 21.0037641 0 0 37.7471859"></polygon>
+                                    <polygon id="Shape" fill="url(#linearGradient-6)" points="0 37.7471859 22 0 22 50"></polygon>
+                                    <polygon id="Shape" fill="url(#linearGradient-7)" opacity="0.67" style="mix-blend-mode: multiply;" points="21.0037641 48 0 36.2372984 21.0037641 24 42 36.2372984"></polygon>
+                                    <polygon id="Shape" fill="url(#linearGradient-2)" opacity="0.25" points="42 40.9888372 21.0375671 29 0 40.944186 21 53"></polygon>
+                                    <polygon id="Shape" fill="url(#linearGradient-3)" opacity="0.65" points="42 41.0445545 21 53.029703 0 41 21 74"></polygon>
+                                    <polygon id="Shape" fill="url(#linearGradient-4)" opacity="0.5" points="0 41 22 53.029703 22 74"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
