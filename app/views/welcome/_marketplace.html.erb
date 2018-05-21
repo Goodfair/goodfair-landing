@@ -1,6 +1,6 @@
 <div class="container">
   <h2>
-    <%= image_tag 'benefits_icon.svg' %>
+    <%= image_tag 'marketplace_icon.svg' %>
     <div>
       <span><%=t 'marketplace.minititle' %></span>
       <%=t 'marketplace.title' %>
@@ -8,10 +8,14 @@
   </h2>
   <h3><%=t 'marketplace.subtitle' %></h3>
   <p><%=t 'marketplace.paragraph' %></p>
-  <div class="row">
+</div>
+
+<div class="marketplace-phone"></div>
+<div class="container benefits-list">
+<div class="row">
     <% (1..4).each do |feature| %>
       <div class="benefit col-md-6">
-        <div class="circle-container"><%= image_tag "icon_marketplace_#{feature}.png" %></div>
+        <div class="circle-container bg-feature-<%= feature %>"><%= image_tag "icon_marketplace_#{feature}.svg" %></div>
         <div class='benefit-copy'>
           <h4><%=t "marketplace.block_#{feature}.title" %></h4>
           <p><%=t "marketplace.block_#{feature}.paragraph" %></p>
