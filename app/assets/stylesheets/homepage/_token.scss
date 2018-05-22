@@ -109,9 +109,10 @@
           font-size: 16px;
         }
         @media(min-width: $medium) {
-          letter-spacing: 4.6px;
-          line-height: 1.58;
-          font-size: 19px;
+          letter-spacing: 1.9px;
+          line-height: 1.53;
+          font-size: 17px;
+          width: 80%;
         }
       }
 
@@ -119,6 +120,7 @@
         @media(max-width: $iphone5) {
           font-size: 16px;
         }
+
         @media(min-width: $large) {
           font-size: 19px;
         }
@@ -130,18 +132,28 @@
 
     .token-row {
       padding-top: 21px;
-      @media(min-width: $large) {
+
+      @media(min-width: $medium) {
         display: flex;
         align-items: flex-start;
-        padding-top: 50px;
+         padding-top: 50px;
       }
 
       .token-row-text {
+        @media(min-width: $medium) {
+          margin-left: 5px;
+        }
+
         @media(min-width: $large) {
           margin-left: 13px;
         }
 
         h4 {
+          @media(min-width: $medium) {
+            margin-top: 5px;
+          }
+
+
           @media(min-width: $large) {
             margin-top: 0;
           }
