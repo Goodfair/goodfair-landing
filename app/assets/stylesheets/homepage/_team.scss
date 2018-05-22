@@ -1,5 +1,5 @@
 .team {
-  padding: 50px 0;
+  padding: 65px 0;
   background-color: #0F3588;
   position: relative;
 
@@ -85,7 +85,7 @@
 
   }
 
-  .employee-grid {
+  .employee-gap {
     margin-top: 225px;
     @media(max-width: $iphone5) {
       margin-top: 185px;
@@ -97,7 +97,9 @@
       margin: 450px auto auto;
       width: 90%;
     }
+  }
 
+  .employee-grid {
     .col-lg-4 {
       @media(min-width: $large) {
         margin-bottom: 15px;

@@ -31,11 +31,12 @@
 
 en:
   navigation:
-    our_vision: 'Our Vision'
-    token: 'GOOD token'
-    problem: 'The Problem'
-    solution: 'The Solution'
-    features: 'Features'
+    token: 'Token'
+    problem_solution: 'Problem / Solution'
+    protocols: "Core Protocols"
+    marketplace: 'Marketplace'
+    nexus: 'Nexus'
+    brands: 'Brands'
     roadmap: 'Roadmap'
     team: 'Our Team'
     whitepaper: 'Whitepaper'
@@ -152,9 +153,12 @@ en:
   brands:
     title: "Brands"
     subtitle: "More than thousand brands will be available on GoodFair"
+    minititle: "Marketplace"
   nexus:
     title: "Nexus"
     minititle: "Goodfair"
+    subtitle: "Building protocal for ecommerce"
+    paragraph: "Commerce is evolving. A few years from now, digital currencies will play a central role in our lives, coins, cash, cards and cheques. "
   token:
     title: "GOOD Token"
     subtitle: "E-Commerce Powered via GOOD Token"
