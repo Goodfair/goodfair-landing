@@ -167,11 +167,13 @@ button {
 
 .email-signup {
   margin-top: 27px;
+  margin-bottom: 20px;
   display: flex;
   justify-content: space-between;
-  flex-direction: column;
+  flex-direction: row;
+
   @media(max-width: $iphone5) {
-    margin-top:21px;
+    flex-direction: column;
   }
   @media(min-width: $medium) {
     margin-top: 38px;
@@ -187,8 +189,8 @@ button {
     }
 
     input {
-      height: 54px;
-      width: 100%;
+      height: 44px;
+      width: 210px;
       border-radius: 3px;
       border: 1px solid rgba(105, 179, 255, 0.75);
       background-color: transparent;
@@ -201,6 +203,11 @@ button {
       display: flex;
       align-items: center;
       box-shadow: inset -2px 1px 11px 0 rgba(0, 81, 133, 0.18), -2px 1px 11px 0 rgba(0, 81, 133, 0.18);
+
+      @media(max-width: $iphone5) {
+        width: 100%;
+      }
+
       @media(min-width: $medium) {
         width: 237px;
         height: 44px;
@@ -239,12 +246,11 @@ button {
   button {
     -webkit-font-smoothing: antialiased;
 
-    width: 100%;
-    height: 56px;
+    width: 120px;
+    height: 44px;
     border-radius: 3px;
     background-image: linear-gradient(to right, #1A77ED, #00D7ED);
     text-transform: uppercase;
-    margin-top: 10px;
     font-family: var(--paragraph-font);
     font-size: 13px;
     font-weight: 600;
@@ -254,8 +260,13 @@ button {
     box-shadow: 0 2px 4px 0 rgba(0, 98, 161, 0.27);
     cursor: pointer;
     @media(max-width: $iphone5) {
-      height: 50px;
+      width: 100%;
+      margin-top: 10px;
     }
+    @media(min-width: 410px) {
+      width: 150px;
+    }
+
     @media(min-width: $medium) {
       width: 178px;
       height: 44px;
