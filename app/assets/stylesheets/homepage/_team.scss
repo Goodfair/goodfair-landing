@@ -8,8 +8,9 @@
   }
 
   @media(min-width: $medium) {
-    background: image-url("team_bg_desktop.png");
-    background-size: cover;
+    /*background: image-url("team_bg_desktop.png");
+    background-size: cover;*/
+    background: none;
     padding-bottom: 120px;
     padding-top: 80px;
   }

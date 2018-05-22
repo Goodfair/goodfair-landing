@@ -2,6 +2,10 @@
   background-color: #0F3588;
   position: relative;
 
+  @media(min-width: $medium) {
+    background: none;
+  }
+
   @media(min-width: $large) {
     padding: 60px 0;
     background: none;

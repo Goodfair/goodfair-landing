@@ -2,6 +2,7 @@ section.protocols {
   padding: 65px 0;
   background-color: #0F3588;
   @media(min-width: $medium) {
+    background: none;
     padding-top: 100px;
     padding-bottom: 70px;
   }

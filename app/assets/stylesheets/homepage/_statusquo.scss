@@ -3,8 +3,9 @@
   padding-bottom: 40px;
   background: #F6FBFF image-url("status_quo_bg.png");
   background-size: cover;
+
   @media(min-width: $medium) {
-    background: #F6FBFF;
+    background: none !important;
     padding-top: 60px;
   }
   @media(min-width: $large) {

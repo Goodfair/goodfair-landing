@@ -31,6 +31,13 @@ html {
   height: 100%;
   width: 100%;
   font-family: var(--paragraph-font);
+
+  @media(min-width: $medium) {
+    background-color: #173f90;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
 }
 
 section {

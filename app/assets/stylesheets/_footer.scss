@@ -6,6 +6,8 @@
   position: relative;
 
   @media(min-width: $medium) {
+    background: none;
+
     .first-row {
       display: flex;
       justify-content: space-between;

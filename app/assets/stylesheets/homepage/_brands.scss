@@ -2,6 +2,10 @@
   padding: 65px 0;
   background-color: #0F3588;
 
+  @media(min-width: $medium) {
+    background: none;
+  }
+
   h2 {
     display: flex;
     align-items: center;
