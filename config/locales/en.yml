@@ -156,6 +156,8 @@ en:
   nexus:
     title: "Nexus"
     minititle: "Goodfair"
+    subtitle: "Building protocal for ecommerce"
+    paragraph: "Commerce is evolving. A few years from now, digital currencies will play a central role in our lives, coins, cash, cards and cheques. "
   token:
     title: "GOOD Token"
     subtitle: "E-Commerce Powered via GOOD Token"
