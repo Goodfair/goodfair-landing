@@ -8,8 +8,9 @@
     // background: image-url("ourvision_bg_tablet@2x.jpg");
     // background-size: cover;
     // background-repeat: no-repeat;
-    // padding-bottom: 80px;
-    margin-top: 40px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+
   }
   @media(min-width: $large) {
     // background: image-url("intro_bg_tablet@2x.png");
@@ -21,7 +22,7 @@
     padding-bottom: 0;
   }
 
-  .container {
+  .col {
     @media(min-width: $medium) {
       flex-direction: column;
       align-items: flex-start;
@@ -41,8 +42,9 @@
       line-height: 1.22;
       margin-bottom: 15px;
       @media(min-width: $medium) {
+        margin-top: 0;
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         flex-direction: row;
       }
@@ -70,6 +72,9 @@
   h3 {
     font-size: 17px;
     text-align: center;
+    @media(min-width: $medium) {
+      text-align: left;
+    }
   }
 
   p {
