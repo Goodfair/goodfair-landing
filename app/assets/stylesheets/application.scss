@@ -35,10 +35,10 @@ html {
   font-family: var(--paragraph-font);
 
   @media(min-width: $medium) {
-    background-color: #173f90;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image: image-url("page_bg@2x.png");
+    background-position: center;
     background-attachment: fixed;
+    background-size: cover;
   }
 }
 
@@ -65,12 +65,16 @@ section {
   }
 }
 
-
 .bg-lightblue {
-  background:#1D4398;
+  background-color: #1D4398;
 }
 .bg-darkblue {
-  background:#0F3588;
+  background-color: #0F3588;
+}
+.bg-lightblue, .bg-darkblue {
+  @media(min-width: $medium) {
+    background-color: transparent;
+  }
 }
 .container {
   padding-left: 20px;
