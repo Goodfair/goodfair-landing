@@ -2,11 +2,13 @@
   color: #fff;
   padding: 60px 0;
   position: relative;
+  background-color: #1D4398;
 
   &.mobile-tablet {
     max-width: 862px;
     margin: 0 auto;
     @media(min-width: $medium) {
+      background: none;
       padding-top:0;
     }
     @media(min-width: $large) {
@@ -84,6 +86,10 @@
 
   .email-signup {
     margin-top: 0;
+
+    button {
+      width: 100%;
+    }
   }
 
   .poc-benefits {

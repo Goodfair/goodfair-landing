@@ -49,7 +49,7 @@ en:
     try_poc_btn: "Try the proof of Concept"
     stay_connected: "Stay Connected"
   our_vision:
-    title: "Our Marketplace Vision"
+    title: "Our Vision"
     subtitle: "An interdependent ecosystem free from centralized establishments"
     paragraph: "GoodFair is the first Ethereum-based B2C marketplace DApp built with a focus on equality, accessibility, and democratized governance. Our goal is to create a marketplace where the fundamental components reflect the culture and values of its community."
     vision_benefit_1:
@@ -72,6 +72,7 @@ en:
       paragraph: "Blockchain-powered reputation system guarantees authentic ratings and reviews."
   poc:
     title: "Proof of Concept"
+    subtitle: "Project Update"
     feature_1: "Buy and Sell Items"
     feature_2: "Virtual Escrow"
     feature_3: "Fiat/ETH Conversion"
