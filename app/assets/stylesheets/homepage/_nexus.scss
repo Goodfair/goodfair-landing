@@ -1,17 +1,17 @@
 #nexus {
   padding: 65px 0;
   background-color: #1D4398;
-
-  @media(min-height: $medium) {
-    display: flex;
-    align-items: center;
-  }
+  background-image: url('nexus-map@2x.png');
+  background-size: 130%;
+  background-repeat: no-repeat;
+  background-position-y: 50%;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
 
   @media(min-width: $medium) {
     background-color: inherit;
-    background-image: url('nexus-map@2x.png');
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-size: 100%;
     min-height: 535px;
   }
 
@@ -25,7 +25,11 @@
   }
 
   .nexus-container {
+    width: 80%;
+    margin: auto;
+
     @media(min-width: $medium) {
+      width: 100%;
       border-radius: 5px;
       background-color: #ffffff;
       box-shadow: 0 17px 38px 0 rgba(0, 0, 0, 0.12);
