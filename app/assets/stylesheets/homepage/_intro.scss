@@ -10,14 +10,13 @@ section.intro {
     background-image: image-url("intro_bg@2x.jpg");
     background-repeat: repeat-x;
     background-size: 101px;
-    padding-bottom: 0;
-
+    padding-bottom: 40px;
   }
 
   .intro-video {
     width: 100%;
     max-width: 486px;
-    margin-top:4px;
+    margin-top: 4px;
   }
 
   .intro-splash {
@@ -63,7 +62,6 @@ section.intro {
       background-repeat: no-repeat;
     }
   }
-
   // &:after {
   //   @media(min-width: 1200px) {
   //     background: #0665B0;
@@ -80,7 +78,6 @@ section.intro {
   //     z-index: 0;
   //   }
   // }
-
   .intro-copy {
     padding-top: 90px;
     @media(min-width: $medium) {
@@ -145,7 +142,7 @@ section.intro {
     animation: bounce 2s infinite 2s;
     transition: all 0.2s ease-in;
     @media(max-width: $iphone5) {
-      bottom:60px;
+      bottom: 60px;
     }
     @media(min-width: $medium) {
       bottom: 50px;

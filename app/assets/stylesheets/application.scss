@@ -17,9 +17,11 @@
 @import 'homepage/_roadmap';
 @import 'homepage/components/_emailsignup';
 @import 'homepage/_poc';
+@import 'homepage/_emailbar';
 @import 'magnific-popup';
 @import 'slick';
 @import 'slick-theme';
+
 @media (min-width: 1200px) {
   .container {
     max-width: 1240px;
@@ -56,7 +58,8 @@ section {
 .protocols,
 .status-quo,
 .team,
-.token {
+.token,
+.email-bar {
   * {
     -webkit-font-smoothing: antialiased;
   }
