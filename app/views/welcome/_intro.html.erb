@@ -16,18 +16,9 @@
   </form>
   <%= image_tag "video_placeholder.png", alt: 'Video', class: 'intro-video' %>
 
-  <div class="our-vision" id='vision'>
-    <h2 class="our-vision-title">
-      <%= image_tag "icon_spaceship.svg" %>
-      <%=t 'our_vision.title' %>
-    </h2>
-    <h3><%=t 'our_vision.subtitle' %></h3>
-    <p><%=t 'our_vision.paragraph' %><p>
-
-    <!-- <div class='video-player'> <image src='assets/video-player@2x.png' alt='Video' /> </div> -->
-
+  <div class="our-vision d-md-none" id='vision'>
+    <%= render 'our_vision' %>
   </div>
 
-  <!-- <%= image_tag "scrolldown.svg", class: "scroll-down" %> -->
 </div>
 </div>

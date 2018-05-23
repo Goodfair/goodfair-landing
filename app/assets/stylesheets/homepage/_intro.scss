@@ -11,10 +11,12 @@ section.intro {
     background-repeat: repeat-x;
     background-size: 101px;
     padding-bottom: 0;
+
   }
 
   .intro-video {
-    max-width: 100%;
+    width: 100%;
+    max-width: 486px;
     margin-top:4px;
   }
 
@@ -22,10 +24,10 @@ section.intro {
     // height: 100vh;
     position: relative;
     @media(min-width: $medium) {
-      max-height: 700px;
+      // max-height: 700px;
       display: flex;
       flex-direction: column;
-      justify-content: center;
+      align-items: center;
     }
     @media(min-width: $large) {
       max-height: 820px;
@@ -43,7 +45,7 @@ section.intro {
     background-repeat: no-repeat;
     z-index: 0;
     @media(min-width: $medium) {
-      background: image-url("intro_bg_desktop.png");
+      background: image-url("intro_bg_tablet@2x.jpg");
       background-repeat: no-repeat;
       background-position: center top;
       background-size: 110%;
@@ -62,22 +64,22 @@ section.intro {
     }
   }
 
-  &:after {
-    @media(min-width: 1200px) {
-      background: #0665B0;
-      bottom: -3px;
-      content: '';
-      z-index: 2;
-      display: block;
-      height: 5vw;
-      left: 0;
-      position: absolute;
-      right: 0;
-      transform: skewY(-2.5deg);
-      transform-origin: 100%;
-      z-index: 0;
-    }
-  }
+  // &:after {
+  //   @media(min-width: 1200px) {
+  //     background: #0665B0;
+  //     bottom: -3px;
+  //     content: '';
+  //     z-index: 2;
+  //     display: block;
+  //     height: 5vw;
+  //     left: 0;
+  //     position: absolute;
+  //     right: 0;
+  //     transform: skewY(-2.5deg);
+  //     transform-origin: 100%;
+  //     z-index: 0;
+  //   }
+  // }
 
   .intro-copy {
     padding-top: 90px;
@@ -85,7 +87,7 @@ section.intro {
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding-top: 0;
+      padding-top: 120px;
     }
     @media(min-width: $large) {
       margin-top: 0;
