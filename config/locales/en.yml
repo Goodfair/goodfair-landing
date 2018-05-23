@@ -50,6 +50,7 @@ en:
     stay_connected: "Stay Connected"
   our_vision:
     title: "Our Marketplace Vision"
+    subtitle: "An interdependent ecosystem free from centralized establishments"
     paragraph: "GoodFair is the first Ethereum-based B2C marketplace DApp built with a focus on equality, accessibility, and democratized governance. Our goal is to create a marketplace where the fundamental components reflect the culture and values of its community."
     vision_benefit_1:
       title: "Industry Low Fees"

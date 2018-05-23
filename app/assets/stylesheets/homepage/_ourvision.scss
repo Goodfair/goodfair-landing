@@ -9,6 +9,9 @@
     // background-size: cover;
     // background-repeat: no-repeat;
     // padding-bottom: 80px;
+    .vision-container {
+      width: 75%;
+    }
     margin-top: 40px;
   }
   @media(min-width: $large) {
@@ -70,6 +73,10 @@
   h3 {
     font-size: 17px;
     text-align: center;
+
+    @media(min-width: $medium) {
+      text-align: left;
+    }
   }
 
   p {
