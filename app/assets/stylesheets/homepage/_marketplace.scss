@@ -2,6 +2,7 @@ section.marketplace {
   padding: 65px 0;
   background-color: #1D4398;
   position: relative;
+  overflow: hidden;
 
   @media(min-width: $medium) {
     background: none;
