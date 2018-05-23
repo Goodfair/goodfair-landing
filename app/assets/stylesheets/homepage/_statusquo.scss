@@ -44,6 +44,7 @@
       font-size: 16px;
     }
     @media(min-width: $medium) {
+      color: #30BDFD;
       text-align: center;
     }
     @media(min-width: $large) {
@@ -53,7 +54,10 @@
   }
 
   p {
+    display: none;
+
     @media(min-width: $medium) {
+      display: block;
       text-align: center;
     }
     @media(min-width: $large) {

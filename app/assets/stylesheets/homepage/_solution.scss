@@ -2,11 +2,11 @@
   padding: 60px 0;
   background-color: #1D4398;
 
-  @media(min-width: $medium) {
-    background: none;
+  .ecosystem-tablet {
+    display: none;
   }
 
-  .ecosystem {
+  .ecosystem-mobile {
     width: 100%;
     margin-top:20px;
   }
@@ -17,5 +17,25 @@
   .title-icon {
     height: 60px;
     margin-right: 12px;
+  }
+
+  @media(min-width: $medium) {
+    background: none;
+
+    text-align: center;
+
+    h2 {
+      justify-content: center;
+    }
+
+    .ecosystem-mobile {
+      display: none;
+    }
+
+    .ecosystem-tablet {
+      margin-top: 20px;
+      display: block;
+      width: 100%;
+    }
   }
 }
