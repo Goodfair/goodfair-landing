@@ -2,8 +2,28 @@
   padding: 60px 0;
   background-color: #1D4398;
 
+  .ecosystem-tablet {
+    display: none;
+  }
+
   @media(min-width: $medium) {
     background: none;
+
+    text-align: center;
+
+    h2 {
+      justify-content: center;
+    }
+
+    .ecosystem-mobile {
+      display: none;
+    }
+
+    .ecosystem-tablet {
+      margin-top: 40px;
+      display: block;
+      width: 100%;
+    }
   }
 
   .ecosystem {
