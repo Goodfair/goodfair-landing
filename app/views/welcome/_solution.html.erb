@@ -1,12 +1,16 @@
 <div class="container">
-  <h2>
-    <%= image_tag 'solution_icon.svg', class:"title-icon" %>
-    <div>
-      <%=t 'solution.title' %>
-    </div>
-  </h2>
-  <h3><%=t 'solution.subtitle' %></h3>
-  <p><%=t 'solution.paragraph' %></p>
-  <%= image_tag 'ecosystem@2x.png', class: "ecosystem-mobile" %>
-  <%= image_tag 'ecosystem-tablet@2x.png', class: "ecosystem-tablet" %>
+  <div class="solution-container">
+    <h2>
+      <%= image_tag 'solution_icon.svg', class:"title-icon" %>
+      <div>
+        <%=t 'solution.title' %>
+      </div>
+    </h2>
+    <h3><%=t 'solution.subtitle' %></h3>
+    <p><%=t 'solution.paragraph' %></p>
+  </div>
+  <div>
+    <%= image_tag 'ecosystem@2x.png', class: "ecosystem-mobile" %>
+    <%= image_tag 'ecosystem-tablet@2x.png', class: "ecosystem-tablet" %>
+  </div>
 </div>
