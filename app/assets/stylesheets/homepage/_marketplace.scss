@@ -1,10 +1,16 @@
 section.marketplace {
   padding: 65px 0;
   background-color: #1D4398;
+  position: relative;
+  overflow: hidden;
 
   @media(min-width: $medium) {
     background: none;
     padding: 70px 0 30px;
+
+    .marketplace-container {
+      width: 50%;
+    }
   }
   @media(min-width: $large) {
     padding: 120px 0 60px;
@@ -30,9 +36,6 @@ section.marketplace {
     @media(max-width: $iphone5) {
       font-size: 26px;
     }
-    @media(min-width: $medium) {
-      margin-bottom: 50px;
-    }
     @media(min-width: $large) {
       margin-bottom: 70px;
     }
@@ -42,13 +45,13 @@ section.marketplace {
     }
   }
 
-  p {
+  /*p {
     @media(min-width: $medium) {
       text-align: center;
       margin-bottom: 60px;
     }
   }
-
+*/
   .marketplace-phone {
     margin-top: 40px;
     background-image: image-url("marketplace_phone@2x.png");
@@ -56,10 +59,26 @@ section.marketplace {
     background-size: 107%;
     background-position: -40px top;
     background-repeat: no-repeat;
+
+    @media(min-width: $medium) {
+      position: absolute;
+      width: 70%;
+      right: -100px;
+      top: 45px;
+      margin-top: 0px;
+      background-size: 100%;
+      background-position: 0 0;
+      min-height: 600px;
+    }
   }
 
   .benefits-list {
     margin-top: -100px;
+
+    @media(min-width: $medium) {
+      margin-top: 56px;
+      width: 70%;
+    }
   }
 
   .benefit {
@@ -67,9 +86,9 @@ section.marketplace {
     display: flex;
     flex-direction: column;
     align-items: left;
+
     @media(min-width: $medium) {
-      flex-direction: row;
-      align-items: flex-start;
+
     }
 
     .circle-container {
@@ -132,7 +151,7 @@ section.marketplace {
 
     .benefit-copy {
       @media(min-width: $medium) {
-        margin-left: 20px;
+        margin-left: 0px;
       }
     }
 

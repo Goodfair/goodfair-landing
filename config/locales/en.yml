@@ -49,7 +49,8 @@ en:
     try_poc_btn: "Try the proof of Concept"
     stay_connected: "Stay Connected"
   our_vision:
-    title: "Our Marketplace Vision"
+    title: "Our Vision"
+    subtitle: "An interdependent ecosystem free from centralized establishments"
     paragraph: "GoodFair is the first Ethereum-based B2C marketplace DApp built with a focus on equality, accessibility, and democratized governance. Our goal is to create a marketplace where the fundamental components reflect the culture and values of its community."
     vision_benefit_1:
       title: "Industry Low Fees"
@@ -71,6 +72,7 @@ en:
       paragraph: "Blockchain-powered reputation system guarantees authentic ratings and reviews."
   poc:
     title: "Proof of Concept"
+    subtitle: "Project Update"
     feature_1: "Buy and Sell Items"
     feature_2: "Virtual Escrow"
     feature_3: "Fiat/ETH Conversion"
@@ -170,8 +172,8 @@ en:
       title: "Pay for Promoted Listings"
       content: "Item exposure can be increased by purchasing listing promotion with GOOD tokens."
     block_3:
-      title_html: "Smart<span>Resolve</span> Rewards"
-      content_html: "SmartM<span>Resolve</span> case mediators are compensated with GOOD tokens for participation. Mediators will only be compensated if they vote with the consensus."
+      title: "SmartResolve Rewards"
+      content: "SmartResolve> case mediators are compensated with GOOD tokens for participation. Mediators will only be compensated if they vote with the consensus."
     block_4:
       title: "Democratizing Governance"
       content: "Community members are incentivized with GOOD tokens to actively participate in GoodFair's ecosystem (reviews, item screening, mediation, etc). "

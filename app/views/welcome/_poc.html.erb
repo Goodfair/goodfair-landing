@@ -1,7 +1,7 @@
-<div class=" mobile-tablet">
+<div class="mobile">
   <div class="container">
   <div class='poc-screenshot'>
-    <h3><%=t 'poc.subitle' %></h3>
+    <h3><%=t 'poc.subtitle' %></h3>
     <h2><%=t 'poc.title' %></h2>
 
     <%= image_tag "poc_laptop@2x.png", class: "laptop-screenshot" %>
@@ -20,6 +20,24 @@
     <button type="button"><%= t 'poc.explore' %></button>
   </div>
 </div>
+</div>
+
+
+<div class="tablet">
+  <div class="container">
+    <div class="row">
+      <div class=col-7>
+        <%= image_tag "poc_laptop@2x.png", class: "laptop-screenshot" %>
+      </div>
+      <div class=col-5>
+        <h3><%=t 'poc.subtitle' %></h3>
+        <h2><%=t 'poc.title' %></h2>
+        <div class="email-signup">
+          <button type="button"><%= t 'poc.explore' %></button>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
 
