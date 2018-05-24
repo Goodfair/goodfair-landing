@@ -8,11 +8,6 @@
 
   @media(min-width: $large) {
     padding: 60px 0;
-    background: none;
-    background: #11539B image-url("token_bg_gradient.png");
-    background-size: contain;
-    background-repeat: repeat-x;
-    background-position: center;
   }
 
   .token-bg {
@@ -24,10 +19,7 @@
       position: absolute;
       padding-top: 150px;
       /* Path: */
-      background: image-url("token_bg_desktop.png");
-      background-size: contain;
-      background-repeat: no-repeat;
-      background-position: center;
+
     }
   }
 
