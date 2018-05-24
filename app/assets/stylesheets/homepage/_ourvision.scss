@@ -1,4 +1,10 @@
 .our-vision {
+  .our-vision-container {
+    @media(min-width: $large) {
+      margin: auto;
+    }
+  }
+
   position: relative;
   padding-top: 40px;
   // // background: image-url("blue-rectangle@2x.jpg");
@@ -18,13 +24,9 @@
 
   }
   @media(min-width: $large) {
-    // background: image-url("intro_bg_tablet@2x.png");
     margin-top: 0;
-    padding-bottom: 50px;
-    padding-top: 40px;
-  }
-  @media(min-width: 1200px) {
     padding-bottom: 0;
+    padding-top: 110px;
   }
 
   .col {
@@ -55,7 +57,8 @@
       }
       @media(min-width: $large) {
         margin-bottom: 0;
-        font-size: 34px;
+        font-size: 40px;
+        justify-content: center;
       }
 
       img {
@@ -82,6 +85,11 @@
       text-align: left;
       letter-spacing: 1.9px;
     }
+
+    @media(min-width: $large) {
+      text-align: center;
+      margin-top: 20px;
+    }
   }
 
   p {
@@ -89,6 +97,10 @@
     font-size: 17px;
     @media(min-width: $medium) {
       text-align: left;
+    }
+
+    @media(min-width: $large) {
+      text-align: center;
     }
   }
   // .video-player {

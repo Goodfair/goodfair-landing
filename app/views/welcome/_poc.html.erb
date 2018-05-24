@@ -41,43 +41,46 @@
 </div>
 
 
-<div class="poc desktop">
-  <div class='row'>
-    <div class='col-6 col-lg-5 offset-lg-1'>
-      <h2><%= image_tag "icon_poc_title.svg" %><%=t 'poc.title' %></h2>
-      <div class="poc-benefits">
-        <div class='row'>
-          <div class='col-6'>
-            <div><%= image_tag "poc_checkmark.svg" %><%= t 'poc.feature_1' %></div>
+<div class="desktop">
+  <div class="container">
+    <div class='row'>
+      <div class='col-7'>
+        <%= image_tag "poc_laptop@2x.png", class: "screenshot d-lg-block" %>
+      </div>
+      <div class='col-5'>
+        <h3><%=t 'poc.subtitle' %></h3>
+        <h2><%=t 'poc.title' %></h2>
+        <div class="poc-benefits">
+          <div class='row'>
+            <div class='col-6'>
+              <div><%= image_tag "poc_checkmark.svg" %><%= t 'poc.feature_1' %></div>
+            </div>
+            <div class='col-6'>
+              <div><%= image_tag "poc_checkmark.svg" %><%= t 'poc.feature_2' %></div>
+            </div>
           </div>
-          <div class='col-6'>
-            <div><%= image_tag "poc_checkmark.svg" %><%= t 'poc.feature_2' %></div>
+          <div class='row'>
+            <div class='col-6'>
+              <div><%= image_tag "poc_checkmark.svg" %><%= t 'poc.feature_3' %></div>
+            </div>
+            <div class='col-6'>
+              <div><%= image_tag "poc_checkmark.svg" %><%= t 'poc.feature_4' %></div>
+            </div>
+          </div>
+          <div class='row'>
+            <div class='col-6'>
+              <div><%= image_tag "poc_checkmark.svg" %><%= t 'poc.feature_5' %></div>
+            </div>
+            <div class='col-6'>
+              <div><%= image_tag "poc_checkmark.svg" %><%= t 'poc.feature_6' %></div>
+            </div>
           </div>
         </div>
-        <div class='row'>
-          <div class='col-6'>
-            <div><%= image_tag "poc_checkmark.svg" %><%= t 'poc.feature_3' %></div>
-          </div>
-          <div class='col-6'>
-            <div><%= image_tag "poc_checkmark.svg" %><%= t 'poc.feature_4' %></div>
-          </div>
-        </div>
-        <div class='row'>
-          <div class='col-6'>
-            <div><%= image_tag "poc_checkmark.svg" %><%= t 'poc.feature_5' %></div>
-          </div>
-          <div class='col-6'>
-            <div><%= image_tag "poc_checkmark.svg" %><%= t 'poc.feature_6' %></div>
-          </div>
+        <div class="email-signup">
+          <button type="button"><%= t 'poc.explore' %></button>
         </div>
       </div>
-      <div class="email-signup">
-        <button type="button"><%= t 'poc.explore' %></button>
-      </div>
-    </div>
-    <div class='col-6 col-lg-6'>
-      <%= image_tag "poc_screenshot@2x.png", class: "screenshot" %>
-      <%= image_tag "poc_screenshot_desktop@2x.png", class: "screenshot d-none d-lg-block" %>
+
     </div>
   </div>
 </div>

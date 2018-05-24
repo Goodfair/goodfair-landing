@@ -44,7 +44,7 @@
       font-size: 31px;
     }
     @media(min-width: $large) {
-      font-size: 34px;
+      font-size: 36px;
       padding-left: 0;
     }
 
@@ -57,11 +57,8 @@
 
   h3 {
     @media(min-width: $medium) {
-      background-image: linear-gradient(to left, #14ace0, #00eabd);
+      color: #6fc6ff;
       font-size: 19px;
-      -webkit-background-clip: text;
-      background-clip: text;
-      -webkit-text-fill-color: transparent;
     }
   }
 
@@ -99,7 +96,6 @@
         border-radius: 4px;
         font-size: 13px;
         height: 50px;
-        line-height: 50px;
       }
     }
   }
@@ -113,12 +109,6 @@
     @media(min-width: $medium) {
       display: none;
     }
-    @media(min-width: $large) {
-      font-size: 21px;
-      letter-spacing: 0;
-      width: 53%;
-      padding-left: 0;
-    }
 
     div {
       margin-bottom: 10px;
@@ -126,8 +116,9 @@
         margin-bottom: 3px;
       }
       font-size: 18px;
+
       @media(min-width: $large) {
-        font-size: 20px;
+        font-size: 18px;
       }
     }
 
@@ -137,22 +128,24 @@
     }
   }
 
-  &.desktop {
+  .desktop {
     margin-top: 50px;
     @media(max-width: 1023px) {
       display: none;
     }
 
-    h2 {
-      justify-content: flex-start;
-      @media(min-width: $large) {
-        margin-top: 117px;
-      }
+    .screenshot {
+      width: 100%;
+      max-width: none;
     }
 
     .poc-benefits {
+      display: block;
       width: 100%;
-      font-size: 20px;
+      font-size: 18px;
+      letter-spacing: 0;
+      padding-left: 0;
+      margin-top: 29px;
     }
 
     .email-signup {
