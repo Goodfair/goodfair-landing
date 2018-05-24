@@ -42,7 +42,7 @@ en:
     whitepaper: 'Whitepaper'
     demo: 'Demo POC'
   intro:
-    title: "Your Bridge to the Future of E-Commerce."
+    title: "Your Bridge to the Future of B2C E-Commerce."
     subtitle: "GoodFair is a self-governed marketplace that aims to revolutionize e-commerce using blockchain technology."
     stay_updated_btn: "Stay Updated"
     email_address: "Email Address"
@@ -71,7 +71,7 @@ en:
       title: "Legitimacy"
       paragraph: "Blockchain-powered reputation system guarantees authentic ratings and reviews."
   poc:
-    title: "Proof of Concept"
+    title: "Goodfair Market Alpha Release"
     subtitle: "Project Update"
     feature_1: "Buy and Sell Items"
     feature_2: "Virtual Escrow"
@@ -79,11 +79,11 @@ en:
     feature_4: "Admin Dashboard"
     feature_5: "MetaMask Integration"
     feature_6: "Ropsten Network"
-    explore: "Coming Soon"
+    explore: "Explore It Now"
   status_quo:
     title: "The Problem"
     subtitle: "Centralized E-Commerce Platforms are Flawed"
-    paragraph: "Centralized marketplace objectives are misaligned with user interests. Common complaints include high fees, strict policies, unfair mediation, and fraudulant reviews."
+    paragraph: "For the last decade, E-Commerce has relied on the same infrastructure, sales, payment and fulfillment model. Beyond minor innovations in product syndication through social and mobile technologies, selling, buying, paying, and shipping mechanisms have remained relatively stagnant."
     block_1:
       title: "High Listing & Transaction Fees"
       content: "Marketplaces bundle their overhead costs into high transaction and service fees, cutting into seller profit margins."
@@ -98,13 +98,13 @@ en:
       content: "Conflict resolution is typically handled by a centralized, single party and suffers from personal bias effects. Decisions are often inequitable and treat the user unfairly."
   solution:
     title: "The Solution"
-    subtitle: "Ecosystem for next ecommerce"
-    paragraph: "Simba developed three core protocols (SIMEscrow, SIMTrust, SIMResolve) on top of the Ethereum blockchain in order to support the needs and challenges of a B2C marketplace."
+    subtitle: "Centralized E-Commerce Platforms Are Flawed"
+    paragraph: "GoodFair is an all-encompassing e-commerce ecosystem built with the purpose of offering a better online shopping experience. It’s value proposition lies at the intersection of 3 core products: GoodFair Marketplace, GoodFair Nexus, and the GoodFair Core Protocols."
   protocols:
     title: "Protocols"
     minititle: "Goodfair"
     subtitle: "Building Protocols for the Next Generation of B2C E-Commerce"
-    paragraph_html: "GoodFair developed three core protocols (Smart<span>Escrow</span>, Smart<span>Trust</span>, Smart<span>Resolve</span>) on top of the Ethereum blockchain in order to support the needs and challenges of a B2C marketplace."
+    paragraph_html: "To support GoodFair marketplace & Nexus, three proprietary core protocols have been designed. Built on Ethereum blockchain, these smart contracts are publicly available and can be audited anytime by the community. "
     tech_1: "Trust"
     tech_2: "Escrow"
     tech_3: "Resolve"
