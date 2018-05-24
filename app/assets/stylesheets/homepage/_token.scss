@@ -100,6 +100,7 @@
         @media(max-width: $iphone5) {
           font-size: 16px;
         }
+
         @media(min-width: $medium) {
           letter-spacing: 1.9px;
           line-height: 1.53;
@@ -114,7 +115,7 @@
         }
 
         @media(min-width: $large) {
-          font-size: 19px;
+          font-size: 17px;
         }
       }
     }
@@ -148,6 +149,7 @@
 
           @media(min-width: $large) {
             margin-top: 0;
+            font-size: 21px;
           }
         }
 
@@ -163,8 +165,7 @@
             font-size: 15px;
           }
           @media(min-width: $large) {
-            width: 87%;
-            font-size: 17px;
+            width: 90%;
             color: rgba(255, 255, 255, 0.85);
             line-height: 1.35;
           }
