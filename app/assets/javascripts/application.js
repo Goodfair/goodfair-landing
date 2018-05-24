@@ -21,6 +21,7 @@
 //= require scrollreveal
 //= require jquery.magnific-popup
 //= require_tree .
+//= require jquery.responsiveTabs
 
 $(document).ready(function() {
   $('.toggle').click(function() {
@@ -74,6 +75,9 @@ $(document).ready(function() {
     ]
   });
   // Optimalisation: Store the references outside the event handler:
+  $('#horizontalTab').responsiveTabs({
+    startCollapsed: 'false'
+});
 });
 
 $(window).on('load', function() {
