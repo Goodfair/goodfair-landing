@@ -1,6 +1,9 @@
 .solution {
   padding: 60px 0;
   background-color: #1D4398;
+  @media(min-width: $medium) {
+    padding-top: 30px;
+  }
 
   .ecosystem-tablet {
     display: none;
@@ -8,20 +11,20 @@
 
   .ecosystem-mobile {
     width: 100%;
-    margin-top:20px;
+    margin-top: 20px;
   }
+
   h2 {
     display: flex;
     align-items: center;
   }
+
   .title-icon {
     height: 60px;
     margin-right: 12px;
   }
-
   @media(min-width: $medium) {
     background: none;
-
     text-align: center;
 
     h2 {
@@ -33,9 +36,10 @@
     }
 
     .ecosystem-tablet {
-      margin-top: 20px;
+      margin-top: 40px;
       display: block;
       width: 100%;
+      max-width: 688px;
     }
   }
 }
