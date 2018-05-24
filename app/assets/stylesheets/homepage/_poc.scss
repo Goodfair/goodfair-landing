@@ -3,9 +3,9 @@
   padding: 60px 0;
   position: relative;
   background-color: #1D4398;
-
   @media(min-width: $medium) {
     background: none;
+    padding-bottom: 10px;
   }
 
   &.mobile {
@@ -36,13 +36,12 @@
     margin-bottom: 20px;
     font-size: 28px;
     margin-bottom: 33px;
-
     @media(min-width: $medium) {
       text-align: left;
       display: flex;
       justify-content: flex-start;
       margin-bottom: 25px;
-      font-size: 34px;
+      font-size: 31px;
     }
     @media(min-width: $large) {
       font-size: 34px;
@@ -92,12 +91,15 @@
 
     button {
       width: 100%;
-
       @media(min-width: $medium) {
         width: 90%;
+        /* Rectangle 9: */
+        background-image: linear-gradient(83deg, #2386FF 8%, #4F4FFF 100%, #00EABD 100%);
+        box-shadow: 0px 4px 12px 3px rgba(10, 38, 93, 0.15);
         border-radius: 4px;
-        background-image: linear-gradient(271deg, #14ace0, #13aedf 43%, #00eabd, #00eabd);
-        box-shadow: 0 2px 8px 0 rgba(35, 78, 162, 0.25), 0 17px 38px 0 rgba(0, 0, 0, 0.13);
+        font-size: 13px;
+        height: 50px;
+        line-height: 50px;
       }
     }
   }
@@ -108,7 +110,6 @@
     font-family: var(--paragra-font);
     font-weight: 400;
     width: 100%;
-
     @media(min-width: $medium) {
       display: none;
     }
@@ -117,11 +118,10 @@
       letter-spacing: 0;
       width: 53%;
       padding-left: 0;
-
     }
+
     div {
       margin-bottom: 10px;
-
       @media(min-width: $medium) {
         margin-bottom: 3px;
       }
@@ -139,17 +139,15 @@
 
   &.desktop {
     margin-top: 50px;
-
     @media(max-width: 1023px) {
       display: none;
     }
 
     h2 {
       justify-content: flex-start;
-
-          @media(min-width: $large) {
-            margin-top: 117px;
-          }
+      @media(min-width: $large) {
+        margin-top: 117px;
+      }
     }
 
     .poc-benefits {
@@ -164,6 +162,7 @@
       button {
         align-items: center;
         justify-content: center;
+
         span {
           font-family: "Avenir Next";
           font-weight: 500;
@@ -171,7 +170,7 @@
           opacity: 0.8;
           display: block;
         }
-        margin-left: 0px;
+        margin-left: 0;
         width: 259px;
         height: 53px;
         border-radius: 4px;
@@ -181,6 +180,7 @@
         letter-spacing: 0.8px;
         z-index: 5;
         cursor: pointer;
+
         &:hover {
           background-image: linear-gradient(to right, #136ee1, #00cce1);
         }

@@ -52,7 +52,10 @@ section.protocols {
     p {
       text-align: center;
       @media(min-width: $medium) {
-        font-size: 19px;
+        font-size: 16px;
+        text-align: left;
+        line-height: 1.5;
+
       }
       @media(min-width: $large) {
         font-size: 20px;
@@ -62,6 +65,7 @@ section.protocols {
 
     h3,
     p {
+
       @media(min-width: $large) {
         width: 95%;
       }
@@ -72,6 +76,10 @@ section.protocols {
       align-items: center;
       justify-content: center;
       font-size: 36px;
+
+      @media(min-width: $medium) {
+        justify-content: flex-start;
+      }
 
       img {
         height: 68px;
@@ -89,8 +97,10 @@ section.protocols {
         font-size: 16px;
       }
       @media(min-width: $medium) {
-        font-size: 19px;
-        margin-bottom: 25px;
+        font-size: 17px;
+        margin-bottom: 17px;
+        text-align: left;
+        letter-spacing: 1.9px;
       }
       @media(min-width: $large) {
         font-size: 23px;

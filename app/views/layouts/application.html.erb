@@ -7,6 +7,8 @@
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= stylesheet_link_tag 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' %>
     <link href="https://fonts.googleapis.com/css?family=Oswald:400,500" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/responsive-tabs@1.6.3/css/responsive-tabs.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/responsive-tabs@1.6.3/css/style.css" rel="stylesheet">
 
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <title>GoodFair</title>
@@ -49,6 +51,7 @@
   </head>
 
   <body id="page-top">
+    <div class="pattern-bg"></div>
     <%= yield %>
   </body>
 </html>
