@@ -10,7 +10,7 @@ section.intro {
     background-image: image-url("intro_bg@2x.jpg");
     background-repeat: repeat-x;
     background-size: 101px;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
   }
 
   .intro-video {
@@ -99,8 +99,9 @@ section.intro {
         line-height: 32px;
       }
       @media(min-width: $medium) {
-        font-size: 35px;
+        font-size: 42px;
         margin-bottom: 3px;
+        line-height: 1.17;
       }
       @media(min-width: $large) {
         font-size: 43px;
@@ -119,7 +120,7 @@ section.intro {
         font-size: 16px;
       }
       @media(min-width: $medium) {
-        font-size: 19px;
+        font-size: 18px;
         line-height: 1.5;
         text-align: center;
         color: #ffffff;
