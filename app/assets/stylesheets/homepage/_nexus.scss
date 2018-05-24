@@ -10,9 +10,15 @@
   align-items: center;
 
   @media(min-width: $medium) {
-    background-color: inherit;
+    background-color: transparent;
     background-size: 100%;
     min-height: 535px;
+  }
+
+  @media(min-width: $large) {
+    background-size: 50%;
+    background-position-x: 50%;
+    background-color: transparent;
   }
 
   h2 {
@@ -57,6 +63,11 @@
         letter-spacing: normal;
         color: #2d2f31;
       }
+    }
+
+    @media(min-width: $large) {
+      margin: 0;
+      margin-top: 250px;
     }
   }
 }
