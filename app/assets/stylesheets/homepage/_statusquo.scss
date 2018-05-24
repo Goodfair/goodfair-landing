@@ -3,7 +3,6 @@
   padding-bottom: 40px;
   background: #F6FBFF image-url("status_quo_bg.png");
   background-size: cover;
-
   @media(min-width: $medium) {
     background: none !important;
     padding-top: 60px;
@@ -55,10 +54,10 @@
 
   p {
     display: none;
-
     @media(min-width: $medium) {
       display: block;
       text-align: center;
+      margin-bottom: 40px;
     }
     @media(min-width: $large) {
       text-align: left;
@@ -117,10 +116,34 @@
 
     &:nth-child(2) {
       margin-top: 10px;
-    }
+      @media(min-width: $medium) {
 
+        .title {
+          order: 2;
+        }
+        .content {
+          order: 3;
+        }
+      }
+    }
+    &:nth-child(3) {
+      @media(min-width: $medium) {
+
+
+        .title {
+          order: 2;
+        }
+        .content {
+          order: 3;
+        }
+      }
+    }
     p {
       width: 100%;
+      @media(min-width: $medium) {
+        font-size: 16px;
+        color: #cedfff;
+      }
     }
 
     .title {
