@@ -21,6 +21,8 @@
 @import 'magnific-popup';
 @import 'slick';
 @import 'slick-theme';
+@import '_responsivetabs';
+
 @media (min-width: 1200px) {
   .container {
     max-width: 1240px;
