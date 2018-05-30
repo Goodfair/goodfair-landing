@@ -30,6 +30,9 @@ section.intro {
     }
     @media(min-width: $large) {
       max-height: 820px;
+      flex-direction: row;
+      padding-top:170px;
+
     }
   }
 
@@ -50,13 +53,13 @@ section.intro {
       background-size: 110%;
     }
     @media(min-width: $large) {
-      background: image-url("intro_bg_desktop.png");
+      background: image-url("intro_bg_tablet@2x.jpg");
       background-size: 1243px;
       background-position: center top;
       background-repeat: no-repeat;
     }
     @media(min-width: $large) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
-      background: image-url("intro_bg_desktop@2x.jpg");
+      background: image-url("intro_bg_tablet@2x.jpg");
       background-size: 1243px;
       background-position: center top;
       background-repeat: no-repeat;
@@ -88,6 +91,8 @@ section.intro {
     }
     @media(min-width: $large) {
       margin-top: 0;
+      align-items: flex-start;
+      padding-top:0;
     }
 
     h1 {
@@ -106,6 +111,7 @@ section.intro {
       @media(min-width: $large) {
         font-size: 43px;
         margin-bottom: 3px;
+        text-align: left;
       }
     }
 
@@ -125,6 +131,9 @@ section.intro {
         text-align: center;
         color: #ffffff;
         width: 86%;
+      }
+      @media(min-width: $large) {
+        text-align: left;
       }
     }
   }
