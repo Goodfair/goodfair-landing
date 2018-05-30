@@ -31,20 +31,14 @@
             <div class="hex col-lg-5">
               <div class="hex-title">Smart<span>Trust</span></div>
               <div class='slider-image'>
-                <div class="circle-ripple circle-ripple-<%=t "protocols.#{protocol}.ripple_position" %>"></div>
+                <div class="circle-ripple circle-ripple-<%=t " protocols.#{protocol}.ripple_position" %>"="protocols.#{protocol}.ripple_position" %>""></div>
                 <%= image_tag "hex_single_#{protocol}@2x.png" %>
               </div>
             </div>
             <div class='description col-lg-7'>
               <h4>Smart<span>Escrow</span></h4>
               <p><%=t "protocols.#{protocol}.description_html" %></p>
-              <!-- <ul class="features">
-                <% (1..4).each do |feature| %>
-                  <li>
-                    <%= image_tag "poc_checkmark.svg" %><%=t "protocols.#{protocol}.feature_#{feature}" %>
-                  </li>
-                <% end %>
-              </ul> -->
+              <!-- <ul class="features"> <% (1..4).each do |feature| %> <li> <%= image_tag "poc_checkmark.svg" %><%=t "protocols.#{protocol}.feature_#{feature}" %> </li> <% end %> </ul> -->
             </div>
           </div>
         </div>
@@ -52,27 +46,70 @@
     <% end %>
   </div>
 </div>
-<div class="d-none d-md-flex">
-  <div id="horizontalTab">
+<div class="container">
+  <div class="d-none d-md-flex">
+    <div id="horizontalTab">
       <ul>
-          <li><a href="#tab-1"><%= image_tag 'tab_hex_icon_1@2x.png', alt:'Protocols' %>
-<div class="tab-title">Smart Trust<span>Escrow System</span></div></a></li>
-          <li><a href="#tab-2"><%= image_tag 'tab_hex_icon_1@2x.png', alt:'Protocols' %>
-<div class="tab-title">Smart Trust<span>Escrow System</span></div></a></li>
-          <li><a href="#tab-3"><%= image_tag 'tab_hex_icon_1@2x.png', alt:'Protocols' %>
-<div class="tab-title">Smart Trust<span>Escrow System</span></div></a></li>
+        <li>
+          <a href="#tab-1"><%= image_tag 'tab_hex_icon_1@2x.png', alt:'Protocols' %>
+            <div class="tab-title">Smart Trust<span class="subtitle">Escrow System</span></div>
+          </a>
+        </li>
+        <li>
+          <a href="#tab-2"><%= image_tag 'tab_hex_icon_1@2x.png', alt:'Protocols' %>
+            <div class="tab-title">Smart Escrow<span>Escrow System</span></div>
+          </a>
+        </li>
+        <li>
+          <a href="#tab-3"><%= image_tag 'tab_hex_icon_1@2x.png', alt:'Protocols' %>
+            <div class="tab-title">Smart Resolve<span>Escrow System</span></div>
+          </a>
+        </li>
       </ul>
 
       <div id="tab-1">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu scelerisque eros. Fusce ante orci, hendrerit sit amet metus sit amet, venenatis sodales felis. Morbi vel mi in leo dignissim convallis in a neque. Suspendisse sollicitudin nibh non dapibus condimentum. Etiam sit amet arcu ultricies, porttitor justo eget, scelerisque urna. Praesent non ligula nec ligula euismod condimentum eget sed augue. Ut feugiat, turpis id sollicitudin vestibulum, tellus massa adipiscing nisl, quis cursus nisl arcu vel ipsum.</p>
+        <div class="title"><span>Smart</span> Trust</div>
+        <p>GoodFair’s Smart Escrow provides security for the buyer and seller on several key phases of any purchase transaction. When locked in escrow, the funds are out of control from all parties. *insert something about Nexus*</p>
+        <div class="protocol-benefits">
+          <div class='row'>
+            <div class='col-sm-12 col-md-4'><%= image_tag "icon_poc_checkmark.svg" %><%= t 'poc.feature_1' %></div>
+            <div class='col-sm-12 col-md-4'><%= image_tag "icon_poc_checkmark.svg" %><%= t 'poc.feature_2' %></div>
+            <div class='col-sm-12 col-md-4'><%= image_tag "icon_poc_checkmark.svg" %><%= t 'poc.feature_3' %></div>
+            <div class='col-sm-12 col-md-4'><%= image_tag "icon_poc_checkmark.svg" %><%= t 'poc.feature_4' %></div>
+            <div class='col-sm-12 col-md-4 d-none d-md-block'><%= image_tag "icon_poc_checkmark.svg" %><%= t 'poc.feature_5' %></div>
+            <div class='col-sm-12 col-md-4 d-none d-md-block'><%= image_tag "icon_poc_checkmark.svg" %><%= t 'poc.feature_6' %></div>
+          </div>
+        </div>
       </div>
       <div id="tab-2">
-          <p>Quisque sodales sodales lacus pharetra bibendum. Etiam commodo non velit ac rhoncus. Mauris euismod purus sem, ac adipiscing quam laoreet et. Praesent vulputate ornare sem vel scelerisque. Ut dictum augue non erat lacinia, sed lobortis elit gravida. Proin ante massa, ornare accumsan ultricies et, posuere sit amet magna. Praesent dignissim, enim sed malesuada luctus, arcu sapien sodales sapien, ut placerat eros nunc vel est. Donec tristique mi turpis, et sodales nibh gravida eu. Etiam odio risus, porttitor non lacus id, rhoncus tempus tortor. Curabitur tincidunt molestie turpis, ut luctus nibh sollicitudin vel. Sed vel luctus nisi, at mattis metus. Aenean ultricies dolor est, a congue ante dapibus varius. Nulla at auctor nunc. Curabitur accumsan feugiat felis ut pretium. Praesent semper semper nisi, eu cursus augue.</p>
+        <div class="title"><span>Smart</span> Escrow</div>
+        <p>GoodFair’s Smart Escrow provides security for the buyer and seller on several key phases of any purchase transaction. When locked in escrow, the funds are out of control from all parties. *insert something about Nexus*</p>
+        <div class="protocol-benefits">
+          <div class='row'>
+            <div class='col-sm-12 col-md-4'><%= image_tag "icon_poc_checkmark.svg" %><%= t 'poc.feature_1' %></div>
+            <div class='col-sm-12 col-md-4'><%= image_tag "icon_poc_checkmark.svg" %><%= t 'poc.feature_2' %></div>
+            <div class='col-sm-12 col-md-4'><%= image_tag "icon_poc_checkmark.svg" %><%= t 'poc.feature_3' %></div>
+            <div class='col-sm-12 col-md-4'><%= image_tag "icon_poc_checkmark.svg" %><%= t 'poc.feature_4' %></div>
+            <div class='col-sm-12 col-md-4 d-none d-md-block'><%= image_tag "icon_poc_checkmark.svg" %><%= t 'poc.feature_5' %></div>
+            <div class='col-sm-12 col-md-4 d-none d-md-block'><%= image_tag "icon_poc_checkmark.svg" %><%= t 'poc.feature_6' %></div>
+          </div>
+        </div>
       </div>
       <div id="tab-3">
-          <p>Mauris facilisis elit ut sem eleifend accumsan molestie sit amet dolor. Pellentesque dapibus arcu eu lorem laoreet, vitae cursus metus mattis. Nullam eget porta enim, eu rutrum magna. Duis quis tincidunt sem, sit amet faucibus magna. Integer commodo, turpis consequat fermentum egestas, leo odio posuere dui, elementum placerat eros erat id augue. Nullam at eros eget urna vestibulum malesuada vitae eu mauris. Aliquam interdum rhoncus velit, quis scelerisque leo viverra non. Suspendisse id feugiat dui. Nulla in aliquet leo. Proin vel magna sed est gravida rhoncus. Mauris lobortis condimentum nibh, vitae bibendum tortor vehicula ac. Curabitur posuere arcu eros.</p>
+        <div class="title"><span>Smart</span> Resolve</div>
+        <p>GoodFair’s Smart Escrow provides security for the buyer and seller on several key phases of any purchase transaction. When locked in escrow, the funds are out of control from all parties. *insert something about Nexus*</p>
+        <div class="protocol-benefits">
+          <div class='row'>
+            <div class='col-sm-12 col-md-4'><%= image_tag "icon_poc_checkmark.svg" %><%= t 'poc.feature_1' %></div>
+            <div class='col-sm-12 col-md-4'><%= image_tag "icon_poc_checkmark.svg" %><%= t 'poc.feature_2' %></div>
+            <div class='col-sm-12 col-md-4'><%= image_tag "icon_poc_checkmark.svg" %><%= t 'poc.feature_3' %></div>
+            <div class='col-sm-12 col-md-4'><%= image_tag "icon_poc_checkmark.svg" %><%= t 'poc.feature_4' %></div>
+            <div class='col-sm-12 col-md-4 d-none d-md-block'><%= image_tag "icon_poc_checkmark.svg" %><%= t 'poc.feature_5' %></div>
+            <div class='col-sm-12 col-md-4 d-none d-md-block'><%= image_tag "icon_poc_checkmark.svg" %><%= t 'poc.feature_6' %></div>
+          </div>
+        </div>
       </div>
 
-
+    </div>
   </div>
 </div>
