@@ -10,7 +10,7 @@ section.protocols {
   @media(min-width: $large) {
     padding-top: 150px;
     background: none;
-    background: #11539B image-url("solution_bg_gradient.png");
+    // background: #11539B image-url("solution_bg_gradient.png");
     background-size: contain;
     background-repeat: repeat-x;
     background-position: center;
@@ -58,7 +58,7 @@ section.protocols {
 
       }
       @media(min-width: $large) {
-        font-size: 20px;
+        font-size: 16px;
         letter-spacing: 0.3px;
       }
     }

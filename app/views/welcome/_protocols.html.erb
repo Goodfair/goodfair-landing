@@ -31,7 +31,7 @@
             <div class="hex col-lg-5">
               <div class="hex-title">Smart<span>Trust</span></div>
               <div class='slider-image'>
-                <div class="circle-ripple circle-ripple-<%=t " protocols.#{protocol}.ripple_position" %>"="protocols.#{protocol}.ripple_position" %>""></div>
+                <div class="circle-ripple circle-ripple-<%=t " protocols.#{protocol}.ripple_position" %>"="protocols.#{protocol}.ripple_position" %="%">""></div>
                 <%= image_tag "hex_single_#{protocol}@2x.png" %>
               </div>
             </div>
@@ -46,7 +46,7 @@
     <% end %>
   </div>
 </div>
-<div class="container">
+<div class="container protocol-tabs-container">
   <div class="d-none d-md-flex">
     <div id="horizontalTab">
       <ul>
@@ -68,44 +68,62 @@
       </ul>
 
       <div id="tab-1">
-        <div class="title"><span>Smart</span> Trust</div>
-        <p>GoodFair’s Smart Escrow provides security for the buyer and seller on several key phases of any purchase transaction. When locked in escrow, the funds are out of control from all parties. *insert something about Nexus*</p>
-        <div class="protocol-benefits">
-          <div class='row'>
-            <div class='col-sm-12 col-md-4'><%= image_tag "icon_poc_checkmark.svg" %><%= t 'poc.feature_1' %></div>
-            <div class='col-sm-12 col-md-4'><%= image_tag "icon_poc_checkmark.svg" %><%= t 'poc.feature_2' %></div>
-            <div class='col-sm-12 col-md-4'><%= image_tag "icon_poc_checkmark.svg" %><%= t 'poc.feature_3' %></div>
-            <div class='col-sm-12 col-md-4'><%= image_tag "icon_poc_checkmark.svg" %><%= t 'poc.feature_4' %></div>
-            <div class='col-sm-12 col-md-4 d-none d-md-block'><%= image_tag "icon_poc_checkmark.svg" %><%= t 'poc.feature_5' %></div>
-            <div class='col-sm-12 col-md-4 d-none d-md-block'><%= image_tag "icon_poc_checkmark.svg" %><%= t 'poc.feature_6' %></div>
+        <div class="row">
+          <div class="panel-copy col-lg-6">
+            <div class="title">
+              <span>Smart</span>
+              Trust</div>
+            <p>Smart Trust is a reputation algorithm that quantifies the reputation of users with an unalterable Smart Trust score. This protocol gives buyers confidence to make purchases from community-trusted sellers.</p>
+          </div>
+          <div class="protocol-benefits col-lg-6">
+            <div class='row'>
+              <div class='col-sm-12 col-md-4 col-lg-6'><%= image_tag "icon_poc_checkmark.svg" %><%= t 'poc.feature_1' %></div>
+              <div class='col-sm-12 col-md-4 col-lg-6'><%= image_tag "icon_poc_checkmark.svg" %><%= t 'poc.feature_2' %></div>
+              <div class='col-sm-12 col-md-4 col-lg-6'><%= image_tag "icon_poc_checkmark.svg" %><%= t 'poc.feature_3' %></div>
+              <div class='col-sm-12 col-md-4 col-lg-6'><%= image_tag "icon_poc_checkmark.svg" %><%= t 'poc.feature_4' %></div>
+              <div class='col-sm-12 col-md-4 col-lg-6 d-none d-md-block'><%= image_tag "icon_poc_checkmark.svg" %><%= t 'poc.feature_5' %></div>
+              <div class='col-sm-12 col-md-4 col-lg-6 d-none d-md-block'><%= image_tag "icon_poc_checkmark.svg" %><%= t 'poc.feature_6' %></div>
+            </div>
           </div>
         </div>
       </div>
       <div id="tab-2">
-        <div class="title"><span>Smart</span> Escrow</div>
-        <p>GoodFair’s Smart Escrow provides security for the buyer and seller on several key phases of any purchase transaction. When locked in escrow, the funds are out of control from all parties. *insert something about Nexus*</p>
-        <div class="protocol-benefits">
-          <div class='row'>
-            <div class='col-sm-12 col-md-4'><%= image_tag "icon_poc_checkmark.svg" %><%= t 'poc.feature_1' %></div>
-            <div class='col-sm-12 col-md-4'><%= image_tag "icon_poc_checkmark.svg" %><%= t 'poc.feature_2' %></div>
-            <div class='col-sm-12 col-md-4'><%= image_tag "icon_poc_checkmark.svg" %><%= t 'poc.feature_3' %></div>
-            <div class='col-sm-12 col-md-4'><%= image_tag "icon_poc_checkmark.svg" %><%= t 'poc.feature_4' %></div>
-            <div class='col-sm-12 col-md-4 d-none d-md-block'><%= image_tag "icon_poc_checkmark.svg" %><%= t 'poc.feature_5' %></div>
-            <div class='col-sm-12 col-md-4 d-none d-md-block'><%= image_tag "icon_poc_checkmark.svg" %><%= t 'poc.feature_6' %></div>
+        <div class="row">
+          <div class="panel-copy col-lg-6">
+            <div class="title">
+              <span>Smart</span>
+              Escrow</div>
+            <p>GoodFair’s Smart Escrow provides security for the buyer and seller on several key phases of any purchase transaction. When locked in escrow, the funds are out of control from all parties. *insert something about Nexus*</p>
+          </div>
+          <div class="protocol-benefits col-lg-6">
+            <div class='row'>
+              <div class='col-sm-12 col-md-4 col-lg-6'><%= image_tag "icon_poc_checkmark.svg" %><%= t 'poc.feature_1' %></div>
+              <div class='col-sm-12 col-md-4 col-lg-6'><%= image_tag "icon_poc_checkmark.svg" %><%= t 'poc.feature_2' %></div>
+              <div class='col-sm-12 col-md-4 col-lg-6'><%= image_tag "icon_poc_checkmark.svg" %><%= t 'poc.feature_3' %></div>
+              <div class='col-sm-12 col-md-4 col-lg-6'><%= image_tag "icon_poc_checkmark.svg" %><%= t 'poc.feature_4' %></div>
+              <div class='col-sm-12 col-md-4 col-lg-6 d-none d-md-block'><%= image_tag "icon_poc_checkmark.svg" %><%= t 'poc.feature_5' %></div>
+              <div class='col-sm-12 col-md-4 col-lg-6 d-none d-md-block'><%= image_tag "icon_poc_checkmark.svg" %><%= t 'poc.feature_6' %></div>
+            </div>
           </div>
         </div>
       </div>
       <div id="tab-3">
-        <div class="title"><span>Smart</span> Resolve</div>
-        <p>GoodFair’s Smart Escrow provides security for the buyer and seller on several key phases of any purchase transaction. When locked in escrow, the funds are out of control from all parties. *insert something about Nexus*</p>
-        <div class="protocol-benefits">
-          <div class='row'>
-            <div class='col-sm-12 col-md-4'><%= image_tag "icon_poc_checkmark.svg" %><%= t 'poc.feature_1' %></div>
-            <div class='col-sm-12 col-md-4'><%= image_tag "icon_poc_checkmark.svg" %><%= t 'poc.feature_2' %></div>
-            <div class='col-sm-12 col-md-4'><%= image_tag "icon_poc_checkmark.svg" %><%= t 'poc.feature_3' %></div>
-            <div class='col-sm-12 col-md-4'><%= image_tag "icon_poc_checkmark.svg" %><%= t 'poc.feature_4' %></div>
-            <div class='col-sm-12 col-md-4 d-none d-md-block'><%= image_tag "icon_poc_checkmark.svg" %><%= t 'poc.feature_5' %></div>
-            <div class='col-sm-12 col-md-4 d-none d-md-block'><%= image_tag "icon_poc_checkmark.svg" %><%= t 'poc.feature_6' %></div>
+        <div class="row">
+          <div class="panel-copy col-lg-6">
+            <div class="title">
+              <span>Smart</span>
+              Resolve</div>
+            <p>Smart Resolve is an arbitration process that resolves disputes on a case-by-case basis.  Active members of the community are selected as Mediators and rewarded for their participation with GOOD tokens.</p>
+          </div>
+          <div class="protocol-benefits col-lg-6">
+            <div class='row'>
+              <div class='col-sm-12 col-md-4 col-lg-6'><%= image_tag "icon_poc_checkmark.svg" %><%= t 'poc.feature_1' %></div>
+              <div class='col-sm-12 col-md-4 col-lg-6'><%= image_tag "icon_poc_checkmark.svg" %><%= t 'poc.feature_2' %></div>
+              <div class='col-sm-12 col-md-4 col-lg-6'><%= image_tag "icon_poc_checkmark.svg" %><%= t 'poc.feature_3' %></div>
+              <div class='col-sm-12 col-md-4 col-lg-6'><%= image_tag "icon_poc_checkmark.svg" %><%= t 'poc.feature_4' %></div>
+              <div class='col-sm-12 col-md-4 col-lg-6 d-none d-md-block'><%= image_tag "icon_poc_checkmark.svg" %><%= t 'poc.feature_5' %></div>
+              <div class='col-sm-12 col-md-4 col-lg-6 d-none d-md-block'><%= image_tag "icon_poc_checkmark.svg" %><%= t 'poc.feature_6' %></div>
+            </div>
           </div>
         </div>
       </div>

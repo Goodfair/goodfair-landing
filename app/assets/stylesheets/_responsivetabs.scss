@@ -1,3 +1,9 @@
+.protocol-tabs-container {
+  @media(min-width: $large) {
+    max-width: 1100px;
+  }
+}
+
 .r-tabs .r-tabs-nav {
   margin: 0;
   padding: 0;
@@ -14,6 +20,16 @@
 .r-tabs .r-tabs-panel {
   padding: 25px;
   display: none;
+
+  @media(min-width: $large) {
+    padding: 50px;
+  }
+
+  &.r-tabs-state-active {
+    @media(min-width: $large) {
+      display: flex !important;
+    }
+  }
 
   .title {
     /* Smart Escrow: */
@@ -110,6 +126,9 @@
   font-size: 14px;
   font-weight: bold;
   color: #fff;
+  @media(min-width: $large) {
+    padding: 20px 0;
+  }
 }
 /* Disabled tab */
 .r-tabs .r-tabs-nav .r-tabs-state-disabled {
@@ -205,6 +224,9 @@ button {
         align-self: center;
         width: 45px;
         height: auto;
+        @media(min-width: $large) {
+          width: 64px;
+        }
       }
 
       .tab-title {
