@@ -1,6 +1,6 @@
 <div class="container">
   <h2>
-    <%= image_tag 'benefits_icon.svg' %>
+    <%= image_tag 'brands_icon.svg' %>
     <div>
       <span><%=t 'brands.minititle' %></span>
       <%=t 'brands.title' %>
@@ -8,10 +8,15 @@
   </h2>
   <h3><%=t 'brands.subtitle' %></h3>
   <div class="brands-logo">
-    <% (1..15).each do |brand| %>
+    <div class="row">
+    <% (1..8).each do |brand| %>
+    <div class="col-6">
     <div class="img-wrapper">
+      <div class="img-subwrapper <%= "brand-#{brand}" %>"">
       <%= image_tag "icon_brands_#{brand}.png" %>
     </div>
+    </div>
+  </div>
 
     <% end %>
   </div>
