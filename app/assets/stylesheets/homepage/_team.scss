@@ -86,6 +86,7 @@
     }
 
     p {
+      letter-spacing: 0;
       @media(min-width: $medium) {
         font-size: 19px;
       }
