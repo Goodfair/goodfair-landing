@@ -17,6 +17,10 @@
 
   h2 {
     margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    line-height: 1;
+    font-size: 30px;
     @media(min-width: $medium) {
       display: flex;
       justify-content: center;
@@ -28,6 +32,7 @@
     }
 
     img {
+      height: 45px;
       @media(min-width: $large) {
         height: 44px;
       }
@@ -84,7 +89,7 @@
   }
 
   .market-share-img {
-    margin-top: 0px;
+    margin-top: 0;
     margin-bottom: 20px;
     width: 100%;
     @media(min-width: $medium) {
@@ -156,6 +161,7 @@
       margin-bottom: 16px;
 
       img {
+        height: 52px;
         @media(min-width: $medium) {
           margin-bottom: 12px;
         }
@@ -166,7 +172,7 @@
         font-size: 20px;
         line-height: 1.15;
         letter-spacing: 0;
-        margin-left: 8px;
+        margin-left: 15px;
         text-align: left;
         color: #fff;
         margin-bottom: 0;

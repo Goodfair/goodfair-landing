@@ -72,7 +72,7 @@ en:
       paragraph: "Blockchain-powered reputation system guarantees authentic ratings and reviews."
   poc:
     title: "Goodfair Market Alpha Release"
-    subtitle: "Project Update"
+    subtitle: "Try Out These Test Features"
     feature_1: "Buy and Sell Items"
     feature_2: "Virtual Escrow"
     feature_3: "Fiat/ETH Conversion"
@@ -81,7 +81,7 @@ en:
     feature_6: "Ropsten Network"
     explore: "Explore It Now"
   status_quo:
-    title: "The Problem"
+    title: "State of Ecommerce"
     subtitle: "Centralized E-Commerce Platforms are Flawed"
     paragraph: "For the last decade, E-Commerce has relied on the same infrastructure, sales, payment and fulfillment model. Beyond minor innovations in product syndication through social and mobile technologies, selling, buying, paying, and shipping mechanisms have remained relatively stagnant."
     block_1:
@@ -105,8 +105,8 @@ en:
   protocols:
     title: "Protocols"
     minititle: "Goodfair"
-    subtitle: "Building Protocols for the Next Generation of B2C E-Commerce"
-    paragraph_html: "To support GoodFair marketplace & Nexus, three proprietary core protocols have been designed. Built on Ethereum blockchain, these smart contracts are publicly available and can be audited anytime by the community. "
+    subtitle: "Building Protocols for the Next Generation E-Commerce"
+    paragraph_html: "To support the GoodFair platform & ecosystem, three proprietary core protocols have been designed to enable consensus-driven governance and transaction integrity. Built on the Ethereum blockchain, the platform leverages smart contracts allowing for transparent and immutable transactions, ensuring a trustless platform for all participants."
     tech_1: "Trust"
     tech_2: "Escrow"
     tech_3: "Resolve"
@@ -137,17 +137,17 @@ en:
     subtitle: 'Crowdsourced and Self-governed Marketplace'
     paragraph: 'Goodfair is one of the first B2C e-commerce platforms that allows users to use cryptocurrency to purchase products and uses the blockchain to create a crowdsourced and self-governed platform where its community holds each other accountable and keep transaction integrity. '
     block_1:
-      title: 'Stable Currency with Dai'
-      paragraph: "GoodFair uses Dai Stablecoin to mitigate cryptocurrency volatility by ensuring the value of the transaction relative to USD remains the same. "
+      title: 'Stable Coin'
+      paragraph: "GoodFair uses Dai Stablecoin to mitigate cryptocurrency volatility by ensuring the value of the transaction relative to USD remains the same."
     block_2:
-      title: 'Rewards Program'
-      paragraph: 'Support a low-cost marketplace - Community members are rewarded for reporting illicit items, providing quality reviews, and mediating disputes.'
+      title: '0% Fees and Rebates'
+      paragraph: 'Zero selling fees and rebate discounts incentivizes users unlike any other platform.'
     block_3:
-      title: 'Privacy & Data Encryption'
-      paragraph: "User data is encrypted using SHA-3 algorithm to ensure user's privacy on the blockchain."
+      title: 'Group Purchase'
+      paragraph: "Participate in socially crowdsourced deals and product discounts."
     block_4:
-      title: 'Data Ownership'
-      paragraph: "GoodFair stands against data mining. Personal information will never be sold to a third party."
+      title: 'Product Tracing'
+      paragraph: "Supply chain tracing mechanism to offer visibility and tracking of a product from its manufacturing source to delivery point."
     block_5:
       title: 'Browser Based & Mobile Access'
       paragraph: 'GoodFair is optimized for accessibility and exposure - Available on most devices and indexable by search engines.'

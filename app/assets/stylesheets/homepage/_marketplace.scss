@@ -4,6 +4,11 @@ section.marketplace {
   position: relative;
   overflow: hidden;
 
+  p {
+    font-size: 16px;
+    letter-spacing: 0.2px;
+  }
+
   @media(min-width: $medium) {
     background: none;
     padding: 70px 0 30px;
@@ -43,6 +48,7 @@ section.marketplace {
     @media(max-width: $iphone5) {
       font-size: 26px;
     }
+
 
     img {
       height: 58px;

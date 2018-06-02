@@ -51,6 +51,8 @@ section.protocols {
 
     p {
       text-align: center;
+      font-size: 16px;
+      letter-spacing: normal;
       @media(min-width: $medium) {
         font-size: 16px;
         text-align: left;
@@ -468,7 +470,7 @@ section.protocols {
 
     .circle-ripple-top {
       top: -2px;
-      left: 74px;
+      left: 79px;
       @media(min-width: $medium) {
         left: 98px;
       }
@@ -510,7 +512,7 @@ section.protocols {
 
   span {
     color: #fff;
-    font-weight: 600;
+    font-weight: 500;
   }
 
   .hex-full {
