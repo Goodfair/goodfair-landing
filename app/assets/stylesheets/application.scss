@@ -223,7 +223,7 @@ button {
 
     input {
       height: 44px;
-      width: 210px;
+      width: 200px;
       border-radius: 3px;
       border: 1px solid rgba(105, 179, 255, 0.75);
       background-color: transparent;
@@ -265,7 +265,7 @@ button {
       position: absolute;
       left: 0;
       top: -1px;
-      padding: 18px;
+      padding: 13px;
       font-size: 19px;
       color: rgba(105, 179, 255, 0.75);
       @media(min-width: $medium) {
@@ -282,7 +282,7 @@ button {
     background-image: linear-gradient(to right, #1A77ED, #00D7ED);
     text-transform: uppercase;
     font-family: var(--paragraph-font);
-    font-size: 13px;
+    font-size: 11px;
     font-weight: 600;
     letter-spacing: 0.7px;
     text-align: center;
