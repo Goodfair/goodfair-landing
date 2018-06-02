@@ -1,4 +1,19 @@
 .our-vision {
+
+  &:before {
+    content: '';
+    // background-color: #0A68A9;
+    background: image-url("vision_bg@2x.png");
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-size: 165px;
+    background-position: right;
+    background-repeat: no-repeat;
+    z-index: 0;
+    right:-20px;
+  }
+
   .our-vision-container {
     @media(min-width: $large) {
       margin: auto;
@@ -7,9 +22,9 @@
 
   position: relative;
   padding-top: 40px;
-  // // background: image-url("blue-rectangle@2x.jpg");
+  // background: image-url("vision_bg@2x.png");
   // background-size: cover;
-  // background-repeat: no-repeat;
+  background-repeat: no-repeat;
   @media(min-width: $medium) {
     // background: image-url("ourvision_bg_tablet@2x.jpg");
     // background-size: cover;
