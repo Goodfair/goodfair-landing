@@ -10,7 +10,6 @@
   @media(min-width: $large) {
     padding-top: 100px;
     padding-bottom: 80px;
-
   }
   @media(min-width: 1200px) {
     padding-top: 150px;
@@ -52,9 +51,13 @@
   }
 
   p {
-    display: none;
+    &.intro-paragraph {
+      display: none;
+      @media(min-width: $medium) {
+        display: block;
+      }
+    }
     @media(min-width: $medium) {
-      display: block;
       text-align: center;
       margin-bottom: 40px;
     }
@@ -81,7 +84,7 @@
   }
 
   .market-share-img {
-    margin-top: 20px;
+    margin-top: 0px;
     margin-bottom: 20px;
     width: 100%;
     @media(min-width: $medium) {
@@ -95,7 +98,7 @@
   }
 
   .fees-img {
-    margin: 30px 0 40px;
+    margin: 15px 0 40px;
     width: 100%;
     @media(min-width: $medium) {
       margin-top: auto;
@@ -116,27 +119,28 @@
     &:nth-child(2) {
       margin-top: 10px;
       @media(min-width: $medium) {
-
         .title {
           order: 2;
         }
+
         .content {
           order: 3;
         }
       }
     }
+
     &:nth-child(3) {
       @media(min-width: $medium) {
-
-
         .title {
           order: 2;
         }
+
         .content {
           order: 3;
         }
       }
     }
+
     p {
       width: 100%;
       @media(min-width: $medium) {
@@ -149,7 +153,7 @@
       display: flex;
       flex-direction: row;
       align-items: center;
-      margin-bottom: 10px;
+      margin-bottom: 16px;
 
       img {
         @media(min-width: $medium) {
@@ -180,6 +184,7 @@
       letter-spacing: -0.1px;
       text-align: left;
       font-weight: 400;
+      font-size: 16px;
     }
 
     .description {
