@@ -1,5 +1,5 @@
 .team {
-  padding: 65px 0;
+  padding: 35px 0;
   background-color: #0F3588;
   position: relative;
   @media(max-width: $iphone5) {
@@ -17,7 +17,7 @@
     background: image-url("map_bg_mobile@2x.png");
     height: 100%;
     width: 100%;
-    top: 140px;
+    top: 100px;
     left: 0;
     position: absolute;
     background-repeat: no-repeat;
@@ -93,7 +93,7 @@
   }
 
   .employee-gap {
-    margin-top: 225px;
+    margin-top: 150px;
     @media(max-width: $iphone5) {
       margin-top: 185px;
     }
@@ -108,8 +108,9 @@
 
   .employee-grid {
     &.grid-1 {
-      margin-bottom: 60px;
+      margin-bottom: 30px;
     }
+
     &.grid-2 {
       img {
         -webkit-filter: grayscale(100%);
@@ -121,13 +122,22 @@
     h2 {
       &.col-12 {
         justify-content: center;
-        margin-bottom: 40px;
-
+        margin-bottom: 20px;
       }
     }
 
+    .col-6 {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
     .employee-item {
-      margin-bottom: 30px;
+      margin-bottom: 20px;
+      background: #fff;
+      border-radius: 10px;
+      overflow: hidden;
+      height: calc(100% - 20px);
+      box-shadow: 0 9px 25px 0 rgba(0, 0, 0, 0.09);
     }
 
     .col-lg-4 {
@@ -142,7 +152,9 @@
 
     figure {
       margin: auto;
-      width: 125px;
+      height: 140px;
+      overflow: hidden;
+      // width: 125px;
       @media(min-width: $medium) {
         width: 149px;
       }
@@ -152,18 +164,18 @@
 
       img {
         width: 100%;
-        border-radius: 100%;
+        // border-radius: 100%;
         // border: 1px solid #1a6afd;
       }
     }
 
     figcaption {
-      margin-top: 12px;
-      margin-bottom: 3px;
+      margin-top: 8px;
+      margin-bottom: 5px;
       font-size: 16px;
       font-family: var(--paragraph-font);
       font-weight: 600;
-      color: #31bdfd;
+      color: #156ce0;
       text-align: center;
       @media(min-width: $medium) {
         font-size: 18px;
@@ -174,8 +186,12 @@
       font-family: var(--paragraph-font);
       font-weight: 500;
       font-size: 13px;
-      color: rgba(255, 255, 255, 0.76);
+      padding: 0 10px;
+      line-height: 1.3;
+      color: rgba(7, 18, 27, 0.76);
       text-align: center;
+      margin-bottom: 10px;
+      letter-spacing: 0.1px;
       @media(min-width: $medium) {
         font-size: 16px;
         line-height: 1.2;
