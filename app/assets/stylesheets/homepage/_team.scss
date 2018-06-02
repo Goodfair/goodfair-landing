@@ -2,11 +2,9 @@
   padding: 65px 0;
   background-color: #0F3588;
   position: relative;
-
   @media(max-width: $iphone5) {
     padding-top: 30px;
   }
-
   @media(min-width: $medium) {
     /*background: image-url("team_bg_desktop.png");
     background-size: cover;*/
@@ -47,9 +45,12 @@
       padding-top: 150px;
       /* Path: */
       background: image-url("map_desktop.png");
-      background-size: 1540px;
+      background-size: 1300px;
       background-repeat: no-repeat;
       background-position: center 10px;
+    }
+    @media(min-width: $large) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+      background-image: url("map_desktop@2x.png");
     }
   }
 
@@ -89,7 +90,6 @@
         font-size: 19px;
       }
     }
-
   }
 
   .employee-gap {
@@ -107,6 +107,29 @@
   }
 
   .employee-grid {
+    &.grid-1 {
+      margin-bottom: 60px;
+    }
+    &.grid-2 {
+      img {
+        -webkit-filter: grayscale(100%);
+        /* Safari 6.0 - 9.0 */
+        filter: grayscale(100%);
+      }
+    }
+
+    h2 {
+      &.col-12 {
+        justify-content: center;
+        margin-bottom: 40px;
+
+      }
+    }
+
+    .employee-item {
+      margin-bottom: 30px;
+    }
+
     .col-lg-4 {
       @media(min-width: $large) {
         margin-bottom: 15px;
@@ -124,23 +147,24 @@
         width: 149px;
       }
       @media(min-width: $large) {
-        width: 166px;
+        width: 188px;
       }
 
       img {
         width: 100%;
         border-radius: 100%;
+        // border: 1px solid #1a6afd;
       }
     }
 
     figcaption {
-      margin-top: 5px;
+      margin-top: 12px;
+      margin-bottom: 3px;
       font-size: 16px;
       font-family: var(--paragraph-font);
       font-weight: 600;
-      color: #ffffff;
+      color: #31bdfd;
       text-align: center;
-
       @media(min-width: $medium) {
         font-size: 18px;
       }
@@ -150,11 +174,11 @@
       font-family: var(--paragraph-font);
       font-weight: 500;
       font-size: 13px;
-      color: ffffff;
+      color: rgba(255, 255, 255, 0.76);
       text-align: center;
-
       @media(min-width: $medium) {
         font-size: 16px;
+        line-height: 1.2;
       }
     }
   }

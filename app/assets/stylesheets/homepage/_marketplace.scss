@@ -13,7 +13,7 @@ section.marketplace {
     }
   }
   @media(min-width: $large) {
-    padding: 120px 0 60px;
+    padding: 80px 0 60px;
 
     .marketplace-container {
       width: 55%;
@@ -76,10 +76,18 @@ section.marketplace {
     }
 
     @media(min-width: $large) {
-      left: 70px;
-      width: 40%;
-      margin-top: 150px;
+      left: -83px;
+      width: 53%;
+      margin-top: 90px;
       min-height: 800px;
+      max-width: 570px;
+    }
+    @media(min-width: $xlarge) {
+      left: 0px;
+      width: 53%;
+      margin-top: 120px;
+      min-height: 800px;
+      max-width: 570px;
     }
   }
 
@@ -93,7 +101,7 @@ section.marketplace {
 
     @media(min-width: $large) {
       width: 55%;
-      margin-top: 48px;
+      margin-top: 30px;
     }
   }
 

@@ -9,7 +9,10 @@
   <h3><%=t 'brands.subtitle' %></h3>
   <div class="brands-logo">
     <% (1..15).each do |brand| %>
+    <div class="img-wrapper">
       <%= image_tag "icon_brands_#{brand}.png" %>
+    </div>
+
     <% end %>
   </div>
 </div>

@@ -1,7 +1,6 @@
 .brands {
   padding: 65px 0;
   background-color: #0F3588;
-
   @media(min-width: $medium) {
     background: none;
   }
@@ -21,29 +20,28 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
     @media(min-width: $medium) {
       margin-top: 50px;
     }
 
-
-    img {
-      width: 80px;
-      margin: 10px 15px;
-      align-self: center;
-
-      @media(max-width: $iphone5) {
-        width: 70px;
-        margin: 10px 10px;
-      }
-
-      @media(min-width: $medium) {
-        width: 100px;
-      }
-
-      @media(min-width: $large) {
-        width: 110px;
-        margin: 10px 20px;
+    .img-wrapper {
+      display: flex;
+      flex-direction: row;
+      img {
+        width: 100%;
+        margin: 10px 15px;
+        align-self: center;
+        @media(max-width: $iphone5) {
+          width: 70px;
+          margin: 10px;
+        }
+        @media(min-width: $medium) {
+          width: 100px;
+        }
+        @media(min-width: $large) {
+          width: 110px;
+          margin: 10px 20px;
+        }
       }
     }
   }

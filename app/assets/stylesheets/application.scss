@@ -22,7 +22,6 @@
 @import 'slick';
 @import 'slick-theme';
 @import '_responsivetabs';
-
 @media (min-width: 1200px) {
   .container {
     max-width: 1240px;
@@ -40,9 +39,7 @@ html {
     background-attachment: fixed;
     background-size: cover;
 
-    &:after {
-
-    }
+    &:after {}
   }
 }
 
@@ -55,6 +52,9 @@ html {
   background-repeat: repeat;
   background-size: 100%;
   opacity: 1;
+  @media(min-width: $medium) {
+    background-size: 50%;
+  }
 }
 
 section {

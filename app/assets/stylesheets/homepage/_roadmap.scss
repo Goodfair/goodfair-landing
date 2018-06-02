@@ -6,13 +6,12 @@ $timeline-size: 14px;
 section.roadmap {
   background-color: #1D4398;
   padding: 65px 0 0;
-
   @media(min-width: $medium) {
     background: none;
     padding: 70px 0;
   }
   @media(min-width: $large) {
-    padding: 120px 0 120px;
+    padding: 0 0 30px 0;
   }
 
   h2 {
@@ -182,9 +181,11 @@ section.roadmap {
       opacity: 1;
       transform: scale(.95);
       background-size: cover;
-      background-image: linear-gradient(-180deg, #2786CC 0%, #005FA5 87%);
+      border: 0;
+      box-shadow: 0 2px 4px 0 rgba(8,83,137,0.15);
       border-radius: 4px;
       min-height: 250px;
+    background-color: rgba(35, 123, 255, 0.23);
     }
 
     .slick-active {
@@ -197,14 +198,15 @@ section.roadmap {
 
     .slick-prev {
       left: calc(45% - 41px);
-      bottom: -21%;
+      bottom: -13%;
       top: auto;
       z-index: 100;
       width: 41px;
       height: 22px;
       background: image-url("roadmap_arrow_left.svg");
+      box-shadow: none;
       @media(min-width:$large) {
-        left: calc(50% - 41px);;
+        left: calc(50% - 41px);
       }
 
       &:before {
@@ -215,12 +217,13 @@ section.roadmap {
 
     .slick-next {
       right: calc(49% - 40px);
-      bottom: -21%;
+      bottom: -13%;
       top: auto;
       z-index: 100;
       width: 41px;
       height: 22px;
       background: image-url("roadmap_arrow_right.svg");
+      box-shadow: none;
       @media(min-width:$large) {
         left: calc(57% - 41px);
       }
