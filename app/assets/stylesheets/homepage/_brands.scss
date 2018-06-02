@@ -5,28 +5,35 @@
     background: none;
   }
 
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  img.title-icon {
+    height: 70px;
+    margin-bottom: 10px;
+  }
+
   h2 {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     text-align: center;
-    font-size: 36px;
-
-    img {
-      height: 54px;
-      margin-right: 10px;
-    }
+    font-size: 32px;
   }
 
   h3 {
-    text-align: left;
+    text-align: center;
   }
 
   .brands-logo {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     @media(min-width: $medium) {
       margin-top: 50px;
     }
@@ -58,31 +65,46 @@
         width: 100px;
         display: flex;
       }
+
       .brand-3 {
         width: 40px;
         display: flex;
       }
+
       .brand-4 {
         width: 100px;
         margin-top: 2px;
         display: flex;
       }
+
       .brand-5 {
         width: 80px;
         display: flex;
       }
+
       .brand-6 {
         width: 70px;
         display: flex;
       }
+
       .brand-7 {
         width: 50px;
         display: flex;
       }
+
       .brand-8 {
         width: 80px;
         display: flex;
       }
+      .brand-9 {
+        width: 80px;
+        display: flex;
+      }
+      .brand-10 {
+        width: 80px;
+        display: flex;
+      }
+
       img {
         width: 100%;
         align-self: center;

@@ -20,7 +20,7 @@
     display: flex;
     align-items: center;
     line-height: 1;
-    font-size: 30px;
+    font-size: 26px;
     @media(min-width: $medium) {
       display: flex;
       justify-content: center;
@@ -42,6 +42,7 @@
   h3 {
     color: #FF5F5F;
     letter-spacing: 2.2px;
+    margin-bottom: 8px;
     @media(max-width: $iphone5) {
       font-size: 16px;
     }
@@ -57,7 +58,9 @@
 
   p {
     &.intro-paragraph {
-      display: none;
+      // display: none;
+      color: rgba(255, 255, 255, 0.88);
+          margin-bottom: 30px;
       @media(min-width: $medium) {
         display: block;
       }
@@ -187,7 +190,7 @@
 
     .content {
       line-height: 1.38;
-      letter-spacing: -0.1px;
+      letter-spacing: 0px;
       text-align: left;
       font-weight: 400;
       font-size: 16px;

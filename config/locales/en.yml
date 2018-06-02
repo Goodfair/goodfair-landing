@@ -72,7 +72,7 @@ en:
       paragraph: "Blockchain-powered reputation system guarantees authentic ratings and reviews."
   poc:
     title: "Goodfair Market Alpha Release"
-    subtitle: "Try Out These Test Features"
+    subtitle: "Try Out These Test Features:"
     feature_1: "Buy and Sell Items"
     feature_2: "Virtual Escrow"
     feature_3: "Fiat/ETH Conversion"
@@ -99,7 +99,7 @@ en:
   solution:
     title: "Ecosystem"
     minititle: "Goodfair"
-    subtitle: "Centralized E-Commerce Platforms Are Flawed"
+    subtitle: "THE NEXT REVOLUTION IN ECOMMERCE"
     paragraph1: "GoodFair is an all-encompassing ecommerce ecosystem built with the purpose of offering a better online shopping experience. It’s value proposition lies at the intersection of 3 core products: GoodFair Marketplace, GoodFair Nexus, and the GoodFair Core Protocols."
     paragraph2: "GoodFair believes blockchain technology can enable platform users and participants to take control and hence reap the benefits of decentralization, leading ultimately to dramatically reduced transaction costs and improved efficiencies in transactions with one another."
   protocols:
@@ -155,8 +155,8 @@ en:
       title: 'MetaMask Integration'
       paragraph: 'Seamlessly process cryptocurrency transactions without giving up private keys via the MetaMask browser plugin.'
   brands:
-    title: "Brands"
-    subtitle: "More than thousand brands will be available on GoodFair"
+    title: "Marketplace Brands"
+    subtitle: "More than one thousand brands will be available on GoodFair"
     minititle: "Marketplace"
   nexus:
     title: "Nexus"
