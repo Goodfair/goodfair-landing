@@ -50,9 +50,10 @@ section.protocols {
     }
 
     p {
-      text-align: center;
+      text-align: left;
       font-size: 16px;
       letter-spacing: normal;
+      line-height: 1.2;
       @media(min-width: $medium) {
         font-size: 16px;
         text-align: left;
@@ -76,7 +77,7 @@ section.protocols {
     h2 {
       display: flex;
       align-items: center;
-      justify-content: center;
+      justify-content: flex-start;
       font-size: 36px;
 
       @media(min-width: $medium) {
@@ -94,7 +95,7 @@ section.protocols {
 
     h3 {
       color: #30BDFD;
-      text-align: center;
+      text-align: left;
       @media(max-width: $iphone5) {
         font-size: 16px;
       }
@@ -224,6 +225,7 @@ section.protocols {
     color: #ffffff;
     // margin-bottom: 65px;
     margin-top: 4px;
+    padding: 0 10px;
     @media(min-width: $medium) {
       margin-left: 0;
       margin-right: 0;

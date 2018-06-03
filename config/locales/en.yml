@@ -72,7 +72,8 @@ en:
       paragraph: "Blockchain-powered reputation system guarantees authentic ratings and reviews."
   poc:
     title: "Goodfair Market Alpha Release"
-    subtitle: "Try Out These Test Features:"
+    subtitle1: "Project Update"
+    subtitle2: "Try Out These Test Features:"
     feature_1: "Buy and Sell Items"
     feature_2: "Virtual Escrow"
     feature_3: "Fiat/ETH Conversion"

@@ -42,7 +42,8 @@
   h3 {
     color: #FF5F5F;
     letter-spacing: 2.2px;
-    margin-bottom: 8px;
+    line-height: 1.3;
+    margin-bottom: 20px;
     @media(max-width: $iphone5) {
       font-size: 16px;
     }
@@ -164,6 +165,7 @@
       margin-bottom: 16px;
 
       img {
+        display: none;
         height: 52px;
         @media(min-width: $medium) {
           margin-bottom: 12px;
@@ -175,7 +177,7 @@
         font-size: 20px;
         line-height: 1.15;
         letter-spacing: 0;
-        margin-left: 15px;
+        // margin-left: 15px;
         text-align: left;
         color: #fff;
         margin-bottom: 0;

@@ -5,6 +5,10 @@
   background-color: #1D4398;
   position: relative;
 
+  .container {
+    position: relative;
+  }
+
   @media(min-width: $medium) {
     padding-top: 0px;
     background: none;

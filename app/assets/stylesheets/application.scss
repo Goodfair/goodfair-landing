@@ -43,19 +43,6 @@ html {
   }
 }
 
-.pattern-bg {
-  position: fixed;
-  width: 100%;
-  top: 0;
-  height: 100%;
-  background: url("bg_pattern.svg");
-  background-repeat: repeat;
-  background-size: 100%;
-  opacity: 1;
-  @media(min-width: $medium) {
-    background-size: 50%;
-  }
-}
 
 section {
   padding-top: 0;
@@ -85,6 +72,19 @@ section {
 
 .bg-lightblue {
   background-color: #1D4398;
+  .pattern-bg {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 100%;
+    background: url("bg_pattern.svg");
+    background-repeat: repeat;
+    background-size: 100%;
+    opacity: 0.8;
+    @media(min-width: $medium) {
+      display: none;
+    }
+  }
 }
 
 .bg-darkblue {
@@ -159,6 +159,7 @@ h3 {
   text-transform: uppercase;
   color: var(--h3-color);
   margin-bottom: 15px;
+  line-height: 1.3;
   @media(min-width: $medium) {
     letter-spacing: 0.8px;
   }

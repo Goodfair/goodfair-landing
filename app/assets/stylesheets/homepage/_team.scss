@@ -139,6 +139,16 @@
       overflow: hidden;
       height: calc(100% - 20px);
       box-shadow: 0 9px 25px 0 rgba(0, 0, 0, 0.09);
+      @media(min-width: $medium) {
+        height: 100%;
+        margin-bottom: 10px;
+      }
+    }
+
+    .col-md-4 {
+      @media(min-width: $medium) {
+        margin-bottom: 20px;
+      }
     }
 
     .col-lg-4 {
@@ -156,15 +166,19 @@
       height: 140px;
       overflow: hidden;
       // width: 125px;
+      @media(max-width: $iphone5) {
+        height: 120px;
+      }
       @media(min-width: $medium) {
-        width: 149px;
+        width: 100%;
+        height: 200px;
       }
       @media(min-width: $large) {
         width: 188px;
       }
 
       img {
-        width: 100%;
+        width: 101%;
         // border-radius: 100%;
         // border: 1px solid #1a6afd;
       }
@@ -173,13 +187,17 @@
     figcaption {
       margin-top: 8px;
       margin-bottom: 5px;
-      font-size: 16px;
-      font-family: var(--paragraph-font);
+      font-size: 17px;
+      font-family: Poppins;
       font-weight: 600;
       color: #156ce0;
       text-align: center;
       @media(min-width: $medium) {
-        font-size: 18px;
+        font-size: 16px;
+        padding: 0 15px;
+        text-align: left;
+        font-weight: 500;
+        margin-top:12px;
       }
     }
 
@@ -193,9 +211,15 @@
       text-align: center;
       margin-bottom: 10px;
       letter-spacing: 0.1px;
+      @media(max-width: $iphone5) {
+        font-size: 12px;
+        padding: 0 5px;
+      }
       @media(min-width: $medium) {
-        font-size: 16px;
+        font-size: 14px;
         line-height: 1.2;
+        text-align: left;
+        padding: 0 15px;
       }
     }
   }

@@ -3,6 +3,7 @@
   padding: 50px 0;
   position: relative;
   background-color: #1D4398;
+
   @media(min-width: $medium) {
     background: none;
     padding-bottom: 10px;
@@ -55,8 +56,15 @@
   }
 
   h3 {
-    margin-top: -20px;
-
+    // color: #fff;
+    margin-bottom: 10px;
+    &.try-poc {
+      color: #fff;
+      margin-top: -20px;
+      letter-spacing: 0.5px;
+      margin-bottom: 15px;
+      font-size: 16px;
+    }
     @media(min-width: $medium) {
       color: #6fc6ff;
       font-size: 19px;
@@ -92,6 +100,7 @@
       height: 58px;
       font-size: 13px;
       line-height: 58px;
+      z-index: 1;
       @media(min-width: $medium) {
         width: 90%;
         /* Rectangle 9: */
