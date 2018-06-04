@@ -28,7 +28,8 @@
     background-image: url("nexus_map_desktop@2x.png");
   }
   @media(min-width: $xlarge) {
-    background-size: 70%;
+    background-size: 73%;
+    background-position-x: 250px;
   }
 
   h2 {
@@ -130,7 +131,7 @@
       }
     }
     @media(min-width: $large) {
-      margin: 250px 0 0;
+      margin: 250px 0 0 50px;
     }
   }
 }

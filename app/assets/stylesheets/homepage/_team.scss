@@ -110,9 +110,15 @@
   .employee-grid {
     &.grid-1 {
       margin-bottom: 30px;
+      @media(min-width: $large) {
+        justify-content: center;
+      }
     }
 
     &.grid-2 {
+      @media(min-width: $large) {
+        justify-content: center;
+      }
       .figure {
         img {
           -webkit-filter: grayscale(100%);
@@ -156,6 +162,7 @@
     .col-lg-4 {
       @media(min-width: $large) {
         margin-bottom: 15px;
+        max-width: 290px;
       }
     }
 
@@ -176,7 +183,8 @@
         height: 200px;
       }
       @media(min-width: $large) {
-        width: 188px;
+        width: 100%;
+        height: 250px;
       }
 
       img {
