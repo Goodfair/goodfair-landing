@@ -3,16 +3,17 @@
   <h2>
     <%= image_tag 'brands_icon.svg', class:"title-icon" %>
 
-      <%=t 'brands.title' %>
+    <%=t 'brands.title' %>
   </h2>
   <h3><%=t 'brands.subtitle' %></h3>
 
-  <div class="brands-logo">
-    <div class="row">
-      <% (1..10).each do |brand| %>
-        <div class="col-6">
+  <div class="row">
+
+    <div class="brands-logo col-lg-12">
+      <% (1..12).each do |brand| %>
+        <div class="col-6 col-lg-4 ">
           <div class="img-wrapper">
-            <div class="img-subwrapper <%= " brand-#{brand}" %>">
+            <div class="img-subwrapper <%= "brand-#{brand}" %>"">
               <%= image_tag "icon_brands_#{brand}.png" %>
             </div>
           </div>
