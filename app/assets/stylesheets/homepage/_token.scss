@@ -29,7 +29,7 @@
     }
     @media(min-width: $large) {
       padding-top: 60px;
-      padding-bottom: 60px;
+      padding-bottom: 30px;
     }
 
     .token-intro {
@@ -58,7 +58,8 @@
         width: 389px;
       }
       @media(min-width: 1200px) {
-        right: 38px;
+        right: 75px;
+        width: 357px;
       }
     }
   }
@@ -86,6 +87,7 @@
     @media(min-width: $medium) {
       margin-top: 0;
     }
+
     .token-copy {
       @media(min-width: $medium) {
         margin-bottom: 30px;
@@ -94,6 +96,9 @@
         order: 2;
         margin-top: auto;
         padding-left: 30px;
+      }
+      @media(min-width: 1200px) {
+        margin-top: 275px;
       }
 
       h3 {
