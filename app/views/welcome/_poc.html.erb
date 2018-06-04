@@ -28,12 +28,14 @@
 <div class="tablet">
   <div class="container">
     <div class="row">
-      <div class=col-7>
+      <div class="col-12">
+        <h3><%=t 'poc.subtitle1' %></h3>
+        <h2><%=t 'poc.title' %></h2>
+      </div>
+      <div class="col-12">
         <%= image_tag "poc_laptop@2x.png", class: "laptop-screenshot" %>
       </div>
-      <div class=col-5>
-        <h3><%=t 'poc.subtitle' %></h3>
-        <h2><%=t 'poc.title' %></h2>
+      <div class="col-12 email-signup-tablet">
         <div class="email-signup">
           <button type="button"><%= t 'poc.explore' %></button>
         </div>
@@ -50,8 +52,10 @@
         <%= image_tag "poc_laptop@2x.png", class: "screenshot d-lg-block" %>
       </div>
       <div class='col-5'>
-        <h3><%=t 'poc.subtitle' %></h3>
+        <h3><%=t 'poc.subtitle1' %></h3>
         <h2><%=t 'poc.title' %></h2>
+        <h3 class="try-poc"><%=t 'poc.subtitle2' %></h3>
+
         <div class="poc-benefits">
           <div class='row'>
             <div class='col-6'>

@@ -6,7 +6,7 @@
 
   @media(min-width: $medium) {
     background: none;
-    padding-bottom: 10px;
+    padding: 70px 0 60px 0;
   }
 
   &.mobile {
@@ -27,7 +27,7 @@
     @media(min-width: $medium) {
       display: block;
     }
-    @media(min-width: 1200px) {
+    @media(min-width: 1100px) {
       display: none;
     }
   }
@@ -37,13 +37,15 @@
     font-size: 28px;
     margin-bottom: 30px;
     @media(min-width: $medium) {
-      text-align: left;
+      text-align: center;
       display: flex;
-      justify-content: flex-start;
-      margin-bottom: 25px;
-      font-size: 31px;
+      justify-content: center;
+      margin-bottom: 8px;
+      font-size: 37px;
     }
-    @media(min-width: $large) {
+    @media(min-width: 1100px) {
+      text-align: left;
+      justify-content: flex-start;
       font-size: 36px;
       padding-left: 0;
     }
@@ -66,8 +68,12 @@
       font-size: 16px;
     }
     @media(min-width: $medium) {
-      color: #6fc6ff;
+      // color: #6fc6ff;
+      text-align: center;
       font-size: 19px;
+    }
+    @media(min-width: 1100px) {
+      text-align: left;
     }
   }
 
@@ -89,11 +95,17 @@
 
   .laptop-screenshot {
     width: 100%;
+    @media(min-width: $medium) {
+      margin-top:30px;
+    }
   }
 
   .email-signup {
     margin-top: 0;
     justify-content: flex-start;
+    @media(min-width: $medium) {
+      justify-content: center;
+    }
 
     button {
       width: 100%;
@@ -109,6 +121,16 @@
         border-radius: 4px;
         font-size: 13px;
         height: 50px;
+        line-height: 50px;
+      }
+    }
+  }
+
+  .col-12.email-signup-tablet {
+    margin-top:-60px;
+    .email-signup {
+      button {
+        width: 60%;
       }
     }
   }
@@ -152,7 +174,7 @@
 
   .desktop {
     margin-top: 50px;
-    @media(max-width: 1199px) {
+    @media(max-width: 1099px) {
       display: none;
     }
 

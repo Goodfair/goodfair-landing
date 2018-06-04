@@ -18,9 +18,8 @@
 }
 
 .r-tabs .r-tabs-panel {
-  padding: 25px;
+  padding: 35px;
   display: none;
-
   @media(min-width: $large) {
     padding: 50px;
   }
@@ -33,11 +32,12 @@
 
   .title {
     /* Smart Escrow: */
-    font-family: "Avenir Next";
+    font-family: Poppins;
     font-size: 31px;
     color: #FFFFFF;
     letter-spacing: 0.05px;
     font-weight: 500;
+
     span {
       font-weight: 400;
     }
@@ -47,36 +47,35 @@
     font-family: "Avenir Next";
     font-size: 16px;
     color: #FFFFFF;
-    letter-spacing: 0.26px;
+    letter-spacing: 0;
     line-height: 24px;
-    margin-top:15px;
+    margin-top: 15px;
+    margin-bottom: 9px;
   }
+
   .protocol-benefits {
     margin-top: 20px;
     flex-direction: column;
     font-family: var(--paragra-font);
     font-weight: 400;
     width: 100%;
-    color:#fff;
-
+    color: #fff;
 
     div {
       margin-bottom: 10px;
       font-size: 15px;
       font-weight: 500;
-
       @media(min-width: $medium) {
         margin-bottom: 3px;
       }
       font-size: 15px;
-
       @media(min-width: $large) {
         font-size: 18px;
       }
     }
 
     img {
-      margin-right: 12px;
+      margin-right: 6px;
       height: 16px;
     }
   }
@@ -119,7 +118,7 @@
 .r-tabs .r-tabs-nav .r-tabs-anchor {
   display: flex;
   flex: 1;
-  padding: 10px 12px;
+  padding: 15px 12px;
   flex-direction: column;
   text-decoration: none;
   text-shadow: 0 1px rgba(0, 0, 0, 0.4);
@@ -232,9 +231,11 @@
       .tab-title {
         display: flex;
         flex-direction: column;
-        margin-left: 20px;
-        font-size: 21px;
+        margin-left: 14px;
+        font-size: 16px;
+        font-family: Poppins;
         font-weight: 500;
+
         span {
           font-weight: 400;
           font-size: 17px;

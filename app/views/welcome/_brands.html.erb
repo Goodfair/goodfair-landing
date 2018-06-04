@@ -1,8 +1,12 @@
 <div class="container">
-  <%= image_tag 'brands_icon.svg', class:"title-icon" %>
+
   <h2>
+    <%= image_tag 'brands_icon.svg', class:"title-icon" %>
+
       <%=t 'brands.title' %>
   </h2>
+  <h3><%=t 'brands.subtitle' %></h3>
+
   <div class="brands-logo">
     <div class="row">
       <% (1..10).each do |brand| %>
@@ -17,6 +21,5 @@
       <% end %>
     </div>
   </div>
-  <h3><%=t 'brands.subtitle' %></h3>
 
 </div>

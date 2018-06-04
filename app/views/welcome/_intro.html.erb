@@ -1,21 +1,27 @@
 <div class="container intro-splash">
-  <div class="intro-copy">
-    <h1><%=t 'intro.title' %></h1>
-    <p><%=t 'intro.subtitle' %></p>
-  </div>
-  <!-- Begin MailChimp Signup Form -->
-  <form action="https://market.us17.list-manage.com/subscribe/post?u=1c0651c7d2fb9faefd3e51c27&amp;id=3566f0e453" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    <div class="email-signup d-md-none">
-      <div class='input-div'>
-        <input type="text" placeholder="<%=t 'intro.email_address' %>">
-        <i class="fa fa-envelope-o" aria-hidden="true"></i>
-      </div>
+  <div class="row">
+    <div class="intro-copy col-lg-6">
+      <h1><%=t 'intro.title' %></h1>
+      <p><%=t 'intro.subtitle' %></p>
+      <button type="button" class="d-none d-lg-flex">Watch The video<i class="fa fa-caret-right" aria-hidden="true"></i>
+</button>
 
-      <button type="button"><%=t 'intro.stay_updated_btn' %></button>
     </div>
-  </form>
-  <%= image_tag "video_placeholder.png", alt: 'Video', class: 'intro-video' %>
+    <!-- Begin MailChimp Signup Form -->
+    <form action="https://market.us17.list-manage.com/subscribe/post?u=1c0651c7d2fb9faefd3e51c27&amp;id=3566f0e453" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="novalidate">
+      <div class="email-signup d-md-none">
+        <div class='input-div'>
+          <input type="text" placeholder="<%=t 'intro.email_address' %>">
+          <i class="fa fa-envelope-o" aria-hidden="true"></i>
+        </div>
 
+        <button type="button"><%=t 'intro.stay_updated_btn' %></button>
+      </div>
+    </form>
+    <div class="intro-video-wrapper col-lg-6">
+      <%= image_tag "video_placeholder.png", alt: 'Video', class: 'intro-video' %>
+    </div>
+  </div>
   <div class="our-vision d-md-none" id='vision'>
     <%= render 'our_vision' %>
   </div>

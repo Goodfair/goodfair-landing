@@ -43,7 +43,6 @@ html {
   }
 }
 
-
 section {
   padding-top: 0;
   padding-bottom: 0;
@@ -54,24 +53,44 @@ section {
 .email-bar,
 .footer,
 .intro,
-.poc,
 .marketplace,
+.nexus,
 .our-vision,
 .overlay,
+.poc,
 .protocols,
 .roadmap,
 .solution,
 .status-quo,
 .team,
-.token,
-.nexus{
+.token {
   * {
     -webkit-font-smoothing: antialiased;
   }
 }
 
+.pattern-bg {
+  @media(min-width: $medium) {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 100%;
+    background: url("bg_pattern.svg");
+    background-repeat: repeat;
+    background-size: 50%;
+    opacity: 1;
+  }
+}
+
 .bg-lightblue {
   background-color: #1D4398;
+  @media(min-width: $medium) {
+    background-color: #1540a2;
+  }
+  @media(min-width: $large) {
+  background-color: transparent;
+}
+
   .pattern-bg {
     position: absolute;
     width: 100%;
@@ -80,8 +99,11 @@ section {
     background: url("bg_pattern.svg");
     background-repeat: repeat;
     background-size: 100%;
-    opacity: 0.8;
+    opacity: 1;
     @media(min-width: $medium) {
+      background-size: 50%;
+    }
+    @media(min-width: $large) {
       display: none;
     }
   }
@@ -89,12 +111,19 @@ section {
 
 .bg-darkblue {
   background-color: #0F3588;
+  @media(min-width: $medium) {
+    background-color: #0F3588;
+  }
+  @media(min-width: $large) {
+  background-color: transparent;
+}
+
 }
 
 .bg-darkblue,
 .bg-lightblue {
   @media(min-width: $medium) {
-    background-color: transparent;
+    // background-color: transparent;
   }
 }
 
@@ -125,7 +154,7 @@ h1 {
 
 h2 {
   font-family: var(--h2-font);
-  font-weight: 400;
+  font-weight: 500;
   font-size: var(--h2-size);
   line-height: 40px;
   letter-spacing: 0;
@@ -175,7 +204,7 @@ p {
   color: var(--paragraph-color);
   font-weight: 400;
   line-height: 22px;
-  letter-spacing: 0px;
+  letter-spacing: 0;
   @media(min-width: $medium) {
     line-height: 1.39;
     letter-spacing: -0.1px;

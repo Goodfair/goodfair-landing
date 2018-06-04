@@ -2,7 +2,6 @@
   width: 100%;
   padding-top: 40px;
   padding-bottom: 15px;
-  background-color: #1D4398;
   position: relative;
 
   .container {
@@ -11,7 +10,6 @@
 
   @media(min-width: $medium) {
     padding-top: 0px;
-    background: none;
     padding-bottom: 40px;
 
  /*   .first-row {

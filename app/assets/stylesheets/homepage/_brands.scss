@@ -1,9 +1,5 @@
 .brands {
   padding: 65px 0;
-  background-color: #0F3588;
-  @media(min-width: $medium) {
-    background: none;
-  }
 
   .container {
     display: flex;
@@ -22,6 +18,9 @@
     justify-content: center;
     text-align: center;
     font-size: 32px;
+    @media(min-width: $medium) {
+      font-size: 37px;
+    }
   }
 
   h3 {
@@ -35,7 +34,7 @@
     margin-top: 10px;
     margin-bottom: 10px;
     @media(min-width: $medium) {
-      margin-top: 50px;
+      margin-top: 20px;
     }
 
     .img-wrapper {
@@ -96,10 +95,12 @@
         width: 80px;
         display: flex;
       }
+
       .brand-9 {
         width: 80px;
         display: flex;
       }
+
       .brand-10 {
         width: 80px;
         display: flex;
@@ -112,13 +113,8 @@
         //   width: 70px;
         //   margin: 10px;
         // }
-        @media(min-width: $medium) {
-          width: 100px;
-        }
-        @media(min-width: $large) {
-          width: 110px;
-          margin: 10px 20px;
-        }
+        @media(min-width: $medium) {}
+        @media(min-width: $large) {}
       }
     }
   }

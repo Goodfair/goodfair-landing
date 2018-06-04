@@ -3,9 +3,9 @@ section.protocols {
   background-color: #0F3588;
   position: relative;
   @media(min-width: $medium) {
-    background: none;
-    padding-top: 100px;
-    padding-bottom: 70px;
+    // background: none;
+    padding-top: 130px;
+    padding-bottom: 90px;
   }
   @media(min-width: $large) {
     padding-top: 150px;
@@ -57,7 +57,7 @@ section.protocols {
       @media(min-width: $medium) {
         font-size: 16px;
         text-align: left;
-        line-height: 1.5;
+        line-height: 1.2;
 
       }
       @media(min-width: $large) {
@@ -545,7 +545,7 @@ section.protocols {
         @media(min-width: $medium) {
           left: 50%;
           margin-left: -6px;
-          top: 22px;
+          top: 51px;
         }
         @media(min-width: $large) {
           top: -2px;
@@ -554,7 +554,7 @@ section.protocols {
 
       .circle-ripple-left {
         @media(min-width: $medium) {
-          bottom: 145px;
+          bottom: 175px;
           left: 57px;
         }
         @media(min-width: $large) {
@@ -565,7 +565,7 @@ section.protocols {
 
       .circle-ripple-right {
         @media(min-width: $medium) {
-          bottom: 145px;
+          bottom: 175px;
           right: 57px;
         }
         @media(min-width: $large) {
@@ -586,7 +586,7 @@ section.protocols {
 
         &:nth-child(5) {
           right: 0;
-          top: -50px;
+          top: -20px;
           left: 0;
         }
 
