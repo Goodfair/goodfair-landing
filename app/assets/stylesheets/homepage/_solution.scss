@@ -16,9 +16,12 @@
 
   .ecosystem-tablet {
     display: none;
+    align-self: center
   }
 
   .ecosystem-mobile {
+    align-self: center;
+    flex-direction: row;
     width: 100%;
     margin-top: 20px;
   }
@@ -59,33 +62,42 @@
       margin-top: 40px;
       display: block;
       width: 90%;
-      max-width: 688px;
+      // max-width: 688px;
       @media(min-width: $large) {
-        width: 95%;
+        width: calc(100% - 50px);
         margin-top: 0;
-        margin-right: 60px;
+        // margin-right: 50px;
       }
       @media(min-width: $xlarge) {
         width: 100%;
         margin-top: 0;
-        margin-right: 50px;
+        // margin-right: 50px;
       }
     }
   }
-
-  .solution-container {
+  .solution-image-container {
     @media(min-width: $large) {
-      width: 40%;
+      order:1;
+    }
+    img {
+      max-width: 720px;
+    }
+  }
+  .solution-text-container {
+    @media(min-width: $large) {
+      // width: 40%;
       text-align: left;
-      margin-top:0;
-      max-width: 380px;
+      margin-top: 0;
+      // max-width: 380px;
+      order:2;
+
 
       h2 {
         justify-content: flex-start;
       }
     }
     @media(min-width: 1200px) {
-      margin-top:50px;
+      padding-top: 50px;
     }
   }
 }

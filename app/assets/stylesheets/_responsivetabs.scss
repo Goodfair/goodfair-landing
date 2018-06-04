@@ -1,6 +1,6 @@
-.protocol-tabs-container {
-  @media(min-width: $large) {
-    max-width: 1100px;
+.container.protocol-tabs-container {
+  @media(min-width: $xlarge) {
+    max-width: 1122px;
   }
 }
 

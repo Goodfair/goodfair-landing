@@ -8,7 +8,15 @@ section.protocols {
     padding-bottom: 90px;
   }
   @media(min-width: $large) {
-    padding-top: 150px;
+    padding-top: 80px;
+    background: none;
+    // background: #11539B image-url("solution_bg_gradient.png");
+    background-size: contain;
+    background-repeat: repeat-x;
+    background-position: center;
+  }
+  @media(min-width: $xlarge) {
+    padding-top: 100px;
     background: none;
     // background: #11539B image-url("solution_bg_gradient.png");
     background-size: contain;
@@ -36,8 +44,8 @@ section.protocols {
   }
 
   .hex-main-container {
-    @media(min-width: $large) {
-      max-width: 1100px;
+    @media(min-width: $xlarge) {
+      max-width: 1122px;
     }
   }
 
