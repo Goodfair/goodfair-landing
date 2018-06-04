@@ -3,7 +3,7 @@
     <%= image_tag "problem-icon.svg", alt: 'Problem' %>
     <%=t 'status_quo.title' %>
   </h2>
-  <h3><%=t 'status_quo.subtitle' %></h3>
+  <h3 class="d-lg-none"><%=t 'status_quo.subtitle' %></h3>
 
   <div class="row">
     <div class="col-lg-5">
@@ -16,6 +16,7 @@
 
       <div class="row">
         <div class='col-12'>
+          <h3 class="d-none d-lg-flex"><%=t 'status_quo.subtitle' %></h3>
           <p class="intro-paragraph"><%=t 'status_quo.paragraph' %></p>
         </div>
         <div class='block col-12 col-md-6 col-lg-6 '>
