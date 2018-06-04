@@ -66,6 +66,11 @@
       letter-spacing: 0.5px;
       margin-bottom: 15px;
       font-size: 16px;
+      @media(min-width: $large) {
+        margin-top:25px;
+        margin-bottom: 0;
+      }
+
     }
     @media(min-width: $medium) {
       // color: #6fc6ff;
@@ -144,6 +149,8 @@
       display: none;
     }
 
+
+
     .row {
       div {
         &:nth-last-child(3) {
@@ -190,6 +197,9 @@
       letter-spacing: 0;
       padding-left: 0;
       margin-top: 29px;
+      @media(min-width: $large) {
+        margin-top:15px;
+      }
     }
 
     .email-signup {

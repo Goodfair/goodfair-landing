@@ -5,7 +5,10 @@
     padding-top: 70px;
     padding-bottom: 80px;
   }
-
+  @media(min-width: $large) {
+    padding-top: 00px;
+    padding-bottom: 80px;
+  }
   .container {
     position: relative;
     @media(min-width: $large) {

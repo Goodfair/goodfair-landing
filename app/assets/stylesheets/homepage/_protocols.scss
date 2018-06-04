@@ -54,7 +54,7 @@ section.protocols {
       top: -70px;
     }
     @media(min-width: $large) {
-      top: -36px;
+      top: -16px;
     }
 
     p {
@@ -117,7 +117,7 @@ section.protocols {
         font-size: 17px;
         margin-bottom: 19px;
         line-height: 1.3;
-        letter-spacing: 3.6px;
+        // letter-spacing: 3.6px;
       }
     }
   }
@@ -596,6 +596,9 @@ section.protocols {
           right: 0;
           top: -20px;
           left: 0;
+          @media(min-width: $large) {
+            top:-65px;
+          }
         }
 
         &:nth-child(6) {

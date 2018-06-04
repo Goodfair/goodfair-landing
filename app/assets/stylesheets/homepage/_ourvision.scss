@@ -16,6 +16,9 @@
       background-size: 160px;
       top: 0;
     }
+    @media(min-width: $large) {
+      top:100px;
+    }
   }
 
   .our-vision-container {
@@ -121,6 +124,8 @@
     }
     @media(min-width: $large) {
       text-align: center;
+      max-width: 840px;
+
     }
   }
   // .video-player {

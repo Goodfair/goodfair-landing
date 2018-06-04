@@ -24,7 +24,7 @@
 @import '_responsivetabs';
 @media (min-width: 1200px) {
   .container {
-    max-width: 1240px;
+    // max-width: 1240px;
   }
 }
 
@@ -88,7 +88,7 @@ section {
     background-color: #1540a2;
   }
   @media(min-width: $large) {
-  background-color: transparent;
+  background:none;
 }
 
   .pattern-bg {
@@ -115,7 +115,8 @@ section {
     background-color: #0F3588;
   }
   @media(min-width: $large) {
-  background-color: transparent;
+    background:none;
+
 }
 
 }

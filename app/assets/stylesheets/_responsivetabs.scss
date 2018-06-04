@@ -1,6 +1,10 @@
 .container.protocol-tabs-container {
+
   @media(min-width: $xlarge) {
     max-width: 1122px;
+  }
+  #horizontalTab {
+    box-shadow: 0 17px 38px 0 rgba(0,0,0,0.12);
   }
 }
 
@@ -22,6 +26,9 @@
   display: none;
   @media(min-width: $large) {
     padding: 50px;
+  }
+  @media(min-width: $xlarge) {
+    padding: 40px 75px;
   }
 
   &.r-tabs-state-active {
@@ -60,23 +67,37 @@
     font-weight: 400;
     width: 100%;
     color: #fff;
-
-    div {
-      margin-bottom: 10px;
-      font-size: 15px;
-      font-weight: 500;
-      @media(min-width: $medium) {
-        margin-bottom: 3px;
-      }
-      font-size: 15px;
+    @media(min-width: $large) {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .row {
       @media(min-width: $large) {
-        font-size: 18px;
+        justify-content: center;
+      }
+
+      div {
+        margin-bottom: 10px;
+        font-size: 15px;
+        font-weight: 500;
+        @media(min-width: $medium) {
+          margin-bottom: 3px;
+        }
+        font-size: 15px;
+        @media(min-width: $large) {
+          font-size: 18px;
+          max-width: 250px;
+        }
       }
     }
 
     img {
       margin-right: 6px;
       height: 16px;
+      @media(min-width: $large) {
+        margin-right: 12px;
+      }
     }
   }
 }
@@ -87,11 +108,11 @@
 
 .r-tabs .r-tabs-panel.r-tabs-state-active {
   display: block;
-  background-color: #0F5EC3;
+  background-color: #1253AF;
 }
 
 .r-tabs .r-tabs-tab.r-tabs-state-active {
-  background-color: #0F5EC3;
+  background-color: #1253AF;
 }
 /* Accordion responsive breakpoint */
 @media only screen and (max-width: 540px) {
@@ -106,13 +127,13 @@
 /* Tabs container */
 .r-tabs {
   position: relative;
-  background-color: #0F5EC3;
+  background-color: #1253AF;
   border: 0;
 }
 /* Tab element */
 .r-tabs .r-tabs-nav .r-tabs-tab {
   position: relative;
-  background-color: #134CA2;
+  background-color: #134DA3;
 }
 /* Tab anchor */
 .r-tabs .r-tabs-nav .r-tabs-anchor {
@@ -137,13 +158,13 @@
 .r-tabs .r-tabs-nav .r-tabs-state-active .r-tabs-anchor {
   color: #fff;
   text-shadow: none;
-  background-color: #0F5EC3;
+  background-color: #1253AF;
   border-top-right-radius: 4px;
   border-top-left-radius: 4px;
 }
 /* Tab panel */
 .r-tabs .r-tabs-panel {
-  background-color: #0F5EC3;
+  background-color: #1253AF;
   // border-bottom: 4px solid white;
   border-bottom-right-radius: 4px;
   border-bottom-left-radius: 4px;
@@ -224,7 +245,7 @@
         width: 45px;
         height: auto;
         @media(min-width: $large) {
-          width: 64px;
+          width: 54px;
         }
       }
 
@@ -235,11 +256,20 @@
         font-size: 16px;
         font-family: Poppins;
         font-weight: 500;
+        @media(min-width: $large) {
+          font-size: 21px;
+          margin-left: 30px;
+        }
 
         span {
           font-weight: 400;
           font-size: 17px;
           display: none;
+          color: rgba(255,255,255,0.79);
+          // letter-spacing: 0.68px;
+          @media(min-width: $large) {
+            display: block;
+          }
         }
       }
     }
