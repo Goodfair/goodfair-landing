@@ -3,10 +3,9 @@
   padding: 50px 0;
   position: relative;
   background-color: #1D4398;
-
   @media(min-width: $medium) {
     background: none;
-    padding: 70px 0 60px 0;
+    padding: 70px 0 60px;
   }
 
   &.mobile {
@@ -60,17 +59,17 @@
   h3 {
     // color: #fff;
     margin-bottom: 10px;
+
     &.try-poc {
       color: #fff;
       margin-top: -20px;
       letter-spacing: 0.5px;
       margin-bottom: 15px;
-      font-size: 16px;
+      font-size: 18px;
       @media(min-width: $large) {
-        margin-top:25px;
+        margin-top: 25px;
         margin-bottom: 0;
       }
-
     }
     @media(min-width: $medium) {
       // color: #6fc6ff;
@@ -99,9 +98,10 @@
   }
 
   .laptop-screenshot {
-    width: 100%;
+    width: 111%;
+    margin-left: -20px;
     @media(min-width: $medium) {
-      margin-top:30px;
+      margin-top: 30px;
     }
   }
 
@@ -122,7 +122,7 @@
         width: 90%;
         /* Rectangle 9: */
         background-image: linear-gradient(83deg, #2386FF 8%, #4F4FFF 100%, #00EABD 100%);
-        box-shadow: 0px 4px 12px 3px rgba(10, 38, 93, 0.15);
+        box-shadow: 0 4px 12px 3px rgba(10, 38, 93, 0.15);
         border-radius: 4px;
         font-size: 13px;
         height: 50px;
@@ -132,7 +132,8 @@
   }
 
   .col-12.email-signup-tablet {
-    margin-top:-60px;
+    margin-top: -60px;
+
     .email-signup {
       button {
         width: 60%;
@@ -149,8 +150,6 @@
       display: none;
     }
 
-
-
     .row {
       div {
         &:nth-last-child(3) {
@@ -162,12 +161,9 @@
     div {
       margin-bottom: 3px;
       font-size: 19px;
-
-
       @media(min-width: $medium) {
         margin-bottom: 3px;
       }
-
       @media(min-width: $large) {
         font-size: 18px;
       }
@@ -189,7 +185,7 @@
       width: 100%;
       max-width: none;
       @media(min-width: $large) {
-        width:95%;
+        width: 95%;
       }
     }
 
@@ -201,7 +197,7 @@
       padding-left: 0;
       margin-top: 29px;
       @media(min-width: $large) {
-        margin-top:15px;
+        margin-top: 15px;
       }
     }
 
