@@ -1,7 +1,7 @@
 #nexus {
   padding: 65px 0;
   background-color: #1D4398;
-  background-image: url("nexus_mobile@2x.png");
+  background-image: image-url("nexus_mobile@2x.png");
   background-size: 130%;
   background-repeat: no-repeat;
   background-position: center;
@@ -9,23 +9,23 @@
   display: flex;
   align-items: center;
   @media(min-width: $medium) {
-    background-image: url("nexus_map_desktop.png");
+    background-image: image-url("nexus_map_desktop.png");
     background-size: 130%;
     min-height: 700px;
   }
   @media(min-width: $medium) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
-    background-image: url("nexus_map_desktop@2x.png");
+    background-image: image-url("nexus_map_desktop@2x.png");
   }
   @media(min-width: $large) {
     background-color: transparent;
-    background-image: url("nexus_map_desktop.png");
+    background-image: image-url("nexus_map_desktop.png");
     background-size: 85%;
     background-repeat: no-repeat;
     background-position: center;
     min-height: 500px;
   }
   @media(min-width: $large) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
-    background-image: url("nexus_map_desktop@2x.png");
+    background-image: image-url("nexus_map_desktop@2x.png");
   }
   @media(min-width: $xlarge) {
     background-size: 73%;
