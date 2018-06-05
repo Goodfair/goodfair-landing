@@ -99,8 +99,8 @@ section {
     background-color: #1540a2;
   }
   @media(min-width: $large) {
-  background:none;
-}
+    background: none;
+  }
 
   .pattern-bg {
     position: absolute;
@@ -111,6 +111,8 @@ section {
     background-repeat: repeat;
     background-size: 100%;
     opacity: 1;
+    display: none;
+
     @media(min-width: $medium) {
       background-size: 50%;
     }
@@ -126,10 +128,26 @@ section {
     background-color: #0F3588;
   }
   @media(min-width: $large) {
-    background:none;
+    background: none;
+  }
 
-}
-
+  .pattern-bg {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 100%;
+    background: image-url("bg_pattern.svg");
+    background-repeat: repeat;
+    background-size: 100%;
+    opacity: 1;
+    display: none;
+    @media(min-width: $medium) {
+      background-size: 50%;
+    }
+    @media(min-width: $large) {
+      display: none;
+    }
+  }
 }
 
 .bg-darkblue,
