@@ -22,7 +22,9 @@
     justify-content: center;
     text-align: center;
     font-size: 32px;
+    flex-direction: column;
     @media(min-width: $medium) {
+      flex-direction: row;
       font-size: 37px;
     }
   }

@@ -137,11 +137,11 @@
 
     .employee-item {
       margin-bottom: 20px;
-      background: #022250;
+      background: #002b69;
       border-radius: 10px;
       overflow: hidden;
       height: calc(100% - 20px);
-      box-shadow: 0 9px 25px 0 rgba(0, 0, 0, 0.22);
+      box-shadow: 0 9px 25px 0 rgba(0, 0, 0, 0.1);
       @media(min-width: $medium) {
         background: #062e69;
         height: 100%;
