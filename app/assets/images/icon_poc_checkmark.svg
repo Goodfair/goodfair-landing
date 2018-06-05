@@ -1,54 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 18.7 14.5" style="enable-background:new 0 0 18.7 14.5;" xml:space="preserve">
-<style type="text/css">
-	.st0{filter:url(#filter-1);}
-	.st1{fill:#72D3FF;}
-	.st2{fill:url(#SVGID_1_);}
-</style>
-<filter  filterUnits="objectBoundingBox" height="135.1%" id="filter-1" width="118.2%" x="-9.1%" y="-13.0%">
-	<feOffset  dx="0" dy="17" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-	<feGaussianBlur  in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="19"></feGaussianBlur>
-	
-		<feColorMatrix  in="shadowBlurOuter1" result="shadowMatrixOuter1" type="matrix" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.115064538 0">
-		</feColorMatrix>
-	<feMerge>
-		<feMergeNode  in="shadowMatrixOuter1"></feMergeNode>
-		<feMergeNode  in="SourceGraphic"></feMergeNode>
-	</feMerge>
-</filter>
-<title></title>
-<desc>Created with Sketch.</desc>
-<g id="Tablet">
-	<g id="Goodfair-Tablet" transform="translate(-443.000000, -4215.000000)">
-		<g id="Group-34" transform="translate(26.000000, 3952.000000)" class="st0">
-			<g id="Slider_1_" transform="translate(27.000000, 121.000000)">
-				<g id="List-of-Benefits_1_" transform="translate(2.000000, 139.000000)">
-					<g id="Group-5_1_">
-						<g id="Group-56_1_">
-							<g id="_xF00C__1_">
-								<g>
-									<path class="st1" d="M405.1,7.9c0,0.3-0.1,0.5-0.3,0.7l-8.6,8.6c-0.2,0.2-0.4,0.3-0.7,0.3s-0.5-0.1-0.7-0.3l-5-5
-										c-0.2-0.2-0.3-0.4-0.3-0.7s0.1-0.5,0.3-0.7l1.4-1.4c0.2-0.2,0.4-0.3,0.7-0.3c0.3,0,0.5,0.1,0.7,0.3l3,3l6.6-6.6
-										c0.2-0.2,0.4-0.3,0.7-0.3c0.3,0,0.5,0.1,0.7,0.3l1.4,1.4C405,7.4,405.1,7.7,405.1,7.9z"/>
-								</g>
-								<g>
-									
-										<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="110.424" y1="395.4173" x2="109.6465" y2="395.4173" gradientTransform="matrix(15.5692 0 0 -11.933 -1312.0087 4730.0884)">
-										<stop  offset="0" style="stop-color:#14ACE0"/>
-										<stop  offset="1" style="stop-color:#00EABD"/>
-									</linearGradient>
-									<path class="st2" d="M405.1,7.9c0,0.3-0.1,0.5-0.3,0.7l-8.6,8.6c-0.2,0.2-0.4,0.3-0.7,0.3s-0.5-0.1-0.7-0.3l-5-5
-										c-0.2-0.2-0.3-0.4-0.3-0.7s0.1-0.5,0.3-0.7l1.4-1.4c0.2-0.2,0.4-0.3,0.7-0.3c0.3,0,0.5,0.1,0.7,0.3l3,3l6.6-6.6
-										c0.2-0.2,0.4-0.3,0.7-0.3c0.3,0,0.5,0.1,0.7,0.3l1.4,1.4C405,7.4,405.1,7.7,405.1,7.9z"/>
-								</g>
-							</g>
-						</g>
-					</g>
-				</g>
-			</g>
-		</g>
-	</g>
-</g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="13px" viewBox="0 0 17 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_poc_checkmark</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="113.491287%" y1="50.6146592%" x2="35.8947936%" y2="50.6146592%" id="linearGradient-1">
+            <stop stop-color="#14ACE0" offset="0%"></stop>
+            <stop stop-color="#00EABD" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon_poc_checkmark" fill-rule="nonzero">
+            <path d="M16.1,2.9 C16.1,3.2 16,3.4 15.8,3.6 L7.2,12.2 C7,12.4 6.8,12.5 6.5,12.5 C6.2,12.5 6,12.4 5.8,12.2 L0.8,7.2 C0.6,7 0.5,6.8 0.5,6.5 C0.5,6.2 0.6,6 0.8,5.8 L2.2,4.4 C2.4,4.2 2.6,4.1 2.9,4.1 C3.2,4.1 3.4,4.2 3.6,4.4 L6.6,7.4 L13.2,0.8 C13.4,0.6 13.6,0.5 13.9,0.5 C14.2,0.5 14.4,0.6 14.6,0.8 L16,2.2 C16,2.4 16.1,2.7 16.1,2.9 Z" id="Shape" fill="#72D3FF"></path>
+            <path d="M16.1,2.9 C16.1,3.2 16,3.4 15.8,3.6 L7.2,12.2 C7,12.4 6.8,12.5 6.5,12.5 C6.2,12.5 6,12.4 5.8,12.2 L0.8,7.2 C0.6,7 0.5,6.8 0.5,6.5 C0.5,6.2 0.6,6 0.8,5.8 L2.2,4.4 C2.4,4.2 2.6,4.1 2.9,4.1 C3.2,4.1 3.4,4.2 3.6,4.4 L6.6,7.4 L13.2,0.8 C13.4,0.6 13.6,0.5 13.9,0.5 C14.2,0.5 14.4,0.6 14.6,0.8 L16,2.2 C16,2.4 16.1,2.7 16.1,2.9 Z" id="Shape" fill="url(#linearGradient-1)"></path>
+        </g>
+    </g>
 </svg>
