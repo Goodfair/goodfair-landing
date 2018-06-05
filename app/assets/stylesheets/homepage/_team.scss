@@ -50,7 +50,7 @@
       background-position: center 10px;
     }
     @media(min-width: $large) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
-      background-image: url("map_desktop@2x.png");
+      background-image: image-url("map_desktop@2x.png");
     }
   }
 
