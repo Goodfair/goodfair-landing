@@ -37,6 +37,9 @@
       @media(min-width: $medium) {
         display: none;
       }
+      @media(min-width: $large) {
+        display: flex;
+      }
     }
 
     img {
