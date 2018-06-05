@@ -188,6 +188,9 @@
     .screenshot {
       width: 100%;
       max-width: none;
+      @media(min-width: $large) {
+        width:95%;
+      }
     }
 
     .poc-benefits {
