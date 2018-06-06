@@ -19,7 +19,7 @@
       </div>
     </form>
     <div class="outer-video-wrapper col-lg-6">
-      <div class="inner-video-wrapper"><%= video_tag 'preview.mp4', class: "intro-video", preload:'true', autoplay:'autoplay', loop:'loop', poster:'/assets/poster@2x.jpg' %>
+      <div class="inner-video-wrapper"><%= video_tag 'preview.mp4', class: "intro-video", controls: false, autoplay: true, muted: true, loop: true, id: "home-video", poster:'/assets/poster@2x.jpg' %>
       <button class="js-video-button" data-channel="video" data-video-url="/assets/video.mp4"></button>
       </div>
 
