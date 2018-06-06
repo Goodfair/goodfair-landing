@@ -22,8 +22,12 @@
 //= require jquery.magnific-popup
 //= require_tree .
 //= require jquery.responsiveTabs
+//= require jquery-modal-video
+
 
 $(document).ready(function() {
+  $(".js-video-button").modalVideo({
+		});
   $('.toggle').click(function() {
     $('.toggle').toggleClass('active');
     $('#overlay').toggleClass('open');

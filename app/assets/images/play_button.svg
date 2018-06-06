@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="57px" height="57px" viewBox="0 0 57 57" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>play</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="46.6767632%" cy="25.0947224%" fx="46.6767632%" fy="25.0947224%" r="74.798069%" gradientTransform="translate(0.466768,0.250947),scale(0.594855,1.000000),rotate(88.347630),scale(1.000000,0.989510),translate(-0.466768,-0.250947)" id="radialGradient-1">
+            <stop stop-color="#1F5395" offset="0%"></stop>
+            <stop stop-color="#12558C" offset="97.9591837%"></stop>
+        </radialGradient>
+        <radialGradient cx="49.5721406%" cy="21.1811508%" fx="49.5721406%" fy="21.1811508%" r="115.724804%" gradientTransform="translate(0.495721,0.211812),scale(0.594855,1.000000),rotate(88.969508),scale(1.000000,1.237299),translate(-0.495721,-0.211812)" id="radialGradient-2">
+            <stop stop-color="#5B9FFF" stop-opacity="0.258746603" offset="0%"></stop>
+            <stop stop-color="#5388F8" stop-opacity="0.200809518" offset="26.0662468%"></stop>
+            <stop stop-color="#000000" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+        <linearGradient x1="177.166518%" y1="55.5800676%" x2="-134.889413%" y2="55.5800676%" id="linearGradient-3">
+            <stop stop-color="#1490E0" offset="0%"></stop>
+            <stop stop-color="#20F0FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="image" transform="translate(-981.000000, -321.000000)">
+            <g id="Asset-1" transform="translate(713.000000, 148.000000)">
+                <g id="Group-16">
+                    <g id="play" transform="translate(268.000000, 173.000000)">
+                        <circle id="Oval" fill="url(#linearGradient-3)" cx="28.5" cy="28.5" r="28.5"></circle>
+                        <polygon id="Shape" fill="#FFFFFF" points="43.4625 28.5227325 22.0875 40.375 22.0875 16.625"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

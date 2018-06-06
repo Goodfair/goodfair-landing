@@ -1,5 +1,7 @@
 @import '_fonts';
-
+.modal-video {
+  background-color: rgba(4, 57, 123, 0.93) !important;
+}
 section.intro {
   color: #FFF;
   position: relative;
@@ -20,10 +22,49 @@ section.intro {
     justify-content: center;
   }
 
-  .intro-video {
-    width: 100%;
-    max-width: 486px;
-    margin-top: 4px;
+  .intro-video-wrapper {
+    &:before {
+      /* subtle gradient layer on top right of the tabbed navigation- to indicate it's possible to scroll */
+      content: "";
+      position: absolute;
+      width: calc(100% - 50px);
+      height: calc(100% - 10px);
+      z-index: 0;
+      border: 2px solid #25A8C5;
+      left:50px;
+      top:-10px;
+    }
+
+    .intro-video {
+      position: relative;
+      width: 100%;
+      max-width: 486px;
+      margin-top: 4px;
+      @media(min-width: $large) {
+        max-width: none;
+      }
+    }
+
+    // .play-button {
+    //   position: absolute;
+    //   left: 50%;
+    //   top: 50%;
+    //   height: 60px;
+    //   transform: translate(-50%,-50%);
+    // }
+    .js-video-button {
+      background-image: image-url("play_button.svg");
+      background-color: transparent;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      height: 60px;
+      width: 60px;
+      background-repeat: no-repeat;
+      background-position: center;
+      cursor: pointer;
+      transform: translate(-50%,-50%);
+    }
   }
 
   .intro-splash {
@@ -142,7 +183,7 @@ section.intro {
       }
       @media(min-width: $large) {
         text-align: left;
-        margin-top:12px;
+        margin-top: 12px;
       }
     }
 
@@ -163,7 +204,7 @@ section.intro {
       font-family: "Avenir Next";
       font-weight: 500;
       font-size: 13px;
-      margin-top:23px;
+      margin-top: 23px;
 
       i {
         margin-left: 15px;
