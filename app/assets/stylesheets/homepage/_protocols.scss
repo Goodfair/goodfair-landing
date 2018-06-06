@@ -66,17 +66,16 @@ section.protocols {
         font-size: 16px;
         text-align: left;
         line-height: 1.2;
-
       }
       @media(min-width: $large) {
         font-size: 16px;
         letter-spacing: 0.3px;
+        line-height: 1.4;
       }
     }
 
     h3,
     p {
-
       @media(min-width: $large) {
         width: 95%;
       }
@@ -87,7 +86,6 @@ section.protocols {
       align-items: center;
       justify-content: flex-start;
       font-size: 36px;
-
       @media(min-width: $medium) {
         justify-content: flex-start;
       }
@@ -365,13 +363,13 @@ section.protocols {
       background-position: center;
       background-size: cover;
       border-radius: 17px;
-      padding: 20px 20px 40px 20px;
+      padding: 20px 20px 40px;
       box-shadow: 0 7px 15px 0 rgba(0,41,92,0.37);
     }
   }
 
   .slick-dots {
-    bottom:-30px;
+    bottom: -30px;
   }
 
   .slick-next:before,
@@ -416,8 +414,8 @@ section.protocols {
     width: 31px;
     height: 17px;
     background-size: 32px;
-    bottom:24px;
-    top:auto;
+    bottom: 24px;
+    top: auto;
 
     &:hover {
       opacity: 1;
@@ -597,17 +595,17 @@ section.protocols {
           top: -20px;
           left: 0;
           @media(min-width: $large) {
-            top:-65px;
+            top: -65px;
           }
         }
 
         &:nth-child(6) {
-          left: 0;
+          left: -26px;
           bottom: 80px;
         }
 
         &:nth-child(7) {
-          right: 0;
+          right: -26px;
           bottom: 80px;
         }
       }

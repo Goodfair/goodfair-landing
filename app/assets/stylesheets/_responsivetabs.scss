@@ -1,8 +1,8 @@
 .container.protocol-tabs-container {
-
   @media(min-width: $xlarge) {
     max-width: 1122px;
   }
+
   #horizontalTab {
     box-shadow: 0 17px 38px 0 rgba(0,0,0,0.12);
   }
@@ -72,6 +72,7 @@
       align-items: center;
       justify-content: center;
     }
+
     .row {
       @media(min-width: $large) {
         justify-content: center;
@@ -265,7 +266,7 @@
           font-weight: 400;
           font-size: 17px;
           display: none;
-          color: rgba(255,255,255,0.79);
+          color: rgba(200, 229, 255, 0.79);
           // letter-spacing: 0.68px;
           @media(min-width: $large) {
             display: block;

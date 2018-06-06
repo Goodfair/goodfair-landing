@@ -65,7 +65,9 @@
       margin-top: -20px;
       letter-spacing: 0.5px;
       margin-bottom: 15px;
-      font-size: 18px;
+      font-size: 20px;
+      text-transform: none;
+      font-family: "Avenir Next";
       @media(min-width: $large) {
         margin-top: 25px;
         margin-bottom: 0;
@@ -204,6 +206,9 @@
     .email-signup {
       justify-content: flex-start;
       margin-top: 41px;
+      @media(min-width: $large) {
+        margin-top:20px;
+      }
 
       button {
         align-items: center;

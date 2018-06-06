@@ -53,7 +53,8 @@ en:
   our_vision:
     title: "Our Vision"
     subtitle: "A DECENTRALIZED ECOMMERCE ECOSYSTEM THAT GIVES POWER BACK TO ITS USERS"
-    paragraph: "Goodfair is an innovative platform designed to bring absolute trust and transparency to the e-commerce industry. Powered by blockchain technology, Goodfair looks to redistribute control and decision-making into the hands of its users, creating an ecosystem that is piloted by its community."
+    paragraph: "GoodFair is designed with the belief that the future state of online commerce requires the transcendence from a website platform to a comprehensive interdependent ecosystem free from the shackles of centralized establishments. Goodfair is an innovative platform designed to bring absolute trust and transparency to the e-commerce industry."
+    paragraph2: "Powered by blockchain technology, Goodfair looks to redistribute control and decision-making into the hands of its users, creating an ecosystem that is piloted by its community. We aspire to establish an open e-commerce platform, fully decentralized at its core and democratized at its base, operating within a self-governed ecosystem where community participants ensure a fair and equitable process to reduce transaction costs and improve fulfillment efficiencies for all."
     vision_benefit_1:
       title: "Industry Low Fees"
       paragraph: "Intermediary-free transactions between buyers and sellers allow for industry low fees."
@@ -171,25 +172,25 @@ en:
   token:
     title: "GOOD Token"
     subtitle: "E-Commerce Powered via GOOD Token"
-    paragraph: "GOOD tokens power critical marketplace functionality and provides platform stability. GOOD exists on the Ethereum blockchain and respects the ERC20 token standard."
+    paragraph: "GOOD tokens, built on the ERC20 token standard, power critical functionality within the GoodFair e-commerce ecosystem and provide platform stability. GOOD also act as key incentive mechanisms to drive marketplace activity and ensure community participation."
     block_1:
-      title: "Pay for Item Listings"
-      content: "GOOD tokens are used to list items on GoodFair Marketplace - pay per listing, or per month for unlimited listings."
+      title: "Community Rewards"
+      content: "GOOD tokens are used as incentives that allow GoodFair to be self-governed & decentralized by sourcing expertise and feedback from the community. Members get rewards for participating in conflict resolution, product screening, item reviews, and meeting benchmarks in user activity."
     block_2:
-      title: "Pay for Promoted Listings"
-      content: "Item exposure can be increased by purchasing listing promotion with GOOD tokens."
+      title: "Subscription & Membership"
+      content: "GOOD tokens are used to pay for various subscription plans that allow for transaction and listing fee-less selling, access to premium services. GOOD tokens also give membership access to priority product releases and exclusive discounts and deals in the marketplace."
     block_3:
-      title: "SmartResolve Rewards"
-      content: "SmartResolve case mediators are compensated with GOOD tokens for participation. Mediators will only be compensated if they vote with the consensus."
+      title: "Item Listing Promotion"
+      content: "GOOD tokens can be used to increase product and brand exposure with listing promotions and premium services that optimize matchmaking between buyer and seller."
     block_4:
-      title: "Democratizing Governance"
-      content: "Community members are incentivized with GOOD tokens to actively participate in GoodFair's ecosystem (reviews, item screening, mediation, etc). "
+      title: "Rebate Incentives"
+      content: "Unlike any other platform, rebates in the form of GOOD tokens, will be given on almost all the items on the marketplace as a reward for purchasing on the platform. They can be exchanged for fiat cash or accumulated to be redeemed for future purchases and discounts."
     block_5:
       title: "Voting Power"
-      content: "GoodFair community members can shape the platform's future by participating in community voting."
+      content: "Eligible community members, who are GOOD token holders, can shape the platform's future by participating in community voting.  These users can actively help influence policy updates to ensure the success of GoodFair's ecosystem for all."
     block_6:
       title: "Seller Collateral"
-      content: "GOOD tokens are locked as a collateral when listing products in order to deter fraud and scams."
+      content: "GOOD tokens are locked as a collateral when listing products in order to deter fraud and scams. This collateral is used to ensure trust and mitigates malicious behavior in order to ensure positive transaction results. "
   roadmap:
     title: "Next Step"
     subtitle: "Roadmap"
