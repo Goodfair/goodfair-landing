@@ -18,9 +18,10 @@
         <button type="button"><%=t 'intro.stay_updated_btn' %></button>
       </div>
     </form>
-    <div class="intro-video-wrapper col-lg-6">
-      <%= video_tag 'preview.mp4', class: "intro-video", preload:'true', autoplay:'autoplay', loop:'loop', poster:'/assets/poster@2x.jpg' %>
+    <div class="outer-video-wrapper col-lg-6">
+      <div class="inner-video-wrapper"><%= video_tag 'preview.mp4', class: "intro-video", preload:'true', autoplay:'autoplay', loop:'loop', poster:'/assets/poster@2x.jpg' %>
       <button class="js-video-button" data-channel="video" data-video-url="/assets/video.mp4"></button>
+      </div>
 
 
       <!-- <%= image_tag "video_placeholder.png", alt: 'Video', class: 'intro-video' %> -->
