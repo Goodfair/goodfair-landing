@@ -1,7 +1,9 @@
 @import '_fonts';
+
 .modal-video {
   background-color: rgba(4, 57, 123, 0.93) !important;
 }
+
 section.intro {
   color: #FFF;
   position: relative;
@@ -23,16 +25,30 @@ section.intro {
   }
 
   .intro-video-wrapper {
+    margin-top:30px;
+    @media(min-width: $medium) {
+      margin-top:0;
+    }
     &:before {
-      /* subtle gradient layer on top right of the tabbed navigation- to indicate it's possible to scroll */
       content: "";
-      position: absolute;
-      width: calc(100% - 50px);
-      height: calc(100% - 10px);
-      z-index: 0;
-      border: 2px solid #25A8C5;
-      left:50px;
-      top:-10px;
+          position: absolute;
+          width: calc(100% - 33px);
+          height: calc(100% - 10px);
+          z-index: 0;
+          border: 2px solid #25A8C5;
+          left: 30px;
+          top: -7px;
+      @media(min-width: $large) {
+        /* subtle gradient layer on top right of the tabbed navigation- to indicate it's possible to scroll */
+        content: "";
+        position: absolute;
+        width: calc(100% - 50px);
+        height: calc(100% - 10px);
+        z-index: 0;
+        border: 2px solid #25A8C5;
+        left: 50px;
+        top: -10px;
+      }
     }
 
     .intro-video {
@@ -44,7 +60,6 @@ section.intro {
         max-width: none;
       }
     }
-
     // .play-button {
     //   position: absolute;
     //   left: 50%;
