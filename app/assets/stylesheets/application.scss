@@ -23,7 +23,6 @@
 @import 'slick-theme';
 @import '_responsivetabs';
 @import 'modal-video.min';
-
 @media (min-width: 1200px) {
   .container {
     // max-width: 1240px;
@@ -114,7 +113,6 @@ section {
     background-size: 100%;
     opacity: 1;
     display: none;
-
     @media(min-width: $medium) {
       background-size: 50%;
     }
@@ -284,6 +282,9 @@ button {
     @media(min-width: $medium) {
       margin-right: 9px;
     }
+    @media(max-width: 567px) {
+
+    }
 
     input {
       height: 44px;
@@ -296,7 +297,7 @@ button {
       -webkit-appearance: none;
       -moz-appearance: none;
       appearance: none;
-      line-height: 54px;
+      line-height: 42px;
       display: flex;
       align-items: center;
       box-shadow: inset -2px 1px 11px 0 rgba(0, 81, 133, 0.18), -2px 1px 11px 0 rgba(0, 81, 133, 0.18);
@@ -309,20 +310,29 @@ button {
         padding-left: 49px;
       }
 
-      &::placeholder {
-        opacity: 1;
-        font-size: 13px;
-        font-weight: 600;
-        letter-spacing: 0.6px;
-        color: #ffffff;
-        text-transform: uppercase;
-        line-height: 54px;
-      }
+
 
       &:active,
       &:focus {
         background-color: #1c78c9;
       }
+    }
+
+    input::-webkit-input-placeholder {
+      color: #fff;
+      font-size: 14px;
+    }
+    input::-moz-placeholder {
+      color: #fff;
+      font-size: 13px;
+    }
+    input:-ms-input-placeholder {
+      color: #fff;
+      font-size: 13px;
+    }
+    input::placeholder {
+      color: #fff;
+      font-size: 14px;
     }
 
     i {
