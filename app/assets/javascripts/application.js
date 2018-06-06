@@ -27,6 +27,13 @@
 
 $(document).ready(function() {
   $(".js-video-button").modalVideo({
+			youtube:{
+				controls:0,
+				nocookie: true,
+        title:false,
+        autoplay:true,
+        showinfo:0
+			}
 		});
   $('.toggle').click(function() {
     $('.toggle').toggleClass('active');
