@@ -90,16 +90,16 @@ en:
     paragraph: "For the last decade, E-Commerce has relied on the same infrastructure, sales, payment and fulfillment model. Beyond minor innovations in product syndication through social and mobile technologies, selling, buying, paying, and shipping mechanisms have remained relatively stagnant."
     block_1:
       title: "High Listing & Transaction Fees"
-      content: "Marketplaces bundle their overhead costs into high transaction and service fees, cutting into seller profit margins."
+      content: "Existing marketplaces are centralized whereby they bundle their overhead costs into high transaction and service fees, cutting into seller profit margins."
     block_2:
-      title: "Fraudulant Reviews and Ratings"
-      content: "Existing e-commerce platforms are riddled with fake reviews and ratings, hurting seller legitimacy and buyer trust."
+      title: "Monopolistic Practices"
+      content: "Amazon and eBay have a 50% share of the US e-commerce market. As dominant players, they subject buyers and sellers to restrictive and self-serving policies."
     block_3:
-      title: "Industry Monopoly"
-      content: "Amazon and eBay have 50% share of the e-commerce market. As dominant players, they have significant leverage over buyers and sellers."
+      title: "Fraudulant Reviews and Ratings"
+      content: "Current e-commerce platforms are riddled with fake reviews and ratings, hurting seller legitimacy and buyer trust."
     block_4:
-      title: "Unfair Mediation Practices"
-      content: "Conflict resolution is typically handled by a centralized, single party and suffers from personal bias effects. Decisions are often inequitable and treat the user unfairly."
+      title: "Counterfeit Products"
+      content: "Knock-off products and counterfeit goods dilute brand value, distort pricing, and foster a growing sentiment of mistrust amongst users."
   solution:
     title: "Ecosystem"
     minititle: "Goodfair"

@@ -26,7 +26,19 @@
 
 
 $(document).ready(function() {
-  $(".js-video-button").modalVideo({
+  $('.nav-desktop a[href^="#"]').on('click',function (e) {
+     e.preventDefault();
+
+     var target = this.hash,
+     $target = $(target);
+
+     $('html, body').stop().animate({
+         'scrollTop': $target.offset().top
+     }, 900, 'swing', function () {
+         window.location.hash = target;
+     });
+ });
+  $(".video-trigger").modalVideo({
 			youtube:{
 				controls:0,
 				nocookie: true,
@@ -44,7 +56,7 @@ $(document).ready(function() {
     centerMode: true,
     centerPadding: '30px',
     slidesToShow: 1,
-    adaptiveHeight: true,
+    // adaptiveHeight: true,
     dots: true,
     fade: false,
 
@@ -127,12 +139,4 @@ $(window).scroll(function() {
     $('.navbar').removeClass('show');
 
   };
-});
-
-$('.scroll').on('click', function(e) {
-  e.preventDefault()
-
-  $('html, body').animate({
-    scrollTop: $(this.hash).offset().top
-  }, 1500);
 });

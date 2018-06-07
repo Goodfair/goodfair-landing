@@ -2,13 +2,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /* Mask: */
-  /* Mask: */
-  /* Mask: */
-  /* Mask: */
-  /* Mask: */
-  background-image: linear-gradient(80deg, #1B79EA 35%, #165CD8 100%);      padding: 10px 0;
-    width: 100%;
+  padding: 10px 0;
+  width: 100%;
+  @media (min-width: $medium) {
+    background-image: linear-gradient(80deg, #1B79EA 35%, #165CD8 100%);
+  }
 
   span {
     margin-right: 20px;
@@ -16,34 +14,65 @@
     font-weight: 600;
   }
 
-  .email-signup {
+  #mc_embed_signup {
     margin: 0;
     padding: 0;
 
-    .input-div {
-      i {
-        top: -2px;
+    #mc_embed_signup_scroll {
+      display: flex;
+
+      .input-div {
+        position: relative;
+        margin-right: 10px;
+
+        i {
+          position: absolute;
+          left: 0;
+          top: -1px;
+          padding: 13px;
+          font-size: 19px;
+          color: rgba(105,179,255,0.75);
+        }
+
+        ::placeholder {
+          color: #fff;
+        }
+
+        input {
+          height: 44px;
+          width: 200px;
+          border-radius: 3px;
+          border: 1px solid rgba(105,179,255,0.75);
+          background-color: transparent;
+          padding-left: 49px;
+          color: #ffffff;
+          position: relative;
+          -webkit-appearance: none;
+          -moz-appearance: none;
+          appearance: none;
+          line-height: 42px;
+          display: flex;
+          align-items: center;
+          box-shadow: inset -2px 1px 11px 0 rgba(0,81,133,0.18), -2px 1px 11px 0 rgba(0,81,133,0.18);
+        }
       }
 
-      input {
-        font-size: 11px;
-        font-family: "Avenir Next";
+      .button {
+        font-size: 13px;
         font-weight: 600;
-        height: 40px;
+        height: 44px;
+        width: 120px;
+        background-image: linear-gradient(-90deg, #1974FF 0%, #2780F7 100%);
+        box-shadow: 0 2px 8px 0 rgba(35,78,162,0.25);
+        border-radius: 3px;
+        color: #fff;
+        border: 0;
+        cursor: pointer;
+        @media (min-width: $medium) {
+          width: 178px;
+          margin-left: 10px;
+        }
       }
-    }
-
-    button {
-      font-size: 11px;
-      font-weight: 600;
-      height: 40px;
-      /* Rectangle 9: */
-      /* Rectangle 9: */
-      /* Rectangle 9: */
-      /* Rectangle 9: */
-      background-image: linear-gradient(-90deg, #1974FF 0%, #2780F7 100%);
-    box-shadow: 0 2px 8px 0 rgba(35,78,162,0.25);
-      border-radius: 3px;
     }
   }
 }
