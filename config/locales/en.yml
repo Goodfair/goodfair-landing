@@ -116,6 +116,7 @@ en:
     tech_2: "Escrow"
     tech_3: "Resolve"
     smarttrust:
+      title_html: "Smart <span>Trust</span>"
       ripple_position: "left"
       description_html: "Smart<span>Trust</span> is a reputation algorithm that quantifies the reputation of users with an unalterable Smart<span>Trust</span> score. This protocol gives buyers confidence to make purchases from community-trusted sellers."
       feature_1: "Reputation System"
@@ -123,6 +124,7 @@ en:
       feature_3: "Legitimate Ratings"
       feature_4: "Legitimate Reviews"
     smartresolve:
+      title_html: "Smart <span>Resolve</span>"
       ripple_position: "right"
       description_html: "Smart<span>Resolve</span> is an arbitration process that resolves disputes on a case-by-case basis.  Active members of the community are selected as Mediators and rewarded for their participation with GOOD tokens."
       feature_1: "Scam Prevention"
@@ -130,6 +132,7 @@ en:
       feature_3: "Impartial System"
       feature_4: "Community Governance"
     smartescrow:
+      title_html: "Smart <span>Escrow</span>"
       ripple_position: "top"
       description_html: "Smart<span>Escrow</span> is a virtual escrow process that provides security for buyers and sellers during key phases of a purchase transaction. When locked in the smart contract, funds are out of control from all parties."
       feature_1: "Secure Transactions"
