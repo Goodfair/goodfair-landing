@@ -73,6 +73,7 @@ section {
 .team,
 .token {
   * {
+    -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
   }
 }
