@@ -191,9 +191,13 @@ $button-width: 35px;
 
   .navbar-brand {
     margin-left: 0;
-    padding-bottom: 0;
+    padding-bottom: 13px;
+    margin-top: 10px;
+
     @media(min-width: $large) {
       padding-top: 0;
+      padding-bottom: 0;
+      margin-top:0;
     }
   }
 }
