@@ -45,7 +45,7 @@ $button-width: 35px;
     display: none;
     @media(min-width: $large) {
       display: block;
-      margin-top: 15px;
+      // margin-top: 15px;
       max-width: 900px;
       width: 80%;
 
@@ -53,6 +53,7 @@ $button-width: 35px;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
+        margin-bottom: 0;
       }
 
       li {
@@ -120,7 +121,7 @@ $button-width: 35px;
     background: #fff;
     border-bottom: 1px solid rgba(12, 35, 70, 0.1);
     box-shadow: 0 1px 4px 0 rgba(6, 36, 72, 0.13);
-    padding: 11px 0;
+    padding: 0;
     @media(max-width: $iphone5) {
       padding: 6px 0;
     }
@@ -190,6 +191,7 @@ $button-width: 35px;
 
   .navbar-brand {
     margin-left: 0;
+    padding-bottom: 0;
     @media(min-width: $large) {
       padding-top: 0;
     }
