@@ -43,7 +43,7 @@ en:
     whitepaper: 'Whitepaper'
     demo: 'Demo POC'
   intro:
-    title: "Your Bridge to the Future of B2C Ecommerce."
+    title: "Your Bridge to the Future of B2C E-Commerce."
     subtitle: "GoodFair is a self-governed marketplace that aims to revolutionize e-commerce using blockchain technology."
     stay_updated_btn: "Stay Updated"
     email_address: "Email Address"
@@ -52,7 +52,7 @@ en:
     stay_connected: "Stay Connected"
   our_vision:
     title: "Our Vision"
-    subtitle: "A DECENTRALIZED ECOMMERCE ECOSYSTEM THAT GIVES POWER BACK TO ITS USERS"
+    subtitle: "A DECENTRALIZED E-COMMERCE THAT GIVES POWER BACK TO ITS USERS"
     paragraph: "GoodFair is designed with the belief that the future state of online commerce requires the transcendence from a website platform to a comprehensive interdependent ecosystem free from the shackles of centralized establishments. Goodfair is an innovative platform designed to bring absolute trust and transparency to the e-commerce industry."
     paragraph2: "Powered by blockchain technology, Goodfair looks to redistribute control and decision-making into the hands of its users, creating an ecosystem that is piloted by its community. We aspire to establish an open e-commerce platform, fully decentralized at its core and democratized at its base, operating within a self-governed ecosystem where community participants ensure a fair and equitable process to reduce transaction costs and improve fulfillment efficiencies for all."
     vision_benefit_1:
@@ -85,9 +85,9 @@ en:
     feature_6: "Ropsten Network"
     explore: "Explore It Now"
   status_quo:
-    title: "The State of Ecommerce"
-    subtitle: "Centralized E-Commerce Platforms are Flawed"
-    paragraph: "For the last decade, E-Commerce has relied on the same infrastructure, sales, payment and fulfillment model. Beyond minor innovations in product syndication through social and mobile technologies, selling, buying, paying, and shipping mechanisms have remained relatively stagnant."
+    title: "The State of E-Commerce"
+    subtitle: "Centralized E-ommerce Platforms are Flawed"
+    paragraph: "For the last decade, e-commerce has relied on the same infrastructure, sales, payment and fulfillment model. Beyond minor innovations in product syndication through social and mobile technologies, selling, buying, paying, and shipping mechanisms have remained relatively stagnant."
     block_1:
       title: "High Listing & Transaction Fees"
       content: "Existing marketplaces are centralized whereby they bundle their overhead costs into high transaction and service fees, cutting into seller profit margins."
