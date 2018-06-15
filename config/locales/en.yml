@@ -33,7 +33,7 @@ en:
   navigation:
     token: 'Token'
     problem: 'Problem'
-    solution: 'Solution'
+    solution: 'Ecosystem'
     protocols: "Protocols"
     marketplace: 'Market'
     nexus: 'Nexus'
@@ -43,8 +43,8 @@ en:
     whitepaper: 'Whitepaper'
     demo: 'Demo POC'
   intro:
-    title: "Your Bridge to the Future of B2C E-Commerce."
-    subtitle: "GoodFair is a self-governed marketplace that aims to revolutionize e-commerce using blockchain technology."
+    title: "E-commerce by the people, for the people"
+    subtitle: "Uniquely designed to preserve the traditional e-commerce experience while enjoying all the benefits of Blockchain Technology"
     stay_updated_btn: "Stay Updated"
     email_address: "Email Address"
     try_poc_btn: "Try the proof of Concept"
@@ -53,8 +53,8 @@ en:
   our_vision:
     title: "Our Vision"
     subtitle: "A DECENTRALIZED E-COMMERCE THAT GIVES POWER BACK TO ITS USERS"
-    paragraph: "GoodFair is designed with the belief that the future state of online commerce requires the transcendence from a website platform to a comprehensive interdependent ecosystem free from the shackles of centralized establishments. Goodfair is an innovative platform designed to bring absolute trust and transparency to the e-commerce industry."
-    paragraph2: "Powered by blockchain technology, Goodfair looks to redistribute control and decision-making into the hands of its users, creating an ecosystem that is piloted by its community. We aspire to establish an open e-commerce platform, fully decentralized at its core and democratized at its base, operating within a self-governed ecosystem where community participants ensure a fair and equitable process to reduce transaction costs and improve fulfillment efficiencies for all."
+    paragraph: "GoodFair is designed with the belief that the future state of online commerce requires the transcendence from a website platform to a comprehensive interdependent ecosystem free from the shackles of centralized establishments. GoodFair is an innovative platform designed to bring absolute trust and transparency to the e-commerce industry."
+    paragraph2: "Powered by blockchain technology, GoodFair looks to redistribute control and decision-making into the hands of its users, creating an ecosystem that is piloted by its community. We aspire to establish an open e-commerce platform, fully decentralized at its core and democratized at its base, operating within a self-governed ecosystem where community participants ensure a fair and equitable process to reduce transaction costs and improve fulfillment efficiencies for all."
     vision_benefit_1:
       title: "Industry Low Fees"
       paragraph: "Intermediary-free transactions between buyers and sellers allow for industry low fees."
@@ -74,12 +74,12 @@ en:
       title: "Legitimacy"
       paragraph: "Blockchain-powered reputation system guarantees authentic ratings and reviews."
   poc:
-    title: "Goodfair Market Alpha Release"
+    title: "GoodFair Alpha Release"
     subtitle1: "Project Update"
     subtitle2: "Try Out These Test Features:"
     feature_1: "Buy and Sell Items"
-    feature_2: "Virtual Escrow"
-    feature_3: "Fiat/ETH Conversion"
+    feature_2: "Smart Escrow"
+    feature_3: "ETH Payment"
     feature_4: "Admin Dashboard"
     feature_5: "MetaMask"
     feature_6: "Ropsten Network"
@@ -111,12 +111,11 @@ en:
     minititle: "Goodfair"
     subtitle: "Protocols for Next Generation E-Commerce"
     paragraph_html: "To support the GoodFair platform & ecosystem, three proprietary core protocols have been designed to enable consensus-driven governance and transaction integrity. Built on the Ethereum blockchain, the platform leverages smart contracts allowing for transparent and immutable transactions, ensuring a trustless platform for all participants."
-    paragraph_html2: "To support the GoodFair platform & ecosystem, three proprietary core protocols have been designed to enable consensus-driven governance and transaction integrity."
     tech_1: "Trust"
     tech_2: "Escrow"
     tech_3: "Resolve"
     smarttrust:
-      title_html: "Smart <span>Trust</span>"
+      title_html: "Smart<span>Trust</span>"
       ripple_position: "left"
       description_html: "SmartTrust is a reputation algorithm that quantifies the reputation of the users with an unalterable score. This protocol gives buyers confidence to make purchases from community-trusted sellers. Provides eligibility for rewards and community roles for users to govern."
       feature_1: "Reputation System"
@@ -124,7 +123,7 @@ en:
       feature_3: "Legitimate Ratings"
       feature_4: "Legitimate Reviews"
     smartresolve:
-      title_html: "Smart <span>Resolve</span>"
+      title_html: "Smart<span>Resolve</span>"
       ripple_position: "right"
       description_html: "SmartResolve is an arbitration method that resolves disputes uniquely on a case-by-case basis facilitated by a multi-round moderation process to ensure thoroughness. Active members of the community are selected as Mediators and rewarded for their participation."
       feature_1: "Scam Prevention"
@@ -132,7 +131,7 @@ en:
       feature_3: "Impartial System"
       feature_4: "Community Governance"
     smartescrow:
-      title_html: "Smart <span>Escrow</span>"
+      title_html: "Smart<span>Escrow</span>"
       ripple_position: "top"
       description_html: "SmartEscrow provides security for the buyer, seller, and node on several key phases of any purchase transaction. When locked in escrow facilitated by smart contracts, the funds are out of control from all parties ensuring payment is verified and fulfillment takes place."
       feature_1: "Secure Transactions"
@@ -143,10 +142,10 @@ en:
     title: 'Marketplace'
     minititle: 'Goodfair'
     subtitle: 'Crowdsourced and Self-governed Marketplace'
-    paragraph: 'Goodfair is one of the first B2C e-commerce platforms that allows users to use cryptocurrency to purchase products and uses the blockchain to create a crowdsourced and self-governed platform where its community holds each other accountable and keep transaction integrity. '
+    paragraph: 'GoodFair is one of the first B2C e-commerce that allows users to use fiat and cryptocurrency to purchase and sell products on a platform that is powered by Blockchain technology to create a crowdsourced and self-governed marketplace where its community holds each other accountable and keep transaction integrity.'
     block_1:
-      title: 'Stable Coin'
-      paragraph: "GoodFair uses Dai Stablecoin to mitigate cryptocurrency volatility by ensuring the value of the transaction relative to USD remains the same."
+      title: 'Multi-Currency Enabled'
+      paragraph: "Buy & sell using Fiat, BTC, ETH and dozen other cryptocurrencies"
     block_2:
       title: '0% Fees and Rebates'
       paragraph: 'Zero selling fees and rebate discounts incentivizes users unlike any other platform.'
@@ -175,25 +174,25 @@ en:
   token:
     title: "GOOD Token"
     subtitle: "E-Commerce Powered via GOOD Token"
-    paragraph: "GOOD tokens, built on the ERC20 token standard, power critical functionality within the GoodFair e-commerce ecosystem and provide platform stability. GOOD also act as key incentive mechanisms to drive marketplace activity and ensure community participation."
+    paragraph: "GOOD tokens, inspired from the ERC777 standard proposal, power critical functionality within the GoodFair e-commerce ecosystem and provide platform stability. GOOD also act as key incentive mechanisms to drive marketplace activity and ensure community participation."
     block_1:
-      title: "Community Rewards"
-      content: "GOOD tokens are used as incentives that allow GoodFair to be self-governed & decentralized by sourcing expertise and feedback from the community. Members get rewards for participating in conflict resolution, product screening, item reviews, and meeting benchmarks in user activity."
+      title: "Stable Coin for Crypto Payments"
+      content: "GOOD tokens act as our proprietary stablecoin to mitigate cryptocurrency volatility by ensuring the value of the transaction relative to USD remains the same."
     block_2:
-      title: "Subscription & Membership"
-      content: "GOOD tokens are used to pay for various subscription plans that allow for transaction and listing fee-less selling, access to premium services. GOOD tokens also give membership access to priority product releases and exclusive discounts and deals in the marketplace."
+      title: "Blockchain-Enabled Fiat Payments"
+      content: "GoodFair converts fiat payments to crypto assets with its proprietary, non-fungible stablecoin to initiate its core blockchain protocols so that fiat users can leverage the power of its underlying blockchain technology."
     block_3:
-      title: "Item Listing Promotion"
-      content: "GOOD tokens can be used to increase product and brand exposure with listing promotions and premium services that optimize matchmaking between buyer and seller."
-    block_4:
       title: "Rebate Incentives"
       content: "Unlike any other platform, rebates in the form of GOOD tokens, will be given on almost all the items on the marketplace as a reward for purchasing on the platform. They can be exchanged for fiat cash or accumulated to be redeemed for future purchases and discounts."
+    block_4:
+      title: "Community Rewards"
+      content: "GOOD tokens are used as incentives that allow GoodFair to be self-governed & decentralized by sourcing expertise and feedback from the community. Members get rewards for participating in conflict resolution, product screening, item reviews, and meeting benchmarks in user activity."
     block_5:
-      title: "Voting Power"
-      content: "Eligible community members, who are GOOD token holders, can shape the platform's future by participating in community voting.  These users can actively help influence policy updates to ensure the success of GoodFair's ecosystem for all."
+      title: "Item Listing Promotion"
+      content: "GOOD tokens can be used to increase product and brand exposure with listing promotions and premium services that optimize matchmaking between buyer and seller."
     block_6:
-      title: "Seller Collateral"
-      content: "GOOD tokens are locked as a collateral when listing products in order to deter fraud and scams. This collateral is used to ensure trust and mitigates malicious behavior in order to ensure positive transaction results. "
+      title: "Subscription/Membership"
+      content: "GOOD tokens are used to pay for various subscription plans that allow for transaction and listing fee-less selling, access to premium services such as priority product releases and exclusive deals in the marketplace."
   roadmap:
     title: "Next Step"
     subtitle: "Roadmap"
