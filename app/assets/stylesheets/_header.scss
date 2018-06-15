@@ -399,12 +399,13 @@ $button-width: 35px;
       letter-spacing: 0.9px;
 
       &:after {
-        content: 'DEMO';
+        content: 'ALPHA';
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
       }
 
-      &:hover:after {
-        content: 'COMING SOON';
-      }
       @media(max-width: $iphone5) {
         font-size: 12px;
         width: 124px;
@@ -417,6 +418,10 @@ $button-width: 35px;
         font-size: 16px;
         margin-left: 50px;
       }
+    }
+
+    &:hover, &:visited {
+      text-decoration: none;
     }
   }
 
@@ -450,7 +455,7 @@ $button-width: 35px;
     li {
       display: block;
       height: 14%;
-      height: calc(100% / 8);
+      height: calc(100% / 7);
       min-height: 30px;
       position: relative;
       opacity: 0;
