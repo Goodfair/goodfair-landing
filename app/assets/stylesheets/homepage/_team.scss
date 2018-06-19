@@ -184,18 +184,18 @@
         height: 250px;
       }
 
+      a.linkedin {
+        position: absolute;
+        bottom: 5px;
+        right: 5px;
+        z-index: 2;
+      }
+
       img {
         &.team-image {
           width: 101%;
           // border-radius: 100%;
           // border: 1px solid #1a6afd;
-        }
-
-        &.linkedin {
-          position: absolute;
-          bottom: 5px;
-          right: 5px;
-          z-index: 2;
         }
       }
     }
