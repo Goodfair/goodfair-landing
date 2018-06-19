@@ -43,12 +43,18 @@ html {
   width: 100%;
   font-family: var(--paragraph-font);
   @media(min-width: $medium) {
-    background-image: image-url("page_bg@2x.png");
+    background-image: image-url("page_bg@2x.jpg");
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
 
     &:after {}
+  }
+  @media(min-width: $medium) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+    background-image: image-url("page_bg@2x.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
   }
 }
 
