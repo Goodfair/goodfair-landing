@@ -19,7 +19,7 @@ $button-width: 35px;
 
   .logo {
     background: image-url("goodfair_logo_white.svg");
-    width: 120px;
+    width: 133px;
     height: 37px;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -130,6 +130,12 @@ $button-width: 35px;
       margin-top: 0;
     }
 
+    .navbar-brand {
+      @media(max-width: 767px) {
+        margin-top:10px;
+      }
+    }
+
     .logo {
       background: image-url("goodfair_logo_grey.svg");
       width: 120px;
@@ -193,7 +199,9 @@ $button-width: 35px;
     margin-left: 0;
     padding-bottom: 13px;
     margin-top: 10px;
-
+    @media(max-width: 767px) {
+      margin-top:0;
+    }
     @media(min-width: $large) {
       padding-top: 0;
       padding-bottom: 0;
