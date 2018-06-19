@@ -17,6 +17,10 @@ $button-width: 35px;
     height: 70px;
   }
 
+  .container {
+    position: relative;
+  }
+
   .logo {
     background: image-url("goodfair_logo_white.svg");
     width: 133px;
@@ -211,8 +215,7 @@ $button-width: 35px;
 }
 
 .button_container {
-  position: fixed;
-  top: 29px;
+  position: absolute;
   right: 20px;
   width: 23px;
   height: 27px;
