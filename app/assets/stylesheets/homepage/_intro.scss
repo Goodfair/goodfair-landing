@@ -246,6 +246,10 @@ section.intro {
       font-size: 13px;
       margin-top: 15px;
 
+      &:hover {
+        background-image: linear-gradient(to right, #136ee1, #00cce1);
+      }
+
       i {
         margin-left: 15px;
         font-size: 18px;
