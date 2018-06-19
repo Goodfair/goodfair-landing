@@ -26,7 +26,7 @@
 
 
 $(document).ready(function() {
-  $('.nav-desktop a[href^="#"]').on('click',function (e) {
+  $('.nav-desktop a[href^="#"], .overlay-menu a[href^="#"]').on('click',function (e) {
      e.preventDefault();
 
      var target = this.hash,
@@ -38,6 +38,19 @@ $(document).ready(function() {
          window.location.hash = target;
      });
  });
+ $('.overlay-menu a[href^="#"]').on('click',function (e) {
+    e.preventDefault();
+
+    var target = this.hash,
+    $target = $(target);
+    $('.toggle').toggleClass('active');
+    $('#overlay').toggleClass('open');
+    $('html, body').stop().animate({
+        'scrollTop': $target.offset().top
+    }, 900, 'swing', function () {
+        window.location.hash = target;
+    });
+});
   $(".video-trigger").modalVideo({
 			youtube:{
 				controls:0,
