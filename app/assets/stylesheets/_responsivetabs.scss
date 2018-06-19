@@ -88,7 +88,9 @@
         font-size: 15px;
         @media(min-width: $large) {
           font-size: 18px;
-          max-width: 250px;
+          // max-width: 250px;
+        }
+        @media(min-width: $xlarge) {
         }
       }
     }
