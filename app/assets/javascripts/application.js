@@ -25,7 +25,7 @@
 //= require jquery-modal-video
 
 
-$(document).ready(function() {
+$(document).on('turbolinks:load', function () {
   $('.nav-desktop a[href^="#"], .overlay-menu a[href^="#"]').on('click',function (e) {
      e.preventDefault();
 
