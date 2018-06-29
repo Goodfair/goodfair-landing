@@ -142,10 +142,10 @@ en:
     title: 'Marketplace'
     minititle: 'Goodfair'
     subtitle: 'Crowdsourced and Self-governed Marketplace'
-    paragraph: 'GoodFair is one of the first B2C e-commerce that allows users to use fiat and cryptocurrency to purchase and sell products on a platform powered by Blockchain technology. GoodFair is built on top of Ethereum protocol to create a crowdsourced and self-governed marketplace where its community holds each other accountable and keep transaction integrity.'
+    paragraph: 'GoodFair is one of the first to allow users to use fiat and cryptocurrency to purchase and sell products on a platform powered by Blockchain technology. GoodFair is built on top of Ethereum protocol to create a crowdsourced and self-governed marketplace where its community holds each other accountable and keeps transaction integrity.'
     block_1:
       title: 'Multi-Currency Enabled'
-      paragraph: "Buy & sell using Fiat, BTC, ETH and dozen other cryptocurrencies"
+      paragraph: "Buy & sell using Fiat, BTC, ETH and dozens of other cryptocurrencies."
     block_2:
       title: '0% Fees and Rebates'
       paragraph: 'Zero selling fees and rebate discounts incentivizes users unlike any other platform.'
