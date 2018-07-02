@@ -54,6 +54,10 @@
           display: flex;
           align-items: center;
           box-shadow: inset -2px 1px 11px 0 rgba(0,81,133,0.18), -2px 1px 11px 0 rgba(0,81,133,0.18);
+
+          @media (max-width: $iphone5) {
+            width: 190px;
+          }
         }
       }
 
@@ -71,6 +75,9 @@
         @media (min-width: $medium) {
           width: 178px;
           margin-left: 10px;
+        }
+        @media (max-width: $iphone5) {
+          width: 96px;
         }
       }
     }
