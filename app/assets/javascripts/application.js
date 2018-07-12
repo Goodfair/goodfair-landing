@@ -57,7 +57,9 @@ $(document).on('turbolinks:load', function () {
 				nocookie: true,
         title:false,
         autoplay:true,
-        showinfo:0
+        showinfo:0,
+        rel:0,
+        modestbranding:1
 			}
 		});
   $('.toggle').click(function() {
